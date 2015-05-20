@@ -1081,6 +1081,48 @@ static CLIStatus endcall(int argc, char **argv, ostream& os)
 }
 
 
+static CLIStatus testcall(int argc, char **argv, ostream& os)
+{
+	if (argc!=3) return BAD_NUM_ARGS;
+		char *IMSI = argv[1];
+	if (strlen(IMSI)>15) {
+		os << IMSI << " is not a valid IMSI" << endl;
+		return BAD_VALUE;
+	}
+
+
+	/*
+		SIP
+		IMSI
+		SERVICE
+		CALLINGPARTYBCDNUMBER
+
+	*/
+	Control::FullMobileId msid(IMSI);
+	Control::TranEntry *tran = Control::TranEntry::newMTC(
+		NULL,
+		msid,
+		GSM::L3CMServiceType::TestCall,
+		"0");
+
+	
+	/*
+	// We just use the IMSI, dont try to find a tmsi.
+	FullMobileId msid(IMSI);
+	Control::TranEntry *tran = Control::TranEntry::newMTSMS(
+						NULL,	// No SIPDialog
+						msid,
+						GSM::L3CallingPartyBCDNumber(srcAddr),
+						rest,					// message body
+						string("text/plain"));	// messate content type
+	Control::gMMLayer.mmAddMT(tran);
+	*/
+	//Control::initiateMTTransaction(transaction, GSM::TCHFType,1000*atoi(argv[2]));
+	Control::gMMLayer.mmAddMT(tran);
+	return SUCCESS;
+}
+
+
 static void addGprsInfo(vector<string> &row, const GSM::L2LogicalChannel* chan)
 {
 	// "CN TN chan      transaction active recyc UPFER RSSI TXPWR TA_DL RXLEV_DL BER_DL Neighbor Neighbor";
@@ -1750,6 +1792,8 @@ void Parser::addCommands()
 	addCommand("memstat", memStat, "-- internal testing command: print memory use stats.");
 	addCommand("cbs", cbscmd, cbsHelp);
 
+	addCommand("testcall", testcall, "IMSI time -- initiate a test call to a given IMSI with a given paging time");
+	
 	addCommand("power", powerCommand, powerHelp);
 }
 

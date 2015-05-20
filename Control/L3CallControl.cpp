@@ -1293,6 +1293,63 @@ MachineStatus InCallMachine::machineRunState(int state, const GSM::L3Message *l3
 	return MachineStatusOK;
 }
 
+void Control::TestCall(TranEntry* tran)
+{
+	LOG(INFO) << " transaction: "<< *transaction;
+	// Mark the call as active.
+	setGSMState(CCState::Active);
+	// Create and open the control port.
+	UDPSocket controlSocket(gConfig.getNum("TestCall.Port"));
+
+	// FIXME -- Somehow, the RTP ports need to be attached to the transaction.
+	// This loop will run or block until some outside entity writes a
+	// channel release on the socket.
+	LOG(WARNING) << "entering test loop";
+	test = 0;
+	while (test = 3) {
+		// Get the outgoing message from the test call port.
+		char iBuf[MAX_UDP_LENGTH];
+		int msgLen = controlSocket.read(iBuf);
+		LOG(WARNING) << "got " << msgLen << " bytes on UDP";
+		// Send it to the handset.
+
+		//TODO
+		GSM::L3Frame query(iBuf,msgLen);
+
+		LOG(WARNING) << "sending " << query;
+		channel()->l3sendm(query);
+		// Wait for a response.
+		// FIXME -- This should be a proper T3xxx value of some kind.
+		GSM::L3Frame *resp = chan->l2recv(30000)
+		//GSM::L3Frame* resp = LCH->recv(30000);
+
+		if (!resp) {
+			LOG(WARNING) << "read timeout";
+			break;
+		}
+
+		if (resp->primitive() != GSM::DATA) {
+			LOG(WARNING) << "unexpected primitive " << resp->primitive();
+			break;
+		}
+		LOG(WARNING) << "received " << *resp;
+		// Send response on the port.
+		unsigned char oBuf[resp->size()];
+		resp->pack(oBuf);
+		controlSocket.writeBack((char*)oBuf);
+		// Delete and close the loop.
+		delete resp;
+		test = test + 1;
+	}
+
+	controlSocket.close();
+	LOG(WARNING) << "ending";
+	channel()->l3sendm(L3ChannelRelease());
+	setGSMState(CCState::ReleaseRequest);
+	tran -> teRemove();
+}
+
+
 void initMTC(TranEntry *tran)
 {
 	tran->teSetProcedure(new MTCMachine(tran));

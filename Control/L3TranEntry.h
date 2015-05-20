@@ -391,6 +391,7 @@ class TranEntry : public MemCheckTranEntry, public RefCntBase, public TranEntryP
 		string smsContentType);
 
 
+
 	static TranEntry *newHandover(const struct sockaddr_in* peer,
 		unsigned wHandoverReference,
 		SimpleKeyValue &params,
