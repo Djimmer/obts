@@ -699,7 +699,7 @@ void MMUser::mmuAddMT(TranEntry *tran)
 		break;
 	case L3CMServiceType::TestCall:
 		TestCall(transaction);
-	return;
+		break;
 	default:
 		assert(0);
 	}
