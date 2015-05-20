@@ -698,7 +698,7 @@ void MMUser::mmuAddMT(TranEntry *tran)
 		mmuMTSMSq.push_back(tran);
 		break;
 	case L3CMServiceType::TestCall:
-		TestCall(transaction);
+		TestCall(tran);
 		break;
 	default:
 		assert(0);
