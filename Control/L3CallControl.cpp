@@ -52,6 +52,7 @@ class CCBase : public SSDBase {
 	MachineStatus sendReleaseComplete(TermCause cause, bool sendCause);
 	MachineStatus sendRelease(TermCause cause, bool sendCause);
 	void handleTerminationRequest();
+	void TestCall(TranEntry* tran);
 };
 
 class MOCMachine : public CCBase {
@@ -1293,9 +1294,9 @@ MachineStatus InCallMachine::machineRunState(int state, const GSM::L3Message *l3
 	return MachineStatusOK;
 }
 
-void Control::TestCall(TranEntry* tran)
+void CCBase::TestCall(TranEntry* tran)
 {
-	LOG(INFO) << " transaction: "<< *transaction;
+	LOG(INFO) << " transaction: "<< *tran;
 	// Mark the call as active.
 	setGSMState(CCState::Active);
 	// Create and open the control port.
@@ -1305,22 +1306,23 @@ void Control::TestCall(TranEntry* tran)
 	// This loop will run or block until some outside entity writes a
 	// channel release on the socket.
 	LOG(WARNING) << "entering test loop";
-	test = 0;
+	int test = 0;
 	while (test = 3) {
 		// Get the outgoing message from the test call port.
 		char iBuf[MAX_UDP_LENGTH];
-		int msgLen = controlSocket.read(iBuf);
+		size_t msgLen = (size_t)controlSocket.read(iBuf);
+		const char* test = 0;
 		LOG(WARNING) << "got " << msgLen << " bytes on UDP";
 		// Send it to the handset.
 
 		//TODO
-		GSM::L3Frame query(iBuf,msgLen);
+		GSM::L3Frame query(test, msgLen);
 
 		LOG(WARNING) << "sending " << query;
-		channel()->l3sendm(query);
+		channel()->l3sendf(query);
 		// Wait for a response.
 		// FIXME -- This should be a proper T3xxx value of some kind.
-		GSM::L3Frame *resp = chan->l2recv(30000)
+		GSM::L3Frame *resp = channel()->l2recv(30000);
 		//GSM::L3Frame* resp = LCH->recv(30000);
 
 		if (!resp) {
@@ -1328,10 +1330,11 @@ void Control::TestCall(TranEntry* tran)
 			break;
 		}
 
-		if (resp->primitive() != GSM::DATA) {
-			LOG(WARNING) << "unexpected primitive " << resp->primitive();
-			break;
-		}
+		//TODO
+		// if (resp->primitive() != GSM::Primitive) {
+		// 		LOG(WARNING) << "unexpected primitive " << resp->primitive();
+		// 		break;
+		// }
 		LOG(WARNING) << "received " << *resp;
 		// Send response on the port.
 		unsigned char oBuf[resp->size()];
@@ -1346,7 +1349,7 @@ void Control::TestCall(TranEntry* tran)
 	LOG(WARNING) << "ending";
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
-	tran -> teRemove();
+	tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);
 }
 
 

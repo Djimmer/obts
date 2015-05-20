@@ -612,19 +612,17 @@ L3Frame::L3Frame(SAPI_t sapi,const char* hexString)
 	}
 }
 
-
-// (pat) 9-8-2014 removed, unused.
-//L3Frame::L3Frame(const char* binary, size_t len)
-//	:mPrimitive(L3_DATA),mSapi(SAPIUndefined)
-//{
-//	f3init();
-//	mL2Length = len;
-//	resize(len*8);
-//	size_t wp=0;
-//	for (size_t i=0; i<len; i++) {
-//		writeField(wp,binary[i],8);
-//	}
-//}
+L3Frame::L3Frame(const char* binary, size_t len)
+	:mPrimitive(L3_DATA),mSapi(SAPIUndefined)
+{
+	f3init();
+	mL2Length = len;
+	resize(len*8);
+	size_t wp=0;
+	for (size_t i=0; i<len; i++) {
+		writeField(wp,binary[i],8);
+	}
+}
 
 unsigned L3Frame::MTI() const
 {
