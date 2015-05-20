@@ -1310,13 +1310,13 @@ void CCBase::TestCall(TranEntry* tran)
 	while (test = 3) {
 		// Get the outgoing message from the test call port.
 		char iBuf[MAX_UDP_LENGTH];
-		size_t msgLen = (size_t)controlSocket.read(iBuf);
-		const char* test = 0;
+		int msgLen = (size_t)controlSocket.read(iBuf);
+
 		LOG(WARNING) << "got " << msgLen << " bytes on UDP";
 		// Send it to the handset.
 
 		//TODO
-		GSM::L3Frame query(test, msgLen);
+		GSM::L3Frame query(iBuf, msgLen);
 
 		LOG(WARNING) << "sending " << query;
 		channel()->l3sendf(query);

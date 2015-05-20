@@ -697,6 +697,9 @@ void MMUser::mmuAddMT(TranEntry *tran)
 	case L3CMServiceType::MobileTerminatedShortMessage:
 		mmuMTSMSq.push_back(tran);
 		break;
+	case L3CMServiceType::TestCall:
+		TestCall(transaction);
+	return;
 	default:
 		assert(0);
 	}
