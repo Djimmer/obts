@@ -687,6 +687,7 @@ bool MMLayer::mmStartMTDialog(SipDialog *dialog, SipMessage *invite)
 
 void MMUser::mmuAddMT(TranEntry *tran)
 {
+	LOG(DEBUG) << tran->servicetype();
 	ScopedLock lock(gMMLock,__FILE__,__LINE__);	// Way overkill.
 	//ScopedLock lock(mmuLock,__FILE__,__LINE__);
 	mmuPageTimer.future(gConfig.GSM.Timer.T3113);
