@@ -1296,37 +1296,36 @@ MachineStatus InCallMachine::machineRunState(int state, const GSM::L3Message *l3
 
 void CCBase::TestCall(TranEntry* tran)
 {
-	LOG(INFO) << " transaction: "<< *tran;
+	LOG(TESTCALL) << "Entering L3CallControl::CCBase::TestCall with  transaction: " << LOGVAR(tran);
 	// Mark the call as active.
 	setGSMState(CCState::Active);
+	LOG(TESTCALL) << "Creating UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// Create and open the control port.
 	UDPSocket controlSocket(gConfig.getNum("TestCall.Port"));
-
+	LOG(TESTCALL) << "Active UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// FIXME -- Somehow, the RTP ports need to be attached to the transaction.
 	// This loop will run or block until some outside entity writes a
 	// channel release on the socket.
-	LOG(WARNING) << "entering test loop";
-	int test = 0;
-	while (test = 3) {
+	LOG(TESTCALL) << "Entering UDP test loop ";
+
+	while (true) {
 		// Get the outgoing message from the test call port.
 		char iBuf[MAX_UDP_LENGTH];
 		int msgLen = (size_t)controlSocket.read(iBuf);
 
-		LOG(WARNING) << "got " << msgLen << " bytes on UDP";
+		LOG(TESTCALL) << "Received " << msgLen << " bytes on UDP";
+		
 		// Send it to the handset.
-
-		//TODO
 		GSM::L3Frame query(iBuf, msgLen);
-
-		LOG(WARNING) << "sending " << query;
+		LOG(TESTCALL) << " Sending L3Frame: " << LOGVAR(query);
 		channel()->l3sendf(query);
+
 		// Wait for a response.
 		// FIXME -- This should be a proper T3xxx value of some kind.
 		GSM::L3Frame *resp = channel()->l2recv(30000);
-		//GSM::L3Frame* resp = LCH->recv(30000);
 
 		if (!resp) {
-			LOG(WARNING) << "read timeout";
+			LOG(TESTCALL) << "Timeout ; No response";
 			break;
 		}
 
@@ -1335,21 +1334,22 @@ void CCBase::TestCall(TranEntry* tran)
 		// 		LOG(WARNING) << "unexpected primitive " << resp->primitive();
 		// 		break;
 		// }
-		LOG(WARNING) << "received " << *resp;
+		LOG(TESTCALL) << "Received response from handset: " << LOGVAR(resp);
+
 		// Send response on the port.
 		unsigned char oBuf[resp->size()];
 		resp->pack(oBuf);
 		controlSocket.writeBack((char*)oBuf);
 		// Delete and close the loop.
 		delete resp;
-		test = test + 1;
 	}
 
+	LOG(TESTCALL) << "Stopping L3CallControl::CCBase::Testcall function";
 	controlSocket.close();
-	LOG(WARNING) << "ending";
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
 	tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);
+	LOG(TESTCALL) << "Stopped L3CallControl::CCBase::Testcall function";
 }
 
 

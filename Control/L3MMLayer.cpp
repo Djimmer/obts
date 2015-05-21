@@ -84,6 +84,7 @@ void MMContext::startSMSTran(TranEntry *tran)
 // Setting the lock in one function and releasing it in another sucks and should be fixed.
 bool MMUser::mmuServiceMTQueues()	// arg redundant with mmuContext->channel.
 {
+	LOG(TESTCALL) << "MMUser::mmuServiceMTQueues started";
 	devassert(gMMLock.lockcnt());		// Caller locked it.
 	//ScopedLock lock(mmuLock,__FILE__,__LINE__);
 	// TODO: check for blocks on our IMSI or TMSI?
@@ -118,6 +119,22 @@ bool MMUser::mmuServiceMTQueues()	// arg redundant with mmuContext->channel.
 			return true;
 		}
 	}
+	//TODO: Is this If correct?
+	if (mmuContext->mmGetTran(MMContext::TE_CS1).isNULL()) {
+		if (mmuTESTCALL.size()) {
+			TranEntry *tran = mmuMTCq.pop_frontr();
+			LOG(TESTCALL) << "MMUser::mmuServiceMTQueues inside mmuTESTCALL if, with: "<< LOGVAR(tran);
+
+			// Tie the transaction to this channel.
+			mmuContext->mmConnectTran(MMContext::TE_CS1,tran);
+			// Unlock and run Testcall function
+			gMMLock.unlock();
+			TestCall(tran)
+			return true;
+		}
+	}
+
+
 	return false;
 }
 
@@ -702,8 +719,8 @@ void MMUser::mmuAddMT(TranEntry *tran)
 		mmuMTSMSq.push_back(tran);
 		break;
 	case L3CMServiceType::TestCall:
-		mmuTESTCALL.push_back(tran);
 		LOG(TESTCALL) << "Entering the L3CMServiceType::Testcall branch of the case+switch";
+		mmuTESTCALL.push_back(tran);
 		break;
 	default:
 		assert(0);
