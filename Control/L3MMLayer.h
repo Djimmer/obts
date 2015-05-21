@@ -71,6 +71,7 @@ class MMUser : public MemCheckMMUser /*: public RefCntBase*/ {
 	typedef PtrList<TranEntry> MMUQueue_t;
 	MMUQueue_t mmuMTCq;
 	MMUQueue_t mmuMTSMSq;
+	MMUQueue_t mmuTESTCALL;
 	friend class MMLayer;
 	MMState mmuState;
 	MMContext* mmuContext;
