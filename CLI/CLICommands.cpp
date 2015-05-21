@@ -1099,13 +1099,14 @@ static CLIStatus testcall(int argc, char **argv, ostream& os)
 		CALLINGPARTYBCDNUMBER
 
 	*/
+	LOG(TESTCALL) << "Creating Transaction Entry";
 	Control::FullMobileId msid(IMSI);
 	Control::TranEntry *tran = Control::TranEntry::newMTC(
 		NULL,
 		msid,
 		GSM::L3CMServiceType::TestCall,
 		"0");
-
+	LOG(TESTCALL) << "Created Transaction Entry";
 	
 	/*
 	// We just use the IMSI, dont try to find a tmsi.
@@ -1118,7 +1119,7 @@ static CLIStatus testcall(int argc, char **argv, ostream& os)
 						string("text/plain"));	// messate content type
 	Control::gMMLayer.mmAddMT(tran);
 	*/
-	//Control::initiateMTTransaction(transaction, GSM::TCHFType,1000*atoi(argv[2]));
+	//Control::initiateMTTransaction(transaction ,GSM::TCHFType,1000*atoi(argv[2]));
 	LOG(TESTCALL) << "Calling mmADDMT with: " << LOGVAR(tran);
 	Control::gMMLayer.mmAddMT(tran);
 	return SUCCESS;

@@ -238,6 +238,7 @@ MMUser::MMUser(string& wImsi)
 
 GSM::ChannelType MMUser::mmuGetInitialChanType() const
 {
+	LOG(TESTCALL) << "MMUser::mmuGetInitialChanType() started ";
 	devassert(gMMLock.lockcnt());		// Caller locked it.
 	if (mmuMTCq.size()) {
 		TranEntry *front = this->mmuMTCq.front();
@@ -252,7 +253,8 @@ GSM::ChannelType MMUser::mmuGetInitialChanType() const
 		}
 	}
 	if (mmuTESTCALL.size()) {
-		return GSM::SDCCHType;
+		LOG(TESTCALL) << "MMUser::mmuGetInitialChanType() inside mmuTESTCALL if";
+		return GSM::TCHFType;
 	}
 	devassert(mmuMTSMSq.size());
 	return GSM::SDCCHType;
