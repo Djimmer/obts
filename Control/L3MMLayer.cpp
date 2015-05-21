@@ -690,7 +690,7 @@ bool MMLayer::mmStartMTDialog(SipDialog *dialog, SipMessage *invite)
 
 void MMUser::mmuAddMT(TranEntry *tran)
 {
-	LOG(DEBUG) << tran->servicetype();
+	LOG(TESTCALL) << "Entering MMUser::mmuAddMT with" << LOGVAR(tran);
 	ScopedLock lock(gMMLock,__FILE__,__LINE__);	// Way overkill.
 	//ScopedLock lock(mmuLock,__FILE__,__LINE__);
 	mmuPageTimer.future(gConfig.GSM.Timer.T3113);
@@ -703,6 +703,7 @@ void MMUser::mmuAddMT(TranEntry *tran)
 		break;
 	case L3CMServiceType::TestCall:
 		mmuTESTCALL.push_back(tran);
+		LOG(TESTCALL) << "Entering the L3CMServiceType::Testcall branch of the case+switch";
 		break;
 	default:
 		assert(0);
@@ -1106,6 +1107,7 @@ bool MMLayer::mmTerminateByImsi(string imsi)
 // This is the way MMUsers are created from the SIP side.
 void MMLayer::mmAddMT(TranEntry *tran)
 {
+	LOG(TESTCALL) << "MMLayer::mmAddMT with: " << LOGVAR(tran); 
 	LOG(DEBUG) <<this<<LOGVAR(tran);
 	{	ScopedLock lock(gMMLock,__FILE__,__LINE__);
 		string imsi(tran->subscriberIMSI());
@@ -1113,6 +1115,7 @@ void MMLayer::mmAddMT(TranEntry *tran)
 		// Is there a guaranteed tmsi?
 		// We will delay this until we page in case an LUR is occurring right now.
 		//if (uint32_t tmsi = gTMSITable.tmsiTabGetTMSI(imsi,true)) { mmu->mmuTmsi = /*tran->subscriber().mTmsi =*/ tmsi; }
+		LOG(TESTCALL) << "MMLayer::mmAddMT::mmu gives: " << LOGVAR(mmu); 
 		assert(mmu);
 		mmu->mmuAddMT(tran);
 	}

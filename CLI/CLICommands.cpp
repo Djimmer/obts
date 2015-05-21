@@ -1083,6 +1083,7 @@ static CLIStatus endcall(int argc, char **argv, ostream& os)
 
 static CLIStatus testcall(int argc, char **argv, ostream& os)
 {
+	LOG(TESTCALL) << "Entering testcall function in CLICommands.cpp";
 	if (argc!=3) return BAD_NUM_ARGS;
 		char *IMSI = argv[1];
 	if (strlen(IMSI)>15) {
@@ -1118,6 +1119,7 @@ static CLIStatus testcall(int argc, char **argv, ostream& os)
 	Control::gMMLayer.mmAddMT(tran);
 	*/
 	//Control::initiateMTTransaction(transaction, GSM::TCHFType,1000*atoi(argv[2]));
+	LOG(TESTCALL) << "Calling mmADDMT with: " << LOGVAR(tran);
 	Control::gMMLayer.mmAddMT(tran);
 	return SUCCESS;
 }
