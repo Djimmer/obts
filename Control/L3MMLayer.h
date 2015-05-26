@@ -145,6 +145,7 @@ class MMContext : public MemCheckMMContext /*: public RefCntBase*/ {
 		TE_MOSMS2,		// The follow-on MO-SMS.
 		TE_MTSMS,		// Only one MT-SMS allowed at a time.
 		TE_SS,			// Dedicated supplementary services transaction.
+		TE_TCall,		// Testcall 	
 		TE_num			// Not a Transaction; The max number of entries in this table.
 	};
 	RefCntPointer<TranEntry> mmcTE[TE_num];

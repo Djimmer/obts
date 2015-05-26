@@ -52,7 +52,7 @@ class CCBase : public SSDBase {
 	MachineStatus sendReleaseComplete(TermCause cause, bool sendCause);
 	MachineStatus sendRelease(TermCause cause, bool sendCause);
 	void handleTerminationRequest();
-	void TestCall(TranEntry* tran);
+	void testCall(TranEntry *tran);
 };
 
 class MOCMachine : public CCBase {
@@ -1294,30 +1294,30 @@ MachineStatus InCallMachine::machineRunState(int state, const GSM::L3Message *l3
 	return MachineStatusOK;
 }
 
-void CCBase::TestCall(TranEntry* tran)
+void CCBase::testCall(TranEntry *tran)
 {
-	LOG(TESTCALL) << "Entering L3CallControl::CCBase::TestCall with  transaction: " << LOGVAR(tran);
+	LOG(ALERT) << "Entering L3CallControl::CCBase::TestCall with  transaction: " << LOGVAR(tran);
 	// Mark the call as active.
 	setGSMState(CCState::Active);
-	LOG(TESTCALL) << "Creating UDP Socket on port: " << gConfig.getNum("TestCall.Port");
+	LOG(ALERT) << "Creating UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// Create and open the control port.
 	UDPSocket controlSocket(gConfig.getNum("TestCall.Port"));
-	LOG(TESTCALL) << "Active UDP Socket on port: " << gConfig.getNum("TestCall.Port");
+	LOG(ALERT) << "Active UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// FIXME -- Somehow, the RTP ports need to be attached to the transaction.
 	// This loop will run or block until some outside entity writes a
 	// channel release on the socket.
-	LOG(TESTCALL) << "Entering UDP test loop ";
+	LOG(ALERT) << "Entering UDP test loop ";
 
 	while (true) {
 		// Get the outgoing message from the test call port.
 		char iBuf[MAX_UDP_LENGTH];
 		int msgLen = (size_t)controlSocket.read(iBuf);
 
-		LOG(TESTCALL) << "Received " << msgLen << " bytes on UDP";
+		LOG(ALERT) << "Received " << msgLen << " bytes on UDP";
 		
 		// Send it to the handset.
 		GSM::L3Frame query(iBuf, msgLen);
-		LOG(TESTCALL) << " Sending L3Frame: " << LOGVAR(query);
+		LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query);
 		channel()->l3sendf(query);
 
 		// Wait for a response.
@@ -1325,7 +1325,7 @@ void CCBase::TestCall(TranEntry* tran)
 		GSM::L3Frame *resp = channel()->l2recv(30000);
 
 		if (!resp) {
-			LOG(TESTCALL) << "Timeout ; No response";
+			LOG(ALERT) << "Timeout ; No response";
 			break;
 		}
 
@@ -1334,7 +1334,7 @@ void CCBase::TestCall(TranEntry* tran)
 		// 		LOG(WARNING) << "unexpected primitive " << resp->primitive();
 		// 		break;
 		// }
-		LOG(TESTCALL) << "Received response from handset: " << LOGVAR(resp);
+		LOG(ALERT) << "Received response from handset: " << LOGVAR(resp);
 
 		// Send response on the port.
 		unsigned char oBuf[resp->size()];
@@ -1344,18 +1344,23 @@ void CCBase::TestCall(TranEntry* tran)
 		delete resp;
 	}
 
-	LOG(TESTCALL) << "Stopping L3CallControl::CCBase::Testcall function";
+	LOG(ALERT) << "Stopping L3CallControl::CCBase::Testcall function";
 	controlSocket.close();
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
 	tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);
-	LOG(TESTCALL) << "Stopped L3CallControl::CCBase::Testcall function";
+	LOG(ALERT) << "Stopped L3CallControl::CCBase::Testcall function";
 }
 
 
 void initMTC(TranEntry *tran)
 {
 	tran->teSetProcedure(new MTCMachine(tran));
+}
+
+void testCall(TranEntry *tran)
+{
+	LOG(ALERT) << "TEST";
 }
 
 
