@@ -1084,7 +1084,7 @@ static CLIStatus endcall(int argc, char **argv, ostream& os)
 static CLIStatus testcall(int argc, char **argv, ostream& os)
 {
 	LOG(ALERT) << "Entering testcall function in CLICommands.cpp";
-	if (argc!=3) return BAD_NUM_ARGS;
+	if (argc!=2) return BAD_NUM_ARGS;
 		char *IMSI = argv[1];
 	if (strlen(IMSI)>15) {
 		os << IMSI << " is not a valid IMSI" << endl;
@@ -1795,7 +1795,7 @@ void Parser::addCommands()
 	addCommand("memstat", memStat, "-- internal testing command: print memory use stats.");
 	addCommand("cbs", cbscmd, cbsHelp);
 
-	addCommand("testcall", testcall, "IMSI time -- initiate a test call to a given IMSI with a given paging time");
+	addCommand("testcall", testcall, "IMSI-- Open a UDP port on 28670 to send AT commands to Handset");
 	
 	addCommand("power", powerCommand, powerHelp);
 }
