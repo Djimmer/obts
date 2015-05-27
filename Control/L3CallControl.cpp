@@ -52,7 +52,6 @@ class CCBase : public SSDBase {
 	MachineStatus sendReleaseComplete(TermCause cause, bool sendCause);
 	MachineStatus sendRelease(TermCause cause, bool sendCause);
 	void handleTerminationRequest();
-	void testCall(TranEntry *tran);
 };
 
 class MOCMachine : public CCBase {
@@ -143,6 +142,14 @@ class InCallMachine : public CCBase {
 	InCallMachine(TranEntry *wTran) : CCBase(wTran) {}
 	const char *debugName() const { return "InCallMachine"; }
 };
+
+class TestCallMachine : public CCBase {
+	public:
+	void testCallStart(TranEntry *tran);
+	TestCallMachine(TranEntry *wTran) : CCBase(wTran) {}
+	const char *debugName() const { return "TestCallMachine"; }
+};
+
 
 // MOCMachine: Mobile Originated Call State Machine
 // GSM 4.08 5.2.1 Mobile originating call establishment.
@@ -1294,7 +1301,7 @@ MachineStatus InCallMachine::machineRunState(int state, const GSM::L3Message *l3
 	return MachineStatusOK;
 }
 
-void CCBase::testCall(TranEntry *tran)
+void TestCallMachine::testCallStart(TranEntry *tran)
 {
 	LOG(ALERT) << "Entering L3CallControl::CCBase::TestCall with  transaction: " << LOGVAR(tran);
 	// Mark the call as active.
@@ -1352,16 +1359,19 @@ void CCBase::testCall(TranEntry *tran)
 	LOG(ALERT) << "Stopped L3CallControl::CCBase::Testcall function";
 }
 
+void testCall(TranEntry *tran)
+{
+	LOG(ALERT) << "Started L3CallControl::CCBase::Testcall function";
+	TestCallMachine *tcMachine = new TestCallMachine(tran);
+	LOG(ALERT) << "Created TestcallMachine";
+	LOG(ALERT) << "Calling testCallStart";
+	tcMachine -> testCallStart(tran);
+}
+
 
 void initMTC(TranEntry *tran)
 {
 	tran->teSetProcedure(new MTCMachine(tran));
 }
-
-void testCall(TranEntry *tran)
-{
-	LOG(ALERT) << "TEST";
-}
-
 
 };	// namespace

@@ -84,7 +84,6 @@ void MMContext::startSMSTran(TranEntry *tran)
 // Setting the lock in one function and releasing it in another sucks and should be fixed.
 bool MMUser::mmuServiceMTQueues()	// arg redundant with mmuContext->channel.
 {
-	LOG(ALERT) << "MMUser::mmuServiceMTQueues started";
 	devassert(gMMLock.lockcnt());		// Caller locked it.
 	//ScopedLock lock(mmuLock,__FILE__,__LINE__);
 	// TODO: check for blocks on our IMSI or TMSI?
@@ -129,7 +128,7 @@ bool MMUser::mmuServiceMTQueues()	// arg redundant with mmuContext->channel.
 			mmuContext->mmConnectTran(MMContext::TE_TCall,tran);
 			// Unlock and run Testcall function
 			gMMLock.unlock();
-			//testCall(tran);
+			testCall(tran);
 			return true;
 		}
 	}
