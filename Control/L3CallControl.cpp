@@ -1317,9 +1317,11 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 
 	while (true) {
 		// Get the outgoing message from the test call port.
-		char iBuf[MAX_UDP_LENGTH];
+		char iBuf[MAX_UDP_LENGTH] = {0};
 		int msgLen = (size_t)controlSocket.read(iBuf);
-		if(iBuf == "STOP"){
+
+		LOG(ALERT) << "iBuf is : " << LOGVAR(iBuf);
+		if(strcmp(iBuf, "STOP") == 0){
 			break;
 		}
 
