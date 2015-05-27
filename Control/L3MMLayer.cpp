@@ -122,7 +122,7 @@ bool MMUser::mmuServiceMTQueues()	// arg redundant with mmuContext->channel.
 	if (mmuContext->mmGetTran(MMContext::TE_TCall).isNULL()) {
 		if (mmuTESTCALL.size()) {
 			TranEntry *tran = mmuTESTCALL.pop_frontr();
-			LOG(ALERT) << "MMUser::mmuServiceMTQueues inside mmuTESTCALL if, with: "<< LOGVAR(tran);
+			//LOG(ALERT) << "MMUser::mmuServiceMTQueues inside mmuTESTCALL if, with: "<< LOGVAR(tran);
 
 			// Tie the transaction to this channel.
 			mmuContext->mmConnectTran(MMContext::TE_TCall,tran);

@@ -613,7 +613,7 @@ L3Frame::L3Frame(SAPI_t sapi,const char* hexString)
 }
 
 L3Frame::L3Frame(const char* binary, size_t len)
-	:mPrimitive(L3_DATA),mSapi(SAPI0)
+	:mPrimitive(L3_DATA),mSapi(SAPI0) // Changed this mSapi from SAPIUNDEFINED to SAPI0 for Testcall function
 {
 	f3init();
 	mL2Length = len;
