@@ -31,6 +31,7 @@
 #include <GSMLogicalChannel.h>
 #include <GSML3SSMessages.h>
 #include <CLI.h>
+#include <iostream>
 
 
 namespace Control {
@@ -1306,30 +1307,30 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	//LOG(ALERT) << "Entering L3CallControl::CCBase::TestCall with  transaction: " << LOGVAR(tran);
 	// Mark the call as active.
 	setGSMState(CCState::Active);
-	LOG(ALERT) << "Creating UDP Socket on port: " << gConfig.getNum("TestCall.Port");
+	//LOG(ALERT) << "Creating UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// Create and open the control port.
 	UDPSocket controlSocket(gConfig.getNum("TestCall.Port"));
-	LOG(ALERT) << "Active UDP Socket on port: " << gConfig.getNum("TestCall.Port");
+	//LOG(ALERT) << "Active UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// FIXME -- Somehow, the RTP ports need to be attached to the transaction.
 	// This loop will run or block until some outside entity writes a
 	// channel release on the socket.
-	LOG(ALERT) << "Entering UDP test loop ";
-
+	//LOG(ALERT) << "Entering UDP test loop ";
+	std::cout << "Done! UDP listening. Send STOP to break the loop.\n";
 	while (true) {
 		// Get the outgoing message from the test call port.
 		char iBuf[MAX_UDP_LENGTH] = {0};
 		int msgLen = (size_t)controlSocket.read(iBuf);
 
-		LOG(ALERT) << "iBuf is : " << LOGVAR(iBuf);
+		//LOG(ALERT) << "iBuf is : " << LOGVAR(iBuf);
 		if(strcmp(iBuf, "STOP") == 0){
 			break;
 		}
 
-		LOG(ALERT) << "Received " << msgLen << " bytes on UDP";
+		//LOG(ALERT) << "Received " << msgLen << " bytes on UDP";
 		
 		// Send it to the handset.
 		GSM::L3Frame query(iBuf, msgLen);
-		LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query);
+		//LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query);
 		channel()->l3sendf(query);
 
 		// Wait for a response.
@@ -1341,8 +1342,8 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 			break;
 		}
 
-		LOG(ALERT) << "Received response from handset: " << LOGVAR(resp);
-
+		//LOG(ALERT) << "Received response from handset: " << LOGVAR(resp);
+		std::cout << "Received from handset: " << LOGVAR(resp) << std::endl;
 		// Send response on the port.
 		unsigned char oBuf[resp->size()];
 		resp->pack(oBuf);
@@ -1351,7 +1352,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		delete resp;
 	}
 
-	LOG(ALERT) << "Stopping L3CallControl::CCBase::Testcall function";
+	//LOG(ALERT) << "Stopping L3CallControl::CCBase::Testcall function";
 	controlSocket.close();
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);

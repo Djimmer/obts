@@ -1083,7 +1083,7 @@ static CLIStatus endcall(int argc, char **argv, ostream& os)
 
 static CLIStatus testcall(int argc, char **argv, ostream& os)
 {
-	LOG(ALERT) << "Entering testcall function in CLICommands.cpp";
+	//LOG(ALERT) << "Entering testcall function in CLICommands.cpp";
 	if (argc!=2) return BAD_NUM_ARGS;
 		char *IMSI = argv[1];
 	if (strlen(IMSI)>15) {
@@ -1099,29 +1099,18 @@ static CLIStatus testcall(int argc, char **argv, ostream& os)
 		CALLINGPARTYBCDNUMBER
 
 	*/
-	LOG(ALERT) << "Creating Transaction Entry";
+	//LOG(ALERT) << "Creating Transaction Entry";
 	Control::FullMobileId msid(IMSI);
 	Control::TranEntry *tran = Control::TranEntry::newMTC(
 		NULL,
 		msid,
 		GSM::L3CMServiceType::TestCall,
 		"0");
-	LOG(ALERT) << "Created Transaction Entry";
+	//LOG(ALERT) << "Created Transaction Entry";
 	
-	/*
-	// We just use the IMSI, dont try to find a tmsi.
-	FullMobileId msid(IMSI);
-	Control::TranEntry *tran = Control::TranEntry::newMTSMS(
-						NULL,	// No SIPDialog
-						msid,
-						GSM::L3CallingPartyBCDNumber(srcAddr),
-						rest,					// message body
-						string("text/plain"));	// messate content type
+	//LOG(ALERT) << "Calling mmADDMT with: " << LOGVAR(tran);
 	Control::gMMLayer.mmAddMT(tran);
-	*/
-	//Control::initiateMTTransaction(transaction ,GSM::TCHFType,1000*atoi(argv[2]));
-	LOG(ALERT) << "Calling mmADDMT with: " << LOGVAR(tran);
-	Control::gMMLayer.mmAddMT(tran);
+	os << "Starting UDP... please wait a few seconds" << endl;
 	return SUCCESS;
 }
 

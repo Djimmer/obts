@@ -237,7 +237,7 @@ MMUser::MMUser(string& wImsi)
 
 GSM::ChannelType MMUser::mmuGetInitialChanType() const
 {
-	LOG(ALERT) << "MMUser::mmuGetInitialChanType() started ";
+	//LOG(ALERT) << "MMUser::mmuGetInitialChanType() started ";
 	devassert(gMMLock.lockcnt());		// Caller locked it.
 	if (mmuMTCq.size()) {
 		TranEntry *front = this->mmuMTCq.front();
@@ -252,9 +252,8 @@ GSM::ChannelType MMUser::mmuGetInitialChanType() const
 		}
 	}
 	if (mmuTESTCALL.size()) {
-		LOG(ALERT) << "MMUser::mmuGetInitialChanType() inside mmuTESTCALL if";
+		//LOG(ALERT) << "MMUser::mmuGetInitialChanType() inside mmuTESTCALL if";
 		return GSM::TCHFType;
-		//return GSM::SDCCHType;
 	}
 	devassert(mmuMTSMSq.size());
 	return GSM::SDCCHType;
@@ -713,7 +712,7 @@ bool MMLayer::mmStartMTDialog(SipDialog *dialog, SipMessage *invite)
 
 void MMUser::mmuAddMT(TranEntry *tran)
 {
-	LOG(ALERT) << "Entering MMUser::mmuAddMT with" << LOGVAR(tran);
+	//LOG(ALERT) << "Entering MMUser::mmuAddMT with" << LOGVAR(tran);
 	ScopedLock lock(gMMLock,__FILE__,__LINE__);	// Way overkill.
 	//ScopedLock lock(mmuLock,__FILE__,__LINE__);
 	mmuPageTimer.future(gConfig.GSM.Timer.T3113);
@@ -725,7 +724,7 @@ void MMUser::mmuAddMT(TranEntry *tran)
 		mmuMTSMSq.push_back(tran);
 		break;
 	case L3CMServiceType::TestCall:
-		LOG(ALERT) << "Entering the L3CMServiceType::Testcall branch of the case+switch";
+		//LOG(ALERT) << "Entering the L3CMServiceType::Testcall branch of the case+switch";
 		mmuTESTCALL.push_back(tran);
 		break;
 	default:
@@ -852,7 +851,7 @@ RefCntPointer<TranEntry> MMContext::mmGetTran(unsigned ati) const
 // After this, the RefCntPointer in mmcTE takes over the job of deleting the transaction when the last pointer to it disappears.
 void MMContext::mmConnectTran(ActiveTranIndex ati, TranEntry *tran)
 {
-	LOG(ALERT) << "mmConnectTran start with " << LOGVAR(ati) << " and: " << LOGVAR(tran);
+	//LOG(ALERT) << "mmConnectTran start with " << LOGVAR(ati) << " and: " << LOGVAR(tran);
 	devassert(gMMLock.lockcnt());		// Caller locked it.
 	// When a primary transaction is deleted we may promote the secondary transaction, so keep trying to make sure we delete them all:
 	for (unsigned tries = 0; tries < 3; tries++) {
@@ -1137,7 +1136,7 @@ bool MMLayer::mmTerminateByImsi(string imsi)
 // This is the way MMUsers are created from the SIP side.
 void MMLayer::mmAddMT(TranEntry *tran)
 {
-	LOG(ALERT) << "MMLayer::mmAddMT with: " << LOGVAR(tran); 
+	//LOG(ALERT) << "MMLayer::mmAddMT with: " << LOGVAR(tran); 
 	LOG(DEBUG) <<this<<LOGVAR(tran);
 	{	ScopedLock lock(gMMLock,__FILE__,__LINE__);
 		string imsi(tran->subscriberIMSI());
@@ -1145,7 +1144,7 @@ void MMLayer::mmAddMT(TranEntry *tran)
 		// Is there a guaranteed tmsi?
 		// We will delay this until we page in case an LUR is occurring right now.
 		//if (uint32_t tmsi = gTMSITable.tmsiTabGetTMSI(imsi,true)) { mmu->mmuTmsi = /*tran->subscriber().mTmsi =*/ tmsi; }
-		LOG(ALERT) << "MMLayer::mmAddMT::mmu gives: " << LOGVAR(mmu); 
+		//LOG(ALERT) << "MMLayer::mmAddMT::mmu gives: " << LOGVAR(mmu); 
 		assert(mmu);
 		mmu->mmuAddMT(tran);
 	}
