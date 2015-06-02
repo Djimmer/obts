@@ -1329,8 +1329,9 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		//LOG(ALERT) << "Received " << msgLen << " bytes on UDP";
 		
 		// Send it to the handset.
-		GSM::L3Frame query(iBuf, msgLen);
+		GSM::L3Frame query(SAPI3, iBuf);
 		//LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query);
+
 		channel()->l3sendf(query);
 
 		// Wait for a response.
