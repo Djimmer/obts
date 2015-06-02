@@ -1357,7 +1357,8 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
 	tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);
-	LOG(ALERT) << "Stopped L3CallControl::CCBase::Testcall function";
+	//LOG(ALERT) << "Stopped L3CallControl::CCBase::Testcall function";
+	std::cout << "Stopped UDP loop.\n";
 }
 
 void testCall(TranEntry *tran)

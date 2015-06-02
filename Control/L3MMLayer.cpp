@@ -870,7 +870,7 @@ void MMContext::mmConnectTran(ActiveTranIndex ati, TranEntry *tran)
 // Connect the Transaction to this channel.  Sets pointers in both directions.
 void MMContext::mmConnectTran(TranEntry *tran)
 {
-	LOG(ALERT) << "mmConnectTran to channel start";
+	//LOG(ALERT) << "mmConnectTran to channel start";
 	ScopedLock lock(gMMLock,__FILE__,__LINE__);	// I think this is unnecessary, but be safe.
 	ActiveTranIndex txi;
 	switch (tran->servicetype()) {
@@ -890,7 +890,7 @@ void MMContext::mmConnectTran(TranEntry *tran)
 			txi = TE_MM;
 			break;
 		case L3CMServiceType::TestCall:
-			LOG(ALERT) << "SETTING TE_TCall";
+			//LOG(ALERT) << "SETTING TE_TCall";
 			txi = TE_TCall;
 			break;
 
