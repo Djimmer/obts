@@ -342,7 +342,6 @@ void L2LogicalChannel::writeToL3(L3Frame*frame)
 		case L3_UNIT_DATA:
 			break;
 		case MDL_ERROR_INDICATION:
-			LOG(ALERT) << "writeTOL3 switch";
 			// Normal release procedure initiated by handset, or due to error at LAPDm level.
 			// An error is handled identically to a normal release, because the handset may still be listening to us
 			// even though we lost contact with it, and we want to tell it to release as gracefully as possible
@@ -548,7 +547,6 @@ void *L2LogicalChannel::MessageServiceLoop(L2LogicalChannel* hostchan)
 		// which is why we need a separate thread to drive this.
 		if (l3fp) {
 			hostchan->sapWriteFromL3(*l3fp);
-			LOG(ALERT)<<LOGVAR(hostchan)<<LOGVAR(l3fp);
 			delete l3fp;
 		}
 	}

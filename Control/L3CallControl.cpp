@@ -1309,7 +1309,7 @@ MachineStatus InCallMachine::machineRunState(int state, const GSM::L3Message *l3
 MachineStatus TestCallMachine::machineRunState(int state, const GSM::L3Message *l3msg, const SIP::DialogMessage *sipmsg)
 {
 	PROCLOG2(DEBUG,state)<<LOGVAR(l3msg)<<LOGVAR(sipmsg)<<LOGVAR2("msid",tran()->subscriber());
-	LOG(ALERT)<<LOGVAR(l3msg)<<LOGVAR(sipmsg)<<LOGVAR2("msid",tran()->subscriber());
+	//LOG(ALERT)<<LOGVAR(l3msg)<<LOGVAR(sipmsg)<<LOGVAR2("msid",tran()->subscriber());
 	switch (state){
 
 		case stateStart: {
@@ -1337,7 +1337,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	//LOG(ALERT) << "Entering UDP test loop ";
 	LOG(ALERT) << LOGVAR(tran) << LOGVAR(channel());
 	std::cout << "Done! UDP listening. Send STOP to break the loop.\n";
-	while (true) {
+	while (channel()->chanRunning()) {
 		// Get the outgoing message from the test call port.
 		char iBuf[MAX_UDP_LENGTH] = {0};
 		controlSocket.read(iBuf);

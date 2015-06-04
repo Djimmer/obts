@@ -171,7 +171,6 @@ void L2LAPDm::waitForAck()
 // I dont see where we make the SACCH non active; I think we just wait for valid messages to stop coming and it times out via T3109.
 void L2LAPDm::releaseLink(bool notifyL3, Primitive releaseType)
 {
-	LOG(ALERT) << LOGVAR(releaseType);
 	OBJLOG(DEBUG) <<LOGVAR(releaseType) <<this;
 	clearCounters();
 	// Caller should hold mLock.
@@ -294,7 +293,6 @@ void L2LAPDm::abnormalRelease(bool sendDM)
 	// (pat) FIXME - abnormal release is called from both directions.
 	// (pat) maybe add a couple of bits to indicate errors coming from the two ends.
 	if (sendDM) sendUFrameDM(true);
-	LOG(ALERT) << "ABNORMALRELEASE";
 	releaseLink(true,MDL_ERROR_INDICATION);
 }
 
@@ -413,7 +411,6 @@ void L2LAPDm::l2dlWriteHighSide(const L3Frame& frame)
 			normalRelease();
 			break;
 		case L3_HARDRELEASE_REQUEST:
-			LOG(ALERT)<< LOGVAR(frame);
 			mLock.lock();
 			releaseLink(false,(Primitive)0);
 			mLock.unlock();
@@ -496,7 +493,6 @@ void L2LAPDm::T200Expiration()
 	// vISDN datalink.c:timer_T200.
 	// GSM 04.06 5.4.1.3, 5.4.4.3, 5.5.7, 5.7.2.
 	OBJLOG(INFO) << "state=" << mState << " RC=" << mRC;
-	LOG(ALERT) << "T200EXPIRATION with: " << LOGVAR(mState);
 	mT200.reset();
 	switch (mState) {
 		case AwaitingRelease: // GSM 4.06 5.4.4.3
@@ -527,7 +523,6 @@ void L2LAPDm::T200Expiration()
 // (pat) Receive a frame from layer 1.
 void L2LAPDm::receiveFrame(const GSM::L2Frame& frame)
 {
-	LOG(ALERT)<<LOGVAR(frame);
 	OBJLOG(DEBUG) << frame;
 
 	// Caller should hold mLock.
@@ -680,7 +675,6 @@ void L2LAPDm::receiveUFrameDISC(const L2Frame& frame)
 {
 	// Caller should hold mLock.
 	OBJLOG(INFO) << frame;
-	LOG(ALERT) << LOGVAR(mState) << LOGVAR(frame);
 	mEstablishmentInProgress = false;
 	switch (mState) {
 		case AwaitingEstablish:
@@ -1067,7 +1061,6 @@ bool L2LAPDm::sendMultiframeData(const L3Frame& l3)
 	// in SACCH L3 during release.
 	if (mState==LinkReleased) {
 		OBJLOG(ERR) << "attempt to send DATA on released LAPm channel";
-		LOG(ALERT) << "MULTIFRAME LINKRELEASED ALLREADY";
 		abnormalRelease(false);	// (pat) Do not send DM, just send (probably a repeat) RELEASE to L3 to tell it to stop sending us data.
 		// pat 5-2013: Vastly reducing the delays here and in L2LogicalChannel to try to reduce
 		// random failures of handover and channel reassignment from SDCCH to TCHF.

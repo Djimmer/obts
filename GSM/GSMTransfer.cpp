@@ -597,7 +597,7 @@ L3Frame::L3Frame(const L3Message& msg, Primitive wPrimitive, SAPI_t wSapi)
 
 
 L3Frame::L3Frame(SAPI_t sapi,const char* hexString)
-	:mPrimitive(L3_DATA),mSapi(sapi)
+	:mPrimitive(L3_UNIT_DATA),mSapi(sapi)
 {
 	f3init();
 	size_t len = strlen(hexString);
