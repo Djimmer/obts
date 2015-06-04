@@ -11,12 +11,12 @@ TESTCALL_PORT = 28670
 #hexstr = "051a00f110"
 #hexstr += "%02x%02x%02xfc" % (lai>>8, lai&255, (4*len+1))
 #hexstr += ''.join('%02x666666' % (4*i) for i in range(len))
-hexstr = "\x05\x32"
-print "layer3 message to be sent:", hexstr
-#l3msg = binascii.hexlify(hexstr)
-l3msg = hexstr;
-#x = "06153f3f007f0040000000000000000000002b2b"
-#l3msg = binascii.unhexlify(x)
+#hexstr = "06198e480100000000000000000000400000f800002b"
+#print "layer3 message to be sent:", hexstr
+#l3msg = binascii.unhexlify(hexstr)
+#l3msg = hexstr;
+x = "06153f3f007f0040000000000000000000002b2b"
+l3msg = x; #binascii.unhexlify(x)
 print "libmich interprets this as: ", repr(L3Mobile.parse_L3(l3msg))
 
 tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

@@ -127,8 +127,14 @@ bool MMUser::mmuServiceMTQueues()	// arg redundant with mmuContext->channel.
 			// Tie the transaction to this channel.
 			mmuContext->mmConnectTran(MMContext::TE_TCall,tran);
 			// Unlock and run Testcall function
+			switch (tran->servicetype()) {
+			default:
+				initTestCall(tran);
+				break;
+			}
+			
 			gMMLock.unlock();
-			testCall(tran);
+			tran->lockAndStart();
 			return true;
 		}
 	}
@@ -253,7 +259,7 @@ GSM::ChannelType MMUser::mmuGetInitialChanType() const
 	}
 	if (mmuTESTCALL.size()) {
 		//LOG(ALERT) << "MMUser::mmuGetInitialChanType() inside mmuTESTCALL if";
-		return GSM::TCHFType;
+		return GSM::SDCCHType;
 	}
 	devassert(mmuMTSMSq.size());
 	return GSM::SDCCHType;

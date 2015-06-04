@@ -145,7 +145,11 @@ class InCallMachine : public CCBase {
 };
 
 class TestCallMachine : public CCBase {
+	enum State {
+		stateStart,
+	};
 	public:
+	MachineStatus machineRunState(int state, const GSM::L3Message* l3msg, const SIP::DialogMessage *sipmsg);	
 	void testCallStart(TranEntry *tran);
 	TestCallMachine(TranEntry *wTran) : CCBase(wTran) {}
 	const char *debugName() const { return "TestCallMachine"; }
@@ -506,7 +510,6 @@ MachineStatus MOCMachine::serviceAccept()
 
 	return MachineStatusOK;
 }
-
 
 // This is used both for MOC and emergency calls, which are differentiated by the service type in the CMServiceRequest message.
 // (pat) The Blackberry will attempt an MOC even if periodic LUR returned unauthorized!
@@ -1302,8 +1305,25 @@ MachineStatus InCallMachine::machineRunState(int state, const GSM::L3Message *l3
 	return MachineStatusOK;
 }
 
+
+MachineStatus TestCallMachine::machineRunState(int state, const GSM::L3Message *l3msg, const SIP::DialogMessage *sipmsg)
+{
+	PROCLOG2(DEBUG,state)<<LOGVAR(l3msg)<<LOGVAR(sipmsg)<<LOGVAR2("msid",tran()->subscriber());
+	LOG(ALERT)<<LOGVAR(l3msg)<<LOGVAR(sipmsg)<<LOGVAR2("msid",tran()->subscriber());
+	switch (state){
+
+		case stateStart: {
+		}
+		default:
+			testCallStart(tran());
+			return MachineStatusOK;
+	}
+}
+
 void TestCallMachine::testCallStart(TranEntry *tran)
 {
+	assert(channel());
+	LOG(ALERT) << LOGVAR(tran) << LOGVAR(channel());
 	//LOG(ALERT) << "Entering L3CallControl::CCBase::TestCall with  transaction: " << LOGVAR(tran);
 	// Mark the call as active.
 	setGSMState(CCState::Active);
@@ -1315,11 +1335,12 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	// This loop will run or block until some outside entity writes a
 	// channel release on the socket.
 	//LOG(ALERT) << "Entering UDP test loop ";
+	LOG(ALERT) << LOGVAR(tran) << LOGVAR(channel());
 	std::cout << "Done! UDP listening. Send STOP to break the loop.\n";
 	while (true) {
 		// Get the outgoing message from the test call port.
 		char iBuf[MAX_UDP_LENGTH] = {0};
-		int msgLen = (size_t)controlSocket.read(iBuf);
+		controlSocket.read(iBuf);
 
 		//LOG(ALERT) << "iBuf is : " << LOGVAR(iBuf);
 		if(strcmp(iBuf, "STOP") == 0){
@@ -1329,7 +1350,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		//LOG(ALERT) << "Received " << msgLen << " bytes on UDP";
 		
 		// Send it to the handset.
-		GSM::L3Frame query(SAPI3, iBuf);
+		GSM::L3Frame query(SAPI0, iBuf);
 		//LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query);
 
 		channel()->l3sendf(query);
@@ -1362,13 +1383,14 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	std::cout << "Stopped UDP loop.\n";
 }
 
-void testCall(TranEntry *tran)
+void initTestCall(TranEntry *tran)
 {
 	//LOG(ALERT) << "Started L3CallControl::CCBase::Testcall function";
-	TestCallMachine *tcMachine = new TestCallMachine(tran);
+	//TestCallMachine *tcMachine = new TestCallMachine(tran);
 	//LOG(ALERT) << "Created TestcallMachine";
 	//LOG(ALERT) << "Calling testCallStart";
-	tcMachine -> testCallStart(tran);
+	//tcMachine -> testCallStart(tran);
+	tran->teSetProcedure(new TestCallMachine(tran));
 }
 
 
