@@ -15,10 +15,14 @@ TESTCALL_PORT = 28670
 #print "layer3 message to be sent:", hexstr
 #l3msg = binascii.unhexlify(hexstr)
 #l3msg = hexstr;
-#x = "06153f3f007f0040000000000000000000002b2b"
+x = "06153f3f007f0040000000000000000000002b2b"
 
 #l3msg = x; #binascii.unhexlify(x)
-l3msg = '\x05\x18\x01';
+#l3msg = '\x03\x05\x04\x06`\x04\x02\x00\x05\x81^\x08\x81\x00\x12cy65\x16';
+#l3msg = '\x05\x08\x11\x00\xf2 \x03\xe83\x05\xf4T\x01\x98\xcb';
+#l3msg = '\x15'
+l3msg = '\x03\x3A';
+#l3msg = '\x05\x08';
 print "libmich interprets this as: ", repr(L3Mobile.parse_L3(l3msg))
 
 tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

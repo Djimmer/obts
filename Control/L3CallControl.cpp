@@ -1340,18 +1340,14 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	while (channel()->chanRunning()) {
 		// Get the outgoing message from the test call port.
 		char iBuf[MAX_UDP_LENGTH] = {0};
-		controlSocket.read(iBuf);
+		int msgLen = controlSocket.read(iBuf);
 
-		//LOG(ALERT) << "iBuf is : " << LOGVAR(iBuf);
 		if(strcmp(iBuf, "STOP") == 0){
 			break;
 		}
-
-		//LOG(ALERT) << "Received " << msgLen << " bytes on UDP";
-		
 		// Send it to the handset.
-		GSM::L3Frame query(SAPI0, iBuf);
-		//LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query);
+		GSM::L3Frame query(iBuf, msgLen, SAPI0);
+		LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query);
 
 		channel()->l3sendf(query);
 
@@ -1374,22 +1370,15 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		delete resp;
 	}
 
-	//LOG(ALERT) << "Stopping L3CallControl::CCBase::Testcall function";
 	controlSocket.close();
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
 	tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);
-	//LOG(ALERT) << "Stopped L3CallControl::CCBase::Testcall function";
 	std::cout << "Stopped UDP loop.\n";
 }
 
 void initTestCall(TranEntry *tran)
 {
-	//LOG(ALERT) << "Started L3CallControl::CCBase::Testcall function";
-	//TestCallMachine *tcMachine = new TestCallMachine(tran);
-	//LOG(ALERT) << "Created TestcallMachine";
-	//LOG(ALERT) << "Calling testCallStart";
-	//tcMachine -> testCallStart(tran);
 	tran->teSetProcedure(new TestCallMachine(tran));
 }
 

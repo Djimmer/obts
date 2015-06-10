@@ -258,7 +258,6 @@ GSM::ChannelType MMUser::mmuGetInitialChanType() const
 		}
 	}
 	if (mmuTESTCALL.size()) {
-		//LOG(ALERT) << "MMUser::mmuGetInitialChanType() inside mmuTESTCALL if";
 		return GSM::SDCCHType;
 	}
 	devassert(mmuMTSMSq.size());
