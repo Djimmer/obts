@@ -493,6 +493,7 @@ void L2LAPDm::T200Expiration()
 	// vISDN datalink.c:timer_T200.
 	// GSM 04.06 5.4.1.3, 5.4.4.3, 5.5.7, 5.7.2.
 	OBJLOG(INFO) << "state=" << mState << " RC=" << mRC;
+	OBJLOG(DEBUG) << "timer state=" << mState << " RC=" << mRC;
 	mT200.reset();
 	switch (mState) {
 		case AwaitingRelease: // GSM 4.06 5.4.4.3
@@ -572,7 +573,7 @@ void L2LAPDm::receiveFrame(const GSM::L2Frame& frame)
 void L2LAPDm::receiveUFrame(const L2Frame& frame)
 {
 	// Also see vISDN datalink.c:lapd_socket_handle_uframe
-	OBJLOG(DEBUG) << frame;
+	OBJLOG(DEBUG) << "timer" << frame.UFrameType() << frame;
 	switch (frame.UFrameType()) {
 		case L2Control::SABMFrame: receiveUFrameSABM(frame); break;
 		case L2Control::DMFrame: receiveUFrameDM(frame); break;
@@ -675,6 +676,7 @@ void L2LAPDm::receiveUFrameDISC(const L2Frame& frame)
 {
 	// Caller should hold mLock.
 	OBJLOG(INFO) << frame;
+	OBJLOG(DEBUG) << "releaseUFrame" << frame;
 	mEstablishmentInProgress = false;
 	switch (mState) {
 		case AwaitingEstablish:
