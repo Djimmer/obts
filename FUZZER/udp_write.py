@@ -5,27 +5,71 @@ import time
 import binascii
 from libmich.formats import *
 from scapy.contrib import gsm_um
-
-########## SETTINGS ##########     
+   
 TESTCALL_PORT = 28670
+
+# Send a restart to OpenBTS to establish a new channel
+def establishNewChannel():
+
+   restart = "RESTART";
+   tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT))
+   with open("log.txt", "a") as myfile:
+   	myfile.write("\n\nCHANNEL RESTART \n \n");
+   return
+
+# def tmsiLength(length):
+#    restart = "restartChannel";
+#    tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT))
+#    return
+
+# Fuzzing loop
+for x in range (0,100):
+	print "Fuzzing: ", x;
+	l3msg = '\x05\x18\x01';
+	l3msg_input = repr(L3Mobile.parse_L3(l3msg));
+
+	tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+	tcsock.settimeout(5)
+	try:
+		tcsock.sendto(l3msg, ('127.0.0.1', TESTCALL_PORT))
+		reply = tcsock.recv(1024)
+		parsed_reply = repr(L3Mobile.parse_L3(reply));
+		if "GPRS" not in parsed_reply:
+			print "reply received: ", parsed_reply;
+		else:
+			establishNewChannel();
+			time.sleep(3);
+		with open("log.txt", "a") as myfile:
+			myfile.write("INPUT " + str(x) + "\n" + l3msg_input + "\nOUTPUT " + str(x) + "\n" + parsed_reply + "\n\n");
+	except socket.timeout:
+		print "no reply received. potential crash?"
+		establishNewChannel();
+		time.sleep(3);
+
+
+
+#############################################################################
+############################## Trying stuff #################################
+#############################################################################
 
 
 ################################ OLD OVERFLOW ################################
-len = 19
-lai = 42
-hexstr = "051a00f110"
-hexstr += "%02x%02x%02xfc" % (lai>>8, lai&255, (4*len+1))
-hexstr += ''.join('%02x666666' % (4*i) for i in range(len))
+# len = 19
+# lai = 42
+# hexstr = "051a00f110"
+# hexstr += "%02x%02x%02xfc" % (lai>>8, lai&255, (4*len+1))
+# hexstr += ''.join('%02x666666' % (4*i) for i in range(len))
+# r = binascii.unhexlify(hexstr)
+# gsm_um.hexdump(r);
+
+
 #hexstr = "06198e480100000000000000000000400000f800002b"
-#print "layer3 message to be sent:", hexstr
-r = binascii.unhexlify(hexstr)
-gsm_um.hexdump(r);
-#print "libmich interprets this as: ", repr(L3Mobile.parse_L3(l3msg))
+
 #l3msg = x; #binascii.unhexlify(x)
 #l3msg = '\x03\x05\x04\x06`\x04\x02\x00\x05\x81^\x08\x81\x00\x12cy65\x16';
 #l3msg = '\x05\x08\x11\x00\xf2 \x03\xe83\x05\xf4T\x01\x98\xcb';
 
-#############################################################################
+
 # l3msg = str(gsm_um.locationUpdatingRequest());
 # #l3msg = str(gsm_um.locationUpdatingReject());
 # #l3msg = str(gsm_um.locationUpdatingRequest());
@@ -103,15 +147,4 @@ gsm_um.hexdump(r);
 # l3msg = str(r);
 # gsm_um.hexdump(a);
 # Identity request (Works!)
-l3msg = '\x05\x18\x01';
-print "libmich interprets this as: ", repr(L3Mobile.parse_L3(l3msg))
-#
-tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-tcsock.settimeout(2)
-try:
-	tcsock.sendto(l3msg, ('127.0.0.1', TESTCALL_PORT))
-	reply = tcsock.recv(1024)
-	print "reply : " , reply
-	print "reply received: ", repr(L3Mobile.parse_L3(reply))
-except socket.timeout:
-	print "no reply received. potential crash?"
+#l3msg = '\x05\x18\x01';

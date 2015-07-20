@@ -1337,12 +1337,17 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	//LOG(ALERT) << "Entering UDP test loop ";
 	LOG(ALERT) << LOGVAR(tran) << LOGVAR(channel());
 	std::cout << "Done! UDP listening. Send STOP to break the loop.\n";
+	char iBuf[MAX_UDP_LENGTH] = {0};
 	while (channel()->chanRunning()) {
 		// Get the outgoing message from the test call port.
-		char iBuf[MAX_UDP_LENGTH] = {0};
+		iBuf[MAX_UDP_LENGTH] = {0};
 		int msgLen = controlSocket.read(iBuf);
 
 		if(strcmp(iBuf, "STOP") == 0){
+			break;
+		}
+
+		if(strcmp(iBuf, "RESTART") == 0){
 			break;
 		}
 		// Send it to the handset.
@@ -1373,8 +1378,14 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	controlSocket.close();
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
-	tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);
-	std::cout << "Stopped UDP loop.\n";
+				
+	if(strcmp(iBuf, "RESTART") == 0){
+		testCallStart(tran);
+	}
+	else{
+		tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);
+		std::cout << "Stopped UDP loop.\n";
+	}	
 }
 
 void initTestCall(TranEntry *tran)
