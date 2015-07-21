@@ -3,55 +3,88 @@
 import socket
 import time
 import binascii
+import os
 from libmich.formats import *
 from scapy.contrib import gsm_um
-   
-TESTCALL_PORT = 28670
+from adb import ADB
 
+TESTCALL_PORT = 28670
 # Send a restart to OpenBTS to establish a new channel
 def establishNewChannel():
-
    restart = "RESTART";
    tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT))
    with open("log.txt", "a") as myfile:
    	myfile.write("\n\nCHANNEL RESTART \n \n");
    return
 
-# def tmsiLength(length):
-#    restart = "restartChannel";
-#    tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT))
-#    return
+def adbConnection():
+	adb = ADB();
+	return adb
+
+def saveRadioLog(adb,title):
+	adb.logcatRadio(title);
+	adb.logcatRadioClear();
+	return
+
+def clearRadioLog(adb):
+	adb.logcatRadioClear();
+	return
+
+def randomBytes(x):
+	return
+def stringOfLength(x):
+	result = "";
+	for length in range (0,x):
+		result = result + "\\" + "x0" + str(x);
+	#result = binascii.b2a_hex(os.urandom(16));
+	#result = binascii.unhexlify(result);
+	print result;
+	return result
+
+
+
+# Adb connection with the mobile device
+adb = adbConnection();
 
 # Fuzzing loop
-for x in range (0,100):
+for x in range (0,10):
 	print "Fuzzing: ", x;
-	l3msg = '\x05\x18\x01';
+	randomString = stringOfLength(x);
+	print "Random string:", randomString;
+	l3msg = '\x05\x18\x01' + randomString;
+	print l3msg;
 	l3msg_input = repr(L3Mobile.parse_L3(l3msg));
 
 	tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	tcsock.settimeout(5)
+	tcsock.settimeout(6)
 	try:
 		tcsock.sendto(l3msg, ('127.0.0.1', TESTCALL_PORT))
 		reply = tcsock.recv(1024)
 		parsed_reply = repr(L3Mobile.parse_L3(reply));
-		if "GPRS" not in parsed_reply:
+		if "ERROR" not in parsed_reply:
 			print "reply received: ", parsed_reply;
 		else:
 			establishNewChannel();
-			time.sleep(3);
+			time.sleep(6);
 		with open("log.txt", "a") as myfile:
 			myfile.write("INPUT " + str(x) + "\n" + l3msg_input + "\nOUTPUT " + str(x) + "\n" + parsed_reply + "\n\n");
 	except socket.timeout:
 		print "no reply received. potential crash?"
 		establishNewChannel();
-		time.sleep(3);
+		time.sleep(6);
 
-
+# Save the radio log from mobile device
+saveRadioLog(adb, "" + str(x) +"x_" + str(time.strftime("%Y%m%d-%H%M%S")) + "");
+clearRadioLog(adb);
 
 #############################################################################
 ############################## Trying stuff #################################
 #############################################################################
 
+# def tmsiLength(length):
+#    restart = "restartChannel";
+#    tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT))
+#    return
 
 ################################ OLD OVERFLOW ################################
 # len = 19

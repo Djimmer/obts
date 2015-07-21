@@ -1378,9 +1378,21 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	controlSocket.close();
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
-				
+
+	char *IMSI = "204045220670380";		
 	if(strcmp(iBuf, "RESTART") == 0){
-		testCallStart(tran);
+		Control::FullMobileId msid(IMSI);
+		Control::TranEntry *tran = Control::TranEntry::newMTC(
+			NULL,
+			msid,
+			GSM::L3CMServiceType::TestCall,
+			"0");
+		//LOG(ALERT) << "Created Transaction Entry";
+		
+		//LOG(ALERT) << "Calling mmADDMT with: " << LOGVAR(tran);
+		Control::gMMLayer.mmAddMT(tran);
+		std::cout << "Starting UDP... please wait a few seconds" << endl;
+		//testCallStart(tran);
 	}
 	else{
 		tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);
