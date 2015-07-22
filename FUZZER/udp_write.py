@@ -5,14 +5,17 @@ import time
 import binascii
 import os
 from libmich.formats import *
-from scapy.contrib import gsm_um
+import gsm_um
 from adb import ADB
 
+# Default OpenBTS port
 TESTCALL_PORT = 28670
+
 # Send a restart to OpenBTS to establish a new channel
 def establishNewChannel():
    restart = "RESTART";
-   tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT))
+   tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT));
+   # Log when the channel restars
    with open("log.txt", "a") as myfile:
    	myfile.write("\n\nCHANNEL RESTART \n \n");
    return
@@ -30,56 +33,140 @@ def clearRadioLog(adb):
 	adb.logcatRadioClear();
 	return
 
-def randomBytes(x):
-	return
-def stringOfLength(x):
-	result = "";
-	for length in range (0,x):
-		result = result + "\\" + "x0" + str(x);
-	#result = binascii.b2a_hex(os.urandom(16));
-	#result = binascii.unhexlify(result);
-	print result;
-	return result
+# A function to fuzz fields with variable length
+# First picked a few interesting fields and searched
+# for functions that are using this field.
+# Returns a packet of the given function with a
+# Field of the given length.
+def fuzzingLengthFields(field, function, length):
+
+	######## 1 MobileID() ########
+	# 1 imsiDetachIndication !!
+	# 2 locationUpdatingRequest !!
+	# 3 tmsiReallocationCommand !!
+	# 4 configurationChangeAcknowledge
+	# 5 notificationResponse
+	# 6 pagingRequestType1
+	# 7 pagingRequestType2
+	# 8 pagingResponse
+	# 9 talkerIndication
+	# 10 cmReestablishmentRequest
+	# 11 cmServiceRequest
+	# 12 identityResponse
+	# 13 ptmsiReallocationCommand
+
+	if(field == 1):
+		if(function == 1):
+			p = gsm_um.imsiDetachIndication();
+			p = MobileIDLength(p, length);
+			return p
+		elif(function == 2):
+			p = gsm_um.locationUpdatingRequest();
+			return p
+		elif(function == 3):
+			p = gsm_um.tmsiReallocationCommand();
+			return p
+		# For testing, works fine
+		elif(function == 4):
+			p = gsm_um.identityRequestMM();
+			return p
+	######## 2 NetworkName() ########
+	#elif(field == 2):
+		# 1 mmInformation
+		# 2 gmmInformation
+	######## 3 ChannelDescription() ########
+	#elif(field == 3):
+		# 1 systemInformationType1
+		# 2 partialRelease
+		# 3 immediateAssignmentExtended
+		# 4 immediateAssignment
+		# 5 frequencyRedefinition
+		# 6 additionalAssignment
+
+	######## 4 UserUser() ########
+	#elif(field == 4):
+		# 1 alertingNetToMs
+		# 2 connectNetToMs !!
+		# 3 disconnectNetToMs
+		# 4 progress
+		# 5 releaseNetToMs !!
+		# 6 userInformation !!
+	else:
+		return '\x05\x18\x01'
+	
+	return p
 
 
+def MobileIDLength(packet, length):
+	packet.oddEven=1; packet.typeOfId=4; 
+	for i in range (2,length):
+		exec "packet.idDigit%s_1=2" % (i)
+		exec "packet.idDigit%s=2" % (i)
+	return packet
 
 # Adb connection with the mobile device
 adb = adbConnection();
 
 # Fuzzing loop
-for x in range (0,10):
+for x in range (0,5):
+
+	# Fuzzing counter
 	print "Fuzzing: ", x;
-	randomString = stringOfLength(x);
-	print "Random string:", randomString;
-	l3msg = '\x05\x18\x01' + randomString;
-	print l3msg;
+
+	# Fields: {MobileID = 1, NetworkName = 2, ChannelDescription = 3, UserUser = 4}
+	# Function list above at fuzzingLengthFields()
+	# Length is variable, determined by x
+	packet = fuzzingLengthFields(1, 4, x);
+
+	# Make the packet readable
+	printable = str(packet).encode("hex");
+	print printable;
+
+	# Decode printable hex to make it usable for L3Mobile.
+	# Adding the \x for the bytes.
+	l3msg = printable.decode('hex');
 	l3msg_input = repr(L3Mobile.parse_L3(l3msg));
 
+	# Creating a socket
 	tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 	tcsock.settimeout(6)
 	try:
+		# Send message and wait for a reply
 		tcsock.sendto(l3msg, ('127.0.0.1', TESTCALL_PORT))
 		reply = tcsock.recv(1024)
+
+		# Libmich tries to parse the received packet
 		parsed_reply = repr(L3Mobile.parse_L3(reply));
+
+		# Can the reply be parsed by Libmich?
 		if "ERROR" not in parsed_reply:
 			print "reply received: ", parsed_reply;
+		# Create a new channel if a incorrect package has been send by the mobile device.
 		else:
 			establishNewChannel();
+			# Give OpenBTS time to setup a new channel
 			time.sleep(6);
+		# Log the input and output to a seperate file.
 		with open("log.txt", "a") as myfile:
 			myfile.write("INPUT " + str(x) + "\n" + l3msg_input + "\nOUTPUT " + str(x) + "\n" + parsed_reply + "\n\n");
 	except socket.timeout:
 		print "no reply received. potential crash?"
+		# Create a new channel if a incorrect package has been send by the mobile device.
 		establishNewChannel();
+		# Give OpenBTS time to setup a new channel
 		time.sleep(6);
 
 # Save the radio log from mobile device
-saveRadioLog(adb, "" + str(x) +"x_" + str(time.strftime("%Y%m%d-%H%M%S")) + "");
-clearRadioLog(adb);
+#saveRadioLog(adb, "" + str(x) +"x_" + str(time.strftime("%Y%m%d-%H%M%S")) + "");
+#clearRadioLog(adb);
 
 #############################################################################
 ############################## Trying stuff #################################
 #############################################################################
+# Identityrequest + random string length test
+# randomString = stringOfLength(x);
+# print "Random string:", randomString;
+# l3msg = '\x05\x18\x01' + randomString;
 
 # def tmsiLength(length):
 #    restart = "restartChannel";
@@ -95,13 +182,11 @@ clearRadioLog(adb);
 # r = binascii.unhexlify(hexstr)
 # gsm_um.hexdump(r);
 
-
 #hexstr = "06198e480100000000000000000000400000f800002b"
 
 #l3msg = x; #binascii.unhexlify(x)
 #l3msg = '\x03\x05\x04\x06`\x04\x02\x00\x05\x81^\x08\x81\x00\x12cy65\x16';
 #l3msg = '\x05\x08\x11\x00\xf2 \x03\xe83\x05\xf4T\x01\x98\xcb';
-
 
 # l3msg = str(gsm_um.locationUpdatingRequest());
 # #l3msg = str(gsm_um.locationUpdatingReject());
@@ -158,7 +243,6 @@ clearRadioLog(adb);
 # p.idDigit47_1=2; p.idDigit47=0xe;
 # p.idDigit48_1=2; p.idDigit48=0xe;
 # p.idDigit49_1=2; p.idDigit49=0xe;
-
 
 # p.mccDigit2=0x4; p.mccDigit1=2; p.mccDigit3=6; p.mncDigit1=0;
 # p.mncDigit3=0xf; p.mncDigit2=0x3; p.lac1=0x0; p.lac2=0x4;
