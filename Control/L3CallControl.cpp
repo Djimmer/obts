@@ -1342,12 +1342,12 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		// Get the outgoing message from the test call port.
 		iBuf[MAX_UDP_LENGTH] = {0};
 		int msgLen = controlSocket.read(iBuf);
-
-		if(strcmp(iBuf, "STOP") == 0){
+		string iBufString(iBuf);
+		if(iBufString.find("STOP") != std::string::npos){
 			break;
 		}
 
-		if(strcmp(iBuf, "RESTART") == 0){
+		if(iBufString.find("RESTART") != std::string::npos){
 			break;
 		}
 		// Send it to the handset.
@@ -1379,8 +1379,9 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
 
-	char *IMSI = "204045220670380";		
-	if(strcmp(iBuf, "RESTART") == 0){
+	char *IMSI = "204045220670380";
+	string iBufString(iBuf);		
+	if(iBufString.find("RESTART") != std::string::npos){
 		Control::FullMobileId msid(IMSI);
 		Control::TranEntry *tran = Control::TranEntry::newMTC(
 			NULL,

