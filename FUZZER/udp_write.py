@@ -65,7 +65,11 @@ def fuzzingLengthFields(field, function, length):
 			return p
 		elif(function == 3):
 			p = gsm_um.tmsiReallocationCommand();
-			p = fakeMobileID(p);
+			# 051a01001003e9082a3377777733777777
+			p = fakeMobileID(p, length);
+
+			# 051a01001003e9082940402502763008
+			#p = correctMobileID(p);
 			p = correctLocalAreaID(p)
 			return p
 		# For testing, works fine
@@ -77,6 +81,9 @@ def fuzzingLengthFields(field, function, length):
 			return p
 		elif(function == 6):
 			p = gsm_um.connectAcknowledge();
+			return p;
+		elif(function == 7):
+			p = gsm_um.disconnectNetToMs();
 			return p;
 	######## 2 NetworkName() ########
 	#elif(field == 2):
@@ -107,10 +114,10 @@ def fuzzingLengthFields(field, function, length):
 def mobileFillID(packet, start, length):
 	# 00666666
 	# 04666666
-	for i in range (start,length):
+	for i in range (start, start + length):
 		if((i + 2) % 4 == 0):
-			exec "packet.idDigit%s_1=3" % (i)
-			exec "packet.idDigit%s=3" % (i)
+			exec "packet.idDigit%s_1=2" % (i)
+			exec "packet.idDigit%s=2" % (i)
 		else:
 			exec "packet.idDigit%s_1=7" % (i)
 			exec "packet.idDigit%s=7" % (i)
@@ -132,14 +139,16 @@ def correctMobileID(p):
 	#p.idDigit9_1=2; p.idDigit9=2;
 	return p
 
-def fakeMobileID(p):
-	p.lengthMI=8; 
+def fakeMobileID(p, length):
+	p.lengthMI=length;
+	if length>8:
+		p.lengthMI=8; 
 	p.idDigit1=2;
 
-	p.oddEven=1; p.typeOfId=2; 
+	p.oddEven=1; p.typeOfId=4; 
 
 	# digits start with length of packet p
-	p = mobileFillID(p, 2, 67);
+	p = mobileFillID(p, 2, length);
 
 	return p
 
@@ -159,7 +168,8 @@ def correctLocalAreaID(a):
 adb = adbConnection();
 
 # Fuzzing loop
-for x in range (0,1):
+x = 0;
+while x < 65:
 
 	# Fuzzing counter
 	print "Fuzzing: ", x;
@@ -167,9 +177,14 @@ for x in range (0,1):
 	# Fields: {MobileID = 1, NetworkName = 2, ChannelDescription = 3, UserUser = 4}
 	# Function list above at fuzzingLengthFields()
 	# Length is variable, determined by x
-	packet = fuzzingLengthFields(1, 5, x);
-	if(x == 1):
-		packet = fuzzingLengthFields(1, 6, x);
+	if (x % 2 == 0):
+		packet = fuzzingLengthFields(1, 3, x);
+	else:
+		packet = fuzzingLengthFields(1, 4, x);
+	# if(x == 1):
+	# 	packet = fuzzingLengthFields(1, 6, x);
+	# if(x == 2):
+	# 	packet = fuzzingLengthFields(1, 7, x);
 
 	# Make the packet readable
 	printable = str(packet).encode("hex");
@@ -180,7 +195,7 @@ for x in range (0,1):
 	l3msg = printable.decode('hex');
 	l3msg_input = repr(L3Mobile.parse_L3(l3msg));
 
-	print l3msg_input;
+	print l3msg_input + '\n';
 	#Creating a socket
 	tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 	tcsock.settimeout(6)
@@ -200,6 +215,7 @@ for x in range (0,1):
 			establishNewChannel();
 			# Give OpenBTS time to setup a new channel
 			time.sleep(6);
+			x = x - 1;
 		# Log the input and output to a seperate file.
 		with open("log.txt", "a") as myfile:
 			myfile.write("INPUT " + str(x) + "\n" + l3msg_input + "\nOUTPUT " + str(x) + "\n" + parsed_reply + "\n\n");
@@ -207,8 +223,10 @@ for x in range (0,1):
 		print "no reply received. potential crash?"
 		# Create a new channel if a incorrect package has been send by the mobile device.
 		establishNewChannel();
+		x = x - 1;
 		# Give OpenBTS time to setup a new channel
 		time.sleep(6);
+	x = x + 1;
 
 # Save the radio log from mobile device
 #saveRadioLog(adb, "" + str(x) +"x_" + str(time.strftime("%Y%m%d-%H%M%S")) + "");

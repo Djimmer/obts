@@ -1344,6 +1344,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		int msgLen = controlSocket.read(iBuf);
 		string iBufString(iBuf);
 		if(iBufString.find("STOP") != std::string::npos){
+			std::cout << "User abort." << std::endl;
 			break;
 		}
 
@@ -1362,6 +1363,13 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 
 		if (!resp) {
 			LOG(ALERT) << "Timeout ; No response";
+			iBuf[0] = 'R';
+			iBuf[1] = 'E';
+			iBuf[2] = 'S';
+			iBuf[3] = 'T';
+			iBuf[4] = 'A';
+			iBuf[5] = 'R';
+			iBuf[6] = 'T';
 			break;
 		}
 
