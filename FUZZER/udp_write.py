@@ -6,11 +6,30 @@ import binascii
 import os
 from libmich.formats import *
 import gsm_um
+import fuzzer
 from adb import ADB
+import itertools 
 
+######################### SETTINGS ######################
 # Default OpenBTS port
 TESTCALL_PORT = 28670
+adb = ADB();
 
+########################### ADB #########################
+def saveRadioLog(adb,title):
+	adb.logcatRadio(title);
+	return
+
+def saveLogcat(adb,title):
+	adb.logcat(title);
+	return
+
+def clearLogs():
+	adb.logcatRadioClear();
+	adb.logcatClear();
+	return
+
+########################### UDP #########################
 # Send a restart to OpenBTS to establish a new channel
 def establishNewChannel():
    restart = "RESTART";
@@ -20,217 +39,74 @@ def establishNewChannel():
    	myfile.write("\n\nCHANNEL RESTART \n \n");
    return
 
-def adbConnection():
-	adb = ADB();
-	return adb
-
-def saveRadioLog(adb,title):
-	adb.logcatRadio(title);
-	adb.logcatRadioClear();
-	return
-
-def clearRadioLog(adb):
-	adb.logcatRadioClear();
-	return
-
-# A function to fuzz fields with variable length
-# First picked a few interesting fields and searched
-# for functions that are using this field.
-# Returns a packet of the given function with a
-# Field of the given length.
-def fuzzingLengthFields(field, function, length):
-
-	######## 1 MobileID() ########
-	# 1 imsiDetachIndication !!
-	# 2 locationUpdatingRequest !!
-	# 3 tmsiReallocationCommand !!
-	# 4 configurationChangeAcknowledge
-	# 5 notificationResponse
-	# 6 pagingRequestType1
-	# 7 pagingRequestType2
-	# 8 pagingResponse
-	# 9 talkerIndication
-	# 10 cmReestablishmentRequest
-	# 11 cmServiceRequest
-	# 12 identityResponse
-	# 13 ptmsiReallocationCommand
-	p = '\x05\x18\x01';
-	if(field == 1):
-		if(function == 1):
-			p = gsm_um.imsiDetachIndication();
-			p = MobileIDLength(p, length);
-			return p
-		elif(function == 2):
-			p = gsm_um.locationUpdatingRequest();
-			return p
-		elif(function == 3):
-			p = gsm_um.tmsiReallocationCommand();
-			# 051a01001003e9082a3377777733777777
-			p = fakeMobileID(p, length);
-
-			# 051a01001003e9082940402502763008
-			#p = correctMobileID(p);
-			p = correctLocalAreaID(p)
-			return p
-		# For testing, works fine
-		elif(function == 4):
-			p = gsm_um.identityRequestMM();
-			return p
-		elif(function == 5):
-			p = gsm_um.setupMobileOriginated();
-			return p
-		elif(function == 6):
-			p = gsm_um.connectAcknowledge();
-			return p;
-		elif(function == 7):
-			p = gsm_um.disconnectNetToMs();
-			return p;
-	######## 2 NetworkName() ########
-	#elif(field == 2):
-		# 1 mmInformation
-		# 2 gmmInformation
-	######## 3 ChannelDescription() ########
-	#elif(field == 3):
-		# 1 systemInformationType1
-		# 2 partialRelease
-		# 3 immediateAssignmentExtended
-		# 4 immediateAssignment
-		# 5 frequencyRedefinition
-		# 6 additionalAssignment
-
-	######## 4 UserUser() ########
-	#elif(field == 4):
-		# 1 alertingNetToMs
-		# 2 connectNetToMs !!
-		# 3 disconnectNetToMs
-		# 4 progress
-		# 5 releaseNetToMs !!
-		# 6 userInformation !!
-	else:
-		return '\x05\x18\x01'
-	
-	return p
-
-def mobileFillID(packet, start, length):
-	# 00666666
-	# 04666666
-	for i in range (start, start + length):
-		if((i + 2) % 4 == 0):
-			exec "packet.idDigit%s_1=2" % (i)
-			exec "packet.idDigit%s=2" % (i)
-		else:
-			exec "packet.idDigit%s_1=7" % (i)
-			exec "packet.idDigit%s=7" % (i)
-
-	return packet
-
-def correctMobileID(p):
-	#5220670380
-	p.lengthMI=8;
-	p.idDigit1=2;
-	p.oddEven=1; p.typeOfId=1; 
-	p.idDigit2_1=4; p.idDigit2=0; 
-	p.idDigit3_1=4; p.idDigit3=0;
-	p.idDigit4_1=2; p.idDigit4=5; 
-	p.idDigit5_1=0; p.idDigit5=2;
-	p.idDigit6_1=7; p.idDigit6=6;
-	p.idDigit7_1=3; p.idDigit7=0;
-	p.idDigit8_1=0; p.idDigit8=8;
-	#p.idDigit9_1=2; p.idDigit9=2;
-	return p
-
-def fakeMobileID(p, length):
-	p.lengthMI=length;
-	if length>8:
-		p.lengthMI=8; 
-	p.idDigit1=2;
-
-	p.oddEven=1; p.typeOfId=4; 
-
-	# digits start with length of packet p
-	p = mobileFillID(p, 2, length);
-
-	return p
-
-def correctLocalAreaID(a):
-	a.mccDigit1=0x1; 
-	a.mccDigit2=0x0; 
-	a.mccDigit3=0x0; 
-
-	a.mncDigit1=0x0;
-	a.mncDigit2=0x1; 
-	a.mncDigit3=0x0;
-
-	a.lac1=0x03; a.lac2=0xe9;
-	return a
-
-# Adb connection with the mobile device
-adb = adbConnection();
-
 # Fuzzing loop
-x = 0;
-while x < 65:
+length = 64;
+maxLength = 65;
+while length <= maxLength:
 
-	# Fuzzing counter
-	print "Fuzzing: ", x;
+	# Generate all permutations for this length
+	perms = list(itertools.combinations_with_replacement(range(1, 3),length));
+	print len(perms);
+	#print perms;
 
-	# Fields: {MobileID = 1, NetworkName = 2, ChannelDescription = 3, UserUser = 4}
-	# Function list above at fuzzingLengthFields()
-	# Length is variable, determined by x
-	if (x % 2 == 0):
-		packet = fuzzingLengthFields(1, 3, x);
-	else:
-		packet = fuzzingLengthFields(1, 4, x);
-	# if(x == 1):
-	# 	packet = fuzzingLengthFields(1, 6, x);
-	# if(x == 2):
-	# 	packet = fuzzingLengthFields(1, 7, x);
+	permutation = 0; 
+	while permutation < len(perms):
 
-	# Make the packet readable
-	printable = str(packet).encode("hex");
-	print printable;
+		# Fuzzing counter
+		print "Fuzzing: ", length;
+		print perms[permutation];
+		print "Faking MobileID with length: " , length;
+		#packet = fuzzer.fuzzingLengthFields(1, 3, length, perms[permutation]);
+		packet = fuzzer.fuzzingLengthFields(1, 5, length, perms[permutation]);
+		
+		# Make the packet readable
+		printable = str(packet).encode("hex");
+		print printable;
 
-	# Decode printable hex to make it usable for L3Mobile.
-	# Adding the \x for the bytes.
-	l3msg = printable.decode('hex');
-	l3msg_input = repr(L3Mobile.parse_L3(l3msg));
+		# Decode printable hex to make it usable for L3Mobile.
+		# Adding the \x for the bytes.
+		l3msg = printable.decode('hex');
+		l3msg_input = repr(L3Mobile.parse_L3(l3msg));
 
-	print l3msg_input + '\n';
-	#Creating a socket
-	tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	tcsock.settimeout(6)
-	try:
-		# Send message and wait for a reply
-		tcsock.sendto(l3msg, ('127.0.0.1', TESTCALL_PORT))
-		reply = tcsock.recv(1024)
+		print l3msg_input + '\n';
+		#Creating a socket"
+		tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+		tcsock.settimeout(6)
+		try:
+			# Send message and wait for a reply
+			tcsock.sendto(l3msg, ('127.0.0.1', TESTCALL_PORT))
+			reply = tcsock.recv(1024)
 
-		# Libmich tries to parse the received packet
-		parsed_reply = repr(L3Mobile.parse_L3(reply));
-
-		# Can the reply be parsed by Libmich?
-		if "ERROR" not in parsed_reply:
-			print "reply received: ", parsed_reply;
-		# Create a new channel if a incorrect package has been send by the mobile device.
-		else:
+			# Libmich tries to parse the received packet
+			parsed_reply = repr(L3Mobile.parse_L3(reply));
+			
+			# Can the reply be parsed by Libmich?
+			if "ERROR" not in parsed_reply:
+				print "reply received: ", parsed_reply;
+			# Create a new channel if a incorrect package has been send by the mobile device.
+			else:
+				establishNewChannel();
+				# Give OpenBTS time to setup a new channel
+				time.sleep(6);
+				permutation = permutation - 1;
+			# Log the input and output to a seperate file.
+			with open("log.txt", "a") as myfile:
+				myfile.write("INPUT " + str(length) + "\n" + l3msg_input + "\nOUTPUT " + str(length) + "\n" + parsed_reply + "\n\n");
+		except socket.timeout:
+			print "no reply received. potential crash?"
+			# Create a new channel if a incorrect package has been send by the mobile device.
 			establishNewChannel();
+			permutation = permutation - 1;
 			# Give OpenBTS time to setup a new channel
 			time.sleep(6);
-			x = x - 1;
-		# Log the input and output to a seperate file.
-		with open("log.txt", "a") as myfile:
-			myfile.write("INPUT " + str(x) + "\n" + l3msg_input + "\nOUTPUT " + str(x) + "\n" + parsed_reply + "\n\n");
-	except socket.timeout:
-		print "no reply received. potential crash?"
-		# Create a new channel if a incorrect package has been send by the mobile device.
-		establishNewChannel();
-		x = x - 1;
-		# Give OpenBTS time to setup a new channel
-		time.sleep(6);
-	x = x + 1;
+		permutation = permutation + 1;
+
+	length = length + 1;
 
 # Save the radio log from mobile device
-#saveRadioLog(adb, "" + str(x) +"x_" + str(time.strftime("%Y%m%d-%H%M%S")) + "");
-#clearRadioLog(adb);
+saveRadioLog(adb, "" + str(time.strftime("%Y%m%d-%H%M%S")) + "_" + str(length) +"x_");
+saveLogcat(adb, "" + str(time.strftime("%Y%m%d-%H%M%S")) + "_" + str(length) +"x_");
+clearLogs();
 
 #############################################################################
 ############################## Trying stuff #################################
@@ -261,7 +137,10 @@ while x < 65:
  #051a010010
  #03e90229
  #4040250276300800
-
+# 051a010010
+# 03e9072c
+# 22777777
+# 227777
 # Original overflow IOS handbook
 # 051a00f110
 # 002a4dfc
