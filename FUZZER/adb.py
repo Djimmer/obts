@@ -82,9 +82,17 @@ class ADB(object):
         self.call("shell rm /sdcard/temp_screen.png")
 
     def logcatRadio(self, title):
-        result = self.call("logcat -b radio -v time -d > logcat_radio" + title +".log")
+        result = self.call("logcat -b radio -v time -d > " + title + "_logcat_radio.log")
         return result
 
     def logcatRadioClear(self):
+        result = self.call("logcat -b radio -c")
+        return result
+
+    def logcat(self, title):
+        result = self.call("logcat -v time -d > " + title + "_logcat.log")
+        return result
+
+    def logcatClear(self):
         result = self.call("logcat -c")
         return result

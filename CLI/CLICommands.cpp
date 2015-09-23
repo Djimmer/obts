@@ -1118,8 +1118,9 @@ static CLIStatus endcall(int argc, char **argv, ostream& os)
 static CLIStatus testcall(int argc, char **argv, ostream& os)
 {
 	//LOG(ALERT) << "Entering testcall function in CLICommands.cpp";
-	//if (argc!=2) return BAD_NUM_ARGS;
-	argv[1] = "204045220670380";
+	if (argc>2){
+		argv[1] = "204045220670380";	
+	}
 	char *IMSI = argv[1];
 	if (strlen(IMSI)>15) {
 		os << IMSI << " is not a valid IMSI" << endl;
@@ -1145,6 +1146,7 @@ static CLIStatus testcall(int argc, char **argv, ostream& os)
 	
 	//LOG(ALERT) << "Calling mmADDMT with: " << LOGVAR(tran);
 	Control::gMMLayer.mmAddMT(tran);
+	os << "IMSI: " << IMSI << endl;
 	os << "Starting UDP... please wait a few seconds" << endl;
 	return SUCCESS;
 }

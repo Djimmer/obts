@@ -1424,9 +1424,10 @@ def identityRequestMM():
     b = MessageType(mesType=0x18)  # 00001000
     c = IdentityTypeAndSpareHalfOctet()
     #c = IdentityType2AndforceToStandby()
+    # IMSI \x01
     # IMEISV \x03
     # TMSI \x04
-    c = '\x04';
+    c = '\x01';
     packet = a / b / c
     return packet
 
@@ -1490,6 +1491,7 @@ def locationUpdatingRequest():
     f = MobileStationClassmark1()
     g = MobileId()
     packet = a / b / c / e / f / g
+    #packet = a / b
     return packet
 
 
