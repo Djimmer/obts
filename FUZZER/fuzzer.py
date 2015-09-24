@@ -50,12 +50,15 @@ def mobileFillID(packet, permutation):
 
 def fuzzMobileId(p, permutation):
 	
-	p.lengthMI=random.randint(1, 255);
-
+	p.lengthMI=random.randint(1, 100);
+	#p.lengthMI=8;
 	# Settings
-	p.idDigit1=random.randint(1, 10);
+	p.idDigit1=random.randint(1, 3);
+	#p.idDigit1=2;
 	p.oddEven=random.randint(1, 2); 
-	p.typeOfId=random.randint(1, 10); 
+	#p.oddEven=1;
+	p.typeOfId=random.randint(1, 5);
+	#p.typeOfId=1;
 
 	# digits start with length of packet p
 	p = mobileFillID(p, permutation);
@@ -79,13 +82,6 @@ def fuzzLocalAreaId(p):
 	return p
 
 ################################################ UTILS ################################################
-def convert(int_value):
-   encoded = format(int_value, '02x')
-
-   length = len(encoded)
-   encoded = encoded.zfill(length+length%2)
-
-   return encoded.decode('hex')
 
 ########################################### FIELD SELECTOR ############################################
 ######## 1 MobileID() ########
