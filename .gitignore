@@ -56,3 +56,4 @@ NodeManager
 CommonLibs/
 CommonLibs
 *.log
+FUZZER/logs

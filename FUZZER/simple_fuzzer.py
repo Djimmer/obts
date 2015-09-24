@@ -17,6 +17,25 @@ TESTCALL_PORT = 28670;
 adb = ADB();
 log_packets_title = "logs/logs_packets/log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
 
+# Fuzzer settings
+currentLength = 2;
+maxLength = 200;
+
+# The amount of runs
+maxRun = 1000;
+
+# Select specific field and function
+# Detailed list in simple_fuzzer_def.py
+packet_field = 1;
+packet_function = 1;
+
+# Turn on/off prints
+verbose = True;
+
+# Creat socket
+tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+tcsock.settimeout(6)
+
 ################################################# LOG ################################################
 def saveRadioLog(adb,title):
 	adb.logcatRadio(title);
@@ -31,10 +50,31 @@ def clearLogs():
 	adb.logcatClear();
 	return
 
-def log(adb, packet_field, packet_function, maxLength, maxRun):
-	saveRadioLog(adb, "logs/logs_adb/" + "field_" + str(packet_field) + "_function_" + str(packet_function) + str(time.strftime("%Y%m%d-%H%M%S")) + "_length_" + str(maxLength) + "_runs_" + str(maxRun) +"x_");
-	saveLogcat(adb, "logs/logs_adb/" + "field_" + str(packet_field) + "_function_" + str(packet_function) + str(time.strftime("%Y%m%d-%H%M%S")) + "_length_" + str(maxLength) + "_runs_" + str(maxRun) +"x_");
+def log_adb(adb, packet_field, packet_function, maxLength, maxRun):
+	log_directory = "logs/logs_adb/";
+	log_title = "field_" + str(packet_field) 
+	+ "_function_" + str(packet_function) 
+	+ str(time.strftime("%Y%m%d-%H%M%S")) 
+	+ "_length_" + str(maxLength) 
+	+ "_runs_" + str(maxRun) +"x_";
+	
+	saveRadioLog(adb, log_directory + log_title);
+	saveLogcat(adb, log_directory + log_title);
 	clearLogs();
+
+def log_packets(length, counter, packet, parsed_packet, reply, parsed_reply):
+	with open(log_packets_title, "a") as myfile:
+		myfile.write("-------------------------------------------------------------------------------\n"
+			+ "INPUT - Length: " + str(length) + " Counter: " + str(counter) + "\n" 
+			+ str(packet).encode("hex") + "\n" 
+			+ parsed_packet + "\n\n"
+			+ "OUTPUT - Length: " + str(length) + " Counter: " + str(counter) + "\n"
+			+ str(reply).encode("hex") + "\n"
+			+ parsed_reply + "\n\n");
+
+def log_restart():
+	with open(log_packets_title, "a") as myfile:
+		myfile.write("\n\nCHANNEL RESTART \n \n");
 
 ############################################## CHANNEL ###############################################
 # Send a restart to OpenBTS to establish a new channel
@@ -42,50 +82,42 @@ def establishNewChannel():
    restart = "RESTART";
    tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT));
    # Log when the channel restars
-   with open(log_packets_title, "a") as myfile:
-   	myfile.write("\n\nCHANNEL RESTART \n \n");
+   log_restart();
+   time.sleep(6);
    return
 
-def send(packet, counter):
-		tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-		tcsock.settimeout(6)
+def send(tcsock, packet, length, counter):
 		try:
-			#Send message and wait for a reply
 			tcsock.sendto(packet, ('127.0.0.1', TESTCALL_PORT))
 			reply = tcsock.recv(1024)
-
-			#Libmich tries to parse the received packet
-			parsed_reply = repr(L3Mobile.parse_L3(reply));
-			
-			# Can the reply be parsed by Libmich?
-			if "ERROR" not in parsed_reply:
-				print "reply received: ", parsed_reply + "\n";
-			# Create a new channel if a incorrect package has been send by the mobile device.
-			else:
-				establishNewChannel();
-				# Give OpenBTS time to setup a new channel
-				time.sleep(6);
-				return false
-			# Log the input and output to a seperate file.
-			with open(log_packets_title, "a") as myfile:
-				myfile.write("INPUT " + str(counter) + "\n" + packet + "\nOUTPUT " + str(counter) + "\n" + parsed_reply + "\n\n");
 		except socket.timeout:
-			print "no reply received. potential crash?"
-			# Create a new channel if a incorrect package has been send by the mobile device.
+			print "socket.timeout: Mobile device is not responding";
 			establishNewChannel();
-			return false
-			# Give OpenBTS time to setup a new channel
-			time.sleep(6);
+			return False
+
+		#Libmich parses the input and output
+		parsed_packet = repr(L3Mobile.parse_L3(packet));
+		parsed_reply = repr(L3Mobile.parse_L3(reply));
+
+		# Can the reply be parsed by Libmich?
+		if "ERROR" not in parsed_reply:
+			print "Received packet: ", str(reply).encode("hex") + "\n";
+			print "GSM_UM interpetation: " + '\n' + parsed_reply + "\n\n";
+		# Create a new channel if a incorrect package has been send by the mobile device.
+		else:
+			establishNewChannel();
+			return False
+
+		log_packets(length, counter, packet, parsed_packet, reply, parsed_reply);
 		return True
 
 ############################################### UTILS ################################################
 def printPacket(packet, length, permsCurrent, permutation, prefix):
-		print('\n\n' + '------------------------- NEW PERMUTATION -------------------------' + '\n');
+		print('------------------------------- INPUT  -------------------------------' + '\n');
 		print('Current permutation: ' + str(permsCurrent));
 		print('Current hexvalue: ' + permutation.encode("hex"));
-		print('Current function prefix: ' + str(prefix).encode("hex") + '\n');
 		# Fuzzing counter
-		print "Current fuzzing length: ", length;
+		print "Current hexbytes: ", length;
 
 		# Make the packet readable
 		printable = str(packet).encode("hex");
@@ -97,7 +129,7 @@ def printPacket(packet, length, permsCurrent, permutation, prefix):
 		l3msg_input = repr(L3Mobile.parse_L3(l3msg));
 
 		print "GSM_UM interpetation: \n " + l3msg_input + '\n\n';
-		print "------------------------- END PERMUTATION -------------------------";
+		print "------------------------------- OUTPUT -------------------------------" + '\n';
 
 def convert(int_value):
    encoded = format(int_value, '02x')
@@ -144,7 +176,7 @@ while currentLength <= maxLength:
 			printPacket(packet, currentLength, permsCurrent, permutation, prefix);
 
 		# Send packet to the mobile device.
-		result = send(packet, permsCurrent);
+		result = send(tcsock, packet, currentLength, permsCurrent);
 
 		if(result):
 			permsCurrent = permsCurrent + 1;
