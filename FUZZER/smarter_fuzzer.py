@@ -6,7 +6,7 @@ import binascii
 import os
 from libmich.formats import *
 import gsm_um
-import simple_fuzzer_def as fuzzer
+import smarter_fuzzer_function_def as fuzzer
 from adb import ADB
 import itertools
 from math import factorial
@@ -25,19 +25,8 @@ device = "SAMSUNG";
 # device = "NOKIA";
 # device = "HUAWEI";
 
-log_packets_title = "logs/logs_packets/simple_fuzzer/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
-
-# Fuzzer settings
-currentLength = 2;
-maxLength = 200;
-
-# The amount of runs
-maxRun = 1000;
-
-# Select specific field and function
-# Detailed list in simple_fuzzer_def.py
-packet_field = 1;
-packet_function = 1;
+# Log file location
+log_packets_title = "logs/logs_packets/smarter_fuzzer/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
 
 # Turn on/off prints
 verbose = True;
@@ -72,13 +61,18 @@ def log_adb(adb, packet_field, packet_function, maxLength, maxRun):
 	saveLogcat(adb, log_directory + log_title);
 	clearLogs();
 
-def log_packets(length, counter, packet, parsed_packet, reply, parsed_reply):
+def log_packets(length, lengthField, id, field, function, packet, parsed_packet, reply, parsed_reply):
 	with open(log_packets_title, "a") as myfile:
 		myfile.write("-------------------------------------------------------------------------------\n"
-			+ "INPUT - Length: " + str(length) + " Counter: " + str(counter) + "\n" 
-			+ str(packet).encode("hex") + "\n" 
+			+ "INPUT" + '\n'
+			+ "Field: "       + str(field) + "\n" 
+			+ "Function: "    + str(function) + "\n" 
+			+ "Length: "      + str(length) + "\n" 
+			+ "LengthField: " + str(lengthField) + "\n" 
+			+ "id: "          + str(id) + "\n" 
+			+ "Packet: " + str(packet).encode("hex") + "\n" 
 			+ parsed_packet + "\n\n"
-			+ "OUTPUT - Length: " + str(length) + " Counter: " + str(counter) + "\n"
+			+ "OUTPUT" + "\n"
 			+ str(reply).encode("hex") + "\n"
 			+ parsed_reply + "\n\n");
 
@@ -96,7 +90,7 @@ def establishNewChannel():
    time.sleep(6);
    return
 
-def send(tcsock, packet, length, counter):
+def send(tcsock, packet):
 		try:
 			tcsock.sendto(packet, ('127.0.0.1', TESTCALL_PORT))
 			reply = tcsock.recv(1024)
@@ -105,8 +99,7 @@ def send(tcsock, packet, length, counter):
 			establishNewChannel();
 			return False
 
-		#Libmich parses the input and output
-		parsed_packet = repr(L3Mobile.parse_L3(packet));
+		#Libmich parses the output
 		parsed_reply = repr(L3Mobile.parse_L3(reply));
 
 		# Can the reply be parsed by Libmich?
@@ -118,16 +111,20 @@ def send(tcsock, packet, length, counter):
 			establishNewChannel();
 			return False
 
-		log_packets(length, counter, packet, parsed_packet, reply, parsed_reply);
-		return True
+		return reply
 
 ############################################### UTILS ################################################
-def printPacket(packet, length, permsCurrent, permutation, prefix):
+def printPacket(packet, function, field, length, lengthField, id, permutation, prefix):
 		print('------------------------------- INPUT  -------------------------------' + '\n');
-		print('Current permutation: ' + str(permsCurrent));
-		print('Current hexvalue: ' + permutation.encode("hex"));
-		# Fuzzing counter
+		print('Current function: ' + str(function));
+		print('Current field: ' + str(field));
 		print "Current hexbytes: ", length;
+		print('Current hexvalue: ' + permutation.encode("hex"));
+		print('Current lengthField: ' + str(lengthField));
+		print('Current id: ' + str(id));
+
+		# Fuzzing counter
+		
 
 		# Make the packet readable
 		printable = str(packet).encode("hex");
@@ -141,61 +138,72 @@ def printPacket(packet, length, permsCurrent, permutation, prefix):
 		print "GSM_UM interpetation: \n " + l3msg_input + '\n\n';
 		print "------------------------------- OUTPUT -------------------------------" + '\n';
 
-def convert(int_value):
-   encoded = format(int_value, '02x')
-
-   length = len(encoded)
-   encoded = encoded.zfill(length+length%2)
-
-   return encoded.decode('hex')  
-
-########################################### SIMPLE FUZZER ############################################
+############################################ SMART FUZZER ############################################
+# This fuzzer targets fields with variable length
+# Tries all different bytes for length byte
+# Tries random bytes for a range of lengths
+######################################################################################################
 # Fuzzer specific settings
-
 # From current length till end
-currentLength = 0;
-maxLength = 2;
 
-# Select specific field and function
-# Detailed list in simple_fuzzer_def.py
-packet_field = 1;
-packet_function = 5;
+currentField = 1;
+lastField = 5;
 
-# Turn on/off prints
-verbose = True;
+currentFunction = 1;
+lastFunction = 5;
 
-while currentLength <= maxLength:
+lengths = [0, 8, 16, 17, 32, 33, 64, 65, 255];
+lengthFields = [0, 8, 16, 17, 32, 33, 64, 65, 255];
+ids = [-2, 0, 1, 2, 3, 4, 5, 65, 129];
 
-	# Get and store the magic bytes for a specific function
-	packet = fuzzer.fuzzingLengthFields(packet_field, packet_function);
-	prefix = packet;
+maxLength = len(lengths);
+maxLengthField = len(lengthFields);
+lastId = len(ids);
 
-	# Limits for permutations
-	permsCurrent = 0;
-	permsEnd = 16 ** currentLength;
+total_runs = lastFunction * lastField * (maxLength / 2) * lastId * maxLengthField;
 
-	if not verbose:
-		print('Current length: ' + str(currentLength));
+print "Total amount of runs: " + str(total_runs);
+time.sleep(1);
+while currentField <= lastField:
+	while currentFunction <= lastFunction:
+		for i in range(len(lengths)):
+			currentLength = lengths[i];
+			permutation = (os.urandom(currentLength));
+			perm = permutation.encode("hex");
 
-	while permsCurrent < permsEnd:
-		# Convert permutation to hexadecimal
-		permutation = convert(permsCurrent);
-		# Create the packet using the prefix and converted permutation
-		packet = prefix + permutation;
-		if(verbose):
-			printPacket(packet, currentLength, permsCurrent, permutation, prefix);
+			for j in range(len(lengthFields)):
+				currentLengthField = lengthFields[j];
 
-		# Send packet to the mobile device.
-		result = send(tcsock, packet, currentLength, permsCurrent);
+				for k in range(len(ids)):
+					currentId = ids[k];
 
-		if(result):
-			permsCurrent = permsCurrent + 1;
-		# else:
-		# 	# do some error handling / restart channel.
-		# 	permsCurrent = permsCurrent;
+					packet = fuzzer.fuzzingLengthFields(currentField, 
+						currentFunction,
+						currentId,
+						currentLengthField, 
+						perm);
 
-	# Hexadecimal value, so to keep length consistent with actualoutput, + 2 is added.
-	currentLength = currentLength + 2;
+					prefix = packet;
 
-# Save the radio log from mobile device
-#log(adb, packet_field, packet_function, maxLength, maxRun);
+
+					if(verbose):
+						printPacket(packet, currentFunction, currentField, currentLength, currentLengthField, currentId, permutation, prefix);
+
+					# Send packet to the mobile device.
+					packet = str(packet);
+					result = send(tcsock, packet);
+
+					if not result:
+						k = k - 1;
+					else:
+						parsed_result = repr(L3Mobile.parse_L3(result));
+						parsed_packet = repr(L3Mobile.parse_L3(packet));
+						log_packets(currentLength, currentLengthField, currentId, currentField, currentFunction, packet, parsed_packet, result, parsed_result);
+
+
+		currentField = currentField + 1;
+
+	currentFunction = currentFunction + 1;
+
+log_adb(adb, packet_field, packet_function, maxLength, maxRun);
+			

@@ -6,7 +6,7 @@ import binascii
 import os
 from libmich.formats import *
 import gsm_um
-import fuzzer
+import smart_fuzzer_function_def as fuzzer
 from adb import ADB
 import itertools
 from math import factorial
@@ -15,14 +15,24 @@ from math import factorial
 # Default OpenBTS port
 TESTCALL_PORT = 28670;
 adb = ADB();
-log_packets_title = "logs/logs_packets/log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
+
+# Fill in current mobile device
+# device = "UNKOWN";
+device = "SAMSUNG";
+# device = "BLACKPHONE";
+# device = "NEXUS";
+# device = "IPHONE";
+# device = "NOKIA";
+# device = "HUAWEI";
+
+log_packets_title = "logs/logs_packets/smart_fuzzer/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
 
 # Fuzzer settings
 currentLength = 2;
 maxLength = 200;
 
 # The amount of runs
-maxRun = 1000;
+maxRun = 100;
 
 # Select specific field and function
 # Detailed list in simple_fuzzer_def.py
