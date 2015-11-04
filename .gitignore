@@ -51,10 +51,6 @@ debian/tmp/
 Transceiver52M/
 config.h.in~
 apps/
-NodeManager/
-NodeManager
-CommonLibs/
-CommonLibs
 *.log
 FUZZER/logs
 *.pyc
