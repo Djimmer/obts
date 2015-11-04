@@ -60,7 +60,7 @@ Installing bladeRF.
 sudo add-apt-repository ppa:bladerf/bladerf
 sudo apt-get update
 sudo apt-get install bladerf
-\end{cverbatim}
+````
 
 Install Yate.
 ```javascript
@@ -88,14 +88,14 @@ make
 
 cd /home/openbts/obts/yatebts/mbts/TransceiverRAD1
 sudo nano Makefile
-"
+
 PROGS_BRF := transceiver-bladerf
 ifneq (no,no)
 FILES:= \$(FILES) firmware.img hostedx40.rbf hostedx115.rbf
 PROGS:= $(PROGS) $(PROGS_BRF)
 endif
-Change to ifneq (yes,no)
-"
+
+Change to ifneq (yes,no) and save.
 
 make
 
@@ -111,7 +111,7 @@ cp -r CLI/ ../../dev/openbts/
 cp -r Control/ ../../dev/openbts/
 cp -r GSM ../../dev/openbts/
 cp -r FUZZER ../../dev/openbts/
-\end{cverbatim}
+````
 
 
 Install OpenBTS
@@ -120,7 +120,7 @@ cd /home/openbts/obts/openbts
 ./autogen.sh
 ./configure --with-uhd
 make
-\end{cverbatim}
+````
 
 Initialize the OpenBTS database
 ```javascript
