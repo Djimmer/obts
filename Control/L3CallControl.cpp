@@ -1324,6 +1324,9 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 {
 	assert(channel());
 	LOG(ALERT) << LOGVAR(tran) << LOGVAR(channel());
+	LOG(ALERT) << LOGVAR(tran -> subscriber()); 
+	//LOG(ALERT) << LOGVAR(tran()->subscriber()->Imsi()); 
+	LOG(ALERT) << LOGVAR(tran->subscriberIMSI()); 
 	//LOG(ALERT) << "Entering L3CallControl::CCBase::TestCall with  transaction: " << LOGVAR(tran);
 	// Mark the call as active.
 	setGSMState(CCState::Active);
@@ -1337,6 +1340,20 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	//LOG(ALERT) << "Entering UDP test loop ";
 	LOG(ALERT) << LOGVAR(tran) << LOGVAR(channel());
 	std::cout << "Done! UDP listening. Send STOP to break the loop.\n";
+
+
+	//UDPSocket outputSocket(21337);
+	char rBuf[MAX_UDP_LENGTH] = {0};
+	rBuf[0] = 'S';
+	rBuf[1] = 'T';
+	rBuf[2] = 'A';
+	rBuf[3] = 'R';
+	rBuf[4] = 'T';
+	rBuf[5] = 'E';
+	rBuf[6] = 'D';
+
+	controlSocket.write(rBuf);
+
 	char iBuf[MAX_UDP_LENGTH] = {0};
 	while (channel()->chanRunning()) {
 		// Get the outgoing message from the test call port.
@@ -1359,7 +1376,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 
 		// Wait for a response.
 		// FIXME -- This should be a proper T3xxx value of some kind.
-		GSM::L3Frame *resp = channel()->l2recv(30000);
+		GSM::L3Frame *resp = channel()->l2recv(10000);
 
 		if (!resp) {
 			LOG(ALERT) << "Timeout ; No response";
@@ -1386,11 +1403,9 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	controlSocket.close();
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
-
-	char *IMSI = "204045220670380";
 	string iBufString(iBuf);		
 	if(iBufString.find("RESTART") != std::string::npos){
-		Control::FullMobileId msid(IMSI);
+		Control::FullMobileId msid(tran->subscriberIMSI());
 		Control::TranEntry *tran = Control::TranEntry::newMTC(
 			NULL,
 			msid,

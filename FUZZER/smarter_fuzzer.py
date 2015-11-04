@@ -18,9 +18,9 @@ adb = ADB();
 
 # Fill in current mobile device
 # device = "UNKOWN";
-device = "SAMSUNG";
+#device = "SAMSUNG";
 # device = "BLACKPHONE";
-# device = "NEXUS";
+device = "NEXUS";
 # device = "IPHONE";
 # device = "NOKIA";
 # device = "HUAWEI";
@@ -33,7 +33,10 @@ verbose = True;
 
 # Creat socket
 tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-tcsock.settimeout(6)
+tcsock.settimeout(20)
+
+ocsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+ocsock.settimeout(20)
 
 ################################################# LOG ################################################
 def saveRadioLog(adb,title):
@@ -84,11 +87,21 @@ def log_restart():
 # Send a restart to OpenBTS to establish a new channel
 def establishNewChannel():
    restart = "RESTART";
+   print("Channel restart: Establishing a new channel, this may take a second.");
    tcsock.sendto(restart, ('127.0.0.1', TESTCALL_PORT));
    # Log when the channel restars
    log_restart();
-   time.sleep(6);
-   return
+   # Wait for OpenBTS to confirm new channel.
+   try:
+   	reply = tcsock.recv(1024)
+   except:
+   	print "Could not establish a new channel.";
+   	return False;
+   
+   print reply;
+   print "New channel established, fuzzing will continue.";
+   time.sleep(2);
+   return True;
 
 def send(tcsock, packet):
 		try:
@@ -96,7 +109,6 @@ def send(tcsock, packet):
 			reply = tcsock.recv(1024)
 		except socket.timeout:
 			print "socket.timeout: Mobile device is not responding";
-			establishNewChannel();
 			return False
 
 		#Libmich parses the output
@@ -108,14 +120,29 @@ def send(tcsock, packet):
 			print "GSM_UM interpetation: " + '\n' + parsed_reply + "\n\n";
 		# Create a new channel if a incorrect package has been send by the mobile device.
 		else:
-			establishNewChannel();
 			return False
 
 		return reply
 
+def ping():
+	try:
+		tcsock.sendto('\x05\x18\x01', ('127.0.0.1', TESTCALL_PORT));
+		reply = tcsock.recv(1024);
+	except socket.timeout:
+		return False;
+
+
+	parsed_reply = repr(L3Mobile.parse_L3(reply));
+
+	if "IDENTITY RESPONSE" not in parsed_reply:
+		print("Channel is still alive, go to next input.");
+		return True;
+
+	return False;
 ############################################### UTILS ################################################
-def printPacket(packet, function, field, length, lengthField, id, permutation, prefix):
+def printPacket(packet, function, field, length, lengthField, id, permutation, prefix, currentRun, total_runs):
 		print('------------------------------- INPUT  -------------------------------' + '\n');
+		print('Run ' + str(currentRun) + "/" + str(total_runs) + '\n');
 		print('Current function: ' + str(function));
 		print('Current field: ' + str(field));
 		print "Current hexbytes: ", length;
@@ -147,10 +174,10 @@ def printPacket(packet, function, field, length, lengthField, id, permutation, p
 # From current length till end
 
 currentField = 1;
-lastField = 5;
+lastField = 1;
 
 currentFunction = 1;
-lastFunction = 5;
+lastFunction = 1;
 
 lengths = [0, 8, 16, 17, 32, 33, 64, 65, 255];
 lengthFields = [0, 8, 16, 17, 32, 33, 64, 65, 255];
@@ -161,7 +188,17 @@ maxLengthField = len(lengthFields);
 lastId = len(ids);
 
 total_runs = lastFunction * lastField * (maxLength / 2) * lastId * maxLengthField;
+currentRun = 1;
 
+try:
+	reply = tcsock.recv(1024);
+	print reply;
+except socket.timeout:
+	print "socket.timeout: Testcall not running.";
+
+
+clearLogs();
+print "Cleaning logs on mobile device.";
 print "Total amount of runs: " + str(total_runs);
 time.sleep(1);
 while currentField <= lastField:
@@ -171,12 +208,13 @@ while currentField <= lastField:
 			permutation = (os.urandom(currentLength));
 			perm = permutation.encode("hex");
 
-			for j in range(len(lengthFields)):
+			for j in range(maxLengthField):
 				currentLengthField = lengthFields[j];
 
-				for k in range(len(ids)):
+				k = 0;
+				while k < lastId:
 					currentId = ids[k];
-
+					print("current K: " + str(k));
 					packet = fuzzer.fuzzingLengthFields(currentField, 
 						currentFunction,
 						currentId,
@@ -187,23 +225,26 @@ while currentField <= lastField:
 
 
 					if(verbose):
-						printPacket(packet, currentFunction, currentField, currentLength, currentLengthField, currentId, permutation, prefix);
+						printPacket(packet, currentFunction, currentField, currentLength, currentLengthField, currentId, permutation, prefix, currentRun, total_runs);
 
 					# Send packet to the mobile device.
 					packet = str(packet);
 					result = send(tcsock, packet);
 
 					if not result:
-						k = k - 1;
+						if not establishNewChannel():
+							break;
 					else:
 						parsed_result = repr(L3Mobile.parse_L3(result));
 						parsed_packet = repr(L3Mobile.parse_L3(packet));
 						log_packets(currentLength, currentLengthField, currentId, currentField, currentFunction, packet, parsed_packet, result, parsed_result);
+						currentRun = currentRun + 1;
+						k = k + 1;
 
 
-		currentField = currentField + 1;
+		currentFunction = currentFunction + 1;
 
-	currentFunction = currentFunction + 1;
+	currentField = currentField + 1;
 
 log_adb(adb, packet_field, packet_function, maxLength, maxRun);
 			
