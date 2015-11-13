@@ -20,23 +20,25 @@ adb = ADB();
 # device = "UNKOWN";
 #device = "SAMSUNG";
 # device = "BLACKPHONE";
-device = "NEXUS";
-# device = "IPHONE";
-# device = "NOKIA";
-# device = "HUAWEI";
+#device = "NEXUS";
+#device = "IPHONE";
+#device = "NOKIA";
+device = "HUAWEI";
 
 # Log file location
 log_packets_title = "logs/logs_packets/smarter_fuzzer/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
 
 # Turn on/off prints
 verbose = True;
+# Turn on/off adb logs
+adb_logging = False;
 
 # Creat socket
 tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-tcsock.settimeout(20)
+tcsock.settimeout(2)
 
 ocsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-ocsock.settimeout(20)
+ocsock.settimeout(2)
 
 ################################################# LOG ################################################
 def saveRadioLog(adb,title):
@@ -53,8 +55,8 @@ def clearLogs():
 	return
 
 def log_adb(adb, packet_field, packet_function, maxLength, maxRun):
-	log_directory = "logs/logs_adb/";
-	log_title = "field_" + str(packet_field) 
+	log_directory = "logs/logs_adb/smarter";
+	log_title = device + "_field_" + str(packet_field) 
 	+ "_function_" + str(packet_function) 
 	+ str(time.strftime("%Y%m%d-%H%M%S")) 
 	+ "_length_" + str(maxLength) 
@@ -187,7 +189,7 @@ maxLength = len(lengths);
 maxLengthField = len(lengthFields);
 lastId = len(ids);
 
-total_runs = lastFunction * lastField * (maxLength / 2) * lastId * maxLengthField;
+total_runs = lastFunction * lastField * maxLength * lastId * maxLengthField;
 currentRun = 1;
 
 try:
@@ -196,8 +198,9 @@ try:
 except socket.timeout:
 	print "socket.timeout: Testcall not running.";
 
-
-clearLogs();
+if(adb_logging):
+	clearLogs();
+	
 print "Cleaning logs on mobile device.";
 print "Total amount of runs: " + str(total_runs);
 time.sleep(1);
@@ -214,7 +217,6 @@ while currentField <= lastField:
 				k = 0;
 				while k < lastId:
 					currentId = ids[k];
-					print("current K: " + str(k));
 					packet = fuzzer.fuzzingLengthFields(currentField, 
 						currentFunction,
 						currentId,
@@ -232,8 +234,7 @@ while currentField <= lastField:
 					result = send(tcsock, packet);
 
 					if not result:
-						if not establishNewChannel():
-							break;
+						establishNewChannel();
 					else:
 						parsed_result = repr(L3Mobile.parse_L3(result));
 						parsed_packet = repr(L3Mobile.parse_L3(packet));
@@ -246,5 +247,6 @@ while currentField <= lastField:
 
 	currentField = currentField + 1;
 
-log_adb(adb, packet_field, packet_function, maxLength, maxRun);
+	if(adb_logging):
+		log_adb(adb, currentField, currentFunction, maxLength, maxRun);
 			

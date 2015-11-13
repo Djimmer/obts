@@ -52,5 +52,4 @@ Transceiver52M/
 config.h.in~
 apps/
 *.log
-FUZZER/logs
 *.pyc
