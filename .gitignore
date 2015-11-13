@@ -51,5 +51,4 @@ debian/tmp/
 Transceiver52M/
 config.h.in~
 apps/
-*.log
 *.pyc

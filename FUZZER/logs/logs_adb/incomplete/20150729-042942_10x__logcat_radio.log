@@ -1,0 +1,11 @@
+07-29 13:24:44.461 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TLTS: "15/07/29,11:24:44-28,00"
+07-29 13:24:44.461 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [10616. 31461]
+07-29 13:24:44.461 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: *TLTS: "15/07/29,11:24:44-28,00" null
+07-29 13:24:44.461 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: *TLTS: "15/07/29,11:24:44-28,00" null
+07-29 13:24:44.464 D/RILJ    ( 3704): [UNSL]< UNSOL_NITZ_TIME_RECEIVED 15/07/29,11:24:44-28,00
+07-29 13:24:44.466 D/GsmSST  ( 3704): [GsmSST] NITZ: 15/07/29,11:24:44-28,00,13905798 start=13905801 delay=3
+07-29 13:24:44.477 D/GsmSST  ( 3704): [GsmSST] getNitzTimeZone returning America/Creston
+07-29 13:24:44.489 D/GsmSST  ( 3704): [GsmSST] NITZ: Setting time of day to Wed Jul 29 13:24:44 CEST 2015 NITZ receive delay(ms): 26 gained(ms): -464 from 15/07/29,11:24:44-28,00
+07-29 13:24:44.047 I/GsmSST  ( 3704): NITZ: after Setting time of day
+07-29 13:24:44.490 D/GsmSST  ( 3704): [GsmSST] setAndBroadcastNetworkSetTime: time=1438169084026ms
+07-29 13:24:44.999 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] <unknown request>

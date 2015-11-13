@@ -1,0 +1,52 @@
+--------- beginning of /dev/log/system
+07-29 15:02:11.744 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:02:32.086 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:03:12.344 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:03:32.436 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:03:52.514 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:04:12.720 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:04:33.085 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:04:53.178 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:05:13.524 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:05:33.729 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:05:53.915 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:06:14.127 D/WifiController( 1921): battery changed pluggedType: 2
+--------- beginning of /dev/log/main
+07-29 15:06:17.273 D/dalvikvm( 4880): GC_CONCURRENT freed 399K, 28% free 3349K/4628K, paused 23ms+6ms, total 157ms
+07-29 15:06:34.322 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:06:54.592 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:07:14.683 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:07:54.989 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:08:15.069 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:08:35.294 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:09:15.528 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:09:35.623 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:10:16.207 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:10:36.308 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:10:56.619 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:11:16.804 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:11:37.047 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:11:57.128 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:12:17.445 D/dalvikvm( 4880): GC_CONCURRENT freed 399K, 28% free 3334K/4628K, paused 4ms+5ms, total 49ms
+07-29 15:12:24.920 D/MobileDataStateTracker( 1921): default: setPolicyDataEnable(enabled=true)
+07-29 15:12:24.947 D/ConnectivityService( 1921): Sampling interval elapsed, updating statistics ..
+07-29 15:12:24.987 D/ConnectivityService( 1921): Done.
+07-29 15:12:24.988 D/ConnectivityService( 1921): Setting timer for 720seconds
+07-29 15:12:25.231 W/ContextImpl( 4486): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.karumi.blackphone.wipe.service.receiver.AutoLaunchReceiver.onReceive:20 android.app.ActivityThread.handleReceiver:2419 
+07-29 15:12:37.254 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:12:57.439 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:13:37.683 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:13:57.772 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:14:17.998 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:14:38.136 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:14:58.240 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:15:18.273 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:15:38.378 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:15:58.634 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:16:18.742 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:16:38.970 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:16:59.237 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:17:13.046 D/dalvikvm( 3921): GC_CONCURRENT freed 382K, 35% free 3443K/5256K, paused 18ms+6ms, total 152ms
+07-29 15:17:19.473 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:17:59.922 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:18:20.001 D/WifiController( 1921): battery changed pluggedType: 2

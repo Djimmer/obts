@@ -1,0 +1,1143 @@
+int logctl_get(): open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+--------- beginning of main
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55714672a0
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/art     (14912): Explicit concurrent mark sweep GC freed 27856(1482KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 13MB/18MB, paused 373us total 47.682ms
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55714672a0
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55714642e0
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55714642e0
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55714e2e20
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55714e2e20
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.73)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 73mLastRawLevel73
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 207714 firstTime = 231021286 firstmBatteryCapacity =1640
+I/HwLauncher( 3582): Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+I/TimeManager( 3263): receiver action = android.intent.action.TIME_TICK
+I/TimeManager( 3263): hand message 1
+I/TimeManager( 3263): notify time change. size = 2
+I/TimeLayout( 3263): time = 15:07
+I/TimeLayout( 3263): updateDate date = 12/11/2015
+I/TimeLayout( 3263): weekDay = Thursday
+W/PhoneInterfaceManager( 3536): shouldBlockLocation running ...
+I/PhoneInterfaceManager( 3536): shouldBlockLocation  ret:false
+W/PhoneInterfaceManager( 3536): shouldBlockLocation running ...
+I/PhoneInterfaceManager( 3536): shouldBlockLocation  ret:false
+W/PhoneInterfaceManager( 3536): shouldBlockLocation running ...
+I/PhoneInterfaceManager( 3536): shouldBlockLocation  ret:false
+I/ActivityManager( 3021): filter receiver for action = com.google.android.apps.gsa.search.core.location.ACTIVITY_DETECTION
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 68,header->mMsgTyp = 9
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_ERR_UNSOLICITED_REPORT !
+I/        ( 3021): ProtocolErrorLog SetErrorInfoReport!
+I/        ( 3021): ProtocolErrorLog Write SetErrorInfoReport data stream = 01 00 00 00 1A 00 00 00 08 00 00 00 00 00 00 01 00 00 00 00 
+I/        ( 3021): ProtocolErrorLog Write SetErrorInfoReport setDataStru.mHeader.mMsgLength= 8
+I/        ( 3021): ProtocolErrorLog SetErrorInfoReport Write appvcomERRLOG OK ! result = 20 
+I/        ( 3021): ProtocolErrorLog Write appvcomERRLOG ok ! msgtype= 1,msgID=16777216,modemID=0,msgSN=26,FaultID= 100 
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 12,header->mMsgTyp = 6
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog VCOM_MSG_ON_OFF_RESP is ok! mMsgModuleID= 0, mModemID= 0,respose->mStatus = 0
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 1708,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 1708
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 840,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 840
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 384,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 384
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20047,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 131143 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 1796,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 1796
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20006,pPayload->mALMID: 1
+I/        ( 3021): ProtocolErrorLog USIMM: VCOM_USIMM_ALM_ID_LOST_CARD == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog USIMM: VCOM_USIMM_ALM_ID_LOST_CARD == pPayload->mALMID end
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:500066E,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 83887726 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20002,pPayload->mALMID: 6
+I/        ( 3021): ProtocolErrorLog VCOM_GAS_ALM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20003,pPayload->mALMID: 6
+I/        ( 3021): ProtocolErrorLog VCOM_WAS_ALARM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20034,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_LRRC_OM_ALARMID_ENUM_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 384,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 384
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20046,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 131142 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 240,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 240
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 2
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_REG_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 8
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_CS_PAGING_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 2
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_REG_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: B
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_MNTN == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20030,pPayload->mALMID: C
+I/        ( 3021): ProtocolErrorLog VCOM_LNAS_OM_ERRLOG_ALM_ID_OVERFLOW_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 672,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 672
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: B
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_MNTN == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55711f3db0
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55711f3db0
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x557174d8a0
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x557174d8a0
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55711e4a40
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55711e4a40
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/LogCollectManager( 3021): start to bind to Log Collect service
+E/PROTOCOL_LOG( 3021): header.length = 184
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/LogCollectManager( 3021): start to bind to Log Collect service
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 12,header->mMsgTyp = 2
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT_END!,pEnd->mPidResponse = 570425344
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+E/PROTOCOL_LOG( 3021): header.length = 184
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/LogCollectManager( 3021): start to bind to Log Collect service
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/art     ( 3021): Explicit concurrent mark sweep GC freed 182135(8MB) AllocSpace objects, 1(20KB) LOS objects, 28% free, 39MB/55MB, paused 2.589ms total 297.360ms
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55711515c0
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.73)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 73mLastRawLevel73
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 240641 firstTime = 231021286 firstmBatteryCapacity =1640
+I/PGUtils ( 3470): defaultSmsApplication: com.android.contacts
+I/AppsCleanUp( 3470): Clean Apps Num:0, clean type is 2
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.73)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 73mLastRawLevel73
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 267712 firstTime = 231021286 firstmBatteryCapacity =1640
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 68,header->mMsgTyp = 9
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_ERR_UNSOLICITED_REPORT !
+I/        ( 3021): ProtocolErrorLog SetErrorInfoReport!
+I/        ( 3021): ProtocolErrorLog Write SetErrorInfoReport data stream = 01 00 00 00 1B 00 00 00 08 00 00 00 00 00 00 01 00 00 00 00 
+I/        ( 3021): ProtocolErrorLog Write SetErrorInfoReport setDataStru.mHeader.mMsgLength= 8
+I/        ( 3021): ProtocolErrorLog SetErrorInfoReport Write appvcomERRLOG OK ! result = 20 
+I/        ( 3021): ProtocolErrorLog Write appvcomERRLOG ok ! msgtype= 1,msgID=16777216,modemID=0,msgSN=27,FaultID= 100 
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 12,header->mMsgTyp = 6
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog VCOM_MSG_ON_OFF_RESP is ok! mMsgModuleID= 0, mModemID= 0,respose->mStatus = 0
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 1148,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 1148
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 1428,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 1428
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 384,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 384
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20047,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 131143 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 1796,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 1796
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20006,pPayload->mALMID: 1
+I/        ( 3021): ProtocolErrorLog USIMM: VCOM_USIMM_ALM_ID_LOST_CARD == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog USIMM: VCOM_USIMM_ALM_ID_LOST_CARD == pPayload->mALMID end
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:500066E,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 83887726 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20002,pPayload->mALMID: 6
+I/        ( 3021): ProtocolErrorLog VCOM_GAS_ALM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20003,pPayload->mALMID: 6
+I/        ( 3021): ProtocolErrorLog VCOM_WAS_ALARM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20034,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_LRRC_OM_ALARMID_ENUM_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 384,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 384
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20046,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 131142 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 392,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 392
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 1
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_CS_REG_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 1
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_CS_REG_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 2
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_REG_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 8
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_CS_PAGING_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 2
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_REG_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: B
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_MNTN == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20030,pPayload->mALMID: C
+I/        ( 3021): ProtocolErrorLog VCOM_LNAS_OM_ERRLOG_ALM_ID_OVERFLOW_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 120,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 120
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: B
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_MNTN == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT * FROM siminfo WHERE (sim_id=?)
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55711515c0
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55714672a0
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.73)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 73mLastRawLevel73
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 270718 firstTime = 231021286 firstmBatteryCapacity =1640
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55714672a0
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 12,header->mMsgTyp = 2
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT_END!,pEnd->mPidResponse = 570425344
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+E/PROTOCOL_LOG( 3021): header.length = 184
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/HwLauncher( 3582): Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+I/TimeManager( 3263): receiver action = android.intent.action.TIME_TICK
+I/TimeManager( 3263): hand message 1
+I/TimeManager( 3263): notify time change. size = 2
+I/TimeLayout( 3263): time = 15:08
+I/TimeLayout( 3263): updateDate date = 12/11/2015
+I/TimeLayout( 3263): weekDay = Thursday
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55714642e0
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+E/HwMtpServerExJNI(14912): could not open MTP driver, errno: 16
+E/MtpServerJNI(14912): server is null in run
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+E/MtpServerJNI(14912): server is null in cleanup
+E/MtpServerJNI(14912): server is null in send_object_removed
+I/DeviceStatsManager( 3470):  uid:10005 pid:3021 flags:1 tag:*alarm* wakeup time:144188
+E/MtpServerJNI(14912): server is null in send_object_removed
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 74mLastRawLevel73
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 280584 firstTime = 231021286 firstmBatteryCapacity =1640
+I/MagazineUtils( 3173): is magazine unlock on, now is only security mode
+W/ctxmgr  ( 4489): [AclManager]checkPermissionTypeStatus: no inject permission for AppMetadata{mUid=10005, mPackageName='com.google.android.gms'}. Returned permission was: PACKAGE_NOT_WHITELISTED for context name: POWER_CONNECTION
+W/ctxmgr  ( 4489): [AclManager]checkPermissionTypeStatus: no inject permission for AppMetadata{mUid=10005, mPackageName='com.google.android.gms'}. Returned permission was: PACKAGE_NOT_WHITELISTED for context name: POWER_CONNECTION
+E/ctxmgr  ( 4489): [PowerConnectionState]Could not write powerInfo=Plug state: 2 BatteryLevel: 0.74, status=Status{statusCode=unknown status code: 7503, resolution=null}
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.74)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 74mLastRawLevel74
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 300802 firstTime = 231021286 firstmBatteryCapacity =1640
+E/HwSystemManager( 3776): BgPowerManagerService: conusmPower = -29 result = -347 flag1 =false flag2 = false
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.74)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 74mLastRawLevel74
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 0 firstTime = 231348999 firstmBatteryCapacity =1671
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.74)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 74mLastRawLevel74
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 3168 firstTime = 231348999 firstmBatteryCapacity =1671
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 68,header->mMsgTyp = 9
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_ERR_UNSOLICITED_REPORT !
+I/        ( 3021): ProtocolErrorLog SetErrorInfoReport!
+I/        ( 3021): ProtocolErrorLog Write SetErrorInfoReport data stream = 01 00 00 00 1C 00 00 00 08 00 00 00 00 00 00 01 00 00 00 00 
+I/        ( 3021): ProtocolErrorLog Write SetErrorInfoReport setDataStru.mHeader.mMsgLength= 8
+I/        ( 3021): ProtocolErrorLog SetErrorInfoReport Write appvcomERRLOG OK ! result = 20 
+I/        ( 3021): ProtocolErrorLog Write appvcomERRLOG ok ! msgtype= 1,msgID=16777216,modemID=0,msgSN=28,FaultID= 100 
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 12,header->mMsgTyp = 6
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog VCOM_MSG_ON_OFF_RESP is ok! mMsgModuleID= 0, mModemID= 0,respose->mStatus = 0
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 428,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 428
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 4
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_DECODE_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20005,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_PHY_ALM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 1344,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 1344
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20004,pPayload->mALMID: 7
+I/        ( 3021): ProtocolErrorLog VCOM_GU_L2_ALM_ID_DL_MDL_ERR == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 384,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 384
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20047,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 131143 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 1796,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 1796
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20006,pPayload->mALMID: 1
+I/        ( 3021): ProtocolErrorLog USIMM: VCOM_USIMM_ALM_ID_LOST_CARD == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog USIMM: VCOM_USIMM_ALM_ID_LOST_CARD == pPayload->mALMID end
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:500066E,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 83887726 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20002,pPayload->mALMID: 6
+I/        ( 3021): ProtocolErrorLog VCOM_GAS_ALM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20003,pPayload->mALMID: 6
+I/        ( 3021): ProtocolErrorLog VCOM_WAS_ALARM_ID_BUFFER_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20034,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_LRRC_OM_ALARMID_ENUM_OVERFLOW == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 384,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 384
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20046,pPayload->mALMID: 0
+I/        ( 3021): ProtocolErrorLog mMsgModuleID is wrong and mMsgModuleID = 131142 !
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 240,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 240
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 2
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_REG_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 8
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_CS_PAGING_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 2
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_REG_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: B
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_MNTN == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 28,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 28
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20030,pPayload->mALMID: C
+I/        ( 3021): ProtocolErrorLog VCOM_LNAS_OM_ERRLOG_ALM_ID_OVERFLOW_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 1224,header->mMsgTyp = 4
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT!,and pDataHeader->mMsgLength = 1224
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: 5
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_PS_CALL_FAIL == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog pPayload->mMsgModuleID:20001,pPayload->mALMID: B
+I/        ( 3021): ProtocolErrorLog VCOM_GU_NAS_ALM_ID_MNTN == pPayload->mALMID
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55714642e0
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55711e4a40
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55711e4a40
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT * FROM siminfo WHERE (sim_id=?)
+I/        ( 3021): ProtocolErrorLog read vcom readlength = payloadlength, readlength = 12,header->mMsgTyp = 2
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData before!
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData start!
+I/        ( 3021): ProtocolErrorLog MsgType is VCOM_MSG_ERR_REPORT_END!,pEnd->mPidResponse = 570425344
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/        ( 3021): ProtocolErrorLog VCOM_ParseBinaData after !
+E/PROTOCOL_LOG( 3021): header.length = 184
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/LogCollectManager( 3021): start to bind to Log Collect service
+I/HwLauncher( 3582): Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+I/TimeManager( 3263): receiver action = android.intent.action.TIME_TICK
+I/TimeManager( 3263): hand message 1
+I/TimeManager( 3263): notify time change. size = 2
+I/TimeLayout( 3263): time = 15:09
+I/TimeLayout( 3263): updateDate date = 12/11/2015
+I/TimeLayout( 3263): weekDay = Thursday
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+E/TEST-APN( 3536): query for APN: check-permission succ 
+E/TEST-APN( 3536): Telephony query SQL: SELECT _id, name, apn FROM carriers WHERE (_id = 3087 AND (NOT(name = 'UPC MMS' AND apn = 'mms.hu.upcmobile.com')) AND (NOT(name = 'upcnet' AND apn = 'Internet.ch.upcmobile.com')) AND (NOT(name = 'UPC mobile internet' AND apn = 'Internet.at.upcmobile.com')) AND (NOT(name = 'UPC Mobil Internet' AND apn = 'Internet.hu.upcmobile.com')) AND (NOT(name = 'MVNO NL' AND apn = 'internet.mvno.mobi')) AND (NOT(name = 'Ziggo mobiel internet' AND apn = 'internet.ziggo.nl')) AND (NOT(name = 'upcmms' AND apn = 'mms.ch.upcmobile.com')))
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55714dfbb0
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55714dfbb0
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x55714e1f60
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HwMtpServerExJNI(14912): cleanup MtpServerEx
+I/MtpServerJNI(14912): cleanup MtpServer 0x55714e1f60
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/ActivityManager( 3021): filter receiver for action = android.hardware.usb.action.USB_STATE
+I/Tethering( 3021): usbConnected = truemRndisEnabled = falsemUsbTetherRequested = false
+I/art     ( 3021): Explicit concurrent mark sweep GC freed 293475(13MB) AllocSpace objects, 0(0B) LOS objects, 28% free, 39MB/55MB, paused 2.678ms total 329.792ms
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+I/HWSERVICES(14912): hwnative_get_component_mtpServer  comes...
+I/HwMtpServerExJNI(14912): set MtpServerEx 0x5571466f40
+I/HwMtpServerExJNI(14912): Finish to setup MtpServer
+I/HWSERVICES(14912): hwnative_get_component  comes...
+I/StagefrightMediaScannerEx(14912): StagefrightMediaScanner Constructor
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.74)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 74mLastRawLevel74
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 33251 firstTime = 231348999 firstmBatteryCapacity =1671
+W/ctxmgr  ( 4489): [PowerConnectionState]Got same value as before for power connection (Plug state: 2 BatteryLevel: 0.74)
+I/HwSystemManager( 3776): BgPowerManagerService:BgPowerManagerSerivce plugged =2 currentThreshold = 8 mRawLevel = 74mLastRawLevel74
+I/HwSystemManager( 3776): BgPowerManagerService: mTimes = 60002 firstTime = 231348999 firstmBatteryCapacity =1671

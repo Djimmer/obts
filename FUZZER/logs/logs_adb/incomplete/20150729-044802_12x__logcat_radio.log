@@ -1,0 +1,12 @@
+07-29 13:37:52.381 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TLTS: "15/07/29,11:37:53-28,00"
+07-29 13:37:52.381 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [11404.330351]
+07-29 13:37:52.381 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: *TLTS: "15/07/29,11:37:53-28,00" null
+07-29 13:37:52.381 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: *TLTS: "15/07/29,11:37:53-28,00" null
+07-29 13:37:52.384 D/RILJ    ( 3704): [UNSL]< UNSOL_NITZ_TIME_RECEIVED 15/07/29,11:37:53-28,00
+07-29 13:37:52.386 D/GsmSST  ( 3704): [GsmSST] NITZ: 15/07/29,11:37:53-28,00,14694097 start=14694100 delay=3
+07-29 13:37:52.394 D/GsmSST  ( 3704): [GsmSST] getNitzTimeZone returning America/Creston
+07-29 13:37:52.407 D/GsmSST  ( 3704): [GsmSST] NITZ: Setting time of day to Wed Jul 29 13:37:53 CEST 2015 NITZ receive delay(ms): 21 gained(ms): 613 from 15/07/29,11:37:53-28,00
+07-29 13:37:52.407 D/GsmSST  ( 3704): [GsmSST] setAndBroadcastNetworkSetTime: time=1438169873021ms
+07-29 13:37:53.044 I/GsmSST  ( 3704): NITZ: after Setting time of day
+07-29 13:37:53.997 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] <unknown request>
+07-29 13:37:58.188 D/DCT     ( 3704): handleMessage msg={ when=-1ms what=270368 arg1=1 target=com.android.internal.telephony.dataconnection.DcTracker }

@@ -1,0 +1,16 @@
+--------- beginning of /dev/log/system
+07-29 13:48:35.112 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:48:55.359 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:49:15.612 D/WifiController( 1921): battery changed pluggedType: 2
+--------- beginning of /dev/log/main
+07-29 13:49:48.057 D/dalvikvm( 4880): GC_CONCURRENT freed 381K, 28% free 3345K/4628K, paused 5ms+8ms, total 69ms
+07-29 13:49:55.970 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:50:16.228 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:50:36.394 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:50:56.550 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:51:01.346 D/ConnectivityService( 1921): Sampling interval elapsed, updating statistics ..
+07-29 13:51:01.364 D/ConnectivityService( 1921): Done.
+07-29 13:51:01.365 D/ConnectivityService( 1921): Setting timer for 720seconds
+07-29 13:51:01.541 W/ContextImpl( 4486): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.karumi.blackphone.wipe.service.receiver.AutoLaunchReceiver.onReceive:20 android.app.ActivityThread.handleReceiver:2419 
+07-29 13:51:16.526 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:51:36.617 D/WifiController( 1921): battery changed pluggedType: 2

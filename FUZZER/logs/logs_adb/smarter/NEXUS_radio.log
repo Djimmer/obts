@@ -1,0 +1,3 @@
+D/PhoneFactory( 1146): getPhone:- phoneId != DEFAULT_PHONE_ID return sProxyPhones[phoneId] phoneId=0 phone=Handler (com.android.internal.telephony.PhoneProxy) {14445d86}
+D/TelephonyManager(  744): getTelephonyProperty: return propVal='null' phoneId=0 property='gsm.operator.iso-country' defaultVal='' prop=
+D/TelephonyManager(  744): getTelephonyProperty: return propVal='nl' phoneId=0 property='gsm.sim.operator.iso-country' defaultVal='' prop=nl

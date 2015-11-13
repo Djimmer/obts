@@ -1,0 +1,35 @@
+--------- beginning of /dev/log/system
+07-29 13:33:05.471 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:33:23.891 I/PowerManagerService( 1921): Going to sleep due to screen timeout...
+--------- beginning of /dev/log/main
+07-29 13:33:24.494 D/SurfaceFlinger(  145): Screen released, type=0 flinger=0xb764f450
+07-29 13:33:24.494 D/hwcomposer(  145): hwc_blank: display 0: blank
+07-29 13:33:24.494 D/hwcomposer(  145): hwc_blank_display: display 0: [0 -> 1]
+07-29 13:33:24.507 D/hwcomposer(  145): hwc_blank_display: releasing buffer 0x41
+07-29 13:33:24.507 D/hwcomposer(  145): dc_blank: display 0, [0 -> 1]
+07-29 13:33:24.513 D/Sensors ( 1921): AccSensor: Control set 0
+07-29 13:33:24.513 D/Sensors ( 1921): AccSensor: mEnabled = 0
+07-29 13:33:24.525 E/        ( 1921): Vibrator sendit ms = 0
+07-29 13:33:24.533 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : screen_state=off
+07-29 13:33:24.576 I/powerHAL::common( 1921): Disabling input device:0
+07-29 13:33:24.577 I/powerHAL::common( 1921): Disabling input device:1
+07-29 13:33:24.590 D/dalvikvm( 3655): GC_CONCURRENT freed 1832K, 39% free 3544K/5744K, paused 2ms+1ms, total 17ms
+07-29 13:33:24.590 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 4ms
+07-29 13:33:24.603 D/dalvikvm( 3655): GC_CONCURRENT freed 523K, 39% free 3527K/5744K, paused 1ms+1ms, total 9ms
+07-29 13:33:24.603 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 5ms
+07-29 13:33:24.616 D/dalvikvm( 3655): GC_CONCURRENT freed 506K, 39% free 3527K/5744K, paused 2ms+1ms, total 10ms
+07-29 13:33:24.616 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 6ms
+07-29 13:33:24.632 D/dalvikvm( 3655): GC_CONCURRENT freed 499K, 39% free 3535K/5744K, paused 2ms+1ms, total 11ms
+07-29 13:33:24.632 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 2ms
+07-29 13:33:24.648 D/dalvikvm( 3655): GC_CONCURRENT freed 517K, 39% free 3527K/5744K, paused 1ms+1ms, total 9ms
+07-29 13:33:24.648 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 6ms
+07-29 13:34:05.935 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:34:26.136 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:34:46.424 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:35:06.493 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:35:26.889 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:35:47.025 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:36:07.278 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:36:47.515 D/dalvikvm( 4880): GC_CONCURRENT freed 396K, 28% free 3339K/4628K, paused 5ms+22ms, total 141ms
+07-29 13:36:47.583 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:37:28.271 D/WifiController( 1921): battery changed pluggedType: 2

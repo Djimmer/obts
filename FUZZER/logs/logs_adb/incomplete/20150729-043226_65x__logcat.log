@@ -1,0 +1,94 @@
+--------- beginning of /dev/log/system
+07-29 13:30:00.070 I/ProcessStatsService( 1921): Prepared write state in 32ms
+--------- beginning of /dev/log/main
+07-29 13:30:00.615 D/        ( 3704): Setting time of day to sec=1438169401
+07-29 13:30:01.150 V/AlarmClock( 4644): AlarmInitReceiver android.intent.action.TIME_SET
+07-29 13:30:01.182 I/AlarmClock( 4644): Displaying next alarm time: ''
+07-29 13:30:01.203 V/AlarmClock( 4644): AlarmInitReceiver finished
+07-29 13:30:04.579 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:30:06.165 I/ActivityManager( 1921): Delay finish: com.android.providers.calendar/.CalendarProviderBroadcastReceiver
+07-29 13:30:06.171 I/ActivityManager( 1921): Resuming delayed broadcast
+07-29 13:30:17.844 D/dalvikvm( 4880): GC_CONCURRENT freed 394K, 28% free 3344K/4628K, paused 4ms+4ms, total 51ms
+07-29 13:30:24.731 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:30:44.785 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:31:05.161 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:31:08.125 V/AlarmClock( 4644): AlarmInitReceiver android.intent.action.TIME_SET
+07-29 13:31:08.211 I/AlarmClock( 4644): Displaying next alarm time: ''
+07-29 13:31:08.254 V/AlarmClock( 4644): AlarmInitReceiver finished
+07-29 13:31:08.279 D/dalvikvm( 4644): GC_CONCURRENT freed 400K, 21% free 3053K/3824K, paused 4ms+3ms, total 92ms
+07-29 13:31:08.341 D/        ( 3704): Setting time of day to sec=1438169468
+07-29 13:31:13.147 I/ActivityManager( 1921): Delay finish: com.android.providers.calendar/.CalendarProviderBroadcastReceiver
+07-29 13:31:13.157 I/ActivityManager( 1921): Resuming delayed broadcast
+07-29 13:31:24.945 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:31:45.047 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:32:05.229 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:32:23.705 I/PowerManagerService( 1921): Waking up from sleep...
+07-29 13:32:23.706 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 13:32:23.729 D/Sensors ( 1921): AccSensor: Control set 1
+07-29 13:32:23.729 D/Sensors ( 1921): AccSensor: mEnabled = 1
+07-29 13:32:23.739 V/KeyguardServiceDelegate( 1921): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$17@420f9580)
+07-29 13:32:23.741 V/KeyguardServiceDelegate( 1921): **** SHOWN CALLED ****
+07-29 13:32:23.741 I/WindowManager( 1921): No lock screen! windowToken=null
+07-29 13:32:23.793 W/BroadcastQueue( 1921): Permission Denial: broadcasting Intent { act=android.intent.action.USER_PRESENT flg=0x24000010 } from com.android.keyguard (pid=3515, uid=10009) is not exported from uid 10061 due to receiver com.kingroot.kinguser/.receiver.ScreenEventReceiver
+07-29 13:32:23.799 I/powerHAL::common( 1921): Enabling input device:0
+07-29 13:32:23.802 I/powerHAL::common( 1921): Enabling input device:1
+07-29 13:32:23.803 D/SurfaceFlinger(  145): Screen acquired, type=0 flinger=0xb764f450
+07-29 13:32:23.803 D/hwcomposer(  145): hwc_blank: display 0: unblank
+07-29 13:32:23.803 D/hwcomposer(  145): hwc_blank_display: display 0: [1 -> 0]
+07-29 13:32:23.803 D/hwcomposer(  145): Display 0 layer clip is 720 x 1280
+07-29 13:32:23.803 D/hwcomposer(  145): Display 0 device clip is 720 x 1280
+07-29 13:32:23.803 D/hwcomposer(  145): dc_blank: display 0, [1 -> 0]
+07-29 13:32:23.809 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 13:32:23.809 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 13:32:23.809 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 13:32:23.810 W/System.err( 3655): 	at com.kingroot.kinguser.jv.X(SourceFile:718)
+07-29 13:32:23.810 W/System.err( 3655): 	at com.kingroot.kinguser.cv.run(SourceFile:58)
+07-29 13:32:23.810 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 13:32:23.810 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 13:32:23.810 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 13:32:23.817 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : screen_state=on
+07-29 13:32:23.826 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:488)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.kh.is(SourceFile:116)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.kh.a(SourceFile:39)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.kj.f(SourceFile:100)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.fc.a(SourceFile:89)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.ki.run(SourceFile:97)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 13:32:23.827 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 13:32:23.835 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:768)
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.ps.kk(SourceFile:178)
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.ps.km(SourceFile:21)
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.pw.run(SourceFile:164)
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 13:32:23.836 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 13:32:23.853 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:768)
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.ps.ki(SourceFile:144)
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.ps.cd(SourceFile:21)
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.pv.run(SourceFile:127)
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 13:32:23.853 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 13:32:23.858 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 13:32:23.861 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 13:32:23.862 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 13:32:23.862 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:768)
+07-29 13:32:23.862 W/System.err( 3655): 	at com.kingroot.kinguser.ps.kg(SourceFile:99)
+07-29 13:32:23.862 W/System.err( 3655): 	at com.kingroot.kinguser.ps.kl(SourceFile:21)
+07-29 13:32:23.862 W/System.err( 3655): 	at com.kingroot.kinguser.pu.run(SourceFile:82)
+07-29 13:32:23.862 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 13:32:23.862 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 13:32:23.862 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 13:32:24.352 D/SurfaceControl( 1921): Excessive delay in unblankDisplay() while turning screen on: 551ms
+07-29 13:32:24.367 W/ContextImpl( 4486): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 com.karumi.blackphone.wipe.service.receiver.PhoneUnLockReceiver.onReceive:21 android.app.LoadedApk$ReceiverDispatcher$Args.run:768 android.os.Handler.handleCallback:733 
+07-29 13:32:25.263 D/WifiController( 1921): battery changed pluggedType: 2

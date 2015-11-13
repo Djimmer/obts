@@ -1,0 +1,13 @@
+--------- beginning of /dev/log/system
+07-29 13:53:37.658 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:54:17.769 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:54:57.960 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:55:18.079 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:55:38.183 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:55:58.575 D/WifiController( 1921): battery changed pluggedType: 2
+--------- beginning of /dev/log/main
+07-29 13:56:17.927 D/dalvikvm( 4880): GC_CONCURRENT freed 394K, 28% free 3348K/4628K, paused 36ms+8ms, total 181ms
+07-29 13:56:18.767 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:56:38.833 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:56:58.983 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:57:19.282 D/WifiController( 1921): battery changed pluggedType: 2

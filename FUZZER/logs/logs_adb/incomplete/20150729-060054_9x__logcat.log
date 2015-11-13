@@ -1,0 +1,1744 @@
+--------- beginning of /dev/log/system
+07-29 14:45:42.433 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:46:02.566 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:46:42.907 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:47:02.987 D/WifiController( 1921): battery changed pluggedType: 2
+--------- beginning of /dev/log/main
+07-29 14:47:17.447 D/dalvikvm( 4880): GC_CONCURRENT freed 393K, 28% free 3346K/4628K, paused 8ms+7ms, total 56ms
+07-29 14:47:43.435 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:48:03.536 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:48:13.241 D/dalvikvm( 3921): GC_CONCURRENT freed 388K, 35% free 3442K/5256K, paused 11ms+6ms, total 77ms
+07-29 14:48:23.774 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:48:25.007 D/ConnectivityService( 1921): Sampling interval elapsed, updating statistics ..
+07-29 14:48:25.095 D/ConnectivityService( 1921): Done.
+07-29 14:48:25.096 D/ConnectivityService( 1921): Setting timer for 720seconds
+07-29 14:48:25.380 W/ContextImpl( 4486): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.karumi.blackphone.wipe.service.receiver.AutoLaunchReceiver.onReceive:20 android.app.ActivityThread.handleReceiver:2419 
+07-29 14:48:43.807 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:49:04.101 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:49:24.414 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:49:44.556 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:50:04.749 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:50:24.698 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.699 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:24.700 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:24.700 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:24.735 D/ICEUTIL ( 9096): CheckLimit: Removing /data/rfs/data/debug/logging_92_20150722_161028.
+07-29 14:50:24.742 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.743 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.744 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:24.756 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:24.756 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:24.758 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.759 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.760 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:50:24.760 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:50:24.774 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:24.781 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.783 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.783 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:50:24.783 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:24.792 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.793 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.794 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x4c4 0x4c1 0x4c1 0x49
+07-29 14:50:24.795 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:50:24.812 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:24.823 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.824 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.825 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x60 0x5d 0x5d 0x1
+07-29 14:50:24.825 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:24.834 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.836 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.836 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x442 0x43f 0x43f 0x49
+07-29 14:50:24.850 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_PLMN_CARRIER_LIST_DATA.bin
+07-29 14:50:24.851 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:24.859 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.860 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.860 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:50:24.860 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:50:24.879 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:24.882 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.883 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.883 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:24.883 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:24.883 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:24.896 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.897 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.897 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:24.898 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:24.898 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:24.906 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.907 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.907 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:50:24.907 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:50:24.908 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:24.915 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.915 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.916 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:50:24.916 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:24.918 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.919 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.919 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x19c 0x199 0x199 0x49
+07-29 14:50:24.919 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:50:24.920 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:24.937 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.938 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.938 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x5e 0x5b 0x5b 0x1
+07-29 14:50:24.938 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:24.939 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.940 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.940 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x11a 0x117 0x117 0x49
+07-29 14:50:24.940 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_MCC_CARRIER_LIST_DATA.bin
+07-29 14:50:24.941 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:24.946 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:24.946 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:24.946 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:50:24.946 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:50:24.948 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:24.966 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:25.393 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:50:45.268 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:50:56.568 D/ICECRASH(13369): Executing cmd: /system/bin/logcat -d -v time -b main -b radio -b system>/data/rfs/data/debug/logging_102_20150729_145024/logcat_20150729_145024.txt
+07-29 14:50:56.693 D/ICECRASH(13369): Executing cmd: /system/bin/dmesg>/data/rfs/data/debug/logging_102_20150729_145024/dmesg_20150729_145024.txt
+07-29 14:50:56.791 D/ICECRASH(13369): Executing cmd: am broadcast -a com.nvidia.feedback.NVIDIAFEEDBACK
+07-29 14:50:57.333 D/AndroidRuntime(13374): 
+07-29 14:50:57.333 D/AndroidRuntime(13374): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+07-29 14:50:57.337 D/AndroidRuntime(13374): CheckJNI is OFF
+07-29 14:50:57.361 D/dalvikvm(13374): Trying to load lib libjavacore.so 0x0
+07-29 14:50:57.366 D/dalvikvm(13374): Added shared lib libjavacore.so 0x0
+07-29 14:50:57.374 D/dalvikvm(13374): Trying to load lib libnativehelper.so 0x0
+07-29 14:50:57.374 D/dalvikvm(13374): Added shared lib libnativehelper.so 0x0
+07-29 14:50:57.374 D/dalvikvm(13374): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+07-29 14:50:57.411 E/cutils-trace(13374): Error opening trace file: No such file or directory (2)
+07-29 14:50:57.432 D/dalvikvm(13374): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+07-29 14:50:57.680 E/memtrack(13374): Couldn't load memtrack module (No such file or directory)
+07-29 14:50:57.680 E/android.os.Debug(13374): failed to load memtrack module: -2
+07-29 14:50:57.741 I/dalvikvm(13374): Total arena pages for JIT: 11
+07-29 14:50:57.742 I/dalvikvm(13374): Total arena pages for JIT: 12
+07-29 14:50:57.742 I/dalvikvm(13374): Total arena pages for JIT: 13
+07-29 14:50:57.742 I/dalvikvm(13374): Total arena pages for JIT: 14
+07-29 14:50:57.757 D/AndroidRuntime(13374): Calling main entry com.android.commands.am.Am
+07-29 14:50:57.772 D/AndroidRuntime(13374): Shutting down VM
+07-29 14:50:58.224 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.224 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.224 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.224 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.224 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.228 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.228 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.228 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.228 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.228 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.229 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.229 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:50:58.229 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:50:58.229 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.229 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.229 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.229 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.229 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.229 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.230 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.230 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x4c4 0x4c1 0x4c1 0x49
+07-29 14:50:58.230 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:50:58.230 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.230 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.230 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.230 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x60 0x5d 0x5d 0x1
+07-29 14:50:58.230 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.230 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.230 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.230 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x442 0x43f 0x43f 0x49
+07-29 14:50:58.230 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_PLMN_CARRIER_LIST_DATA.bin
+07-29 14:50:58.230 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.231 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.231 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.231 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.231 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:50:58.231 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.231 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.232 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.232 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.232 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.232 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.232 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.232 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.232 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.232 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.232 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.232 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.232 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.232 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:50:58.232 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:50:58.233 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.233 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.234 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.234 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.234 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.234 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.235 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.236 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x19c 0x199 0x199 0x49
+07-29 14:50:58.236 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:50:58.236 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.236 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x5e 0x5b 0x5b 0x1
+07-29 14:50:58.236 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.236 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x11a 0x117 0x117 0x49
+07-29 14:50:58.236 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_MCC_CARRIER_LIST_DATA.bin
+07-29 14:50:58.236 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.237 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.237 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.237 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:50:58.237 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.237 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.238 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.238 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.238 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.238 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.238 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.239 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.239 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.239 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.239 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.239 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.239 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.239 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:50:58.239 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:50:58.239 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.239 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.241 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.241 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.241 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.241 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.241 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.241 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x198 0x195 0x195 0x49
+07-29 14:50:58.241 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:50:58.241 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.241 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.242 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x5a 0x57 0x57 0x1
+07-29 14:50:58.242 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.242 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x116 0x113 0x113 0x49
+07-29 14:50:58.242 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_ABMM_WRITEABLE_DATA.bin
+07-29 14:50:58.242 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.242 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.242 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:50:58.242 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.243 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.245 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.245 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.245 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.245 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.245 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.246 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.246 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.246 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.246 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.246 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.246 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.246 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:50:58.246 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:50:58.246 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.246 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.246 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.246 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.246 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.247 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.247 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.247 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xd2 0xcf 0xcf 0x49
+07-29 14:50:58.247 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:50:58.247 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.247 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.247 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.247 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x4a 0x47 0x47 0x1
+07-29 14:50:58.247 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.247 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.247 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.247 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x50 0x4d 0x4d 0x49
+07-29 14:50:58.247 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_EQUIV_PLMNS.bin
+07-29 14:50:58.247 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.248 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.251 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.251 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:50:58.251 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.252 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.252 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.252 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.252 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.252 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.252 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.252 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.252 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.252 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:50:58.252 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:50:58.252 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.253 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:50:58.253 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:50:58.253 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.253 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.253 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.253 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x198 0x195 0x195 0x49
+07-29 14:50:58.253 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:50:58.253 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.254 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x5a 0x57 0x57 0x1
+07-29 14:50:58.254 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:50:58.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.254 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x116 0x113 0x113 0x49
+07-29 14:50:58.254 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_ABMM_WRITEABLE_DATA.bin
+07-29 14:50:58.254 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:50:58.254 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:50:58.254 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:50:58.255 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:50:58.255 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:50:58.408 D/dalvikvm(13374): GC_CONCURRENT freed 96K, 15% free 588K/688K, paused 1ms+1ms, total 6ms
+07-29 14:51:00.479 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.479 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.480 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:51:00.480 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:51:00.480 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.489 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.490 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.490 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:51:00.490 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:51:00.491 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.492 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.492 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:51:00.492 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:51:00.493 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:51:00.499 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.499 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.499 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.500 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:51:00.501 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.501 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.501 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xd2 0xcf 0xcf 0x49
+07-29 14:51:00.502 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:51:00.502 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:51:00.508 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.509 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.509 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x4a 0x47 0x47 0x1
+07-29 14:51:00.509 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:51:00.510 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.511 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.511 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x50 0x4d 0x4d 0x49
+07-29 14:51:00.511 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_EQUIV_PLMNS.bin
+07-29 14:51:00.512 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:51:00.519 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.520 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.520 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.520 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:51:00.521 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:51:00.527 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.527 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.528 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.528 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:51:00.528 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:51:00.529 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.530 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.530 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.530 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:51:00.530 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:51:00.534 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.535 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.535 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.535 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 14:51:00.535 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 14:51:00.536 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.537 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.537 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 14:51:00.537 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 14:51:00.538 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:51:00.544 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.544 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.544 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.544 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:51:00.545 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.545 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.545 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xfa 0xf7 0xf7 0x49
+07-29 14:51:00.545 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 14:51:00.546 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:51:00.549 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.549 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.549 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x4c 0x49 0x49 0x1
+07-29 14:51:00.549 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 14:51:00.550 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.550 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.550 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x78 0x75 0x75 0x49
+07-29 14:51:00.550 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_USIM_MM_DATA.bin
+07-29 14:51:00.551 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:51:00.551 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.551 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 14:51:00.551 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 14:51:00.552 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 14:51:00.552 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 14:51:00.552 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 14:51:00.638 D/MobileDataStateTracker( 1921): dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+07-29 14:51:00.644 D/MobileDataStateTracker( 1921): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataAttached
+07-29 14:51:00.657 D/MobileDataStateTracker( 1921): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+07-29 14:51:00.663 D/MobileDataStateTracker( 1921): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataAttached
+07-29 14:51:00.672 D/MobileDataStateTracker( 1921): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+07-29 14:51:00.680 D/MobileDataStateTracker( 1921): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataAttached
+07-29 14:51:00.688 D/MobileDataStateTracker( 1921): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+07-29 14:51:00.697 D/MobileDataStateTracker( 1921): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataAttached
+07-29 14:51:00.709 D/MobileDataStateTracker( 1921): dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+07-29 14:51:00.715 D/MobileDataStateTracker( 1921): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataAttached
+07-29 14:51:00.728 D/MobileDataStateTracker( 1921): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+07-29 14:51:00.731 D/MobileDataStateTracker( 1921): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataAttached
+07-29 14:51:00.740 D/MobileDataStateTracker( 1921): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+07-29 14:51:00.743 D/MobileDataStateTracker( 1921): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataAttached
+07-29 14:51:00.751 D/MobileDataStateTracker( 1921): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+07-29 14:51:00.754 D/MobileDataStateTracker( 1921): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataAttached
+07-29 14:51:00.122 V/AlarmClock( 4644): AlarmInitReceiver android.intent.action.TIME_SET
+07-29 14:51:00.143 I/AlarmClock( 4644): Displaying next alarm time: ''
+07-29 14:51:00.155 V/AlarmClock( 4644): AlarmInitReceiver finished
+07-29 14:51:00.763 D/        ( 3704): Setting time of day to sec=1438174260
+07-29 14:51:04.803 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:51:05.128 I/ActivityManager( 1921): Delay finish: com.android.providers.calendar/.CalendarProviderBroadcastReceiver
+07-29 14:51:05.133 I/ActivityManager( 1921): Resuming delayed broadcast
+07-29 14:51:25.041 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:51:45.141 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:52:05.299 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:52:25.438 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:52:45.687 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:53:05.779 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:53:17.150 D/dalvikvm( 4880): GC_CONCURRENT freed 399K, 28% free 3337K/4628K, paused 8ms+12ms, total 109ms
+07-29 14:53:25.881 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:53:46.454 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:54:06.537 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:54:26.774 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:55:27.299 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:55:47.467 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:56:07.765 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:56:48.070 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:57:08.196 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:57:28.618 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:57:48.797 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:58:09.159 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:58:29.385 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:59:30.125 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 14:59:47.042 D/dalvikvm( 4880): GC_CONCURRENT freed 377K, 28% free 3350K/4628K, paused 18ms+9ms, total 93ms
+07-29 15:00:01.046 I/ProcessStatsService( 1921): Prepared write state in 18ms
+07-29 15:00:10.668 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:00:10.993 I/PowerManagerService( 1921): Waking up from sleep...
+07-29 15:00:10.993 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 15:00:11.033 I/powerHAL::common( 1921): Enabling input device:0
+07-29 15:00:11.049 I/powerHAL::common( 1921): Enabling input device:1
+07-29 15:00:11.050 D/Sensors ( 1921): AccSensor: Control set 1
+07-29 15:00:11.050 D/Sensors ( 1921): AccSensor: mEnabled = 1
+07-29 15:00:11.050 V/KeyguardServiceDelegate( 1921): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$17@41fde048)
+07-29 15:00:11.056 V/KeyguardServiceDelegate( 1921): **** SHOWN CALLED ****
+07-29 15:00:11.056 I/WindowManager( 1921): No lock screen! windowToken=null
+07-29 15:00:11.070 D/PowerManagerService-JNI( 1921): Excessive delay in setInteractive(true) while turning screen on: 36ms
+07-29 15:00:11.071 D/SurfaceFlinger(  145): Screen acquired, type=0 flinger=0xb764f450
+07-29 15:00:11.071 D/hwcomposer(  145): hwc_blank: display 0: unblank
+07-29 15:00:11.071 D/hwcomposer(  145): hwc_blank_display: display 0: [1 -> 0]
+07-29 15:00:11.071 D/hwcomposer(  145): Display 0 layer clip is 720 x 1280
+07-29 15:00:11.071 D/hwcomposer(  145): Display 0 device clip is 720 x 1280
+07-29 15:00:11.071 D/hwcomposer(  145): dc_blank: display 0, [1 -> 0]
+07-29 15:00:11.626 D/SurfaceControl( 1921): Excessive delay in unblankDisplay() while turning screen on: 557ms
+07-29 15:00:11.655 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : screen_state=on
+07-29 15:00:11.656 W/BroadcastQueue( 1921): Permission Denial: broadcasting Intent { act=android.intent.action.USER_PRESENT flg=0x24000010 } from com.android.keyguard (pid=3515, uid=10009) is not exported from uid 10061 due to receiver com.kingroot.kinguser/.receiver.ScreenEventReceiver
+07-29 15:00:11.661 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 15:00:11.661 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 15:00:11.661 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 15:00:11.661 W/System.err( 3655): 	at com.kingroot.kinguser.jv.X(SourceFile:718)
+07-29 15:00:11.661 W/System.err( 3655): 	at com.kingroot.kinguser.cv.run(SourceFile:58)
+07-29 15:00:11.661 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 15:00:11.661 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 15:00:11.661 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 15:00:11.667 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 15:00:11.667 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:488)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.kh.is(SourceFile:116)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.kh.a(SourceFile:39)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.kj.f(SourceFile:100)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.fc.a(SourceFile:89)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.ki.run(SourceFile:97)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 15:00:11.668 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 15:00:11.674 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:768)
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.ps.kk(SourceFile:178)
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.ps.km(SourceFile:21)
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.pw.run(SourceFile:164)
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 15:00:11.674 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 15:00:11.678 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 15:00:11.678 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 15:00:11.679 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 15:00:11.679 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:768)
+07-29 15:00:11.679 W/System.err( 3655): 	at com.kingroot.kinguser.ps.ki(SourceFile:144)
+07-29 15:00:11.679 W/System.err( 3655): 	at com.kingroot.kinguser.ps.cd(SourceFile:21)
+07-29 15:00:11.679 W/System.err( 3655): 	at com.kingroot.kinguser.pv.run(SourceFile:127)
+07-29 15:00:11.679 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 15:00:11.679 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 15:00:11.679 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 15:00:11.680 W/System.err( 3655): com.kingroot.kinguser.jr: no connecition!
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.ja.n(SourceFile:84)
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:333)
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.jv.a(SourceFile:768)
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.ps.kg(SourceFile:99)
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.ps.kl(SourceFile:21)
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.pu.run(SourceFile:82)
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.st.a(SourceFile:137)
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.su.b(SourceFile:99)
+07-29 15:00:11.681 W/System.err( 3655): 	at com.kingroot.kinguser.sw.run(SourceFile:242)
+07-29 15:00:11.708 D/MobileDataStateTracker( 1921): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+07-29 15:00:11.710 D/MobileDataStateTracker( 1921): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=(unspecified)
+07-29 15:00:11.713 W/ContextImpl( 4486): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 com.karumi.blackphone.wipe.service.receiver.PhoneUnLockReceiver.onReceive:21 android.app.LoadedApk$ReceiverDispatcher$Args.run:768 android.os.Handler.handleCallback:733 
+07-29 15:00:12.521 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 15:00:12.523 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:12.527 E/        ( 1921): Vibrator sendit ms = 0
+07-29 15:00:12.529 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:12.532 E/        ( 1921): Vibrator sendit ms = 1
+07-29 15:00:12.555 E/        ( 1921): Vibrator sendit ms = 21
+07-29 15:00:12.589 W/ViewRootImpl( 1921): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_POWER, scanCode=116, metaState=0, flags=0x8, repeatCount=2, eventTime=16344952, downTime=16344401, deviceId=6, source=0x101 }
+07-29 15:00:12.597 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:12.619 D/PhoneStatusBar( 3515): disable: < EXPAND* icons alerts ticker system_info back home recent clock search >
+07-29 15:00:13.536 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 15:00:13.536 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:13.693 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 148
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:13.693 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 3296
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:13.693 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 5510
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 44100, format 1, channelMask 3, flags 4
+07-29 15:00:13.693 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:13.695 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): startOutput() output 2, stream 1, session 296
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:13.695 V/AudioPolicyManagerBase(  148): changeRefCount() stream 1, count 1
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:13.695 V/AudioPolicyManagerBase(  148): getNewDevice() selected device 2
+07-29 15:00:13.695 V/AudioPolicyManagerBase(  148): setOutputDevice() output 2 device 0002 delayMs 0
+07-29 15:00:13.695 V/AudioPolicyManagerBase(  148): setOutputDevice() prevDevice 0002
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 1, device 1
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 3, device 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 4, device 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 5, device 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 6, device 1
+07-29 15:00:13.695 V/AudioPolicyManagerBase(  148): setOutputDevice() setting same device 0002 or null device for output 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:13.695 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:13.695 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : nv_param_media_routing=2
+07-29 15:00:13.696 V/nvaudio_hw(  148): Media is routed to :2
+07-29 15:00:13.696 V/nvaudio_hw(  148): ULP supported: dev 2
+07-29 15:00:13.696 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:13.697 V/nvaudio_hw(  148): open_out_alsa_dev
+07-29 15:00:13.697 V/nvaudio_hw(  148): get_active_dev_rate : card 1 device 0
+07-29 15:00:13.697 V/nvaudio_hw(  148): set_route : dev id 0 ref 1 devices 0x2 -> 0x2
+07-29 15:00:13.697 V/nvaudio_hw(  148): Opened Alsa OUT device music with pcm_config
+07-29 15:00:13.697 V/nvaudio_hw(  148):  channels 2
+07-29 15:00:13.697 V/nvaudio_hw(  148):  rate 48000
+07-29 15:00:13.697 V/nvaudio_hw(  148):  format 0
+07-29 15:00:13.697 V/nvaudio_hw(  148):  period_size 1024
+07-29 15:00:13.697 V/nvaudio_hw(  148):  period_count 1
+07-29 15:00:13.697 V/nvaudio_hw(  148):  start_threshold 1
+07-29 15:00:13.697 V/nvaudio_hw(  148):  stop_threshold 2049 
+07-29 15:00:13.697 V/nvaudio_hw(  148): silence_threshold 0
+07-29 15:00:13.697 V/nvaudio_hw(  148):  avail_min 1
+07-29 15:00:13.697 V/nvaudio_hw(  148): set_avp_render_path
+07-29 15:00:13.697 V/nvaudio_hw(  148): set_out_resampler : quality 4
+07-29 15:00:13.697 V/nvaudio_hw(  148): No resampler required
+07-29 15:00:13.697 V/nvaudio_hw(  148): set_current_route : dev id 0
+07-29 15:00:13.697 V/nvaudio_hw(  148): set_route_by_array
+07-29 15:00:13.697 V/nvaudio_hw(  148): set_route_by_array
+07-29 15:00:13.697 V/nvaudio_hw(  148): Set 'Right Speaker Mixer Left DAC Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.697 V/nvaudio_hw(  148): Set 'Right Speaker Mixer Right DAC Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.697 V/nvaudio_hw(  148): Set 'Speaker Left Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.697 V/nvaudio_hw(  148): Set 'Speaker Right Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.697 V/nvaudio_hw(  148): Set 'Speaker Left Volume' to '58' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.697 V/nvaudio_hw(  148): Set 'Speaker Right Volume' to '58' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.697 V/nvaudio_hw(  148): Set 'Digital Gain Volume' to '0' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.697 V/nvaudio_hw(  148): Set 'Digital Level Volume' to '10' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.697 V/AudioPolicyManagerBase(  148): releaseOutput() 2
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'Int Spk Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'ALC Make Up Gain Volume' to '8' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'ALC Compression Ratio' to '3' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'ALC Compression Threshold Volume' to '14' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'ALC Expansion Ratio' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'ALC Expansion Threshold Volume' to '26' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'ALC Enable' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'Speaker Left Mixer Gain Volume' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.698 V/nvaudio_hw(  148): Set 'Speaker Right Mixer Gain Volume' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.703 W/InputMethodManagerService( 1921): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41d1bbd0 attribute=android.view.inputmethod.EditorInfo@42174dd0, token = android.os.BinderProxy@41deb578
+07-29 15:00:13.713 V/nvaudio_hw(  148): Set 'EQ Mode' to '3' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.713 V/nvaudio_hw(  148): Set 'Digital EQ 7 Band Enable' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:13.713 V/nvaudio_hw(  148): send_at_cmd_by_list: type 0
+07-29 15:00:13.713 V/nvaudio_hw(  148): trigger_dma_callback dma address 0x4002C000 on 1
+07-29 15:00:13.721 W/Settings( 3704): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-29 15:00:13.722 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:13.723 D/BluetoothManagerService( 1921): Message: 2
+07-29 15:00:13.726 D/CellBroadcastReceiver( 8419): onReceive Intent { act=android.intent.action.AIRPLANE_MODE flg=0x20000010 cmp=com.android.cellbroadcastreceiver/.CellBroadcastReceiver (has extras) }
+07-29 15:00:13.726 D/CellBroadcastReceiver( 8419): airplaneModeOn: true
+07-29 15:00:13.735 D/PhoneStatusBar( 3515): disable: < expand* icons alerts ticker system_info back home recent clock search >
+07-29 15:00:13.736 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:13.736 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x2c 0x29 0x29 0x1
+07-29 15:00:13.736 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:13.736 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:13.737 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:13.737 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x34a 0x347 0x347 0x49
+07-29 15:00:13.737 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/nvram-rw.bin
+07-29 15:00:13.737 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:13.737 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:14.700 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.710 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.721 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.731 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.742 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.752 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.762 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.773 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.783 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): stopOutput() output 2, stream 1, session 296
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:14.794 V/AudioPolicyManagerBase(  148): changeRefCount() stream 1, count 0
+07-29 15:00:14.794 V/AudioPolicyManagerBase(  148): getNewDevice() selected device 0
+07-29 15:00:14.794 V/AudioPolicyManagerBase(  148): setOutputDevice() output 2 device 0000 delayMs 170
+07-29 15:00:14.794 V/AudioPolicyManagerBase(  148): setOutputDevice() prevDevice 0002
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 1, device 1
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 3, device 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 4, device 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 5, device 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 6, device 1
+07-29 15:00:14.794 V/AudioPolicyManagerBase(  148): setOutputDevice() setting same device 0000 or null device for output 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:14.794 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:14.794 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : nv_param_media_routing=2
+07-29 15:00:14.794 V/nvaudio_hw(  148): Media is routed to :2
+07-29 15:00:14.794 V/nvaudio_hw(  148): ULP supported: dev 2
+07-29 15:00:15.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.253 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.253 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.253 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.253 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.253 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.253 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.253 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.253 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:15.253 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:15.254 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.254 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.254 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.254 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x94 0x91 0x91 0x49
+07-29 15:00:15.254 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:15.254 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.254 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x42 0x3f 0x3f 0x1
+07-29 15:00:15.254 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.254 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.255 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.255 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x12 0xf 0xf 0x49
+07-29 15:00:15.255 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_MM_DATA.bin
+07-29 15:00:15.255 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.255 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.255 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.255 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.255 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:15.255 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.255 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.255 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.255 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.256 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.256 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.256 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.256 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.256 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.256 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.256 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.256 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.256 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.256 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.256 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x4c4 0x4c1 0x4c1 0x49
+07-29 15:00:15.256 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x60 0x5d 0x5d 0x1
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x442 0x43f 0x43f 0x49
+07-29 15:00:15.257 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_PLMN_CARRIER_LIST_DATA.bin
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.257 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.257 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.257 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.257 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.258 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x19c 0x199 0x199 0x49
+07-29 15:00:15.258 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x5e 0x5b 0x5b 0x1
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x11a 0x117 0x117 0x49
+07-29 15:00:15.258 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_MCC_CARRIER_LIST_DATA.bin
+07-29 15:00:15.258 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.258 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.259 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.259 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.259 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:15.259 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.259 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.312 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.312 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.312 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.312 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.312 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.312 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.312 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.312 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.312 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.312 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.312 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.312 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.312 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.312 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.312 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xfa 0xf7 0xf7 0x49
+07-29 15:00:15.313 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x4c 0x49 0x49 0x1
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.313 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.313 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x78 0x75 0x75 0x49
+07-29 15:00:15.313 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_USIM_MM_DATA.bin
+07-29 15:00:15.314 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.314 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.314 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.314 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.314 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:15.314 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.314 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.314 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.314 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.314 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.314 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.314 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.314 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.314 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.314 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.314 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.314 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.315 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.315 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.315 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.315 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.315 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.315 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.315 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:15.315 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:15.315 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.315 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.316 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.316 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.316 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.316 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.316 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.316 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xfa 0xf7 0xf7 0x49
+07-29 15:00:15.316 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:15.316 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.316 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.316 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.316 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x4c 0x49 0x49 0x1
+07-29 15:00:15.316 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.316 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.316 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.316 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x78 0x75 0x75 0x49
+07-29 15:00:15.317 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_USIM_MM_DATA.bin
+07-29 15:00:15.317 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.317 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.317 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.317 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.317 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:15.317 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.317 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.377 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.377 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x42 0x3f 0x3f 0x1
+07-29 15:00:15.377 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.377 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.378 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.378 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xe 0xb 0xb 0x49
+07-29 15:00:15.378 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/remotes/sim/sim0_enable
+07-29 15:00:15.378 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.378 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.387 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.387 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.387 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.387 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.387 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.388 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.388 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:15.388 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.388 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.388 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.388 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.388 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.388 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x8c 0x89 0x89 0x49
+07-29 15:00:15.388 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:15.388 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.388 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.389 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.389 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x52 0x4f 0x4f 0x1
+07-29 15:00:15.389 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:15.389 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.389 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.389 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xa 0x7 0x7 0x49
+07-29 15:00:15.389 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_SHELL_MISC_DATA.bin
+07-29 15:00:15.389 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.389 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.389 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:15.389 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:15.389 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:15.389 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:15.389 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:15.392 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:15.393 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:15.407 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:15.413 D/MobileDataStateTracker( 1921): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+07-29 15:00:15.415 D/MobileDataStateTracker( 1921): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=(unspecified)
+07-29 15:00:15.416 D/MobileDataStateTracker( 1921): dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+07-29 15:00:15.419 D/MobileDataStateTracker( 1921): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.420 D/MobileDataStateTracker( 1921): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+07-29 15:00:15.421 D/MobileDataStateTracker( 1921): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.421 D/MobileDataStateTracker( 1921): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+07-29 15:00:15.423 D/MobileDataStateTracker( 1921): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.424 D/MobileDataStateTracker( 1921): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+07-29 15:00:15.425 D/MobileDataStateTracker( 1921): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.425 D/MobileDataStateTracker( 1921): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+07-29 15:00:15.426 D/MobileDataStateTracker( 1921): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.427 D/MobileDataStateTracker( 1921): dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+07-29 15:00:15.429 D/MobileDataStateTracker( 1921): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.429 D/MobileDataStateTracker( 1921): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+07-29 15:00:15.431 D/MobileDataStateTracker( 1921): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.431 D/MobileDataStateTracker( 1921): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+07-29 15:00:15.433 D/MobileDataStateTracker( 1921): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.433 D/MobileDataStateTracker( 1921): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+07-29 15:00:15.433 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:15.435 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:15.435 D/MobileDataStateTracker( 1921): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+07-29 15:00:15.436 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:15.436 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:15.439 D/MobileDataStateTracker( 1921): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+07-29 15:00:15.440 D/MobileDataStateTracker( 1921): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+07-29 15:00:15.441 D/MobileDataStateTracker( 1921): dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+07-29 15:00:15.443 D/MobileDataStateTracker( 1921): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+07-29 15:00:15.443 D/MobileDataStateTracker( 1921): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+07-29 15:00:15.445 D/MobileDataStateTracker( 1921): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+07-29 15:00:15.445 D/MobileDataStateTracker( 1921): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+07-29 15:00:15.445 D/MobileDataStateTracker( 1921): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+07-29 15:00:15.446 D/MobileDataStateTracker( 1921): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+07-29 15:00:15.449 D/MobileDataStateTracker( 1921): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+07-29 15:00:15.455 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:15.459 W/BroadcastQueue( 1921): Permission Denial: broadcasting Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x20000010 (has extras) } from null (pid=3704, uid=1001) is not exported from uid 10061 due to receiver com.kingroot.kinguser/.receiver.BootReceiver
+07-29 15:00:15.469 D/dalvikvm( 3921): GC_CONCURRENT freed 389K, 35% free 3437K/5256K, paused 0ms+1ms, total 9ms
+07-29 15:00:17.683 V/nvaudio_hw(  148): nvaudio_out_standby: hw_dev->mode: 0
+07-29 15:00:17.683 V/nvaudio_hw(  148): close_alsa_dev : active stream count 1
+07-29 15:00:17.697 V/nvaudio_hw(  148): trigger_dma_callback dma address 0x00000000 on 0
+07-29 15:00:17.701 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:24.391 D/ConnectivityService( 1921): Sampling interval elapsed, updating statistics ..
+07-29 15:00:24.404 D/ConnectivityService( 1921): Done.
+07-29 15:00:24.404 D/ConnectivityService( 1921): Setting timer for 720seconds
+07-29 15:00:24.886 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 15:00:24.888 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:24.897 E/        ( 1921): Vibrator sendit ms = 0
+07-29 15:00:24.902 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:24.904 E/        ( 1921): Vibrator sendit ms = 1
+07-29 15:00:24.929 E/        ( 1921): Vibrator sendit ms = 21
+07-29 15:00:24.968 D/dalvikvm( 1921): GC_CONCURRENT freed 1312K, 32% free 9203K/13436K, paused 2ms+5ms, total 48ms
+07-29 15:00:24.971 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:24.996 W/ViewRootImpl( 1921): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_POWER, scanCode=116, metaState=0, flags=0x8, repeatCount=3, eventTime=16357366, downTime=16356764, deviceId=6, source=0x101 }
+07-29 15:00:25.022 D/PhoneStatusBar( 3515): disable: < EXPAND* icons alerts ticker system_info back home recent clock search >
+07-29 15:00:26.617 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 15:00:26.617 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.786 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 11907
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:26.786 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 3296
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:26.786 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 148
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 44100, format 1, channelMask 3, flags 4
+07-29 15:00:26.786 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:26.786 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): startOutput() output 2, stream 1, session 297
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:26.787 V/AudioPolicyManagerBase(  148): changeRefCount() stream 1, count 1
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:26.787 V/AudioPolicyManagerBase(  148): getNewDevice() selected device 2
+07-29 15:00:26.787 V/AudioPolicyManagerBase(  148): setOutputDevice() output 2 device 0002 delayMs 0
+07-29 15:00:26.787 V/AudioPolicyManagerBase(  148): setOutputDevice() prevDevice 0002
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 1, device 1
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 3, device 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 4, device 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 5, device 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 6, device 1
+07-29 15:00:26.787 V/AudioPolicyManagerBase(  148): setOutputDevice() setting same device 0002 or null device for output 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:26.787 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:26.787 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : nv_param_media_routing=2
+07-29 15:00:26.787 V/nvaudio_hw(  148): Media is routed to :2
+07-29 15:00:26.787 V/nvaudio_hw(  148): ULP supported: dev 2
+07-29 15:00:26.788 V/nvaudio_hw(  148): open_out_alsa_dev
+07-29 15:00:26.788 V/nvaudio_hw(  148): get_active_dev_rate : card 1 device 0
+07-29 15:00:26.788 V/nvaudio_hw(  148): set_route : dev id 0 ref 1 devices 0x2 -> 0x2
+07-29 15:00:26.788 V/nvaudio_hw(  148): Opened Alsa OUT device music with pcm_config
+07-29 15:00:26.788 V/nvaudio_hw(  148):  channels 2
+07-29 15:00:26.788 V/nvaudio_hw(  148):  rate 48000
+07-29 15:00:26.788 V/nvaudio_hw(  148):  format 0
+07-29 15:00:26.788 V/nvaudio_hw(  148):  period_size 1024
+07-29 15:00:26.788 V/nvaudio_hw(  148):  period_count 1
+07-29 15:00:26.788 V/nvaudio_hw(  148):  start_threshold 1
+07-29 15:00:26.788 V/nvaudio_hw(  148):  stop_threshold 2049 
+07-29 15:00:26.788 V/nvaudio_hw(  148): silence_threshold 0
+07-29 15:00:26.788 V/nvaudio_hw(  148):  avail_min 1
+07-29 15:00:26.788 V/nvaudio_hw(  148): set_avp_render_path
+07-29 15:00:26.788 V/nvaudio_hw(  148): set_out_resampler : quality 4
+07-29 15:00:26.788 V/nvaudio_hw(  148): No resampler required
+07-29 15:00:26.788 V/nvaudio_hw(  148): set_current_route : dev id 0
+07-29 15:00:26.788 V/nvaudio_hw(  148): set_route_by_array
+07-29 15:00:26.788 V/nvaudio_hw(  148): set_route_by_array
+07-29 15:00:26.788 V/nvaudio_hw(  148): Set 'Right Speaker Mixer Left DAC Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.788 V/nvaudio_hw(  148): Set 'Right Speaker Mixer Right DAC Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.788 V/nvaudio_hw(  148): Set 'Speaker Left Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.788 V/nvaudio_hw(  148): Set 'Speaker Right Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.788 V/nvaudio_hw(  148): Set 'Speaker Left Volume' to '58' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.788 V/nvaudio_hw(  148): Set 'Speaker Right Volume' to '58' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.788 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'Digital Gain Volume' to '0' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'Digital Level Volume' to '10' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/AudioPolicyManagerBase(  148): releaseOutput() 2
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'Int Spk Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'ALC Make Up Gain Volume' to '8' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'ALC Compression Ratio' to '3' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'ALC Compression Threshold Volume' to '14' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'ALC Expansion Ratio' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'ALC Expansion Threshold Volume' to '26' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'ALC Enable' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'Speaker Left Mixer Gain Volume' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.789 V/nvaudio_hw(  148): Set 'Speaker Right Mixer Gain Volume' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.796 W/InputMethodManagerService( 1921): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41cf27c8 attribute=null, token = android.os.BinderProxy@41deb578
+07-29 15:00:26.804 V/nvaudio_hw(  148): Set 'EQ Mode' to '3' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.804 V/nvaudio_hw(  148): Set 'Digital EQ 7 Band Enable' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:26.804 V/nvaudio_hw(  148): send_at_cmd_by_list: type 0
+07-29 15:00:26.805 V/nvaudio_hw(  148): trigger_dma_callback dma address 0x4002C000 on 1
+07-29 15:00:26.813 W/Settings( 3704): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-29 15:00:26.814 D/CellBroadcastReceiver( 8419): onReceive Intent { act=android.intent.action.AIRPLANE_MODE flg=0x20000010 cmp=com.android.cellbroadcastreceiver/.CellBroadcastReceiver (has extras) }
+07-29 15:00:26.814 D/CellBroadcastReceiver( 8419): airplaneModeOn: false
+07-29 15:00:26.815 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.817 D/PhoneStatusBar( 3515): disable: < expand* icons alerts ticker system_info back home recent clock search >
+07-29 15:00:26.822 D/CellBroadcastConfigService( 8419): enabling emergency cell broadcast channels
+07-29 15:00:26.822 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] enableGsmBroadcastRange
+07-29 15:00:26.822 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Calling setGsmBroadcastConfig with 2 configurations
+07-29 15:00:26.823 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.828 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.828 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x44 0x41 0x41 0x1
+07-29 15:00:26.828 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:26.828 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.828 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.828 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xd 0xa 0xa 0x49
+07-29 15:00:26.828 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/remotes/sim/sim0_voltage
+07-29 15:00:26.828 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:26.829 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.829 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.829 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x42 0x3f 0x3f 0x1
+07-29 15:00:26.829 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:26.829 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.829 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.829 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xd 0xa 0xa 0x49
+07-29 15:00:26.829 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/remotes/sim/sim0_enable
+07-29 15:00:26.830 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:26.830 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.831 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.831 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:26.831 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:26.831 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:26.831 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.832 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.832 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x56 0x53 0x53 0x1
+07-29 15:00:26.832 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/persistent/personalisation.backup not found.
+07-29 15:00:26.832 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:26.832 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.832 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.832 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x62 0x5f 0x5f 0x1
+07-29 15:00:26.832 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/persistent/NRAM2_ME_PERSONALISATION.bin not found.
+07-29 15:00:26.832 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:26.832 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.833 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.834 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.834 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.835 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:26.835 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:26.835 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:26.835 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.835 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.835 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:26.835 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:26.835 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:26.835 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.835 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.836 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:26.836 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:26.836 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:26.836 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:26.836 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:26.836 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.837 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.837 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.838 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.838 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.839 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:26.839 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:27.428 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.428 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.428 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.428 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.428 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.429 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.429 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.429 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.429 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.429 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.429 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.429 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x52 0x4f 0x4f 0x1
+07-29 15:00:27.429 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/NRAM2_CB_PWS_MCC_LIST.bin not found.
+07-29 15:00:27.429 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.429 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.430 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.430 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.430 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.430 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.430 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.430 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.430 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x70 0x6d 0x6d 0x1
+07-29 15:00:27.430 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/NRAM2_CB_ETWS_PLMNS_WITHOUT_SECURITY.bin not found.
+07-29 15:00:27.430 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.430 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.430 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.430 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.430 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.430 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.430 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.431 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.431 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.431 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.431 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.431 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.431 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.431 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:27.431 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:27.431 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:27.431 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.431 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.431 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.431 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:27.431 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.431 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.431 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xe2 0xdf 0xdf 0x49
+07-29 15:00:27.431 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:27.433 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:27.433 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.433 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.433 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x4a 0x47 0x47 0x1
+07-29 15:00:27.433 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:27.433 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.433 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.433 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x60 0x5d 0x5d 0x49
+07-29 15:00:27.433 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_CB_SETTINGS.bin
+07-29 15:00:27.433 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:27.433 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.433 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.433 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.433 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:27.434 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:27.434 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.796 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.807 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.817 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.828 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.838 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.848 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.858 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.869 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.884 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:27.889 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.889 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.889 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.889 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.889 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): stopOutput() output 2, stream 1, session 297
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:27.895 V/AudioPolicyManagerBase(  148): changeRefCount() stream 1, count 0
+07-29 15:00:27.895 V/AudioPolicyManagerBase(  148): getNewDevice() selected device 0
+07-29 15:00:27.895 V/AudioPolicyManagerBase(  148): setOutputDevice() output 2 device 0000 delayMs 170
+07-29 15:00:27.895 V/AudioPolicyManagerBase(  148): setOutputDevice() prevDevice 0002
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 1, device 1
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 3, device 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 4, device 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 5, device 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 6, device 1
+07-29 15:00:27.895 V/AudioPolicyManagerBase(  148): setOutputDevice() setting same device 0000 or null device for output 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:27.895 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:27.895 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : nv_param_media_routing=2
+07-29 15:00:27.895 V/nvaudio_hw(  148): Media is routed to :2
+07-29 15:00:27.895 V/nvaudio_hw(  148): ULP supported: dev 2
+07-29 15:00:27.934 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.934 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.934 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.934 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.934 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.953 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.953 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.953 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.953 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.953 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.954 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.954 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.954 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.954 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.954 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xc9 0xc6 0xc6 0x49
+07-29 15:00:27.955 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x50 0x4d 0x4d 0x1
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.955 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.955 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x47 0x44 0x44 0x49
+07-29 15:00:27.956 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_KNOWN_SIM_DATA.bin
+07-29 15:00:27.956 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:27.956 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.956 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.956 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.956 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:27.956 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:27.956 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.956 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.956 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.956 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.956 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.956 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.956 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.956 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x52 0x4f 0x4f 0x1
+07-29 15:00:27.956 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/NRAM2_SMS_ME_STORAGE1.bin not found.
+07-29 15:00:27.956 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.956 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.957 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.957 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.957 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.957 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.957 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.957 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.957 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.957 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.957 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.957 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:27.957 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:27.957 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:27.957 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:27.957 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:27.957 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.043 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.043 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.043 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:28.043 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:28.044 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.044 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.070 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.070 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.071 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.071 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.090 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.090 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.090 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:28.090 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:28.090 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.091 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.091 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.092 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.093 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.093 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.094 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.096 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Failed to add cell broadcast subscription for MID range 4352 to 4354 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.096 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] enableGsmBroadcastRange
+07-29 15:00:28.097 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Calling setGsmBroadcastConfig with 2 configurations
+07-29 15:00:28.097 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.099 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.100 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.101 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.102 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.102 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.103 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.104 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.104 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.105 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.106 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.108 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.109 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.110 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.110 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.111 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.111 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.112 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.113 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.114 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.115 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.117 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.119 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.120 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.121 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.122 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.123 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.123 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.123 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:28.123 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:28.123 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.124 W/BroadcastQueue( 1921): Permission Denial: broadcasting Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x20000010 (has extras) } from null (pid=3704, uid=1001) is not exported from uid 10061 due to receiver com.kingroot.kinguser/.receiver.BootReceiver
+07-29 15:00:28.125 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.125 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.125 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:28.125 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:28.125 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.126 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.126 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:28.126 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:28.126 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:28.126 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.126 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.126 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.126 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:28.126 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.128 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.128 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x198 0x195 0x195 0x49
+07-29 15:00:28.129 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:28.129 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:28.129 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.130 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.130 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x5a 0x57 0x57 0x1
+07-29 15:00:28.130 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:28.130 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.131 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.133 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.133 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x116 0x113 0x113 0x49
+07-29 15:00:28.133 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_ABMM_WRITEABLE_DATA.bin
+07-29 15:00:28.133 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:28.133 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.135 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.135 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.135 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:28.135 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:28.135 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.143 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Failed to add cell broadcast subscription for MID range 4356 to 4356 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.143 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] enableGsmBroadcastRange
+07-29 15:00:28.143 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Added cell broadcast subscription for MID range 4371 to 4372 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.143 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Calling setCellBroadcastActivation(true)
+07-29 15:00:28.144 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.148 D/MccTable( 3704): updateMccMncConfiguration: mcc=204, mnc=4
+07-29 15:00:28.148 D/MccTable( 3704): getLocaleFromMcc to nl_nl mcc=204
+07-29 15:00:28.148 D/MccTable( 3704): getLocaleForLanguageCountry: skipping already persisted
+07-29 15:00:28.148 D/MccTable( 3704): getLocaleForLanguageCountry: X locale=null
+07-29 15:00:28.148 D/MccTable( 3704): WIFI_COUNTRY_CODE set to nl
+07-29 15:00:28.148 I/WifiService( 1921): WifiService trying to set country code to nl with persist set to true
+07-29 15:00:28.149 D/MccTable( 3704): updateMccMncConfiguration updateConfig config={1.0 204mcc4mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+07-29 15:00:28.160 W/BroadcastQueue( 1921): Permission Denial: broadcasting Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x20000010 (has extras) } from null (pid=3704, uid=1001) is not exported from uid 10061 due to receiver com.kingroot.kinguser/.receiver.BootReceiver
+07-29 15:00:28.189 D/dalvikvm( 3515): GC_CONCURRENT freed 2917K, 72% free 9893K/34152K, paused 2ms+3ms, total 21ms
+07-29 15:00:28.242 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] enableGsmBroadcastRange
+07-29 15:00:28.243 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Added cell broadcast subscription for MID range 4373 to 4378 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.243 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Calling setCellBroadcastActivation(true)
+07-29 15:00:28.244 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.250 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.250 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.250 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:28.250 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:28.250 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.250 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.250 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.250 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:28.250 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:28.250 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xe2 0xdf 0xdf 0x49
+07-29 15:00:28.251 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x4a 0x47 0x47 0x1
+07-29 15:00:28.251 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.251 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.252 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x60 0x5d 0x5d 0x49
+07-29 15:00:28.252 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_CB_SETTINGS.bin
+07-29 15:00:28.252 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:28.252 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.252 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.252 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.252 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:28.252 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:28.252 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.570 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.571 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] enableGsmBroadcastRange
+07-29 15:00:28.572 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Added cell broadcast subscription for MID range 4379 to 4379 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.572 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Calling setCellBroadcastActivation(true)
+07-29 15:00:28.572 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.747 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.751 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] enableGsmBroadcastRange
+07-29 15:00:28.752 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Added cell broadcast subscription for MID range 4370 to 4370 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.752 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Calling setCellBroadcastActivation(true)
+07-29 15:00:28.754 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.812 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.814 D/CellBroadcastConfigService( 8419): enabled emergency cell broadcast channels
+07-29 15:00:28.814 D/CellBroadcastConfigService( 8419): disabling cell broadcast channel 50
+07-29 15:00:28.815 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] disableGsmBroadcastRange
+07-29 15:00:28.817 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Failed to remove cell broadcast subscription for MID range 50 to 50 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.818 D/CellBroadcastConfigService( 8419): disabling channels 919-928
+07-29 15:00:28.818 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] disableGsmBroadcastRange
+07-29 15:00:28.819 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Failed to remove cell broadcast subscription for MID range 919 to 928 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.820 D/CellBroadcastConfigService( 8419): disabling cell broadcast ETWS test messages
+07-29 15:00:28.820 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] disableGsmBroadcastRange
+07-29 15:00:28.823 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Failed to remove cell broadcast subscription for MID range 4355 to 4355 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.823 D/CellBroadcastConfigService( 8419): disabling cell broadcast CMAS test messages
+07-29 15:00:28.823 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] disableGsmBroadcastRange
+07-29 15:00:28.825 D/IccSmsInterfaceManager( 3704): [IccSmsInterfaceManager] Failed to remove cell broadcast subscription for MID range 4380 to 4382 from client com.android.cellbroadcastreceiver
+07-29 15:00:28.859 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:28.954 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:28.954 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:28.954 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:28.954 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:28.954 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:28.967 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:29.019 D/dalvikvm( 3704): GC_CONCURRENT freed 828K, 23% free 5052K/6480K, paused 3ms+2ms, total 22ms
+07-29 15:00:29.057 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:29.217 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.218 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x44 0x41 0x41 0x1
+07-29 15:00:29.218 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/NRAM2_ADR_FILE.bin not found.
+07-29 15:00:29.218 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:29.218 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.218 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.218 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x44 0x41 0x41 0x1
+07-29 15:00:29.218 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/NRAM2_ADR_FILE.bin not found.
+07-29 15:00:29.218 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:29.218 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.233 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:29.272 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:29.275 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.275 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:29.275 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:29.275 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:29.275 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.276 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.276 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:29.276 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:29.276 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:29.276 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.277 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.277 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:29.277 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:29.277 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:29.277 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.278 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.278 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:29.278 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:29.278 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.278 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.279 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0xa9 0xa6 0xa6 0x49
+07-29 15:00:29.279 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:29.279 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:29.279 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.280 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.280 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x44 0x41 0x41 0x1
+07-29 15:00:29.280 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:29.280 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.280 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.280 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x27 0x24 0x24 0x49
+07-29 15:00:29.280 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_SMS_DATA.bin
+07-29 15:00:29.281 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:29.281 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.283 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:29.283 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:29.283 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:29.283 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:29.283 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:29.321 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:29.374 D/MccTable( 3704): updateMccMncConfiguration: mcc=204, mnc=4
+07-29 15:00:29.374 D/MccTable( 3704): getLocaleFromMcc to nl_nl mcc=204
+07-29 15:00:29.374 D/MccTable( 3704): getLocaleForLanguageCountry: skipping already persisted
+07-29 15:00:29.374 D/MccTable( 3704): getLocaleForLanguageCountry: X locale=null
+07-29 15:00:29.374 D/MccTable( 3704): WIFI_COUNTRY_CODE set to nl
+07-29 15:00:29.375 I/WifiService( 1921): WifiService trying to set country code to nl with persist set to true
+07-29 15:00:29.380 D/MccTable( 3704): updateMccMncConfiguration updateConfig config={1.0 204mcc4mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+07-29 15:00:29.468 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:29.473 D/MobileDataStateTracker( 1921): dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+07-29 15:00:29.474 D/MobileDataStateTracker( 1921): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.479 D/MobileDataStateTracker( 1921): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+07-29 15:00:29.481 D/MobileDataStateTracker( 1921): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.484 D/MobileDataStateTracker( 1921): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+07-29 15:00:29.485 D/MobileDataStateTracker( 1921): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.488 D/MobileDataStateTracker( 1921): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+07-29 15:00:29.489 D/MobileDataStateTracker( 1921): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.492 D/MobileDataStateTracker( 1921): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+07-29 15:00:29.493 D/MobileDataStateTracker( 1921): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.495 D/MobileDataStateTracker( 1921): dun: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=dun
+07-29 15:00:29.496 D/MobileDataStateTracker( 1921): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.499 D/MobileDataStateTracker( 1921): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+07-29 15:00:29.506 D/MobileDataStateTracker( 1921): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.507 D/MobileDataStateTracker( 1921): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+07-29 15:00:29.507 D/MobileDataStateTracker( 1921): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.507 D/MobileDataStateTracker( 1921): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+07-29 15:00:29.510 D/MobileDataStateTracker( 1921): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.510 D/MobileDataStateTracker( 1921): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+07-29 15:00:29.511 D/MobileDataStateTracker( 1921): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=simLoaded
+07-29 15:00:29.520 W/BroadcastQueue( 1921): Permission Denial: broadcasting Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x20000010 (has extras) } from null (pid=3704, uid=1001) is not exported from uid 10061 due to receiver com.kingroot.kinguser/.receiver.BootReceiver
+07-29 15:00:30.748 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:00:30.783 V/nvaudio_hw(  148): nvaudio_out_standby: hw_dev->mode: 0
+07-29 15:00:30.783 V/nvaudio_hw(  148): close_alsa_dev : active stream count 1
+07-29 15:00:30.828 V/nvaudio_hw(  148): trigger_dma_callback dma address 0x00000000 on 0
+07-29 15:00:30.832 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:31.567 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:31.570 D/        ( 3704): Setting time of day to sec=1438174832
+07-29 15:00:32.022 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.052 V/AlarmClock( 4644): AlarmInitReceiver android.intent.action.TIME_SET
+07-29 15:00:32.054 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.070 I/AlarmClock( 4644): Displaying next alarm time: ''
+07-29 15:00:32.084 V/AlarmClock( 4644): AlarmInitReceiver finished
+07-29 15:00:32.085 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.235 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.235 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:32.235 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:32.235 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:32.235 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.235 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.235 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:32.235 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:32.235 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:32.235 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.235 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.235 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:32.235 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:32.236 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:32.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.236 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:32.236 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:32.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.236 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x198 0x195 0x195 0x49
+07-29 15:00:32.236 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:32.236 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:32.236 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.237 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.237 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x5a 0x57 0x57 0x1
+07-29 15:00:32.237 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:32.237 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.237 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.237 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x116 0x113 0x113 0x49
+07-29 15:00:32.237 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_ABMM_WRITEABLE_DATA.bin
+07-29 15:00:32.237 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:32.237 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.237 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.237 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:32.237 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:32.237 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:32.237 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.237 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.238 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.238 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:32.238 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:32.238 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:32.238 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.238 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.238 D/FILD    (  163): OBEX: Core: Received packet: 0x3 0x3e 0x3b 0x3b 0x1
+07-29 15:00:32.238 I/FILD    (  163): OBEX: File: HandleFirstGetResponse: File /data/rfs/data/modem/transaction.log not found.
+07-29 15:00:32.238 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xd0 0x3
+07-29 15:00:32.238 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.239 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.239 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3b 0x1
+07-29 15:00:32.239 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x41 0x3e 0x3 0x49
+07-29 15:00:32.239 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:32.239 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.239 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.239 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.241 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.241 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x3e 0x3b 0x3b 0x1
+07-29 15:00:32.241 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:32.241 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.241 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.241 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x198 0x195 0x195 0x49
+07-29 15:00:32.241 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/transaction.log
+07-29 15:00:32.242 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:32.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.242 D/FILD    (  163): OBEX: Core: Received packet: 0x2 0x5a 0x57 0x57 0x1
+07-29 15:00:32.242 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0x90 0x3
+07-29 15:00:32.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.242 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x116 0x113 0x113 0x49
+07-29 15:00:32.242 I/FILD    (  163): OBEX: File: HandleBodyEndOfBodyHeaders: write in /data/rfs/data/modem/NRAM2_ABMM_WRITEABLE_DATA.bin
+07-29 15:00:32.242 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:32.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.242 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_lock
+07-29 15:00:32.242 D/FILD    (  163): OBEX: Core: Received packet: 0x82 0x3e 0x3b 0x3b 0x1
+07-29 15:00:32.242 I/FILD    (  163): OBEX: File: HandlePutRequest: removing /data/rfs/data/modem/transaction.log
+07-29 15:00:32.242 D/FILD    (  163): OBEX: Core: obex_CoreSendSimplePacket: 0xa0 0x3
+07-29 15:00:32.243 I/ICEUTIL (  163): WakelockActuate: writing fildLock to /sys/power/wake_unlock
+07-29 15:00:32.243 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.244 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.245 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.246 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.246 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.247 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.248 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.250 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.251 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:32.257 I/PowerManagerService( 1921): setBrightness mButtonLight, screenBrightness=102
+07-29 15:00:37.059 I/ActivityManager( 1921): Delay finish: com.android.providers.calendar/.CalendarProviderBroadcastReceiver
+07-29 15:00:37.062 I/ActivityManager( 1921): Resuming delayed broadcast
+07-29 15:00:37.098 D/dalvikvm( 4524): GC_CONCURRENT freed 392K, 20% free 3192K/3948K, paused 2ms+16ms, total 31ms
+07-29 15:00:44.031 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 15:00:44.072 E/        ( 1921): Vibrator sendit ms = 0
+07-29 15:00:44.259 V/PanelView( 3515): animationTick called with dtms=0; nothing to do (h=496.61203 v=3669.5134)
+07-29 15:00:44.788 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 15:00:44.860 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 11907
+07-29 15:00:44.860 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:44.860 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+07-29 15:00:44.860 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:44.861 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 3296
+07-29 15:00:44.861 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:44.861 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 0, format 0, channelMask 3, flags 0
+07-29 15:00:44.861 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:44.861 V/legacy_audio_policy_hal(  148): audio_io_handle_t android_audio_legacy::ap_get_output(audio_policy*, audio_stream_type_t, uint32_t, audio_format_t, audio_channel_mask_t, audio_output_flags_t, const audio_offload_info_t*): tid 148
+07-29 15:00:44.861 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:44.861 V/NvAudioPolicyManager(  148): getOutput() stream 1, samplingRate 44100, format 1, channelMask 3, flags 4
+07-29 15:00:44.861 V/NvAudioPolicyManager(  148): getOutput() returns output 2
+07-29 15:00:44.861 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): startOutput() output 2, stream 1, session 298
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:44.862 V/AudioPolicyManagerBase(  148): changeRefCount() stream 1, count 1
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:44.862 V/AudioPolicyManagerBase(  148): getNewDevice() selected device 2
+07-29 15:00:44.862 V/AudioPolicyManagerBase(  148): setOutputDevice() output 2 device 0002 delayMs 0
+07-29 15:00:44.862 V/AudioPolicyManagerBase(  148): setOutputDevice() prevDevice 0002
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 1, device 1
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 3, device 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 4, device 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 5, device 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 6, device 1
+07-29 15:00:44.862 V/AudioPolicyManagerBase(  148): setOutputDevice() setting same device 0002 or null device for output 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:44.862 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:44.862 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : nv_param_media_routing=2
+07-29 15:00:44.862 V/nvaudio_hw(  148): Media is routed to :2
+07-29 15:00:44.862 V/nvaudio_hw(  148): ULP supported: dev 2
+07-29 15:00:44.863 V/nvaudio_hw(  148): open_out_alsa_dev
+07-29 15:00:44.863 V/nvaudio_hw(  148): get_active_dev_rate : card 1 device 0
+07-29 15:00:44.863 V/nvaudio_hw(  148): set_route : dev id 0 ref 1 devices 0x2 -> 0x2
+07-29 15:00:44.863 V/nvaudio_hw(  148): Opened Alsa OUT device music with pcm_config
+07-29 15:00:44.863 V/nvaudio_hw(  148):  channels 2
+07-29 15:00:44.863 V/nvaudio_hw(  148):  rate 48000
+07-29 15:00:44.863 V/nvaudio_hw(  148):  format 0
+07-29 15:00:44.863 V/nvaudio_hw(  148):  period_size 1024
+07-29 15:00:44.863 V/nvaudio_hw(  148):  period_count 1
+07-29 15:00:44.863 V/nvaudio_hw(  148):  start_threshold 1
+07-29 15:00:44.863 V/nvaudio_hw(  148):  stop_threshold 2049 
+07-29 15:00:44.863 V/nvaudio_hw(  148): silence_threshold 0
+07-29 15:00:44.863 V/nvaudio_hw(  148):  avail_min 1
+07-29 15:00:44.863 V/nvaudio_hw(  148): set_avp_render_path
+07-29 15:00:44.863 V/nvaudio_hw(  148): set_out_resampler : quality 4
+07-29 15:00:44.863 V/nvaudio_hw(  148): No resampler required
+07-29 15:00:44.863 V/nvaudio_hw(  148): set_current_route : dev id 0
+07-29 15:00:44.863 V/nvaudio_hw(  148): set_route_by_array
+07-29 15:00:44.863 V/nvaudio_hw(  148): set_route_by_array
+07-29 15:00:44.863 V/nvaudio_hw(  148): Set 'Right Speaker Mixer Left DAC Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.863 V/nvaudio_hw(  148): Set 'Right Speaker Mixer Right DAC Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.863 V/nvaudio_hw(  148): Set 'Speaker Left Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.863 V/nvaudio_hw(  148): Set 'Speaker Right Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.863 V/nvaudio_hw(  148): Set 'Speaker Left Volume' to '58' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.863 V/nvaudio_hw(  148): Set 'Speaker Right Volume' to '58' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.863 V/nvaudio_hw(  148): Set 'Digital Gain Volume' to '0' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.863 V/nvaudio_hw(  148): Set 'Digital Level Volume' to '10' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/AudioPolicyManagerBase(  148): releaseOutput() 2
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'Int Spk Switch' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'ALC Make Up Gain Volume' to '8' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'ALC Compression Ratio' to '3' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'ALC Compression Threshold Volume' to '14' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'ALC Expansion Ratio' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'ALC Expansion Threshold Volume' to '26' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'ALC Enable' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'Speaker Left Mixer Gain Volume' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.864 V/nvaudio_hw(  148): Set 'Speaker Right Mixer Gain Volume' to '2' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.878 V/nvaudio_hw(  148): Set 'EQ Mode' to '3' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.878 V/nvaudio_hw(  148): Set 'Digital EQ 7 Band Enable' to '1' mode = 0 r->mode = -2 srate = 48000 r->srate = 0 
+07-29 15:00:44.878 V/nvaudio_hw(  148): send_at_cmd_by_list: type 0
+07-29 15:00:44.878 V/nvaudio_hw(  148): trigger_dma_callback dma address 0x4002C000 on 1
+07-29 15:00:45.736 D/PowerManagerService( 1921): userActivityNoUpdateLocked: system_ready = false
+07-29 15:00:45.868 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.878 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.889 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.892 V/PanelView( 3515): animationTick called with dtms=0; nothing to do (h=675.4723 v=-5059.9287)
+07-29 15:00:45.899 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.915 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.926 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.931 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.942 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.957 V/nvaudio_hw(  148): nvaudio_out_get_latency: latency 85
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): stopOutput() output 2, stream 1, session 298
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:45.968 V/AudioPolicyManagerBase(  148): changeRefCount() stream 1, count 0
+07-29 15:00:45.968 V/AudioPolicyManagerBase(  148): getNewDevice() selected device 0
+07-29 15:00:45.968 V/AudioPolicyManagerBase(  148): setOutputDevice() output 2 device 0000 delayMs 170
+07-29 15:00:45.968 V/AudioPolicyManagerBase(  148): setOutputDevice() prevDevice 0002
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 1, device 1
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 2, device 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 3, device 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 0, device 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 4, device 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 5, device 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() strategy 6, device 1
+07-29 15:00:45.968 V/AudioPolicyManagerBase(  148): setOutputDevice() setting same device 0000 or null device for output 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:45.968 V/NvAudioPolicyManager(  148): getDeviceForStrategy() from cache strategy 0, device 2
+07-29 15:00:45.968 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : nv_param_media_routing=2
+07-29 15:00:45.968 V/nvaudio_hw(  148): Media is routed to :2
+07-29 15:00:45.968 V/nvaudio_hw(  148): ULP supported: dev 2
+07-29 15:00:46.084 E/        ( 1921): Vibrator sendit ms = 0
+07-29 15:00:46.102 W/InputMethodManagerService( 1921): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41d85660 attribute=null, token = android.os.BinderProxy@41deb578
+07-29 15:00:48.860 V/nvaudio_hw(  148): nvaudio_out_standby: hw_dev->mode: 0
+07-29 15:00:48.860 V/nvaudio_hw(  148): close_alsa_dev : active stream count 1
+07-29 15:00:48.902 V/nvaudio_hw(  148): trigger_dma_callback dma address 0x00000000 on 0
+07-29 15:00:51.317 D/WifiController( 1921): battery changed pluggedType: 2

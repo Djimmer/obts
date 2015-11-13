@@ -1,0 +1,23 @@
+--------- beginning of /dev/log/main
+07-29 13:24:44.122 V/AlarmClock( 4644): AlarmInitReceiver android.intent.action.TIME_SET
+07-29 13:24:44.168 I/AlarmClock( 4644): Displaying next alarm time: ''
+07-29 13:24:44.230 V/AlarmClock( 4644): AlarmInitReceiver finished
+07-29 13:24:44.255 D/dalvikvm( 4607): GC_CONCURRENT freed 341K, 19% free 3093K/3800K, paused 4ms+5ms, total 166ms
+07-29 13:24:44.490 D/        ( 3704): Setting time of day to sec=1438169084
+--------- beginning of /dev/log/system
+07-29 13:24:49.185 I/ActivityManager( 1921): Delay finish: com.android.providers.calendar/.CalendarProviderBroadcastReceiver
+07-29 13:24:49.194 I/ActivityManager( 1921): Resuming delayed broadcast
+07-29 13:24:49.452 W/ContextImpl( 4486): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.karumi.blackphone.wipe.service.receiver.AutoLaunchReceiver.onReceive:20 android.app.ActivityThread.handleReceiver:2419 
+07-29 13:26:19.107 D/dalvikvm( 3921): GC_CONCURRENT freed 427K, 35% free 3437K/5256K, paused 20ms+6ms, total 127ms
+07-29 13:26:42.452 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:26:42.547 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:27:00.576 D/ConnectivityService( 1921): Sampling interval elapsed, updating statistics ..
+07-29 13:27:00.593 D/ConnectivityService( 1921): Done.
+07-29 13:27:00.593 D/ConnectivityService( 1921): Setting timer for 720seconds
+07-29 13:27:02.459 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:27:22.674 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:27:42.843 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:28:02.898 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:28:06.312 I/EntropyMixer( 1921): Writing entropy...
+07-29 13:28:23.003 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 13:28:43.232 D/WifiController( 1921): battery changed pluggedType: 2

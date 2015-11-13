@@ -1,0 +1,29 @@
+--------- beginning of /dev/log/system
+07-29 15:01:11.383 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:01:31.464 D/WifiController( 1921): battery changed pluggedType: 2
+07-29 15:01:45.735 I/PowerManagerService( 1921): Going to sleep due to screen timeout...
+--------- beginning of /dev/log/main
+07-29 15:01:46.345 D/Sensors ( 1921): AccSensor: Control set 0
+07-29 15:01:46.345 D/Sensors ( 1921): AccSensor: mEnabled = 0
+07-29 15:01:46.350 D/SurfaceFlinger(  145): Screen released, type=0 flinger=0xb764f450
+07-29 15:01:46.350 D/hwcomposer(  145): hwc_blank: display 0: blank
+07-29 15:01:46.350 D/hwcomposer(  145): hwc_blank_display: display 0: [0 -> 1]
+07-29 15:01:46.350 D/hwcomposer(  145): hwc_blank_display: releasing buffer 0x2d
+07-29 15:01:46.350 D/hwcomposer(  145): dc_blank: display 0, [0 -> 1]
+07-29 15:01:46.363 E/        ( 1921): Vibrator sendit ms = 0
+07-29 15:01:46.373 V/nvaudio_hw(  148): nvaudio_dev_set_parameters : screen_state=off
+07-29 15:01:46.412 I/powerHAL::common( 1921): Disabling input device:0
+07-29 15:01:46.424 I/powerHAL::common( 1921): Disabling input device:1
+07-29 15:01:46.442 D/dalvikvm( 3655): GC_CONCURRENT freed 1438K, 38% free 3541K/5704K, paused 2ms+0ms, total 36ms
+07-29 15:01:46.523 D/dalvikvm( 3655): GC_CONCURRENT freed 518K, 39% free 3529K/5704K, paused 2ms+1ms, total 10ms
+07-29 15:01:46.523 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 2ms
+07-29 15:01:46.535 D/dalvikvm( 3655): GC_CONCURRENT freed 521K, 39% free 3513K/5704K, paused 0ms+1ms, total 9ms
+07-29 15:01:46.535 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 7ms
+07-29 15:01:46.549 D/dalvikvm( 3655): GC_CONCURRENT freed 488K, 39% free 3529K/5704K, paused 2ms+1ms, total 11ms
+07-29 15:01:46.549 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 2ms
+07-29 15:01:46.561 D/dalvikvm( 3655): GC_CONCURRENT freed 506K, 39% free 3529K/5704K, paused 2ms+1ms, total 9ms
+07-29 15:01:46.561 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 5ms
+07-29 15:01:46.575 D/dalvikvm( 3655): GC_CONCURRENT freed 457K, 39% free 3520K/5704K, paused 1ms+2ms, total 10ms
+07-29 15:01:46.581 D/dalvikvm( 3655): GC_FOR_ALLOC freed 509K, 39% free 3521K/5704K, paused 7ms, total 7ms
+07-29 15:01:46.603 D/dalvikvm( 3655): GC_CONCURRENT freed 492K, 38% free 3538K/5704K, paused 1ms+1ms, total 10ms
+07-29 15:01:46.603 D/dalvikvm( 3655): WAIT_FOR_CONCURRENT_GC blocked 2ms

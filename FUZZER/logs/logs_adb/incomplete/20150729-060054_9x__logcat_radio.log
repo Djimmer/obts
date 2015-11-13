@@ -1,0 +1,1757 @@
+07-29 14:50:24.704 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CREG: 2
+07-29 14:50:24.704 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15756.366390]
+07-29 14:50:24.704 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CREG: 2 null
+07-29 14:50:24.705 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CREG: 2 null
+07-29 14:50:24.706 E/use-Rlog/RLOG-RIL{0}( 9096): Network lost
+07-29 14:50:24.712 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 14:50:24.737 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CREG: 0
+07-29 14:50:24.738 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15756.400348]
+07-29 14:50:24.738 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CREG: 0 null
+07-29 14:50:24.739 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CREG: 0 null
+07-29 14:50:24.754 D/RILJ    ( 3704): [8650]> OPERATOR
+07-29 14:50:24.770 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 14:50:24.864 D/RILJ    ( 3704): [8651]> DATA_REGISTRATION_STATE
+07-29 14:50:24.890 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824998] OPERATOR
+07-29 14:50:24.890 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 14:50:24.890 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824998] OPERATOR
+07-29 14:50:24.890 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+COPS=3,0;+COPS?;+COPS=3,1;+COPS?;+COPS=3,2;+COPS?
+07-29 14:50:24.892 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 14:50:24.893 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 14:50:24.893 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 14:50:24.893 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 14:50:24.910 D/RILJ    ( 3704): [8650]< OPERATOR {null, null, null}
+07-29 14:50:24.936 D/use-Rlog/RLOG-RIL{0}( 9096): doRamLogging: /system/bin/icera_log_serial_arm -b -d /dev/log_modem -m 30000 /data/rfs/data/debug/logging_102_20150729_145024/logging_20150729_145024.iom
+07-29 14:50:24.949 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824997] DATA_REGISTRATION_STATE
+07-29 14:50:24.950 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 14:50:24.950 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824997] DATA_REGISTRATION_STATE
+07-29 14:50:24.965 D/RILJ    ( 3704): [8651]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 14:50:24.967 D/RILJ    ( 3704): [8652]> VOICE_REGISTRATION_STATE
+07-29 14:50:25.004 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824996] VOICE_REGISTRATION_STATE
+07-29 14:50:25.004 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 14:50:25.004 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824996] VOICE_REGISTRATION_STATE
+07-29 14:50:25.006 D/RILJ    ( 3704): [8652]< VOICE_REGISTRATION_STATE {10, null, null, 16}
+07-29 14:50:25.007 D/RILJ    ( 3704): [8653]> QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:25.050 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824995] QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:25.051 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 14:50:25.051 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824995] QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:25.051 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 14:50:25.054 D/RILJ    ( 3704): [8653]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 14:50:25.059 D/RILJ    ( 3704): [8654]> OPERATOR
+07-29 14:50:25.096 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824994] OPERATOR
+07-29 14:50:25.096 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 14:50:25.096 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824994] OPERATOR
+07-29 14:50:25.096 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 14:50:25.124 D/RILJ    ( 3704): [8655]> DATA_REGISTRATION_STATE
+07-29 14:50:25.134 D/RILJ    ( 3704): [8654]< OPERATOR {null, null, null}
+07-29 14:50:25.167 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824993] DATA_REGISTRATION_STATE
+07-29 14:50:25.167 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 14:50:25.167 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824993] DATA_REGISTRATION_STATE
+07-29 14:50:25.169 D/RILJ    ( 3704): [8655]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 14:50:25.178 D/RILJ    ( 3704): [8656]> VOICE_REGISTRATION_STATE
+07-29 14:50:25.247 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824992] VOICE_REGISTRATION_STATE
+07-29 14:50:25.247 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 14:50:25.248 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824992] VOICE_REGISTRATION_STATE
+07-29 14:50:25.251 D/RILJ    ( 3704): [8656]< VOICE_REGISTRATION_STATE {10, null, null, 16}
+07-29 14:50:25.252 D/RILJ    ( 3704): [8657]> QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:25.277 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824991] QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:25.277 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 14:50:25.277 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824991] QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:25.277 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 14:50:25.277 D/PHONE   ( 3704): [ServiceState] setDataRegState=1
+07-29 14:50:25.278 D/PHONE   ( 3704): [ServiceState] setDataRadioTechnology=0
+07-29 14:50:25.278 D/GsmSST  ( 3704): [GsmSST] handlPollStateResultMessage: GsmSST setDataRegState=1 regState=0 dataRadioTechnology=0
+07-29 14:50:25.278 D/PHONE   ( 3704): [ServiceState] setVoiceRegState=1
+07-29 14:50:25.278 E/PHONE   ( 3704): [ServiceState] setState deprecated use setVoiceRegState()
+07-29 14:50:25.278 D/RILJ    ( 3704): [8657]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 14:50:25.286 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[0 1 home 00101 00101 00101 (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[1 1 home null null null (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=true] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 14:50:25.287 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 14:50:25.287 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: radio is on but out of service, set plmn='Emergency calls only'
+07-29 14:50:25.287 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: changed sending intent rule=2 showPlmn='true' plmn='Emergency calls only' showSpn='false' spn=''
+07-29 14:50:25.321 D/GsmSST  ( 3704): [GsmSST] operatorNumeric is null
+07-29 14:50:25.335 D/GsmSST  ( 3704): [GsmSST] SST.getAllCellInfo(): not implemented
+07-29 14:50:25.335 D/GsmSST  ( 3704): [GsmSST] SST.getAllCellInfo(): X size=0 list=null
+07-29 14:50:25.335 D/GsmSST  ( 3704): [GsmSST] getCellLocation(): X empty mCellLoc and CellInfo mCellLoc=[-1,-1,-1]
+07-29 14:50:44.668 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CREG: 2
+07-29 14:50:44.669 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15776.330281]
+07-29 14:50:44.669 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CREG: 2 null
+07-29 14:50:44.670 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CREG: 2 null
+07-29 14:50:44.673 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 14:50:44.679 D/RILJ    ( 3704): [8658]> OPERATOR
+07-29 14:50:44.714 D/RILJ    ( 3704): [8659]> DATA_REGISTRATION_STATE
+07-29 14:50:44.722 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824990] OPERATOR
+07-29 14:50:44.722 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 14:50:44.723 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824990] OPERATOR
+07-29 14:50:44.724 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+COPS=3,0;+COPS?;+COPS=3,1;+COPS?;+COPS=3,2;+COPS?
+07-29 14:50:44.727 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 14:50:44.727 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 14:50:44.727 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 14:50:44.727 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 14:50:44.738 D/RILJ    ( 3704): [8658]< OPERATOR {null, null, null}
+07-29 14:50:44.751 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824989] DATA_REGISTRATION_STATE
+07-29 14:50:44.751 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 14:50:44.751 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824989] DATA_REGISTRATION_STATE
+07-29 14:50:44.754 D/RILJ    ( 3704): [8659]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 14:50:44.757 D/RILJ    ( 3704): [8660]> VOICE_REGISTRATION_STATE
+07-29 14:50:44.775 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824988] VOICE_REGISTRATION_STATE
+07-29 14:50:44.775 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 14:50:44.776 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824988] VOICE_REGISTRATION_STATE
+07-29 14:50:44.781 D/RILJ    ( 3704): [8660]< VOICE_REGISTRATION_STATE {12, null, null, 16}
+07-29 14:50:44.782 D/RILJ    ( 3704): [8661]> QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:44.803 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824987] QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:44.803 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 14:50:44.804 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824987] QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:44.804 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 14:50:44.808 D/RILJ    ( 3704): [8661]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 14:50:44.810 D/PHONE   ( 3704): [ServiceState] setDataRegState=1
+07-29 14:50:44.810 D/PHONE   ( 3704): [ServiceState] setDataRadioTechnology=0
+07-29 14:50:44.810 D/GsmSST  ( 3704): [GsmSST] handlPollStateResultMessage: GsmSST setDataRegState=1 regState=0 dataRadioTechnology=0
+07-29 14:50:44.811 D/PHONE   ( 3704): [ServiceState] setVoiceRegState=1
+07-29 14:50:44.811 E/PHONE   ( 3704): [ServiceState] setState deprecated use setVoiceRegState()
+07-29 14:50:44.814 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[1 1 home null null null (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=true] newSS=[1 1 home null null null (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=true] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 14:50:44.814 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 14:50:55.421 D/use-Rlog/RLOG-RIL{0}( 9096): doRamLogging: /system/bin/icera_log_serial_arm -d /dev/log_modem -e /data/rfs/data/debug/logging_102_20150729_145024/tracegen_20150729_145024.ix
+07-29 14:50:58.224 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CREG: 1
+07-29 14:50:58.225 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15789.886032]
+07-29 14:50:58.225 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CREG: 1 null
+07-29 14:50:58.225 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CREG: 1 null
+07-29 14:50:58.225 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 14:50:58.226 D/RILJ    ( 3704): [8662]> OPERATOR
+07-29 14:50:58.227 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CGREG: 2
+07-29 14:50:58.227 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15789.888718]
+07-29 14:50:58.227 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CGREG: 2 null
+07-29 14:50:58.228 D/RILJ    ( 3704): [8663]> DATA_REGISTRATION_STATE
+07-29 14:50:58.228 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CGREG: 2 null
+07-29 14:50:58.233 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824986] OPERATOR
+07-29 14:50:58.233 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 14:50:58.233 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824986] OPERATOR
+07-29 14:50:58.233 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+COPS=3,0;+COPS?;+COPS=3,1;+COPS?;+COPS=3,2;+COPS?
+07-29 14:50:58.234 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,0,"vodafone NL",0
+07-29 14:50:58.235 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,1,"voda NL",0
+07-29 14:50:58.235 D/RILJ    ( 3704): [8664]> VOICE_REGISTRATION_STATE
+07-29 14:50:58.235 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,2,"20404",0
+07-29 14:50:58.235 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 14:50:58.237 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824985] DATA_REGISTRATION_STATE
+07-29 14:50:58.237 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 14:50:58.237 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824985] DATA_REGISTRATION_STATE
+07-29 14:50:58.238 D/RILJ    ( 3704): [8662]< OPERATOR {vodafone NL, voda NL, 20404}
+07-29 14:50:58.240 D/RILJ    ( 3704): [8665]> QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:58.243 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824984] VOICE_REGISTRATION_STATE
+07-29 14:50:58.243 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 14:50:58.243 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824984] VOICE_REGISTRATION_STATE
+07-29 14:50:58.244 D/RILJ    ( 3704): [8663]< DATA_REGISTRATION_STATE {2, null, null, 0, null, 2}
+07-29 14:50:58.245 D/RILJ    ( 3704): [8664]< VOICE_REGISTRATION_STATE {1, null, null, 16}
+07-29 14:50:58.245 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824983] QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:58.245 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 14:50:58.245 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824983] QUERY_NETWORK_SELECTION_MODE
+07-29 14:50:58.245 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 14:50:58.248 D/RILJ    ( 3704): [8665]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 14:50:58.249 D/PHONE   ( 3704): [ServiceState] setDataRegState=1
+07-29 14:50:58.249 D/PHONE   ( 3704): [ServiceState] setDataRadioTechnology=0
+07-29 14:50:58.249 D/GsmSST  ( 3704): [GsmSST] handlPollStateResultMessage: GsmSST setDataRegState=1 regState=2 dataRadioTechnology=0
+07-29 14:50:58.250 D/PHONE   ( 3704): [ServiceState] setVoiceRegState=0
+07-29 14:50:58.250 E/PHONE   ( 3704): [ServiceState] setState deprecated use setVoiceRegState()
+07-29 14:50:58.250 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[1 1 home null null null (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=true] newSS=[0 1 home vodafone NL voda NL 20404 (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 14:50:58.250 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 14:50:58.250 D/GsmSST  ( 3704): [GsmSST] pollStateDone: registering current mNitzUpdatedTime=false changing to false
+07-29 14:50:58.251 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: changed sending intent rule=2 showPlmn='true' plmn='vodafone NL' showSpn='false' spn=''
+07-29 14:50:58.263 D/GsmSST  ( 3704): [GsmSST] shouldFixTimeZoneNow: retVal=true iccCardExist=true operatorNumeric=20404 mcc=204 prevOperatorNumeric= prevMcc=205 needToFixTimeZone=false ltod=07-29 14:50:58.263
+07-29 14:50:58.264 D/GsmSST  ( 3704): [GsmSST] pollStateDone: fix time zone zoneName='Europe/Amsterdam' mZoneOffset=-25200000 mZoneDst=false iso-cc='nl' iso-cc-idx=-16
+07-29 14:50:58.264 D/GsmSST  ( 3704): [GsmSST] pollStateDone: using getTimeZone(off, dst, time, iso)
+07-29 14:50:58.264 D/GsmSST  ( 3704): [GsmSST] pollStateDone: zone == null
+07-29 14:50:58.950 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %IPSRB: 1
+07-29 14:50:58.950 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15790.612313]
+07-29 14:50:58.950 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %IPSRB: 1 null
+07-29 14:50:58.950 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %IPSRB: 1 null
+07-29 14:51:00.481 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CGREG: 1
+07-29 14:51:00.481 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15792.142467]
+07-29 14:51:00.481 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CGREG: 1 null
+07-29 14:51:00.481 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CGREG: 1 null
+07-29 14:51:00.484 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 14:51:00.486 D/RILJ    ( 3704): [8666]> OPERATOR
+07-29 14:51:00.513 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824982] OPERATOR
+07-29 14:51:00.513 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 14:51:00.514 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824982] OPERATOR
+07-29 14:51:00.514 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+COPS=3,0;+COPS?;+COPS=3,1;+COPS?;+COPS=3,2;+COPS?
+07-29 14:51:00.515 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,0,"vodafone NL",0
+07-29 14:51:00.516 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,1,"voda NL",0
+07-29 14:51:00.516 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,2,"20404",0
+07-29 14:51:00.516 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 14:51:00.518 D/RILJ    ( 3704): [8666]< OPERATOR {vodafone NL, voda NL, 20404}
+07-29 14:51:00.524 D/RILJ    ( 3704): [8667]> DATA_REGISTRATION_STATE
+07-29 14:51:00.553 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824981] DATA_REGISTRATION_STATE
+07-29 14:51:00.553 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 14:51:00.553 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824981] DATA_REGISTRATION_STATE
+07-29 14:51:00.555 D/RILJ    ( 3704): [8668]> VOICE_REGISTRATION_STATE
+07-29 14:51:00.558 D/RILJ    ( 3704): [8667]< DATA_REGISTRATION_STATE {1, null, null, 0, null, 2}
+07-29 14:51:00.562 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824980] VOICE_REGISTRATION_STATE
+07-29 14:51:00.562 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 14:51:00.563 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824980] VOICE_REGISTRATION_STATE
+07-29 14:51:00.564 D/RILJ    ( 3704): [8668]< VOICE_REGISTRATION_STATE {1, null, null, 16}
+07-29 14:51:00.565 D/RILJ    ( 3704): [8669]> QUERY_NETWORK_SELECTION_MODE
+07-29 14:51:00.574 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824979] QUERY_NETWORK_SELECTION_MODE
+07-29 14:51:00.574 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 14:51:00.574 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824979] QUERY_NETWORK_SELECTION_MODE
+07-29 14:51:00.574 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 14:51:00.575 D/RILJ    ( 3704): [8669]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 14:51:00.576 D/PHONE   ( 3704): [ServiceState] setDataRegState=0
+07-29 14:51:00.576 D/PHONE   ( 3704): [ServiceState] setDataRadioTechnology=0
+07-29 14:51:00.577 D/GsmSST  ( 3704): [GsmSST] handlPollStateResultMessage: GsmSST setDataRegState=0 regState=1 dataRadioTechnology=0
+07-29 14:51:00.577 D/PHONE   ( 3704): [ServiceState] setVoiceRegState=0
+07-29 14:51:00.577 E/PHONE   ( 3704): [ServiceState] setState deprecated use setVoiceRegState()
+07-29 14:51:00.578 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[0 1 home vodafone NL voda NL 20404 (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[0 0 home vodafone NL voda NL 20404 (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 14:51:00.579 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 14:51:00.591 D/GsmSST  ( 3704): [GsmSST] shouldFixTimeZoneNow: retVal=false iccCardExist=true operatorNumeric=20404 mcc=204 prevOperatorNumeric=20404 prevMcc=204 needToFixTimeZone=false ltod=07-29 14:51:00.589
+07-29 14:51:00.620 D/GsmSST  ( 3704): [GsmSST] notifyDataRegStateRilRadioTechnologyChanged: drs=0 rat=0
+07-29 14:51:00.625 D/DCT     ( 3704): get all active apn types
+07-29 14:51:00.627 D/DCT     ( 3704): handleMessage msg={ when=-8ms what=270352 obj=android.os.AsyncResult@41ad9380 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 14:51:00.627 D/DCT     ( 3704): onDataConnectionAttached
+07-29 14:51:00.628 D/DCT     ( 3704): overall state is IDLE
+07-29 14:51:00.628 D/DCT     ( 3704): [ApnContext:dun] getApnSetting: apnSetting=null
+07-29 14:51:00.647 D/DCT     ( 3704): [ApnContext:supl] getApnSetting: apnSetting=null
+07-29 14:51:00.665 D/DCT     ( 3704): [ApnContext:hipri] getApnSetting: apnSetting=null
+07-29 14:51:00.682 D/DCT     ( 3704): [ApnContext:mms] getApnSetting: apnSetting=null
+07-29 14:51:00.698 D/DCT     ( 3704): setupDataOnConnectableApns: dataAttached
+07-29 14:51:00.699 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 14:51:00.699 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 14:51:00.699 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 14:51:00.699 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=simLoaded mDataEnabled=true mDependencyMet=true}
+07-29 14:51:00.699 D/DCT     ( 3704): setupDataOnConnectableApns: isConnectable() call trySetupData
+07-29 14:51:00.699 D/DCT     ( 3704): trySetupData for type:default due to dataAttached apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataAttached mDataEnabled=true mDependencyMet=true}
+07-29 14:51:00.700 D/DCT     ( 3704): trySetupData with mIsPsRestricted=false
+07-29 14:51:00.700 D/DCT     ( 3704): [ApnContext:dun] getApnSetting: apnSetting=null
+07-29 14:51:00.716 D/DCT     ( 3704): [ApnContext:supl] getApnSetting: apnSetting=null
+07-29 14:51:00.717 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TLTS: "15/07/29,12:51:00+08,01"
+07-29 14:51:00.717 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15792.378567]
+07-29 14:51:00.717 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: *TLTS: "15/07/29,12:51:00+08,01" null
+07-29 14:51:00.717 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: *TLTS: "15/07/29,12:51:00+08,01" null
+07-29 14:51:00.720 D/RILJ    ( 3704): [UNSL]< UNSOL_NITZ_TIME_RECEIVED 15/07/29,12:51:00+08,01
+07-29 14:51:00.732 D/DCT     ( 3704): [ApnContext:hipri] getApnSetting: apnSetting=null
+07-29 14:51:00.744 D/DCT     ( 3704): [ApnContext:mms] getApnSetting: apnSetting=null
+07-29 14:51:00.755 D/DCT     ( 3704): trySetupData: X apnContext not 'ready' retValue=false
+07-29 14:51:00.755 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 14:51:00.758 D/GsmSST  ( 3704): [GsmSST] NITZ: 15/07/29,12:51:00+08,01,19082144 start=19082185 delay=41
+07-29 14:51:00.763 D/GsmSST  ( 3704): [GsmSST] NITZ: Setting time of day to Wed Jul 29 14:51:00 CEST 2015 NITZ receive delay(ms): 45 gained(ms): -718 from 15/07/29,12:51:00+08,01
+07-29 14:51:00.056 I/GsmSST  ( 3704): NITZ: after Setting time of day
+07-29 14:51:00.763 D/GsmSST  ( 3704): [GsmSST] setAndBroadcastNetworkSetTime: time=1438174260045ms
+07-29 14:51:01.001 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] <unknown request>
+07-29 14:51:02.612 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %IPSRB: 0
+07-29 14:51:02.612 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [15794.993739]
+07-29 14:51:02.612 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %IPSRB: 0 null
+07-29 14:51:02.612 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %IPSRB: 0 null
+07-29 15:00:11.659 D/RILJ    ( 3704): [8670]> SCREEN_STATE: true
+07-29 15:00:11.660 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824978] SCREEN_STATE
+07-29 15:00:11.660 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SCREEN_STATE on channel 0
+07-29 15:00:11.660 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824978] SCREEN_STATE
+07-29 15:00:11.660 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16344. 40809]
+07-29 15:00:11.660 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TUNSOL="SM",1
+07-29 15:00:11.662 D/DCT     ( 3704): onReceive: action=android.intent.action.SCREEN_ON
+07-29 15:00:11.662 D/DCT     ( 3704): stopNetStatPoll
+07-29 15:00:11.662 D/DCT     ( 3704): overall state is IDLE
+07-29 15:00:11.671 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:11.671 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ICESQU=1,5,6,1,6,12,12,6
+07-29 15:00:11.671 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:11.671 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CESQ
+07-29 15:00:11.672 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CESQ: 53,0,255,255,255,255
+07-29 15:00:11.672 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16344. 52321]
+07-29 15:00:11.672 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CESQ: 53,0,255,255,255,255 null
+07-29 15:00:11.672 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:11.672 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CREG=2;+CGREG=2;+CEREG=2
+07-29 15:00:11.673 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:11.673 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%NWSTATE=3
+07-29 15:00:11.674 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 4,20404,2G-GPRS,-,0
+07-29 15:00:11.674 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16344. 54711]
+07-29 15:00:11.674 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:11.674 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:11.674 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%IFD=36
+07-29 15:00:11.675 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:11.675 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ISCREEN=1
+07-29 15:00:11.676 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:11.676 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%IDRVSTAT
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< {
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'wakesch':{
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'min_restore_time':[0,295,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'max_restore_time':[0,432,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'emc_wait_count':0
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'cal32k':{
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'low_res_freq_millihz':32768698,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'state_stats':[59,272,65012],
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'cal_time':[0,26566,752,3890,10,807,232,52,84,5,2,11,51,138,162]
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'IPM':{
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'system_time':'0d5h16m18s',
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'uptime':6975574,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'downtime':15077177,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'load_1000':316,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'idle_time_dist':[46134,3719,1195,5059,4426,5757,468,8,0,0],
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'dxp0':{
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_dmem_active':0,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_dxp_idle':6926883,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_soc_idle':0,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_power_off':32762
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       }
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'shm':{
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'queue':{
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'put':11040,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'get':10020
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       },
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'if':{
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'sent':[182066,62678,2219,64,17168708,2332,2255,2186,2186,2186,2186,2186,2186,0,0,0,0,0,4220],
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'received':[139819,20058,23,44,360,184,94,0,0,0,0,0,0,0,0,0,0,0,1792],
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'given':[1325,1656,22,8,9974,33,29,18,18,18,18,18,18,0,0,0,0,0,64],
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'taken':[1325,1655,22,8,9974,33,29,18,18,18,18,18,18,0,0,0,0,0,64]
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       },
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'signal':{
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'ul':8744,
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'dl':9623
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       }
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< }
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CESQ: 53,0,255,255,255,255 null
+07-29 15:00:11.682 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:11.684 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:11.684 D/RILJ    ( 3704): [8670]< SCREEN_STATE 
+07-29 15:00:11.684 D/RILJ    ( 3704): [8671]> OPERATOR
+07-29 15:00:11.685 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:11.686 D/RILJ    ( 3704): [8672]> DATA_REGISTRATION_STATE
+07-29 15:00:11.686 D/RILJ    ( 3704): [8673]> VOICE_REGISTRATION_STATE
+07-29 15:00:11.687 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ICESQU: 51,0,255,255,255,255
+07-29 15:00:11.687 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16344. 67093]
+07-29 15:00:11.687 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ICESQU: 51,0,255,255,255,255 null
+07-29 15:00:11.687 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ICESQU: 51,0,255,255,255,255 null
+07-29 15:00:11.687 D/RILJ    ( 3704): [8674]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:11.689 D/RILJ    ( 3704): [8675]> OPERATOR
+07-29 15:00:11.690 D/RILJ    ( 3704): [8676]> DATA_REGISTRATION_STATE
+07-29 15:00:11.691 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824977] OPERATOR
+07-29 15:00:11.691 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:11.691 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824976] DATA_REGISTRATION_STATE
+07-29 15:00:11.691 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:11.691 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824975] VOICE_REGISTRATION_STATE
+07-29 15:00:11.691 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:11.691 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824974] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:11.691 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:11.691 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824973] OPERATOR
+07-29 15:00:11.691 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:11.692 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824977] OPERATOR
+07-29 15:00:11.692 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 15:00:11.692 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824976] DATA_REGISTRATION_STATE
+07-29 15:00:11.692 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824975] VOICE_REGISTRATION_STATE
+07-29 15:00:11.692 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824974] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:11.692 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:11.692 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824973] OPERATOR
+07-29 15:00:11.692 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 15:00:11.692 D/RILJ    ( 3704): [8671]< OPERATOR {vodafone NL, voda NL, 20404}
+07-29 15:00:11.693 D/RILJ    ( 3704): [8672]< DATA_REGISTRATION_STATE {1, null, null, 1, null, 2}
+07-29 15:00:11.693 D/RILJ    ( 3704): [8673]< VOICE_REGISTRATION_STATE {1, null, null, 1}
+07-29 15:00:11.693 D/RILJ    ( 3704): [8674]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:11.693 D/RILJ    ( 3704): [8675]< OPERATOR {vodafone NL, voda NL, 20404}
+07-29 15:00:11.693 D/RILJ    ( 3704): [8677]> VOICE_REGISTRATION_STATE
+07-29 15:00:11.693 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824972] DATA_REGISTRATION_STATE
+07-29 15:00:11.693 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:11.693 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824972] DATA_REGISTRATION_STATE
+07-29 15:00:11.694 D/RILJ    ( 3704): [8676]< DATA_REGISTRATION_STATE {1, null, null, 1, null, 2}
+07-29 15:00:11.694 D/RILJ    ( 3704): [8678]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:11.694 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824971] VOICE_REGISTRATION_STATE
+07-29 15:00:11.694 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:11.694 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824971] VOICE_REGISTRATION_STATE
+07-29 15:00:11.695 D/RILJ    ( 3704): [8677]< VOICE_REGISTRATION_STATE {1, null, null, 1}
+07-29 15:00:11.695 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824970] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:11.695 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:11.695 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824970] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:11.695 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:11.696 D/PHONE   ( 3704): [ServiceState] setDataRegState=0
+07-29 15:00:11.696 D/RILJ    ( 3704): [8678]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:11.696 D/PHONE   ( 3704): [ServiceState] setDataRadioTechnology=1
+07-29 15:00:11.696 D/GsmSST  ( 3704): [GsmSST] handlPollStateResultMessage: GsmSST setDataRegState=0 regState=1 dataRadioTechnology=1
+07-29 15:00:11.697 D/PHONE   ( 3704): [ServiceState] setVoiceRegState=0
+07-29 15:00:11.697 E/PHONE   ( 3704): [ServiceState] setState deprecated use setVoiceRegState()
+07-29 15:00:11.697 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[0 0 home vodafone NL voda NL 20404 (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[0 0 home vodafone NL voda NL 20404 (manual) GPRS GPRS CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 15:00:11.697 D/GsmSST  ( 3704): [GsmSST] RAT switched GSM -> GPRS at cell -1
+07-29 15:00:11.697 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 15:00:11.697 D/PhoneProxy( 3704): [PhoneProxy] updatePhoneObject: radioTechnology=1
+07-29 15:00:11.700 D/GsmSST  ( 3704): [GsmSST] shouldFixTimeZoneNow: retVal=true iccCardExist=true operatorNumeric=20404 mcc=204 prevOperatorNumeric=20404 prevMcc=204 needToFixTimeZone=true ltod=07-29 15:00:11.699
+07-29 15:00:11.700 D/GsmSST  ( 3704): [GsmSST] pollStateDone: fix time zone zoneName='Europe/Amsterdam' mZoneOffset=7200000 mZoneDst=true iso-cc='nl' iso-cc-idx=-16
+07-29 15:00:11.700 D/GsmSST  ( 3704): [GsmSST] pollStateDone: using getTimeZone(off, dst, time, iso)
+07-29 15:00:11.700 D/GsmSST  ( 3704): [GsmSST] pollStateDone: zone != null zone.getID=Europe/Amsterdam
+07-29 15:00:11.703 D/GsmSST  ( 3704): [GsmSST] notifyDataRegStateRilRadioTechnologyChanged: drs=0 rat=1
+07-29 15:00:11.704 D/DCT     ( 3704): get all active apn types
+07-29 15:00:11.704 D/DCT     ( 3704): [ApnContext:default] getApnSetting: apnSetting=null
+07-29 15:00:11.708 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: newVoiceRadioTech=1
+07-29 15:00:11.708 D/TelephonyManager( 3704): getLteOnCdmaMode=0 curVal=-1 product_type='' lteOnCdmaProductType=''
+07-29 15:00:11.709 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: No change ignore, newVoiceRadioTech=1 mActivePhone=GSM
+07-29 15:00:13.722 D/GsmSST  ( 3704): [GsmSST] Data disconnected, turn off radio right away.
+07-29 15:00:13.722 D/RILJ    ( 3704): [8679]> RADIO_POWER off
+07-29 15:00:13.723 D/DCT     ( 3704): handleMessage msg={ when=-1ms what=270365 obj=radioTurnedOff target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpAllConnections: tearDown=true reason=radioTurnedOff
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: E tearDown=true reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: X tearDown=true reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: E tearDown=true reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: X tearDown=true reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: E tearDown=true reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: X tearDown=true reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: E tearDown=true reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=true mDependencyMet=true}
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: X tearDown=true reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=true mDependencyMet=true} dcac=null
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: E tearDown=true reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:13.723 D/DCT     ( 3704): cleanUpConnection: X tearDown=true reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-29 15:00:13.723 D/DCT     ( 3704): stopNetStatPoll
+07-29 15:00:13.723 D/DCT     ( 3704): stopDataStallAlarm: current tag=23002 mDataStallAlarmIntent=null
+07-29 15:00:13.724 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824969] RADIO_POWER
+07-29 15:00:13.724 I/use-Rlog/RLOG-RIL{0}( 9096): sending request RADIO_POWER on channel 0
+07-29 15:00:13.724 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824969] RADIO_POWER
+07-29 15:00:13.724 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CUSATD=1,0
+07-29 15:00:13.734 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:13.734 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CFUN=0
+07-29 15:00:13.735 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 4,20404,2G-GPRS,-,0
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16346.115992]
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 4,20404,2G-GPRS,-,0
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16346.116075]
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 4,20404,2G-GPRS,-,0
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16346.116224]
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 4,20404,2G-GPRS,-,0
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16346.116366]
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 4,20404,2G-GPRS,-,0
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16346.116517]
+07-29 15:00:13.736 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:15.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %IPSRB: 1
+07-29 15:00:15.069 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.449189]
+07-29 15:00:15.069 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %IPSRB: 1 null
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CREG: 0
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.751131]
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CREG: 0 null
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 0,00000,0,-,0
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.751244]
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 0,00000,0,-,0 null
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CGEV: ME DETACH
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.751632]
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CGEV: ME DETACH null
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CGREG: 0
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.751917]
+07-29 15:00:15.371 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CGREG: 0 null
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ISIMINIT: 1,0,1
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.752217]
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ISIMINIT: 1,0,1 null
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ISIMINIT: 2,0,1
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.752503]
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ISIMINIT: 2,0,1 null
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ISIMINIT: 2,0,0
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.752690]
+07-29 15:00:15.372 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ISIMINIT: 2,0,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ISIMINIT: 0,0,0
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16347.770140]
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ISIMINIT: 0,0,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 4,20404,2G-GPRS,-,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %IPSRB: 1 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CREG: 0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 0,00000,0,-,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CGEV: ME DETACH null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): Unsol not processed: +CGEV: ME DETACH
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CGREG: 0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ISIMINIT: 1,0,1 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ISIMINIT: 2,0,1 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ISIMINIT: 2,0,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ISIMINIT: 0,0,0 null
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]SIM_POLL
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]SIM_POLL
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]SIM_POLL
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]UPDATE_SIM_LOADED
+07-29 15:00:15.390 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CGSMS=1
+07-29 15:00:15.391 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:15.391 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_RADIO_STATE_CHANGED RADIO_OFF
+07-29 15:00:15.391 D/RILJ    ( 3704): [8679]< RADIO_POWER 
+07-29 15:00:15.391 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:15.391 D/RILJ    ( 3704): [8680]> GET_SIM_STATUS
+07-29 15:00:15.392 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:15.393 I/use-Rlog/RLOG-RIL{0}( 9096): checkAndAmendEmergencyNumbers
+07-29 15:00:15.393 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPBS="EN"
+07-29 15:00:15.393 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:15.393 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:15.393 V/RILJ    ( 3704): [UNSL]< UNSOL_OEM_HOOK_RAW 2b434745563a204d4520444554414348
+07-29 15:00:15.393 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:15.393 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:15.393 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:15.393 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:15.393 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:15.394 D/PHONE   ( 3704): [ServiceState] setNullState=3
+07-29 15:00:15.394 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[0 0 home vodafone NL voda NL 20404 (manual) GPRS GPRS CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[3 3 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 15:00:15.394 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824968] GET_SIM_STATUS
+07-29 15:00:15.394 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:15.394 D/GsmSST  ( 3704): [GsmSST] RAT switched GPRS -> Unknown at cell -1
+07-29 15:00:15.394 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 15:00:15.394 D/PhoneProxy( 3704): [PhoneProxy] updatePhoneObject: radioTechnology=0
+07-29 15:00:15.395 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:15.395 D/use-Rlog/RLOG-RIL{0}( 9096): Emergency call list updated
+07-29 15:00:15.395 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CNAP=1
+07-29 15:00:15.395 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: radio is off w/ showPlmn=false plmn=null
+07-29 15:00:15.396 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: changed sending intent rule=2 showPlmn='false' plmn='null' showSpn='false' spn=''
+07-29 15:00:15.397 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:15.397 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CUSATD=1,0
+07-29 15:00:15.398 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:15.398 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]SIM_POLL
+07-29 15:00:15.398 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824968] GET_SIM_STATUS
+07-29 15:00:15.398 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:15.399 D/GsmSST  ( 3704): [GsmSST] operatorNumeric is null
+07-29 15:00:15.401 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:15.401 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:15.403 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:15.403 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:15.403 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:15.404 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:15.405 D/RILJ    ( 3704): [8680]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:15.409 D/GsmSST  ( 3704): [GsmSST] notifyDataRegStateRilRadioTechnologyChanged: drs=3 rat=0
+07-29 15:00:15.410 D/DCT     ( 3704): get all active apn types
+07-29 15:00:15.410 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.410 D/DCT     ( 3704): [ApnContext:default] getApnSetting: apnSetting=null
+07-29 15:00:15.413 D/DCT     ( 3704): handleMessage msg={ when=-22ms what=270342 obj=android.os.AsyncResult@419f0cb0 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:15.413 D/DCT     ( 3704): onRadioOffOrNotAvailable: is off and clean up all connections
+07-29 15:00:15.413 D/DCT     ( 3704): cleanUpAllConnections: tearDown=false reason=radioTurnedOff
+07-29 15:00:15.413 D/DCT     ( 3704): cleanUpConnection: E tearDown=false reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:15.413 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.413 D/DCT     ( 3704): [ApnContext:dun] getApnSetting: apnSetting=null
+07-29 15:00:15.415 D/DCT     ( 3704): cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-29 15:00:15.415 D/DCT     ( 3704): cleanUpConnection: E tearDown=false reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:15.415 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.415 D/DCT     ( 3704): [ApnContext:supl] getApnSetting: apnSetting=null
+07-29 15:00:15.417 D/DCT     ( 3704): cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-29 15:00:15.417 D/DCT     ( 3704): cleanUpConnection: E tearDown=false reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:15.418 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.418 D/DCT     ( 3704): [ApnContext:hipri] getApnSetting: apnSetting=null
+07-29 15:00:15.421 D/DCT     ( 3704): cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-29 15:00:15.421 D/DCT     ( 3704): cleanUpConnection: E tearDown=false reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=true mDependencyMet=true}
+07-29 15:00:15.421 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.421 D/DCT     ( 3704): [ApnContext:default] getApnSetting: apnSetting=null
+07-29 15:00:15.423 D/DCT     ( 3704): cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=true mDependencyMet=true} dcac=null
+07-29 15:00:15.424 D/DCT     ( 3704): cleanUpConnection: E tearDown=false reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:15.424 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.424 D/DCT     ( 3704): [ApnContext:mms] getApnSetting: apnSetting=null
+07-29 15:00:15.425 D/DCT     ( 3704): cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+07-29 15:00:15.425 D/DCT     ( 3704): stopNetStatPoll
+07-29 15:00:15.425 D/DCT     ( 3704): stopDataStallAlarm: current tag=23003 mDataStallAlarmIntent=null
+07-29 15:00:15.425 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.425 D/DCT     ( 3704): [ApnContext:dun] getApnSetting: apnSetting=null
+07-29 15:00:15.426 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.426 D/DCT     ( 3704): [ApnContext:supl] getApnSetting: apnSetting=null
+07-29 15:00:15.429 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.429 D/DCT     ( 3704): [ApnContext:hipri] getApnSetting: apnSetting=null
+07-29 15:00:15.430 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.430 D/DCT     ( 3704): [ApnContext:mms] getApnSetting: apnSetting=null
+07-29 15:00:15.432 D/PHONE   ( 3704): [ServiceState] setNullState=3
+07-29 15:00:15.432 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[3 3 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[3 3 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 15:00:15.433 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 15:00:15.433 D/PHONE   ( 3704): [ServiceState] setNullState=3
+07-29 15:00:15.433 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[3 3 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[3 3 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 15:00:15.433 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 15:00:15.433 D/PHONE   ( 3704): [ServiceState] setNullState=3
+07-29 15:00:15.433 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[3 3 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[3 3 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 15:00:15.433 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 15:00:15.433 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:15.433 D/RILJ    ( 3704): [8681]> GET_SIM_STATUS
+07-29 15:00:15.434 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:15.434 D/RILJ    ( 3704): [8682]> GET_SIM_STATUS
+07-29 15:00:15.434 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824967] GET_SIM_STATUS
+07-29 15:00:15.434 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:15.434 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824967] GET_SIM_STATUS
+07-29 15:00:15.434 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:15.435 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:15.435 D/RILJ    ( 3704): [8683]> GET_SIM_STATUS
+07-29 15:00:15.436 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824966] GET_SIM_STATUS
+07-29 15:00:15.436 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:15.436 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:15.436 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:15.436 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:15.436 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824965] GET_SIM_STATUS
+07-29 15:00:15.436 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:15.436 D/RILJ    ( 3704): [8684]> GET_SIM_STATUS
+07-29 15:00:15.436 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: newVoiceRadioTech=0
+07-29 15:00:15.436 D/TelephonyManager( 3704): getLteOnCdmaMode=0 curVal=-1 product_type='' lteOnCdmaProductType=''
+07-29 15:00:15.437 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: Unknown rat ignore,  newVoiceRadioTech=Unknown. mActivePhone=GSM
+07-29 15:00:15.437 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:15.437 D/UiccCard( 3704): 1 applications
+07-29 15:00:15.437 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:15.437 D/UiccCardApplication( 3704): APPTYPE_USIM changed state: APPSTATE_READY -> APPSTATE_DETECTED
+07-29 15:00:15.437 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:15.437 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.437 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.437 D/UiccCard( 3704): update: radioState=RADIO_OFF mLastRadioState=RADIO_ON
+07-29 15:00:15.437 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:15.437 D/DCT     ( 3704): handleMessage msg={ when=-28ms what=270345 obj=android.os.AsyncResult@41c89fa0 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:15.437 D/DCT     ( 3704): onDataConnectionDetached: stop polling and notify detached
+07-29 15:00:15.437 D/DCT     ( 3704): stopNetStatPoll
+07-29 15:00:15.437 D/DCT     ( 3704): stopDataStallAlarm: current tag=23004 mDataStallAlarmIntent=null
+07-29 15:00:15.437 D/DCT     ( 3704): notifyDataConnection: reason=dataDetached
+07-29 15:00:15.437 D/DCT     ( 3704): notifyDataConnection: type:default
+07-29 15:00:15.437 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.437 D/DCT     ( 3704): [ApnContext:default] getApnSetting: apnSetting=null
+07-29 15:00:15.437 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824964] GET_SIM_STATUS
+07-29 15:00:15.437 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:15.437 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:15.437 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:15.437 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:15.438 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.438 D/DCT     ( 3704): [ApnContext:dun] getApnSetting: apnSetting=null
+07-29 15:00:15.439 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:15.439 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824966] GET_SIM_STATUS
+07-29 15:00:15.439 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:15.439 D/RILJ    ( 3704): [8681]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:15.439 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.440 D/DCT     ( 3704): [ApnContext:supl] getApnSetting: apnSetting=null
+07-29 15:00:15.441 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:15.441 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:15.441 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.441 D/DCT     ( 3704): [ApnContext:hipri] getApnSetting: apnSetting=null
+07-29 15:00:15.442 D/DCT     ( 3704): isDataAllowed: not allowed due to - desiredPowerState= false
+07-29 15:00:15.442 D/DCT     ( 3704): [ApnContext:mms] getApnSetting: apnSetting=null
+07-29 15:00:15.443 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:15.443 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:15.443 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:15.444 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:15.444 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824965] GET_SIM_STATUS
+07-29 15:00:15.444 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:15.445 D/RILJ    ( 3704): [8682]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:15.446 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:15.446 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:15.447 D/DCT     ( 3704): handleMessage msg={ when=-9ms what=270369 obj=android.os.AsyncResult@41cbfa50 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:15.447 D/IccCardProxy( 3704): Broadcasting intent ACTION_SIM_STATE_CHANGED UNKNOWN reason null
+07-29 15:00:15.448 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:15.448 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:15.448 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:15.449 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:15.449 D/UiccCard( 3704): 1 applications
+07-29 15:00:15.449 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:15.449 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:15.449 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.449 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.449 D/UiccCard( 3704): update: radioState=RADIO_OFF mLastRadioState=RADIO_OFF
+07-29 15:00:15.449 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:15.449 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:15.449 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824964] GET_SIM_STATUS
+07-29 15:00:15.449 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:15.450 D/RILJ    ( 3704): [8683]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:15.451 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:15.451 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:15.451 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:15.451 D/UiccCard( 3704): 1 applications
+07-29 15:00:15.451 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:15.451 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:15.451 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.451 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.451 D/UiccCard( 3704): update: radioState=RADIO_OFF mLastRadioState=RADIO_OFF
+07-29 15:00:15.451 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:15.453 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:15.453 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:15.453 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:15.454 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:15.454 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:15.455 D/UiccCard( 3704): 1 applications
+07-29 15:00:15.455 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:15.455 D/RILJ    ( 3704): [8684]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:15.455 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:15.455 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.455 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.455 D/UiccCard( 3704): update: radioState=RADIO_OFF mLastRadioState=RADIO_OFF
+07-29 15:00:15.455 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:15.455 D/DCT     ( 3704): handleMessage msg={ when=-4ms what=270369 obj=android.os.AsyncResult@41c42308 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:15.456 D/DCT     ( 3704): handleMessage msg={ when=-5ms what=270369 obj=android.os.AsyncResult@41c94b08 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:15.456 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:15.456 D/UiccCard( 3704): 1 applications
+07-29 15:00:15.456 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_DETECTED,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:15.456 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:15.456 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.456 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:15.456 D/UiccCard( 3704): update: radioState=RADIO_OFF mLastRadioState=RADIO_OFF
+07-29 15:00:15.456 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:15.456 D/DCT     ( 3704): handleMessage msg={ when=-1ms what=270369 obj=android.os.AsyncResult@41ccd100 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:15.456 D/DCT     ( 3704): handleMessage msg={ when=0 what=270369 obj=android.os.AsyncResult@41cce8d0 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:26.814 D/RILJ    ( 3704): [8685]> RADIO_POWER on
+07-29 15:00:26.815 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824963] RADIO_POWER
+07-29 15:00:26.815 I/use-Rlog/RLOG-RIL{0}( 9096): sending request RADIO_POWER on channel 0
+07-29 15:00:26.815 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824963] RADIO_POWER
+07-29 15:00:26.815 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CFUN=1
+07-29 15:00:26.823 D/RILJ    ( 3704): [8686]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 2 configs : 
+07-29 15:00:26.823 D/RILJ    ( 3704): SmsBroadcastConfigInfo: Id [4370,4379] Code [0,255] ENABLED
+07-29 15:00:26.823 D/RILJ    ( 3704): SmsBroadcastConfigInfo: Id [4352,4354] Code [0,255] ENABLED
+07-29 15:00:26.823 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824962] GSM_SET_BROADCAST_SMS_CONFIG
+07-29 15:00:26.823 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GSM_SET_BROADCAST_SMS_CONFIG on channel 0
+07-29 15:00:26.832 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:26.832 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:26.832 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:26.833 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:26.833 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_RADIO_STATE_CHANGED RADIO_ON
+07-29 15:00:26.833 D/RILJ    ( 3704): [8687]> GET_SIM_STATUS
+07-29 15:00:26.834 D/RILJ    ( 3704): [8688]> OPERATOR
+07-29 15:00:26.834 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:26.835 D/RILJ    ( 3704): [8689]> DATA_REGISTRATION_STATE
+07-29 15:00:26.835 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824961] GET_SIM_STATUS
+07-29 15:00:26.835 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:26.835 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824960] OPERATOR
+07-29 15:00:26.835 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:26.836 D/RILJ    ( 3704): [8690]> VOICE_REGISTRATION_STATE
+07-29 15:00:26.836 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824959] DATA_REGISTRATION_STATE
+07-29 15:00:26.836 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:26.836 D/RILJ    ( 3704): [8691]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:26.837 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824958] VOICE_REGISTRATION_STATE
+07-29 15:00:26.837 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:26.837 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:26.837 D/RILJ    ( 3704): [8692]> GET_SIM_STATUS
+07-29 15:00:26.837 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824957] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:26.837 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:26.838 D/RILJ    ( 3704): [8693]> GET_CURRENT_CALLS
+07-29 15:00:26.838 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824956] GET_SIM_STATUS
+07-29 15:00:26.838 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:26.838 D/RILJ    ( 3704): [8694]> RIL_REQUEST_IMS_REGISTRATION_STATE
+07-29 15:00:26.838 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824955] GET_CURRENT_CALLS
+07-29 15:00:26.838 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_CURRENT_CALLS on channel 0
+07-29 15:00:26.838 D/RILJ    ( 3704): [8695]> RIL_REQUEST_VOICE_RADIO_TECH
+07-29 15:00:26.838 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824954] IMS_REGISTRATION_STATE
+07-29 15:00:26.838 I/use-Rlog/RLOG-RIL{0}( 9096): sending request IMS_REGISTRATION_STATE on channel 0
+07-29 15:00:26.839 D/RILJ    ( 3704): [8696]> RIL_REQUEST_CDMA_GET_SUBSCRIPTION_SOURCE
+07-29 15:00:26.839 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824953] VOICE_RADIO_TECH
+07-29 15:00:26.839 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_RADIO_TECH on channel 0
+07-29 15:00:26.839 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824952] CDMA_GET_SUBSCRIPTION_SOURCE
+07-29 15:00:26.839 I/use-Rlog/RLOG-RIL{0}( 9096): sending request CDMA_GET_SUBSCRIPTION_SOURCE on channel 0
+07-29 15:00:27.134 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:27.136 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:27.425 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:27.425 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16359.805856]
+07-29 15:00:27.425 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: *TSIMINS: 1,1,1 null
+07-29 15:00:27.428 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ISIMINIT: 2,0,0
+07-29 15:00:27.428 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16359.808100]
+07-29 15:00:27.428 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ISIMINIT: 2,0,0 null
+07-29 15:00:27.436 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:27.438 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:27.739 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:27.741 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 14
+07-29 15:00:27.953 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ISIMINIT: 1,0,0
+07-29 15:00:27.953 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.333777]
+07-29 15:00:27.953 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ISIMINIT: 1,0,0 null
+07-29 15:00:27.954 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CREG: 2
+07-29 15:00:27.954 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.334149]
+07-29 15:00:27.954 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CREG: 2 null
+07-29 15:00:27.954 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 0,00000,0,-,0
+07-29 15:00:27.954 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.334275]
+07-29 15:00:27.954 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 0,00000,0,-,0 null
+07-29 15:00:28.040 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.043 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.043 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.043 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CSMS=1
+07-29 15:00:28.044 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:28.044 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:28.044 D/RILJ    ( 3704): [8697]> GET_SIM_STATUS
+07-29 15:00:28.045 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824951] GET_SIM_STATUS
+07-29 15:00:28.045 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:28.045 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CSMS: 1,1,1
+07-29 15:00:28.045 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.045 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CNMI=1,2,2,1,0
+07-29 15:00:28.046 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.046 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS=1
+07-29 15:00:28.048 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.048 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%IPDPACTU=1
+07-29 15:00:28.049 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.049 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CGEREP=1
+07-29 15:00:28.050 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.050 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%IPSRB=1
+07-29 15:00:28.051 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.051 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CUSATA=1
+07-29 15:00:28.052 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.052 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CEREG?
+07-29 15:00:28.053 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CEREG: 2,0
+07-29 15:00:28.053 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.433516]
+07-29 15:00:28.053 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CEREG: 2,0 null
+07-29 15:00:28.053 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.053 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CREG=2;+CGREG=2;+CEREG=2;+CREG?;+CGREG?;+CEREG?
+07-29 15:00:28.055 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CREG: 2,2
+07-29 15:00:28.055 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.435168]
+07-29 15:00:28.055 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CREG: 2,2 null
+07-29 15:00:28.055 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CGREG: 2,0
+07-29 15:00:28.055 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.435651]
+07-29 15:00:28.055 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CGREG: 2,0 null
+07-29 15:00:28.056 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CEREG: 2,0
+07-29 15:00:28.056 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.436210]
+07-29 15:00:28.056 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CEREG: 2,0 null
+07-29 15:00:28.056 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.056 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TUNSOL="SM",1
+07-29 15:00:28.057 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.057 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ICESQU=1,5,6,1,6,12,12,6
+07-29 15:00:28.058 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.058 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CESQ
+07-29 15:00:28.058 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CESQ: 99,99,255,255,255,255
+07-29 15:00:28.058 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.438725]
+07-29 15:00:28.058 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CESQ: 99,99,255,255,255,255 null
+07-29 15:00:28.058 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.058 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CREG=2;+CGREG=2;+CEREG=2
+07-29 15:00:28.060 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.060 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%NWSTATE=3
+07-29 15:00:28.061 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 0,00000,0,-,0
+07-29 15:00:28.061 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.441690]
+07-29 15:00:28.061 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 0,00000,0,-,0 null
+07-29 15:00:28.061 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.061 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%IFD=36
+07-29 15:00:28.062 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.062 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ISCREEN=1
+07-29 15:00:28.063 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 769
+07-29 15:00:28.063 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%IDRVSTAT
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< {
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'wakesch':{
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'min_restore_time':[0,295,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'max_restore_time':[0,432,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'emc_wait_count':0
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'cal32k':{
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'low_res_freq_millihz':32768702,
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'state_stats':[59,272,65022],
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'cal_time':[0,26566,754,3891,10,807,232,52,84,5,2,11,51,139,163]
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'IPM':{
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'system_time':'0d5h16m34s',
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'uptime':6977623,
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'downtime':15090277,
+07-29 15:00:28.067 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'load_1000':316,
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'idle_time_dist':[46322,3719,1195,5061,4426,5757,492,8,0,0],
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'dxp0':{
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_dmem_active':0,
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_dxp_idle':6931370,
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_soc_idle':0,
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_power_off':32767
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       }
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'shm':{
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'queue':{
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'put':11389,
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'get':10370
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       },
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'if':{
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'sent':[192446,65010,2219,64,17168708,2332,2255,2186,2186,2186,2186,2186,2186,0,0,0,0,0,4552],
+07-29 15:00:28.068 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'received':[140098,20625,23,44,360,184,94,0,0,0,0,0,0,0,0,0,0,0,1932],
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'given':[1418,1724,22,8,9974,33,29,18,18,18,18,18,18,0,0,0,0,0,69],
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'taken':[1418,1724,22,8,9974,33,29,18,18,18,18,18,18,0,0,0,0,0,69]
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       },
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'signal':{
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'ul':9049,
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'dl':9970
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       }
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< }
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.069 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TLTS=1
+07-29 15:00:28.069 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:28.069 D/RILJ    ( 3704): [8698]> OPERATOR
+07-29 15:00:28.070 D/RILJ    ( 3704): [8699]> DATA_REGISTRATION_STATE
+07-29 15:00:28.070 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.070 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%INWMODE=2,2
+07-29 15:00:28.070 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824950] OPERATOR
+07-29 15:00:28.070 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:28.070 D/RILJ    ( 3704): [8700]> VOICE_REGISTRATION_STATE
+07-29 15:00:28.070 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824949] DATA_REGISTRATION_STATE
+07-29 15:00:28.070 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:28.071 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824948] VOICE_REGISTRATION_STATE
+07-29 15:00:28.071 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:28.071 D/RILJ    ( 3704): [8701]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.071 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.071 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CGSMS=1
+07-29 15:00:28.071 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824947] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.071 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:28.072 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 769
+07-29 15:00:28.072 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CCWA=1
+07-29 15:00:28.074 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.074 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CSSN=0,1
+07-29 15:00:28.076 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.076 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CUSD=1
+07-29 15:00:28.078 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.078 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ILCC=1
+07-29 15:00:28.079 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.079 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CGAUTO=1
+07-29 15:00:28.081 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 107
+07-29 15:00:28.081 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%INWRESTRICTU=1
+07-29 15:00:28.083 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:28.083 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%INWRESTRICTU
+07-29 15:00:28.086 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< ERROR
+07-29 15:00:28.086 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ICESQU?
+07-29 15:00:28.086 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ICESQU: 1,5,6,1,6,12,12,6
+07-29 15:00:28.086 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.086 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ICESQU=1,5,6,1,6,12,12,6
+07-29 15:00:28.087 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.087 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CESQ
+07-29 15:00:28.087 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CESQ: 99,99,255,255,255,255
+07-29 15:00:28.087 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.467957]
+07-29 15:00:28.087 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CESQ: 99,99,255,255,255,255 null
+07-29 15:00:28.087 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.087 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.089 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.089 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.089 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: *TSIMINS: 1,1,1 null
+07-29 15:00:28.089 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ISIMINIT: 2,0,0 null
+07-29 15:00:28.089 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ISIMINIT: 1,0,0 null
+07-29 15:00:28.089 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CREG: 2 null
+07-29 15:00:28.089 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 0,00000,0,-,0 null
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CEREG: 2,0 null
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CREG: 2,2 null
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CGREG: 2,0 null
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CEREG: 2,0 null
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CESQ: 99,99,255,255,255,255 null
+07-29 15:00:28.090 I/use-Rlog/RLOG-RIL{0}( 9096): Invalid/empty measurement report
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 0,00000,0,-,0 null
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CESQ: 99,99,255,255,255,255 null
+07-29 15:00:28.090 I/use-Rlog/RLOG-RIL{0}( 9096): Invalid/empty measurement report
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824962] GSM_SET_BROADCAST_SMS_CONFIG
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL{0}( 9096): requestGSMSetBroadcastSMSConfig param 0 - 4370, 4379, 0, 255, 1
+07-29 15:00:28.090 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CSCB=0,"4370-4379","0-15"
+07-29 15:00:28.090 D/RILJ    ( 3704): [8685]< RADIO_POWER 
+07-29 15:00:28.090 D/RILJ    ( 3704): [UNSL]< UNSOL_SIM_REFRESH {1, null, 0}
+07-29 15:00:28.090 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:28.090 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:28.090 D/SIMRecords( 3704): [SIMRecords] Sim REFRESH with exception: null
+07-29 15:00:28.090 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:28.090 D/SIMRecords( 3704): [SIMRecords] handleSimRefresh with SIM_REFRESH_INIT
+07-29 15:00:28.090 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:28.090 D/RILJ    ( 3704): [8702]> GET_SIM_STATUS
+07-29 15:00:28.091 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CMS ERROR: 521
+07-29 15:00:28.091 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824961] GET_SIM_STATUS
+07-29 15:00:28.091 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.091 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824946] GET_SIM_STATUS
+07-29 15:00:28.091 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:28.091 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:28.091 D/RilRequest( 3704): [8686]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret=
+07-29 15:00:28.091 D/RILJ    ( 3704): [8703]> GET_SIM_STATUS
+07-29 15:00:28.092 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824945] GET_SIM_STATUS
+07-29 15:00:28.092 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:28.092 D/RILJ    ( 3704): [8704]> OPERATOR
+07-29 15:00:28.092 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824944] OPERATOR
+07-29 15:00:28.092 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:28.092 D/RILJ    ( 3704): [8705]> DATA_REGISTRATION_STATE
+07-29 15:00:28.093 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824943] DATA_REGISTRATION_STATE
+07-29 15:00:28.093 D/RILJ    ( 3704): [8706]> VOICE_REGISTRATION_STATE
+07-29 15:00:28.093 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:28.093 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.093 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.093 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:28.094 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824942] VOICE_REGISTRATION_STATE
+07-29 15:00:28.094 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:28.094 D/RILJ    ( 3704): [8707]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.094 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824941] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.094 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:28.095 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:28.095 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.095 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:28.097 D/RILJ    ( 3704): [8708]> RIL_REQUEST_GSM_SET_BROADCAST_CONFIG with 2 configs : 
+07-29 15:00:28.097 D/RILJ    ( 3704): SmsBroadcastConfigInfo: Id [4370,4379] Code [0,255] ENABLED
+07-29 15:00:28.097 D/RILJ    ( 3704): SmsBroadcastConfigInfo: Id [4356,4356] Code [0,255] ENABLED
+07-29 15:00:28.097 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %PINNUM: 3, 10, 3, 10
+07-29 15:00:28.097 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.097 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824960] OPERATOR
+07-29 15:00:28.097 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+COPS=3,0;+COPS?;+COPS=3,1;+COPS?;+COPS=3,2;+COPS?
+07-29 15:00:28.097 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824940] GSM_SET_BROADCAST_SMS_CONFIG
+07-29 15:00:28.097 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GSM_SET_BROADCAST_SMS_CONFIG on channel 0
+07-29 15:00:28.098 D/RILJ    ( 3704): [8687]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:28.098 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 15:00:28.098 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 15:00:28.098 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1
+07-29 15:00:28.098 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.099 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824959] DATA_REGISTRATION_STATE
+07-29 15:00:28.099 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824958] VOICE_REGISTRATION_STATE
+07-29 15:00:28.099 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824957] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.099 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:28.099 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824956] GET_SIM_STATUS
+07-29 15:00:28.099 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.099 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:28.099 D/UiccCard( 3704): 1 applications
+07-29 15:00:28.099 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:28.099 D/UiccCardApplication( 3704): APPTYPE_USIM changed state: APPSTATE_DETECTED -> APPSTATE_READY
+07-29 15:00:28.099 D/RILJ    ( 3704): [8688]< OPERATOR {null, null, null}
+07-29 15:00:28.099 D/RILJ    ( 3704): [8709]> QUERY_FACILITY_LOCK [FD 7 null]
+07-29 15:00:28.099 D/RILJ    ( 3704): [8689]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 15:00:28.100 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824939] QUERY_FACILITY_LOCK
+07-29 15:00:28.100 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_FACILITY_LOCK on channel 0
+07-29 15:00:28.100 D/RILJ    ( 3704): [8710]> QUERY_FACILITY_LOCK [SC 7 null]
+07-29 15:00:28.100 D/RILJ    ( 3704): [8690]< VOICE_REGISTRATION_STATE {2, null, null, 0}
+07-29 15:00:28.100 D/UiccCardApplication( 3704): Notifying registrants: READY
+07-29 15:00:28.100 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824938] QUERY_FACILITY_LOCK
+07-29 15:00:28.100 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_FACILITY_LOCK on channel 0
+07-29 15:00:28.100 D/RILJ    ( 3704): [8691]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:28.100 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:28.100 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.100 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.101 D/UiccCard( 3704): update: radioState=RADIO_ON mLastRadioState=RADIO_OFF
+07-29 15:00:28.101 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:28.101 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.101 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.101 D/SIMRecords( 3704): [SIMRecords] fetchSimRecords 0
+07-29 15:00:28.101 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:28.101 D/RILJ    ( 3704): [8711]> getIMSI: GET_IMSI aid: null
+07-29 15:00:28.101 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824937] GET_IMSI
+07-29 15:00:28.101 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_IMSI on channel 0
+07-29 15:00:28.101 D/RILJ    ( 3704): [8712]> iccIO: SIM_IO 0xc0 0x2fe2  path: 3F00,0,0,15 aid: null
+07-29 15:00:28.102 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824936] SIM_IO
+07-29 15:00:28.102 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.102 D/RILJ    ( 3704): [8713]> iccIO: SIM_IO 0xc0 0x6f40  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.103 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:28.103 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.103 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:28.103 D/RILJ    ( 3704): [8714]> iccIO: SIM_IO 0xc0 0x6fc9  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.103 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824935] SIM_IO
+07-29 15:00:28.103 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.103 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824934] SIM_IO
+07-29 15:00:28.103 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.103 D/RILJ    ( 3704): [8715]> iccIO: SIM_IO 0xc0 0x6fad  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.104 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824933] SIM_IO
+07-29 15:00:28.104 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.104 D/RILJ    ( 3704): [8716]> iccIO: SIM_IO 0xc0 0x6fca  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.104 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %PINNUM: 3, 10, 3, 10
+07-29 15:00:28.104 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.105 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824955] GET_CURRENT_CALLS
+07-29 15:00:28.105 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CLCC
+07-29 15:00:28.105 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824932] SIM_IO
+07-29 15:00:28.105 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.105 D/RILJ    ( 3704): [8692]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:28.105 D/RILJ    ( 3704): [8717]> iccIO: SIM_IO 0xc0 0x6f11  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.106 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824931] SIM_IO
+07-29 15:00:28.106 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.106 D/RILJ    ( 3704): [8718]> iccIO: SIM_IO 0xc0 0x6fcb  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.107 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.107 D/use-Rlog/RLOG-RIL{0}( 9096): requestGetCurrentCalls: 0 calls
+07-29 15:00:28.107 D/use-Rlog/RLOG-RIL{0}( 9096): requestGetCurrentCalls: 0 valid calls
+07-29 15:00:28.107 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824954] IMS_REGISTRATION_STATE
+07-29 15:00:28.107 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824953] VOICE_RADIO_TECH
+07-29 15:00:28.107 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824952] CDMA_GET_SUBSCRIPTION_SOURCE
+07-29 15:00:28.107 E/use-Rlog/RLOG-RIL{0}( 9096): Request 104 [CDMA_GET_SUBSCRIPTION_SOURCE] not supported
+07-29 15:00:28.107 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824951] GET_SIM_STATUS
+07-29 15:00:28.107 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.107 D/RILJ    ( 3704): [8693]< GET_CURRENT_CALLS  
+07-29 15:00:28.107 D/RILJ    ( 3704): [8694]< RIL_REQUEST_IMS_REGISTRATION_STATE {0, 0}
+07-29 15:00:28.108 D/RILJ    ( 3704): [8695]< RIL_REQUEST_VOICE_RADIO_TECH {3}
+07-29 15:00:28.108 D/RilRequest( 3704): [8696]< RIL_REQUEST_CDMA_GET_SUBSCRIPTION_SOURCE error: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED ret=
+07-29 15:00:28.108 D/RILJ    ( 3704): [8719]> iccIO: SIM_IO 0xc0 0x6f13  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.108 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824930] SIM_IO
+07-29 15:00:28.108 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.109 D/RILJ    ( 3704): [8720]> iccIO: SIM_IO 0xc0 0x6f46  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.109 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824929] SIM_IO
+07-29 15:00:28.109 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.109 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.109 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.109 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:28.109 D/RILJ    ( 3704): [8721]> iccIO: SIM_IO 0xc0 0x6fcd  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.109 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824928] SIM_IO
+07-29 15:00:28.109 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.110 D/RILJ    ( 3704): [8722]> iccIO: SIM_IO 0xc0 0x6fc5  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.110 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824927] SIM_IO
+07-29 15:00:28.110 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.110 D/RILJ    ( 3704): [8723]> iccIO: SIM_IO 0xc0 0x6f38  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.111 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824926] SIM_IO
+07-29 15:00:28.111 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.111 D/RILJ    ( 3704): [8724]> iccIO: SIM_IO 0xc0 0x6f16  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.111 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824925] SIM_IO
+07-29 15:00:28.111 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.111 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:28.111 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.111 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:28.112 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CUSATP:"D0818B8103012500820281828508566F6461666F6E658F1180566F6461666F6E6520736572766963658F13814F7076726167656E2062656C7465676F65648F0C824F7077616172646572656E8F0D83496E7374656C6C696E67656E8F158447726174697320534D532042657269636874656E8F0F85534D532046756E202620496E666F8F09864D4D5320696E666F"
+07-29 15:00:28.112 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.492242]
+07-29 15:00:28.112 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CUSATP:"D0818B8103012500820281828508566F6461666F6E658F1180566F6461666F6E6520736572766963658F13814F7076726167656E2062656C7465676F65648F0C824F7077616172646572656E8F0D83496E7374656C6C696E67656E8F158447726174697320534D532042657269636874656E8F0F85534D532046756E202620496E666F8F09864D4D5320696E666F" null
+07-29 15:00:28.112 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824924] SIM_IO
+07-29 15:00:28.112 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.112 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(17)< +CUSATP:"D0818B8103012500820281828508566F6461666F6E658F1180566F6461666F6E6520736572766963658F13814F7076726167656E2062656C7465676F65648F0C824F7077616172646572656E8F0D83496E7374656C6C696E67656E8F158447726174697320534D532042657269636874656E8F0F85534D532046756E202620496E666F8F09864D4D5320696E666F"
+07-29 15:00:28.112 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(16)< +CUSATP:"D0818B8103012500820281828508566F6461666F6E658F1180566F6461666F6E6520736572766963658F13814F7076726167656E2062656C7465676F65648F0C824F7077616172646572656E8F0D83496E7374656C6C696E67656E8F158447726174697320534D532042657269636874656E8F0F85534D532046756E202620496E666F8F09864D4D5320696E666F"
+07-29 15:00:28.112 D/RILJ    ( 3704): [8725]> iccIO: SIM_IO 0xc0 0x6f15  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.113 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824923] SIM_IO
+07-29 15:00:28.113 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.113 D/RILJ    ( 3704): [8726]> iccIO: SIM_IO 0xc0 0x6f3e  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.113 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824922] SIM_IO
+07-29 15:00:28.113 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.113 D/SIMRecords( 3704): [SIMRecords] fetchSimRecords 16 requested: true
+07-29 15:00:28.113 D/CAT     ( 3704): CatService: SIM ready. Reporting STK service running now...
+07-29 15:00:28.114 D/RILJ    ( 3704): [8727]> RIL_REQUEST_REPORT_STK_SERVICE_IS_RUNNING
+07-29 15:00:28.114 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824921] REPORT_STK_SERVICE_IS_RUNNING
+07-29 15:00:28.114 I/use-Rlog/RLOG-RIL{0}( 9096): sending request REPORT_STK_SERVICE_IS_RUNNING on channel 0
+07-29 15:00:28.114 D/RILJ    ( 3704): setCurrentPreferredNetworkType: 1
+07-29 15:00:28.115 D/RILJ    ( 3704): [8728]> REQUEST_SET_PREFERRED_NETWORK_TYPE : 1
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %PINNUM: 3, 10, 3, 10
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CUSATP:"D0818B8103012500820281828508566F6461666F6E658F1180566F6461666F6E6520736572766963658F13814F7076726167656E2062656C7465676F65648F0C824F7077616172646572656E8F0D83496E7374656C6C696E67656E8F158447726174697320534D532042657269636874656E8F0F85534D532046756E202620496E666F8F09864D4D5320696E666F" null
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824950] OPERATOR
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824949] DATA_REGISTRATION_STATE
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824948] VOICE_REGISTRATION_STATE
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824947] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]SIM_POLL
+07-29 15:00:28.115 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.115 D/RILJ    ( 3704): [8697]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:28.116 D/RILJ    ( 3704): [UNSL]< UNSOL_STK_PROACTIVE_COMMAND D0818B8103012500820281828508566F6461666F6E658F1180566F6461666F6E6520736572766963658F13814F7076726167656E2062656C7465676F65648F0C824F7077616172646572656E8F0D83496E7374656C6C696E67656E8F158447726174697320534D532042657269636874656E8F0F85534D532046756E202620496E666F8F09864D4D5320696E666F
+07-29 15:00:28.116 D/RILJ    ( 3704): [8698]< OPERATOR {null, null, null}
+07-29 15:00:28.116 D/RILJ    ( 3704): [8699]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 15:00:28.116 D/RILJ    ( 3704): [8700]< VOICE_REGISTRATION_STATE {2, null, null, 0}
+07-29 15:00:28.116 D/RILJ    ( 3704): [8701]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:28.116 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824920] SET_PREFERRED_NETWORK_TYPE
+07-29 15:00:28.116 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SET_PREFERRED_NETWORK_TYPE on channel 0
+07-29 15:00:28.116 D/RILJ    ( 3704): [8729]> SET_NETWORK_SELECTION_MANUAL 00101
+07-29 15:00:28.118 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.118 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.118 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]UPDATE_SIM_LOADED
+07-29 15:00:28.118 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CGSMS=1
+07-29 15:00:28.118 D/RILJ    ( 3704): [8730]> OPERATOR
+07-29 15:00:28.118 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824919] SET_NETWORK_SELECTION_MANUAL
+07-29 15:00:28.118 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SET_NETWORK_SELECTION_MANUAL on channel 1
+07-29 15:00:28.118 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae1d8 onHandleRequest:[-1639824919] SET_NETWORK_SELECTION_MANUAL
+07-29 15:00:28.118 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(17)> AT+COPS=1,2,"00101"
+07-29 15:00:28.119 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 769
+07-29 15:00:28.119 I/use-Rlog/RLOG-RIL{0}( 9096): checkAndAmendEmergencyNumbers
+07-29 15:00:28.119 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPBS="EN"
+07-29 15:00:28.119 D/RILJ    ( 3704): [8731]> DATA_REGISTRATION_STATE
+07-29 15:00:28.119 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824918] OPERATOR
+07-29 15:00:28.119 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:28.120 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.120 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPBR=?
+07-29 15:00:28.120 D/RILJ    ( 3704): [8732]> VOICE_REGISTRATION_STATE
+07-29 15:00:28.120 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824917] DATA_REGISTRATION_STATE
+07-29 15:00:28.120 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:28.121 D/RILJ    ( 3704): [8733]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.121 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824916] VOICE_REGISTRATION_STATE
+07-29 15:00:28.121 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:28.121 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CME ERROR: 769
+07-29 15:00:28.122 D/use-Rlog/RLOG-RIL{0}( 9096): Emergency call list updated
+07-29 15:00:28.122 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CNAP=1
+07-29 15:00:28.122 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824915] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.122 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:28.122 D/IccCardProxy( 3704): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+07-29 15:00:28.125 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.125 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CUSATD=1,0
+07-29 15:00:28.126 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.126 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]SIM_POLL
+07-29 15:00:28.126 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.127 D/DCT     ( 3704): handleMessage msg={ when=-25ms what=270369 obj=android.os.AsyncResult@41cd1208 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:28.127 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:28.127 D/UiccCard( 3704): 1 applications
+07-29 15:00:28.127 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:28.127 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:28.127 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.127 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.127 D/UiccCard( 3704): update: radioState=RADIO_ON mLastRadioState=RADIO_ON
+07-29 15:00:28.127 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:28.127 D/RIL_ImsSms( 3704): IMS is NOT registered!
+07-29 15:00:28.127 E/RIL_ImsSms( 3704): IMS format was unknown!
+07-29 15:00:28.127 D/PhoneProxy( 3704): [PhoneProxy] EVENT_REQUEST_VOICE_RADIO_TECH_DONE: newVoiceTech=3
+07-29 15:00:28.128 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: newVoiceRadioTech=3
+07-29 15:00:28.128 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.128 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.128 D/TelephonyManager( 3704): getLteOnCdmaMode=0 curVal=-1 product_type='' lteOnCdmaProductType=''
+07-29 15:00:28.128 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824946] GET_SIM_STATUS
+07-29 15:00:28.128 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.128 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: No change ignore, newVoiceRadioTech=3 mActivePhone=GSM
+07-29 15:00:28.128 D/CdmaSSM ( 3704): CDMA_SUBSCRIPTION_SOURCE event = 2
+07-29 15:00:28.128 W/CdmaSSM ( 3704): Unable to get CDMA Subscription Source, Exception: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED, result: null
+07-29 15:00:28.128 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:28.128 D/UiccCard( 3704): 1 applications
+07-29 15:00:28.129 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:28.129 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:28.129 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.129 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.129 D/UiccCard( 3704): update: radioState=RADIO_ON mLastRadioState=RADIO_ON
+07-29 15:00:28.129 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:28.129 D/CAT     ( 3704): CatService: ril message arrived
+07-29 15:00:28.129 D/CAT     ( 3704): CommandParamsFactory: process SelectItem
+07-29 15:00:28.129 D/DCT     ( 3704): handleMessage msg={ when=-2ms what=270369 obj=android.os.AsyncResult@41c700e0 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:28.129 D/DCT     ( 3704): handleMessage msg={ when=0 what=270369 obj=android.os.AsyncResult@41c22ea8 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:28.130 D/CAT     ( 3704): CatService: SET_UP_MENU
+07-29 15:00:28.130 D/CAT     ( 3704): CatService: encodeOptionalTags() Unsupported Cmd details=CmdDetails: compRequired=true commandNumber=1 typeOfCommand=37 commandQualifier=0
+07-29 15:00:28.130 D/RILJ    ( 3704): [8734]> REQUEST_STK_SEND_TERMINAL_RESPONSE
+07-29 15:00:28.130 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.130 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.130 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:28.131 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824914] STK_SEND_TERMINAL_RESPONSE
+07-29 15:00:28.131 I/use-Rlog/RLOG-RIL{0}( 9096): sending request STK_SEND_TERMINAL_RESPONSE on channel 0
+07-29 15:00:28.133 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:28.133 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.133 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:28.135 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %PINNUM: 3, 10, 3, 10
+07-29 15:00:28.135 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.135 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:28.135 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824945] GET_SIM_STATUS
+07-29 15:00:28.135 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.135 D/RILJ    ( 3704): [8702]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:28.135 D/CAT     ( 3704): StkAppService: SET_UP_MENU
+07-29 15:00:28.135 D/CAT     ( 3704): StkAppService: Install App
+07-29 15:00:28.136 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:28.136 D/UiccCard( 3704): 1 applications
+07-29 15:00:28.136 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:28.136 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:28.136 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.136 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.136 D/UiccCard( 3704): update: radioState=RADIO_ON mLastRadioState=RADIO_ON
+07-29 15:00:28.136 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:28.136 D/DCT     ( 3704): handleMessage msg={ when=0 what=270369 obj=android.os.AsyncResult@41c2bcf0 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:28.137 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.137 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.137 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:28.139 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:28.139 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.139 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %PINNUM: 3, 10, 3, 10
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824944] OPERATOR
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824943] DATA_REGISTRATION_STATE
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824942] VOICE_REGISTRATION_STATE
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824941] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824940] GSM_SET_BROADCAST_SMS_CONFIG
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL{0}( 9096): requestGSMSetBroadcastSMSConfig param 0 - 4370, 4379, 0, 255, 1
+07-29 15:00:28.141 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CSCB=0,"4370-4379","0-15"
+07-29 15:00:28.141 D/RILJ    ( 3704): [8703]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:28.142 D/RILJ    ( 3704): [8704]< OPERATOR {null, null, null}
+07-29 15:00:28.142 D/RILJ    ( 3704): [8705]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 15:00:28.142 D/RILJ    ( 3704): [8706]< VOICE_REGISTRATION_STATE {2, null, null, 0}
+07-29 15:00:28.142 D/RILJ    ( 3704): [8707]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:28.142 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CMS ERROR: 521
+07-29 15:00:28.142 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824939] QUERY_FACILITY_LOCK
+07-29 15:00:28.142 D/use-Rlog/RLOG-RIL{0}( 9096): FACILITY
+07-29 15:00:28.142 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CLCK="FD",2,,7
+07-29 15:00:28.142 D/RilRequest( 3704): [8708]< RIL_REQUEST_GSM_SET_BROADCAST_CONFIG error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret=
+07-29 15:00:28.142 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:28.142 D/UiccCard( 3704): 1 applications
+07-29 15:00:28.142 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:28.142 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:28.142 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.142 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.142 D/UiccCard( 3704): update: radioState=RADIO_ON mLastRadioState=RADIO_ON
+07-29 15:00:28.142 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:28.143 D/DCT     ( 3704): handleMessage msg={ when=0 what=270369 obj=android.os.AsyncResult@41c99700 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:28.143 D/RILJ    ( 3704): [8735]> RIL_REQUEST_GSM_BROADCAST_ACTIVATION
+07-29 15:00:28.144 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CLCK: 0
+07-29 15:00:28.144 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.144 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824938] QUERY_FACILITY_LOCK
+07-29 15:00:28.144 D/use-Rlog/RLOG-RIL{0}( 9096): FACILITY
+07-29 15:00:28.144 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CLCK="SC",2,,7
+07-29 15:00:28.144 D/RILJ    ( 3704): [8709]< QUERY_FACILITY_LOCK {0}
+07-29 15:00:28.144 D/UiccCardApplication( 3704): Query facility FDN : FDN service available: true enabled: false
+07-29 15:00:28.144 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824913] <unknown request>
+07-29 15:00:28.144 I/use-Rlog/RLOG-RIL{0}( 9096): sending request <unknown request> on channel 0
+07-29 15:00:28.146 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CLCK: 1
+07-29 15:00:28.146 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.146 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824937] GET_IMSI
+07-29 15:00:28.146 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CIMI
+07-29 15:00:28.146 D/RILJ    ( 3704): [8710]< QUERY_FACILITY_LOCK {1}
+07-29 15:00:28.147 D/UiccCardApplication( 3704): Query facility lock : 1
+07-29 15:00:28.147 D/UiccCardApplication( 3704): Ignoring: pin1state=PINSTATE_UNKNOWN
+07-29 15:00:28.147 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< 204045220670380
+07-29 15:00:28.147 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.147 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824921] REPORT_STK_SERVICE_IS_RUNNING
+07-29 15:00:28.147 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824920] SET_PREFERRED_NETWORK_TYPE
+07-29 15:00:28.147 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%INWMODE?
+07-29 15:00:28.147 D/RILJ    ( 3704): [8711]< GET_IMSI 
+07-29 15:00:28.148 D/RILJ    ( 3704): [8727]< RIL_REQUEST_REPORT_STK_SERVICE_IS_RUNNING 
+07-29 15:00:28.148 D/SIMRecords( 3704): [SIMRecords] IMSI: xxxxxxx
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %INWMODE: 0,G,0
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %INWMODE: 1,G2G3G4G1U1U8U2U5E7E3E20
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %INWMODE: 2,2
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL{0}( 9096): Already in requested mode: No change
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824918] OPERATOR
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824917] DATA_REGISTRATION_STATE
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824916] VOICE_REGISTRATION_STATE
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824915] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824914] STK_SEND_TERMINAL_RESPONSE
+07-29 15:00:28.148 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CUSATT="810301250002028281830100"
+07-29 15:00:28.149 D/RILJ    ( 3704): [8728]< REQUEST_SET_PREFERRED_NETWORK_TYPE 
+07-29 15:00:28.149 D/RILJ    ( 3704): [8730]< OPERATOR {null, null, null}
+07-29 15:00:28.149 D/RILJ    ( 3704): [8731]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 15:00:28.149 D/RILJ    ( 3704): [8732]< VOICE_REGISTRATION_STATE {2, null, null, 0}
+07-29 15:00:28.149 D/RILJ    ( 3704): [8733]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:28.151 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 15 requested: true
+07-29 15:00:28.151 D/PHONE   ( 3704): [ServiceState] setDataRegState=1
+07-29 15:00:28.151 D/PHONE   ( 3704): [ServiceState] setDataRadioTechnology=0
+07-29 15:00:28.151 D/GsmSST  ( 3704): [GsmSST] handlPollStateResultMessage: GsmSST setDataRegState=1 regState=0 dataRadioTechnology=0
+07-29 15:00:28.151 D/PHONE   ( 3704): [ServiceState] setVoiceRegState=1
+07-29 15:00:28.151 E/PHONE   ( 3704): [ServiceState] setState deprecated use setVoiceRegState()
+07-29 15:00:28.151 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[3 3 home null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[1 1 home null null null (manual) Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 15:00:28.151 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 15:00:28.151 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: radio is on but out of service, set plmn='No service.'
+07-29 15:00:28.151 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: changed sending intent rule=2 showPlmn='true' plmn='No service.' showSpn='false' spn='null'
+07-29 15:00:28.153 D/GsmSST  ( 3704): [GsmSST] operatorNumeric is null
+07-29 15:00:28.155 D/GsmSST  ( 3704): [GsmSST] notifyDataRegStateRilRadioTechnologyChanged: drs=1 rat=0
+07-29 15:00:28.155 D/DCT     ( 3704): get all active apn types
+07-29 15:00:28.155 D/IccCardProxy( 3704): Broadcasting intent ACTION_SIM_STATE_CHANGED IMSI reason null
+07-29 15:00:28.237 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %IUSATT: "9000"
+07-29 15:00:28.237 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.618792]
+07-29 15:00:28.237 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %IUSATT: "9000" null
+07-29 15:00:28.237 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(17)< %IUSATT: "9000"
+07-29 15:00:28.237 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(16)< %IUSATT: "9000"
+07-29 15:00:28.238 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.238 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %IUSATT: "9000" null
+07-29 15:00:28.238 D/use-Rlog/RLOG-RIL{0}( 9096): Unsol not processed: %IUSATT: "9000"
+07-29 15:00:28.238 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824913] <unknown request>
+07-29 15:00:28.238 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TCBMS=0,0
+07-29 15:00:28.238 D/RILJ    ( 3704): [8734]< REQUEST_STK_SEND_TERMINAL_RESPONSE 
+07-29 15:00:28.240 V/RILJ    ( 3704): [UNSL]< UNSOL_OEM_HOOK_RAW 254955534154543a20223930303022
+07-29 15:00:28.240 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CUSATEND
+07-29 15:00:28.240 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16360.620338]
+07-29 15:00:28.240 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CUSATEND null
+07-29 15:00:28.241 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CMS ERROR: 521
+07-29 15:00:28.241 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CUSATEND null
+07-29 15:00:28.241 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824936] SIM_IO
+07-29 15:00:28.241 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,12258,0,0,15,,"3F00"
+07-29 15:00:28.241 D/RilRequest( 3704): [8735]< RIL_REQUEST_GSM_BROADCAST_ACTIVATION error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret=
+07-29 15:00:28.241 D/RILJ    ( 3704): [UNSL]< UNSOL_STK_SESSION_END
+07-29 15:00:28.241 D/CAT     ( 3704): CatService: ril message arrived
+07-29 15:00:28.242 D/CAT     ( 3704): CatService: SESSION END
+07-29 15:00:28.243 D/RILJ    ( 3704): [8736]> RIL_REQUEST_GSM_BROADCAST_ACTIVATION
+07-29 15:00:28.244 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824912] <unknown request>
+07-29 15:00:28.244 I/use-Rlog/RLOG-RIL{0}( 9096): sending request <unknown request> on channel 0
+07-29 15:00:28.244 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:28.569 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"62178202412183022FE28A01058B032F06078002000A880110"
+07-29 15:00:28.569 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.569 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824912] <unknown request>
+07-29 15:00:28.569 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TCBMS=0,0
+07-29 15:00:28.569 D/RILJ    ( 3704): [8712]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:28.570 D/RILJ    ( 3704): [8737]> iccIO: SIM_IO 0xb0 0x2fe2  path: 3F00,0,0,10 aid: null
+07-29 15:00:28.570 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824911] SIM_IO
+07-29 15:00:28.570 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.570 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.571 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824935] SIM_IO
+07-29 15:00:28.571 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28480,0,0,15,,"3F007FFF"
+07-29 15:00:28.571 D/RILJ    ( 3704): [8736]< RIL_REQUEST_GSM_BROADCAST_ACTIVATION 
+07-29 15:00:28.572 D/RILJ    ( 3704): [8738]> RIL_REQUEST_GSM_BROADCAST_ACTIVATION
+07-29 15:00:28.572 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824910] <unknown request>
+07-29 15:00:28.572 I/use-Rlog/RLOG-RIL{0}( 9096): sending request <unknown request> on channel 0
+07-29 15:00:28.740 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"621E8205422100220383026F40A5039201808A01058B036F0604800200668800"
+07-29 15:00:28.740 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.740 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824910] <unknown request>
+07-29 15:00:28.740 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TCBMS=0,0
+07-29 15:00:28.742 D/RILJ    ( 3704): [8713]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:28.743 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.743 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824934] SIM_IO
+07-29 15:00:28.743 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28617,0,0,15,,"3F007FFF"
+07-29 15:00:28.745 D/RILJ    ( 3704): [8739]> iccIO: SIM_IO 0xb2 0x6f40  path: 3F007FFF,1,4,34 aid: null
+07-29 15:00:28.745 D/RILJ    ( 3704): [8738]< RIL_REQUEST_GSM_BROADCAST_ACTIVATION 
+07-29 15:00:28.748 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824909] SIM_IO
+07-29 15:00:28.748 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.753 D/RILJ    ( 3704): [8740]> RIL_REQUEST_GSM_BROADCAST_ACTIVATION
+07-29 15:00:28.755 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824908] <unknown request>
+07-29 15:00:28.755 I/use-Rlog/RLOG-RIL{0}( 9096): sending request <unknown request> on channel 0
+07-29 15:00:28.809 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:28.809 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.809 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824908] <unknown request>
+07-29 15:00:28.809 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TCBMS=0,0
+07-29 15:00:28.810 D/RILJ    ( 3704): [8714]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:28.810 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.810 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824933] SIM_IO
+07-29 15:00:28.810 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28589,0,0,15,,"3F007FFF"
+07-29 15:00:28.811 D/RILJ    ( 3704): [8741]> iccIO: SIM_IO 0xc0 0x6f17  path: 3F007FFF,0,0,15 aid: null
+07-29 15:00:28.811 D/RILJ    ( 3704): [8740]< RIL_REQUEST_GSM_BROADCAST_ACTIVATION 
+07-29 15:00:28.813 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 15 requested: true
+07-29 15:00:28.814 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824907] SIM_IO
+07-29 15:00:28.814 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.858 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"621F8202412183026FADA50691047F206FAD8A01058B036F060880020004880118"
+07-29 15:00:28.858 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.858 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824932] SIM_IO
+07-29 15:00:28.858 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28618,0,0,15,,"3F007FFF"
+07-29 15:00:28.858 D/RILJ    ( 3704): [8715]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:28.859 D/RILJ    ( 3704): [8742]> iccIO: SIM_IO 0xb0 0x6fad  path: 3F007FFF,0,0,4 aid: null
+07-29 15:00:28.860 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824906] SIM_IO
+07-29 15:00:28.860 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:28.895 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:28.895 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.895 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824931] SIM_IO
+07-29 15:00:28.895 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28433,0,0,15,,"3F007FFF"
+07-29 15:00:28.896 D/RILJ    ( 3704): [8716]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:28.896 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 14 requested: true
+07-29 15:00:28.954 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSMSINFO: 513
+07-29 15:00:28.954 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16361.335208]
+07-29 15:00:28.954 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: *TSMSINFO: 513 null
+07-29 15:00:28.957 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ISIMINIT: 1,0,1
+07-29 15:00:28.957 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16361.337078]
+07-29 15:00:28.957 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ISIMINIT: 1,0,1 null
+07-29 15:00:28.962 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:28.963 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.963 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: *TSMSINFO: 513 null
+07-29 15:00:28.963 D/use-Rlog/RLOG-RIL{0}( 9096): Unsol not processed: *TSMSINFO: 513
+07-29 15:00:28.963 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ISIMINIT: 1,0,1 null
+07-29 15:00:28.963 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]SIM_POLL
+07-29 15:00:28.963 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.964 D/RILJ    ( 3704): [8717]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:28.964 V/RILJ    ( 3704): [UNSL]< UNSOL_OEM_HOOK_RAW 2a54534d53494e464f3a20353133
+07-29 15:00:28.964 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:28.965 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:28.965 D/RILJ    ( 3704): [8743]> GET_SIM_STATUS
+07-29 15:00:28.965 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.965 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.966 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824930] SIM_IO
+07-29 15:00:28.966 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28619,0,0,15,,"3F007FFF"
+07-29 15:00:28.968 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 13 requested: true
+07-29 15:00:28.968 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824905] GET_SIM_STATUS
+07-29 15:00:28.968 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:28.989 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:28.989 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.989 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824905] GET_SIM_STATUS
+07-29 15:00:28.989 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:28.990 D/RILJ    ( 3704): [8718]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:28.990 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 12 requested: true
+07-29 15:00:28.991 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:28.991 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.991 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:28.993 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:28.993 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.993 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:28.995 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %PINNUM: 3, 10, 3, 10
+07-29 15:00:28.995 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:28.995 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824929] SIM_IO
+07-29 15:00:28.995 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28435,0,0,15,,"3F007FFF"
+07-29 15:00:28.996 D/RILJ    ( 3704): [8743]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:28.996 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:28.996 D/UiccCard( 3704): 1 applications
+07-29 15:00:28.996 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:28.996 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:28.996 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.996 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:28.996 D/UiccCard( 3704): update: radioState=RADIO_ON mLastRadioState=RADIO_ON
+07-29 15:00:28.996 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:29.002 D/DCT     ( 3704): handleMessage msg={ when=0 what=270369 obj=android.os.AsyncResult@41c52c80 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:29.018 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:29.018 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.018 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824928] SIM_IO
+07-29 15:00:29.018 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28486,0,0,15,,"3F007FFF"
+07-29 15:00:29.019 D/RILJ    ( 3704): [8719]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:29.019 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 11 requested: true
+07-29 15:00:29.055 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"621E8202412183026F46A50691047F206F468A01058B036F060B800200118800"
+07-29 15:00:29.055 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.055 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824927] SIM_IO
+07-29 15:00:29.055 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28621,0,0,15,,"3F007FFF"
+07-29 15:00:29.057 D/RILJ    ( 3704): [8720]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.057 D/RILJ    ( 3704): [8744]> iccIO: SIM_IO 0xb0 0x6f46  path: 3F007FFF,0,0,17 aid: null
+07-29 15:00:29.058 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824904] SIM_IO
+07-29 15:00:29.058 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:29.082 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:29.082 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.082 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824926] SIM_IO
+07-29 15:00:29.082 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28613,0,0,15,,"3F007FFF"
+07-29 15:00:29.083 D/RILJ    ( 3704): [8721]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:29.084 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 10 requested: true
+07-29 15:00:29.153 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:29.153 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.153 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824925] SIM_IO
+07-29 15:00:29.153 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28472,0,0,15,,"3F007FFF"
+07-29 15:00:29.154 D/RILJ    ( 3704): [8722]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:29.154 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 9 requested: true
+07-29 15:00:29.229 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"62178202412183026F388A01058B036F060580020008880120"
+07-29 15:00:29.229 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.230 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824924] SIM_IO
+07-29 15:00:29.230 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28438,0,0,15,,"3F007FFF"
+07-29 15:00:29.230 D/RILJ    ( 3704): [8723]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.231 D/RILJ    ( 3704): [8745]> iccIO: SIM_IO 0xb0 0x6f38  path: 3F007FFF,0,0,8 aid: null
+07-29 15:00:29.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824903] SIM_IO
+07-29 15:00:29.235 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:29.264 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ISIMINIT: 1,1,1
+07-29 15:00:29.264 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16361.644101]
+07-29 15:00:29.264 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ISIMINIT: 1,1,1 null
+07-29 15:00:29.271 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:29.271 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.271 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ISIMINIT: 1,1,1 null
+07-29 15:00:29.271 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]SIM_POLL
+07-29 15:00:29.271 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:29.271 D/RILJ    ( 3704): [8724]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:29.271 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_SIM_STATUS_CHANGED
+07-29 15:00:29.271 D/UiccController( 3704): Received EVENT_ICC_STATUS_CHANGED, calling getIccCardStatus
+07-29 15:00:29.271 D/RILJ    ( 3704): [8746]> GET_SIM_STATUS
+07-29 15:00:29.272 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824902] GET_SIM_STATUS
+07-29 15:00:29.272 I/use-Rlog/RLOG-RIL{0}( 9096): sending request GET_SIM_STATUS on channel 0
+07-29 15:00:29.272 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 8 requested: true
+07-29 15:00:29.274 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:29.274 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.274 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] [INTERNAL]UPDATE_SIM_LOADED
+07-29 15:00:29.274 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CGSMS=1
+07-29 15:00:29.275 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.275 I/use-Rlog/RLOG-RIL{0}( 9096): checkAndAmendEmergencyNumbers
+07-29 15:00:29.275 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPBS="EN"
+07-29 15:00:29.277 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.277 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPBR=?
+07-29 15:00:29.278 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPBR: (1-2)
+07-29 15:00:29.278 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.278 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPBR=1,2
+07-29 15:00:29.280 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPBR: 1,"112",129,,
+07-29 15:00:29.280 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPBR: 2,"911",129,,
+07-29 15:00:29.280 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.280 D/use-Rlog/RLOG-RIL{0}( 9096): Emergency call list updated
+07-29 15:00:29.280 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CNAP=1
+07-29 15:00:29.282 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.282 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CUSATD=1,0
+07-29 15:00:29.284 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.284 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824902] GET_SIM_STATUS
+07-29 15:00:29.284 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CPIN?
+07-29 15:00:29.286 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CPIN: READY
+07-29 15:00:29.286 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.286 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TSIMINS?
+07-29 15:00:29.288 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TSIMINS: 1,1,1
+07-29 15:00:29.288 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.288 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%PINNUM?
+07-29 15:00:29.290 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %PINNUM: 3, 10, 3, 10
+07-29 15:00:29.290 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.290 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824923] SIM_IO
+07-29 15:00:29.290 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28437,0,0,15,,"3F007FFF"
+07-29 15:00:29.290 D/RILJ    ( 3704): [8746]< GET_SIM_STATUS IccCardState {CARDSTATE_PRESENT,PINSTATE_UNKNOWN,num_apps=1,gsm_id=0{APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN},cdma_id=8,ims_id=8}
+07-29 15:00:29.290 D/UiccController( 3704): Received EVENT_GET_ICC_STATUS_DONE
+07-29 15:00:29.290 D/UiccCard( 3704): 1 applications
+07-29 15:00:29.291 D/UiccCardApplication( 3704): APPTYPE_USIM update. New {APPTYPE_USIM,APPSTATE_READY,pin1=PINSTATE_UNKNOWN,pin2=PINSTATE_UNKNOWN}
+07-29 15:00:29.291 D/CAT     ( 3704): CatService: Return current sInstance
+07-29 15:00:29.291 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:29.291 E/UiccCard( 3704): App index 8 is invalid since there are no applications
+07-29 15:00:29.291 D/UiccCard( 3704): update: radioState=RADIO_ON mLastRadioState=RADIO_ON
+07-29 15:00:29.291 D/UiccController( 3704): Notifying IccChangedRegistrants
+07-29 15:00:29.291 D/DCT     ( 3704): handleMessage msg={ when=0 what=270369 obj=android.os.AsyncResult@41a03478 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:29.302 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:29.302 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.302 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824922] SIM_IO
+07-29 15:00:29.302 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28478,0,0,15,,"3F007FFF"
+07-29 15:00:29.302 D/RILJ    ( 3704): [8725]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:29.302 E/SIMRecords( 3704): [SIMRecords] Exception in fetching EF_CSP data com.android.internal.telephony.uicc.IccFileNotFound
+07-29 15:00:29.302 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 7 requested: true
+07-29 15:00:29.318 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"621E8202412183026F3EA50691047F206F3E8A01058B036F0605800200018800"
+07-29 15:00:29.318 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.319 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824911] SIM_IO
+07-29 15:00:29.319 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=176,12258,0,0,10,,"3F00"
+07-29 15:00:29.319 D/RILJ    ( 3704): [8726]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.320 D/RILJ    ( 3704): [8747]> iccIO: SIM_IO 0xb0 0x6f3e  path: 3F007FFF,0,0,1 aid: null
+07-29 15:00:29.322 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824901] SIM_IO
+07-29 15:00:29.322 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SIM_IO on channel 0
+07-29 15:00:29.331 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"981344301024420373F9"
+07-29 15:00:29.331 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.331 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824909] SIM_IO
+07-29 15:00:29.331 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=178,28480,1,4,34,,"3F007FFF"
+07-29 15:00:29.332 D/RILJ    ( 3704): [8737]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.332 D/SIMRecords( 3704): [SIMRecords] iccid: 8931440301422430379
+07-29 15:00:29.332 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 6 requested: true
+07-29 15:00:29.349 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+07-29 15:00:29.349 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.350 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824907] SIM_IO
+07-29 15:00:29.350 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=192,28439,0,0,15,,"3F007FFF"
+07-29 15:00:29.351 D/RILJ    ( 3704): [8739]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.352 D/SIMRecords( 3704): [SIMRecords] MSISDN: xxxxxxx
+07-29 15:00:29.352 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 5 requested: true
+07-29 15:00:29.357 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 106,130
+07-29 15:00:29.357 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.357 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824906] SIM_IO
+07-29 15:00:29.357 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=176,28589,0,0,4,,"3F007FFF"
+07-29 15:00:29.358 D/RILJ    ( 3704): [8741]< SIM_IO IccIoResponse sw1:0x6a sw2:0x82
+07-29 15:00:29.358 D/SIMRecords( 3704): [SIMRecords] Invalid or missing EF[MAILBOX]
+07-29 15:00:29.358 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 4 requested: true
+07-29 15:00:29.371 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"00000102"
+07-29 15:00:29.371 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.371 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824904] SIM_IO
+07-29 15:00:29.371 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=176,28486,0,0,17,,"3F007FFF"
+07-29 15:00:29.373 D/RILJ    ( 3704): [8742]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.373 D/SIMRecords( 3704): [SIMRecords] EF_AD: 00000102
+07-29 15:00:29.386 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 3 requested: true
+07-29 15:00:29.388 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+07-29 15:00:29.388 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.388 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824903] SIM_IO
+07-29 15:00:29.388 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=176,28472,0,0,8,,"3F007FFF"
+07-29 15:00:29.388 D/RILJ    ( 3704): [8744]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.389 D/SIMRecords( 3704): [SIMRecords] Load EF_SPN:  spnDisplayCondition: 255
+07-29 15:00:29.396 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 2 requested: true
+07-29 15:00:29.402 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"8EEF1D0C630E5800"
+07-29 15:00:29.402 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.402 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824901] SIM_IO
+07-29 15:00:29.402 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CRSM=176,28478,0,0,1,,"3F007FFF"
+07-29 15:00:29.403 D/RILJ    ( 3704): [8745]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.403 D/SIMRecords( 3704): [SIMRecords] SST: UsimServiceTable[64]={ FDN, FDN_EXTENSION, SDN, OUTGOING_CALL_INFO, INCOMING_CALL_INFO, SM_STORAGE, SM_STATUS_REPORTS, SM_SERVICE_PARAMS, CAP_CONFIG_PARAMS_2, CB_MESSAGE_ID, CB_MESSAGE_ID_RANGES, GROUP_ID_LEVEL_1, SPN, USER_PLMN_SELECT, MSISDN, GSM_ACCESS, DATA_DL_VIA_SMS_PP, IGNORED_1, ENABLED_SERVICES_TABLE, GSM_SECURITY_CONTEXT, CPBCCH_INFO, OPERATOR_PLMN_SELECT, HPLMN_SELECT, EXTENSION_5, MMS_NOTIFICATION, MMS_NOTIFICATION_EXTENSION, MMS_CONNECTIVITY_PARAMS }
+07-29 15:00:29.403 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 1 requested: true
+07-29 15:00:29.416 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CRSM: 144,0,"02"
+07-29 15:00:29.416 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:29.417 D/RILJ    ( 3704): [8747]< SIM_IO IccIoResponse sw1:0x90 sw2:0x0
+07-29 15:00:29.417 D/SIMRecords( 3704): [SIMRecords] GID1: 02
+07-29 15:00:29.417 D/SIMRecords( 3704): [SIMRecords] onRecordLoaded 0 requested: true
+07-29 15:00:29.417 D/SIMRecords( 3704): [SIMRecords] record load complete
+07-29 15:00:29.417 D/SIMRecords( 3704): [SIMRecords] onAllRecordsLoaded set 'gsm.sim.operator.numeric' to operator='20404'
+07-29 15:00:29.418 D/SIMRecords( 3704): [SIMRecords] onAllRecordsLoaded set mcc imsi=204045220670380
+07-29 15:00:29.440 D/GsmSST  ( 3704): [GsmSST] EVENT_SIM_RECORDS_LOADED: what=16
+07-29 15:00:29.440 D/PhoneProxy( 3704): [PhoneProxy] updatePhoneObject: radioTechnology=0
+07-29 15:00:29.441 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: radio is on but out of service, set plmn='No service.'
+07-29 15:00:29.441 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: changed sending intent rule=2 showPlmn='true' plmn='No service.' showSpn='false' spn=''
+07-29 15:00:29.448 D/DCT     ( 3704): handleMessage msg={ when=-30ms what=270338 obj=android.os.AsyncResult@419da980 target=com.android.internal.telephony.dataconnection.DcTracker }
+07-29 15:00:29.448 D/DCT     ( 3704): onRecordsLoaded: createAllApnList
+07-29 15:00:29.448 D/DCT     ( 3704): createAllApnList: selection=numeric = '20404' and carrier_enabled = 1
+07-29 15:00:29.459 D/DCT     ( 3704): createApnList: X result=[[ApnSettingV2] LTE - VZW Roaming Internet, 16, 20404, VZWINTERNET, null, null, null, null, null, -1, default | dun, IPV4V6, IPV4V6, true, 14, [ApnSettingV2] LTE - VZW Roaming FOTA, 17, 20404, VZWADMIN, null, null, null, null, null, -1, fota, IPV4V6, IPV4V6, true, 14, [ApnSettingV2] LTE - VZW Roaming IMS, 18, 20404, VZWIMS, null, null, null, null, null, -1, ims, IPV4V6, IPV4V6, true, 14, [ApnSettingV2] LTE - VZW Roaming CBS, 19, 20404, VZWAPP, null, http://mms.vtext.com/servlets/mms, null, null, null, -1, cbs | mms, IPV4V6, IPV4V6, true, 14, [ApnSettingV2] EHRPD - VZW Roaming Internet, 20, 20404, VZWINTERNET, null, null, null, null, null, -1, default | dun, IPV4V6, IPV4V6, true, 13, [ApnSettingV2] EHRPD - VZW Roaming FOTA, 21, 20404, VZWADMIN, null, null, null, null, null, -1, fota, IPV4V6, IPV4V6, true, 13, [ApnSettingV2] EHRPD - VZW Roaming IMS, 22, 20404, VZWIMS, null, null, null, null, null, -1, ims, IPV4V6, IPV4V6, true, 13, [ApnSettingV2] EHRPD - VZW Roaming CBS, 23, 20404, VZWAPP, null, http://mms.vtext.com/servlets/mms, null, null, null, -1, cbs | mms, IPV4V6, IPV4V6, true, 13, [ApnSettingV2] Vodafone NL, 24, 20404, live.vodafone.com, null, http://mmsc.mms.vodafone.nl, 192.168.251.150, 8799, null, -1, default | supl | mms, IP, IP, true, 0, [ApnSettingV2] hollandsnieuwe int., 25, 20404, data.dataxs.mobi, null, null, null, null, null, -1, default, IP, IP, true, 0, [ApnSettingV2] Vodafone MMS Business, 26, 20404, office.vodafone.nl, null, http://mmsc.mms.vodafone.nl, 192.168.251.150, 8799, null, -1, mms, IP, IP, true, 0]
+07-29 15:00:29.464 D/DCT     ( 3704): getPreferredApn: mRequestedApnType=default cursor=android.content.ContentResolver$CursorWrapperInner@41a21358 cursor.count=0
+07-29 15:00:29.465 D/DCT     ( 3704): getPreferredApn: X not found
+07-29 15:00:29.465 D/DCT     ( 3704): createAllApnList: mPreferredApn=null
+07-29 15:00:29.467 D/DCT     ( 3704): createAllApnList: X mAllApnSettings=[[ApnSettingV2] LTE - VZW Roaming Internet, 16, 20404, VZWINTERNET, null, null, null, null, null, -1, default | dun, IPV4V6, IPV4V6, true, 14, [ApnSettingV2] LTE - VZW Roaming FOTA, 17, 20404, VZWADMIN, null, null, null, null, null, -1, fota, IPV4V6, IPV4V6, true, 14, [ApnSettingV2] LTE - VZW Roaming IMS, 18, 20404, VZWIMS, null, null, null, null, null, -1, ims, IPV4V6, IPV4V6, true, 14, [ApnSettingV2] LTE - VZW Roaming CBS, 19, 20404, VZWAPP, null, http://mms.vtext.com/servlets/mms, null, null, null, -1, cbs | mms, IPV4V6, IPV4V6, true, 14, [ApnSettingV2] EHRPD - VZW Roaming Internet, 20, 20404, VZWINTERNET, null, null, null, null, null, -1, default | dun, IPV4V6, IPV4V6, true, 13, [ApnSettingV2] EHRPD - VZW Roaming FOTA, 21, 20404, VZWADMIN, null, null, null, null, null, -1, fota, IPV4V6, IPV4V6, true, 13, [ApnSettingV2] EHRPD - VZW Roaming IMS, 22, 20404, VZWIMS, null, null, null, null, null, -1, ims, IPV4V6, IPV4V6, true, 13, [ApnSettingV2] EHRPD - VZW Roaming CBS, 23, 20404, VZWAPP, null, http://mms.vtext.com/servlets/mms, null, null, null, -1, cbs | mms, IPV4V6, IPV4V6, true, 13, [ApnSettingV2] Vodafone NL, 24, 20404, live.vodafone.com, null, http://mmsc.mms.vodafone.nl, 192.168.251.150, 8799, null, -1, default | supl | mms, IP, IP, true, 0, [ApnSettingV2] hollandsnieuwe int., 25, 20404, data.dataxs.mobi, null, null, null, null, null, -1, default, IP, IP, true, 0, [ApnSettingV2] Vodafone MMS Business, 26, 20404, office.vodafone.nl, null, http://mmsc.mms.vodafone.nl, 192.168.251.150, 8799, null, -1, mms, IP, IP, true, 0]
+07-29 15:00:29.467 D/DCT     ( 3704): setInitialApn: E mPreferredApn=null
+07-29 15:00:29.467 D/DCT     ( 3704): setInitialApn: firstApnSetting=[ApnSettingV2] LTE - VZW Roaming Internet, 16, 20404, VZWINTERNET, null, null, null, null, null, -1, default | dun, IPV4V6, IPV4V6, true, 14
+07-29 15:00:29.467 D/DCT     ( 3704): setInitialApn: defaultApnSetting=[ApnSettingV2] LTE - VZW Roaming Internet, 16, 20404, VZWINTERNET, null, null, null, null, null, -1, default | dun, IPV4V6, IPV4V6, true, 14
+07-29 15:00:29.467 D/DCT     ( 3704): setInitialAttachApn: using defaultApnSetting
+07-29 15:00:29.467 D/DCT     ( 3704): setInitialAttachApn: X selected Apn=[ApnSettingV2] LTE - VZW Roaming Internet, 16, 20404, VZWINTERNET, null, null, null, null, null, -1, default | dun, IPV4V6, IPV4V6, true, 14
+07-29 15:00:29.467 D/RILJ    ( 3704): Set RIL_REQUEST_SET_INITIAL_ATTACH_APN
+07-29 15:00:29.467 D/RILJ    ( 3704): [8748]> RIL_REQUEST_SET_INITIAL_ATTACH_APN, apn:VZWINTERNET, protocol:IPV4V6, authType:-1, username:null, password:null
+07-29 15:00:29.469 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824900] RIL_REQUEST_SET_INITIAL_ATTACH_APN
+07-29 15:00:29.469 I/use-Rlog/RLOG-RIL{0}( 9096): sending request RIL_REQUEST_SET_INITIAL_ATTACH_APN on channel 0
+07-29 15:00:29.469 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824900] RIL_REQUEST_SET_INITIAL_ATTACH_APN
+07-29 15:00:29.469 D/RIL{0}  ( 9096): Same APN in cache - ignore
+07-29 15:00:29.469 I/RIL{0}  ( 9096): Read cached IA: apn (VZWINTERNET) protocol (IPV4V6) authtype (0) username () password ()
+07-29 15:00:29.469 D/RILJ    ( 3704): [8748]< RIL_REQUEST_SET_INITIAL_ATTACH_APN 
+07-29 15:00:29.470 D/DCT     ( 3704): onRecordsLoaded: notifying data availability
+07-29 15:00:29.470 D/DCT     ( 3704): [ApnContext:dun] getApnSetting: apnSetting=null
+07-29 15:00:29.476 D/DCT     ( 3704): [ApnContext:supl] getApnSetting: apnSetting=null
+07-29 15:00:29.481 D/DCT     ( 3704): [ApnContext:hipri] getApnSetting: apnSetting=null
+07-29 15:00:29.486 D/DCT     ( 3704): [ApnContext:default] getApnSetting: apnSetting=null
+07-29 15:00:29.490 D/DCT     ( 3704): [ApnContext:mms] getApnSetting: apnSetting=null
+07-29 15:00:29.493 D/DCT     ( 3704): setupDataOnConnectableApns: simLoaded
+07-29 15:00:29.493 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:29.493 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:29.493 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:29.493 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=true mDependencyMet=true}
+07-29 15:00:29.493 D/DCT     ( 3704): setupDataOnConnectableApns: isConnectable() call trySetupData
+07-29 15:00:29.493 D/DCT     ( 3704): trySetupData for type:default due to simLoaded apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=simLoaded mDataEnabled=true mDependencyMet=true}
+07-29 15:00:29.493 D/DCT     ( 3704): trySetupData with mIsPsRestricted=false
+07-29 15:00:29.493 D/DCT     ( 3704): [ApnContext:dun] getApnSetting: apnSetting=null
+07-29 15:00:29.497 D/DCT     ( 3704): [ApnContext:supl] getApnSetting: apnSetting=null
+07-29 15:00:29.500 D/DCT     ( 3704): [ApnContext:hipri] getApnSetting: apnSetting=null
+07-29 15:00:29.503 D/DCT     ( 3704): [ApnContext:default] getApnSetting: apnSetting=null
+07-29 15:00:29.505 D/DCT     ( 3704): [ApnContext:mms] getApnSetting: apnSetting=null
+07-29 15:00:29.507 D/DCT     ( 3704): trySetupData: X apnContext not 'ready' retValue=false
+07-29 15:00:29.507 D/DCT     ( 3704): setupDataOnConnectableApns: apnContext {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+07-29 15:00:29.507 D/IccCardProxy( 3704): Broadcasting intent ACTION_SIM_STATE_CHANGED LOADED reason null
+07-29 15:00:29.508 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: newVoiceRadioTech=0
+07-29 15:00:29.508 D/TelephonyManager( 3704): getLteOnCdmaMode=0 curVal=-1 product_type='' lteOnCdmaProductType=''
+07-29 15:00:29.508 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: Unknown rat ignore,  newVoiceRadioTech=Unknown. mActivePhone=GSM
+07-29 15:00:29.822 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %IPSRB: 0
+07-29 15:00:29.822 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16362.203949]
+07-29 15:00:29.822 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %IPSRB: 0 null
+07-29 15:00:29.824 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %IPSRB: 0 null
+07-29 15:00:31.561 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TLTS: "15/07/29,13:00:32-28,00"
+07-29 15:00:31.561 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16363.941273]
+07-29 15:00:31.561 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: *TLTS: "15/07/29,13:00:32-28,00" null
+07-29 15:00:31.561 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: *TLTS: "15/07/29,13:00:32-28,00" null
+07-29 15:00:31.561 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 0,00000,0,-,0
+07-29 15:00:31.561 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16363.941859]
+07-29 15:00:31.561 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 0,00000,0,-,0 null
+07-29 15:00:31.561 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 0,00000,0,-,0 null
+07-29 15:00:31.562 D/RILJ    ( 3704): [UNSL]< UNSOL_NITZ_TIME_RECEIVED 15/07/29,13:00:32-28,00
+07-29 15:00:31.563 D/GsmSST  ( 3704): [GsmSST] NITZ: 15/07/29,13:00:32-28,00,19653707 start=19653708 delay=1
+07-29 15:00:31.570 D/GsmSST  ( 3704): [GsmSST] NITZ: Setting time of day to Wed Jul 29 15:00:32 CEST 2015 NITZ receive delay(ms): 8 gained(ms): 438 from 15/07/29,13:00:32-28,00
+07-29 15:00:31.570 D/GsmSST  ( 3704): [GsmSST] setAndBroadcastNetworkSetTime: time=1438174832008ms
+07-29 15:00:32.019 I/GsmSST  ( 3704): NITZ: after Setting time of day
+07-29 15:00:32.233 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CREG: 1,"03E8","0000000A",0
+07-29 15:00:32.233 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16364.176791]
+07-29 15:00:32.233 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CREG: 1,"03E8","0000000A",0 null
+07-29 15:00:32.233 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CREG: 1,"03E8","0000000A",0 null
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 0,00101,2g,-,0
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16364.177060]
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 0,00101,2g,-,0 null
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 0,00101,2g,-,0 null
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CGREG: 0
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16364.177218]
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CGREG: 0 null
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CGREG: 0 null
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 4,00101,2g,-,0
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16364.177391]
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 4,00101,2g,-,0 null
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 4,00101,2g,-,0 null
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %ICESQU: 89,0,255,255,255,255
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [16364.177590]
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %ICESQU: 89,0,255,255,255,255 null
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %ICESQU: 89,0,255,255,255,255 null
+07-29 15:00:32.234 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:32.234 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(17)< OK
+07-29 15:00:32.234 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:32.235 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 15:00:32.235 D/RILJ    ( 3704): [8749]> OPERATOR
+07-29 15:00:32.238 D/RILJ    ( 3704): [8750]> DATA_REGISTRATION_STATE
+07-29 15:00:32.238 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824899] OPERATOR
+07-29 15:00:32.238 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:32.238 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824899] OPERATOR
+07-29 15:00:32.238 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+COPS=3,0;+COPS?;+COPS=3,1;+COPS?;+COPS=3,2;+COPS?
+07-29 15:00:32.239 D/RILJ    ( 3704): [8751]> VOICE_REGISTRATION_STATE
+07-29 15:00:32.239 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824898] DATA_REGISTRATION_STATE
+07-29 15:00:32.239 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:32.239 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,0,"00101",0
+07-29 15:00:32.240 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,1,"00101",0
+07-29 15:00:32.240 D/RILJ    ( 3704): [8752]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.240 D/RILJ    ( 3704): [8729]< SET_NETWORK_SELECTION_MANUAL 
+07-29 15:00:32.240 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824897] VOICE_REGISTRATION_STATE
+07-29 15:00:32.240 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:32.241 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +COPS: 1,2,"00101",0
+07-29 15:00:32.241 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 15:00:32.241 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824898] DATA_REGISTRATION_STATE
+07-29 15:00:32.241 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824897] VOICE_REGISTRATION_STATE
+07-29 15:00:32.243 D/RILJ    ( 3704): [8753]> OPERATOR
+07-29 15:00:32.244 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824896] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.244 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:32.244 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824896] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.244 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:32.244 D/RILJ    ( 3704): [8754]> DATA_REGISTRATION_STATE
+07-29 15:00:32.245 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824895] OPERATOR
+07-29 15:00:32.245 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:32.245 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824895] OPERATOR
+07-29 15:00:32.245 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 15:00:32.245 D/RILJ    ( 3704): [8755]> VOICE_REGISTRATION_STATE
+07-29 15:00:32.246 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824894] DATA_REGISTRATION_STATE
+07-29 15:00:32.246 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:32.246 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824894] DATA_REGISTRATION_STATE
+07-29 15:00:32.246 D/RILJ    ( 3704): [8756]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.247 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824893] VOICE_REGISTRATION_STATE
+07-29 15:00:32.247 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:32.247 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824893] VOICE_REGISTRATION_STATE
+07-29 15:00:32.247 D/RILJ    ( 3704): [8757]> OPERATOR
+07-29 15:00:32.248 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824892] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.248 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:32.248 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824892] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.248 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:32.248 D/RILJ    ( 3704): [8758]> DATA_REGISTRATION_STATE
+07-29 15:00:32.248 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824891] OPERATOR
+07-29 15:00:32.248 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 15:00:32.248 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824891] OPERATOR
+07-29 15:00:32.248 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 15:00:32.249 D/RILJ    ( 3704): [8759]> VOICE_REGISTRATION_STATE
+07-29 15:00:32.250 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824890] DATA_REGISTRATION_STATE
+07-29 15:00:32.250 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 15:00:32.250 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824890] DATA_REGISTRATION_STATE
+07-29 15:00:32.251 D/RILJ    ( 3704): [8760]> QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.251 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824889] VOICE_REGISTRATION_STATE
+07-29 15:00:32.251 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 15:00:32.251 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824889] VOICE_REGISTRATION_STATE
+07-29 15:00:32.252 D/RILJ    ( 3704): [8749]< OPERATOR {00101, 00101, 00101}
+07-29 15:00:32.252 D/RILJ    ( 3704): [8750]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 15:00:32.252 D/RILJ    ( 3704): [8751]< VOICE_REGISTRATION_STATE {1, 3e8, a, 16}
+07-29 15:00:32.252 D/RILJ    ( 3704): [8752]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:32.252 D/RILJ    ( 3704): [8753]< OPERATOR {00101, 00101, 00101}
+07-29 15:00:32.253 D/RILJ    ( 3704): [8754]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 15:00:32.253 D/RILJ    ( 3704): [8755]< VOICE_REGISTRATION_STATE {1, 3e8, a, 16}
+07-29 15:00:32.253 D/RILJ    ( 3704): [8756]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:32.253 D/RILJ    ( 3704): [8757]< OPERATOR {00101, 00101, 00101}
+07-29 15:00:32.254 D/RILJ    ( 3704): [8758]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 15:00:32.254 D/RILJ    ( 3704): [8759]< VOICE_REGISTRATION_STATE {1, 3e8, a, 16}
+07-29 15:00:32.254 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639824888] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.254 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 15:00:32.254 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639824888] QUERY_NETWORK_SELECTION_MODE
+07-29 15:00:32.254 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 15:00:32.254 D/RILJ    ( 3704): [8760]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 15:00:32.258 D/PHONE   ( 3704): [ServiceState] setDataRegState=1
+07-29 15:00:32.258 D/PHONE   ( 3704): [ServiceState] setDataRadioTechnology=0
+07-29 15:00:32.258 D/GsmSST  ( 3704): [GsmSST] handlPollStateResultMessage: GsmSST setDataRegState=1 regState=0 dataRadioTechnology=0
+07-29 15:00:32.258 D/PHONE   ( 3704): [ServiceState] setVoiceRegState=0
+07-29 15:00:32.258 E/PHONE   ( 3704): [ServiceState] setState deprecated use setVoiceRegState()
+07-29 15:00:32.258 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[1 1 home null null null (manual) Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[0 1 home 00101 00101 00101 (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 15:00:32.258 D/GsmSST  ( 3704): [GsmSST] RAT switched Unknown -> GSM at cell 10
+07-29 15:00:32.258 D/PHONE   ( 3704): [ServiceState] setNullState=1
+07-29 15:00:32.258 D/PhoneProxy( 3704): [PhoneProxy] updatePhoneObject: radioTechnology=16
+07-29 15:00:32.258 D/GsmSST  ( 3704): [GsmSST] pollStateDone: registering current mNitzUpdatedTime=true changing to false
+07-29 15:00:32.259 D/GsmSST  ( 3704): [GsmSST] updateSpnDisplay: changed sending intent rule=2 showPlmn='true' plmn='00101' showSpn='false' spn=''
+07-29 15:00:32.263 D/GsmSST  ( 3704): [GsmSST] shouldFixTimeZoneNow: retVal=true iccCardExist=true operatorNumeric=00101 mcc=1 prevOperatorNumeric= prevMcc=2 needToFixTimeZone=true ltod=07-29 15:00:32.262
+07-29 15:00:32.263 D/GsmSST  ( 3704): [GsmSST] pollStateDone: fix time zone zoneName='Europe/Amsterdam' mZoneOffset=-25200000 mZoneDst=false iso-cc='' iso-cc-idx=-1
+07-29 15:00:32.263 D/GsmSST  ( 3704): [GsmSST] getNitzTimeZone returning America/Creston
+07-29 15:00:32.263 D/GsmSST  ( 3704): [GsmSST] pollStateDone: using NITZ TimeZone
+07-29 15:00:32.263 D/GsmSST  ( 3704): [GsmSST] pollStateDone: zone != null zone.getID=America/Creston
+07-29 15:00:32.270 D/GsmSST  ( 3704): [GsmSST] getCellLocation(): X good mCellLoc=[1000,10,-1]
+07-29 15:00:32.272 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: newVoiceRadioTech=16
+07-29 15:00:32.272 D/TelephonyManager( 3704): getLteOnCdmaMode=0 curVal=-1 product_type='' lteOnCdmaProductType=''
+07-29 15:00:32.272 D/PhoneProxy( 3704): [PhoneProxy] phoneObjectUpdater: No change ignore, newVoiceRadioTech=16 mActivePhone=GSM
+07-29 15:00:32.998 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] <unknown request>

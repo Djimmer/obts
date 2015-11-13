@@ -1,0 +1,126 @@
+07-29 13:30:00.585 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TLTS: "15/07/29,11:30:01-28,00"
+07-29 13:30:00.585 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [10932.621574]
+07-29 13:30:00.585 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: *TLTS: "15/07/29,11:30:01-28,00" null
+07-29 13:30:00.585 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: *TLTS: "15/07/29,11:30:01-28,00" null
+07-29 13:30:00.588 D/RILJ    ( 3704): [UNSL]< UNSOL_NITZ_TIME_RECEIVED 15/07/29,11:30:01-28,00
+07-29 13:30:00.590 D/GsmSST  ( 3704): [GsmSST] NITZ: 15/07/29,11:30:01-28,00,14222387 start=14222391 delay=4
+07-29 13:30:00.599 D/GsmSST  ( 3704): [GsmSST] getNitzTimeZone returning America/Creston
+07-29 13:30:00.615 D/GsmSST  ( 3704): [GsmSST] NITZ: Setting time of day to Wed Jul 29 13:30:01 CEST 2015 NITZ receive delay(ms): 25 gained(ms): 409 from 15/07/29,11:30:01-28,00
+07-29 13:30:00.615 D/GsmSST  ( 3704): [GsmSST] setAndBroadcastNetworkSetTime: time=1438169401025ms
+07-29 13:30:01.054 I/GsmSST  ( 3704): NITZ: after Setting time of day
+07-29 13:30:01.998 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] <unknown request>
+07-29 13:31:08.313 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< *TLTS: "15/07/29,11:31:08-28,00"
+07-29 13:31:08.313 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [10999.941760]
+07-29 13:31:08.313 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: *TLTS: "15/07/29,11:31:08-28,00" null
+07-29 13:31:08.314 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: *TLTS: "15/07/29,11:31:08-28,00" null
+07-29 13:31:08.316 D/RILJ    ( 3704): [UNSL]< UNSOL_NITZ_TIME_RECEIVED 15/07/29,11:31:08-28,00
+07-29 13:31:08.320 D/GsmSST  ( 3704): [GsmSST] NITZ: 15/07/29,11:31:08-28,00,14289708 start=14289712 delay=4
+07-29 13:31:08.327 D/GsmSST  ( 3704): [GsmSST] getNitzTimeZone returning America/Creston
+07-29 13:31:08.340 D/GsmSST  ( 3704): [GsmSST] NITZ: Setting time of day to Wed Jul 29 13:31:08 CEST 2015 NITZ receive delay(ms): 21 gained(ms): -319 from 15/07/29,11:31:08-28,00
+07-29 13:31:08.048 I/GsmSST  ( 3704): NITZ: after Setting time of day
+07-29 13:31:08.340 D/GsmSST  ( 3704): [GsmSST] setAndBroadcastNetworkSetTime: time=1438169468021ms
+07-29 13:31:08.996 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1] <unknown request>
+07-29 13:32:23.858 D/RILJ    ( 3704): [8542]> SCREEN_STATE: true
+07-29 13:32:23.860 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639825106] SCREEN_STATE
+07-29 13:32:23.860 I/use-Rlog/RLOG-RIL{0}( 9096): sending request SCREEN_STATE on channel 0
+07-29 13:32:23.860 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639825106] SCREEN_STATE
+07-29 13:32:23.860 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [11075.808226]
+07-29 13:32:23.860 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT*TUNSOL="SM",1
+07-29 13:32:23.861 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 13:32:23.861 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ICESQU=1,5,6,1,6,12,12,6
+07-29 13:32:23.861 D/DCT     ( 3704): onReceive: action=android.intent.action.SCREEN_ON
+07-29 13:32:23.861 D/DCT     ( 3704): stopNetStatPoll
+07-29 13:32:23.861 D/DCT     ( 3704): overall state is IDLE
+07-29 13:32:23.862 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 13:32:23.862 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CESQ
+07-29 13:32:23.863 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< +CESQ: 82,0,255,255,255,255
+07-29 13:32:23.863 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [11075.811429]
+07-29 13:32:23.863 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: +CESQ: 82,0,255,255,255,255 null
+07-29 13:32:23.863 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 13:32:23.863 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT+CREG=2;+CGREG=2;+CEREG=2
+07-29 13:32:23.864 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 13:32:23.864 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%NWSTATE=3
+07-29 13:32:23.866 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< %NWSTATE: 4,00101,2g,-,0
+07-29 13:32:23.866 D/use-Rlog/RLOG-RIL{0}( 9096): Kernel time: [11075.814211]
+07-29 13:32:23.866 D/use-Rlog/RLOG-RIL{0}( 9096): b89ae710 onUnsolicited: %NWSTATE: 4,00101,2g,-,0 null
+07-29 13:32:23.866 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 13:32:23.866 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%IFD=36
+07-29 13:32:23.867 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 13:32:23.867 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%ISCREEN=1
+07-29 13:32:23.868 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 13:32:23.868 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)> AT%IDRVSTAT
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< {
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'wakesch':{
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'min_restore_time':[0,295,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'max_restore_time':[0,432,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'emc_wait_count':0
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'cal32k':{
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'low_res_freq_millihz':32768724,
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'state_stats':[31,132,45914],
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'cal_time':[0,18475,455,3047,10,568,192,50,37,3,2,10,48,90,99]
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'IPM':{
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'system_time':'0d3h48m30s',
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'uptime':5115806,
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'downtime':10866166,
+07-29 13:32:23.870 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'load_1000':320,
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'idle_time_dist':[31501,2830,926,4215,3131,3728,397,8,0,0],
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'dxp0':{
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_dmem_active':0,
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_dxp_idle':5111464,
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_soc_idle':0,
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'n_power_off':23086
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       }
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    'shm':{
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'queue':{
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'put':7769,
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'get':7289
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       },
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'if':{
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'sent':[146283,52362,1902,64,8869604,2009,1938,1869,1869,1869,1869,1869,1869,0,0,0,0,0,2892],
+07-29 13:32:23.871 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'received':[139018,16872,23,44,180,164,94,0,0,0,0,0,0,0,0,0,0,0,1232],
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'given':[1058,1384,20,8,5155,30,27,16,16,16,16,16,16,0,0,0,0,0,44],
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'taken':[1058,1384,20,8,5155,30,27,16,16,16,16,16,16,0,0,0,0,0,44]
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       },
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       'signal':{
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'ul':6207,
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<          'dl':7046
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<       }
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)<    },
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< }
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL AT{0}( 9096): AT(18)< OK
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: +CESQ: 82,0,255,255,255,255 null
+07-29 13:32:23.872 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleUnsolicited: %NWSTATE: 4,00101,2g,-,0 null
+07-29 13:32:23.872 D/RILJ    ( 3704): [UNSL]< UNSOL_RESPONSE_VOICE_NETWORK_STATE_CHANGED
+07-29 13:32:23.872 D/RILJ    ( 3704): [8542]< SCREEN_STATE 
+07-29 13:32:23.872 D/RILJ    ( 3704): [8543]> OPERATOR
+07-29 13:32:23.874 D/RILJ    ( 3704): [8544]> DATA_REGISTRATION_STATE
+07-29 13:32:23.874 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639825105] OPERATOR
+07-29 13:32:23.874 I/use-Rlog/RLOG-RIL{0}( 9096): sending request OPERATOR on channel 0
+07-29 13:32:23.874 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639825105] OPERATOR
+07-29 13:32:23.874 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached Operator details
+07-29 13:32:23.874 D/RILJ    ( 3704): [8543]< OPERATOR {00101, 00101, 00101}
+07-29 13:32:23.875 D/RILJ    ( 3704): [8545]> VOICE_REGISTRATION_STATE
+07-29 13:32:23.875 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639825104] DATA_REGISTRATION_STATE
+07-29 13:32:23.875 I/use-Rlog/RLOG-RIL{0}( 9096): sending request DATA_REGISTRATION_STATE on channel 0
+07-29 13:32:23.875 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639825104] DATA_REGISTRATION_STATE
+07-29 13:32:23.875 D/RILJ    ( 3704): [8544]< DATA_REGISTRATION_STATE {0, null, null, 0, null, 2}
+07-29 13:32:23.876 D/RILJ    ( 3704): [8546]> QUERY_NETWORK_SELECTION_MODE
+07-29 13:32:23.876 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639825103] VOICE_REGISTRATION_STATE
+07-29 13:32:23.876 I/use-Rlog/RLOG-RIL{0}( 9096): sending request VOICE_REGISTRATION_STATE on channel 0
+07-29 13:32:23.876 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639825103] VOICE_REGISTRATION_STATE
+07-29 13:32:23.877 D/RILJ    ( 3704): [8545]< VOICE_REGISTRATION_STATE {1, 3e8, a, 16}
+07-29 13:32:23.878 D/use-Rlog/RLOG-RIL{0}( 9096): b89ad420 onRequest:[-1639825102] QUERY_NETWORK_SELECTION_MODE
+07-29 13:32:23.878 I/use-Rlog/RLOG-RIL{0}( 9096): sending request QUERY_NETWORK_SELECTION_MODE on channel 0
+07-29 13:32:23.878 D/use-Rlog/RLOG-RIL{0}( 9096): b89adee8 onHandleRequest:[-1639825102] QUERY_NETWORK_SELECTION_MODE
+07-29 13:32:23.878 D/use-Rlog/RLOG-RIL{0}( 9096): Providing cached network selection details
+07-29 13:32:23.878 D/RILJ    ( 3704): [8546]< QUERY_NETWORK_SELECTION_MODE {1}
+07-29 13:32:23.879 D/PHONE   ( 3704): [ServiceState] setDataRegState=1
+07-29 13:32:23.879 D/PHONE   ( 3704): [ServiceState] setDataRadioTechnology=0
+07-29 13:32:23.879 D/GsmSST  ( 3704): [GsmSST] handlPollStateResultMessage: GsmSST setDataRegState=1 regState=0 dataRadioTechnology=0
+07-29 13:32:23.879 D/PHONE   ( 3704): [ServiceState] setVoiceRegState=0
+07-29 13:32:23.879 E/PHONE   ( 3704): [ServiceState] setState deprecated use setVoiceRegState()
+07-29 13:32:23.879 D/GsmSST  ( 3704): [GsmSST] Poll ServiceState done:  oldSS=[0 1 home 00101 00101 00101 (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] newSS=[0 1 home 00101 00101 00101 (manual) GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false] oldMaxDataCalls=2 mNewMaxDataCalls=2 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+07-29 13:32:23.879 D/PHONE   ( 3704): [ServiceState] setNullState=1
