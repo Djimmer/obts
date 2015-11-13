@@ -1,0 +1,189 @@
+-------------------------------------------------------------------------------
+INPUT - Length: 0 Counter: 0
+051800
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'0 : private'>
+
+OUTPUT - Length: 0 Counter: 0
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 0
+051800
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'0 : private'>
+
+OUTPUT - Length: 2 Counter: 0
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 1
+051801
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'1 : IMSI'>
+
+OUTPUT - Length: 2 Counter: 1
+05190829404025060673084cfc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():8, V():<[ID]: IMSI:204045260603780>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 2
+051802
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'2 : IMEI'>
+
+OUTPUT - Length: 2 Counter: 2
+0559083a951506468274014cfc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():8, V():<[ID]: IMEI:359516064284710>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 3
+051803
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'3 : IMEISV'>
+
+OUTPUT - Length: 2 Counter: 3
+0519093395150646827401f1fc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():9, V():<[ID]: IMEISV:3595160642847101>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 4
+051804
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'4 : TMSI'>
+
+OUTPUT - Length: 2 Counter: 4
+055905f46c721e6234c85250fc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():5, V():<[ID]: TMSI:0x6c721e62>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 5
+051805
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'5 : private'>
+
+OUTPUT - Length: 2 Counter: 5
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 6
+051806
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'6 : 6'>
+
+OUTPUT - Length: 2 Counter: 6
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 7
+051807
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'7 : 7'>
+
+OUTPUT - Length: 2 Counter: 7
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 8
+051808
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'8 : 8'>
+
+OUTPUT - Length: 2 Counter: 8
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 9
+051809
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'9 : 9'>
+
+OUTPUT - Length: 2 Counter: 9
+05190829404025060673084cfc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():8, V():<[ID]: IMSI:204045260603780>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 10
+05180a
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'10 : 10'>
+
+OUTPUT - Length: 2 Counter: 10
+0559083a951506468274014cfc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():8, V():<[ID]: IMEI:359516064284710>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 11
+05180b
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'11 : 11'>
+
+OUTPUT - Length: 2 Counter: 11
+0519093395150646827401f1fc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():9, V():<[ID]: IMEISV:3595160642847101>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 12
+05180c
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'12 : 12'>
+
+OUTPUT - Length: 2 Counter: 12
+055905f46c721e6234c85250fc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():5, V():<[ID]: TMSI:0x6c721e62>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 13
+05180d
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'13 : 13'>
+
+OUTPUT - Length: 2 Counter: 13
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 14
+05180e
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'14 : 14'>
+
+OUTPUT - Length: 2 Counter: 14
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 15
+05180f
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0000, IDtype():'15 : 15'>
+
+OUTPUT - Length: 2 Counter: 15
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 16
+051810
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0001, IDtype():'0 : private'>
+
+OUTPUT - Length: 2 Counter: 16
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 17
+051811
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0001, IDtype():'1 : IMSI'>
+
+OUTPUT - Length: 2 Counter: 17
+05190829404025060673084cfc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():8, V():<[ID]: IMSI:204045260603780>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 18
+051812
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0001, IDtype():'2 : IMEI'>
+
+OUTPUT - Length: 2 Counter: 18
+0559083a951506468274014cfc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():8, V():<[ID]: IMEI:359516064284710>>>
+
+-------------------------------------------------------------------------------
+INPUT - Length: 2 Counter: 19
+051813
+<[IDENTITY_REQUEST]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'24 : Security - IDENTITY REQUEST', spare():0b0001, IDtype():'3 : IMEISV'>
+
+OUTPUT - Length: 2 Counter: 19
+0519093395150646827401f1fc7f00
+<[IDENTITY_RESPONSE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'25 : Security - IDENTITY RESPONSE', ID():<[ID]: L():9, V():<[ID]: IMEISV:3595160642847101>>>
+
