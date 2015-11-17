@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import gsm_um
-import random
+import random 
 
 
 ########################################### CORRECT FUNCTIONS #########################################
@@ -36,28 +36,26 @@ def correctLocalAreaID(p):
 def mobileFillID(packet, permutation):
 	length = len(permutation);
 	current_packet_digit = 2;
+	for i in range (0, length):
 
-	for i in range (0, length, 2):
+		currentHexDigit = int(permutation[i]);
+		if(i % 2 == 0):
+			# Vul digit_1
+			exec "packet.idDigit%s = %d " % (current_packet_digit, currentHexDigit)
+		else:
+			# Vul digit
+			exec "packet.idDigit%s_1 = %d " % (current_packet_digit, currentHexDigit)#random.randint(1, 9))
+			current_packet_digit = current_packet_digit + 1;
 
-		currentHexDigit1 = permutation[i];
-		currentHexDigit2 = permutation[i+1];
-
-		exec "packet.idDigit%s_1 = 0x%c " % (current_packet_digit, currentHexDigit1)
-		exec "packet.idDigit%s = 0x%c " % (current_packet_digit, currentHexDigit2)
-		
-		current_packet_digit = current_packet_digit + 1;
 	return packet
 
-def fuzzMobileId(p, lengthField, permutation):
-	p.lengthMI=lengthField;
-	#p.lengthMI=8;
+def fuzzMobileId(p, typeOfId, lengthField, permutation):
+
 	# Settings
-	p.idDigit1=random.randint(1, 3);
-	#p.idDigit1=2;
-	p.oddEven=random.randint(1, 2); 
-	#p.oddEven=1;
-	p.typeOfId=random.randint(1, 5);
-	#p.typeOfId=1;
+	p.lengthMI=lengthField;
+	p.idDigit1=2;
+	p.oddEven=1;
+	p.typeOfId=typeOfId;
 
 	# digits start with length of packet p
 	p = mobileFillID(p, permutation);
@@ -85,7 +83,7 @@ def fuzzLocalAreaId(p):
 ########################################### FIELD SELECTOR ############################################
 ######## 1 MobileID() ########
 # 1 tmsiReallocationCommand !!
-def fuzzingLengthFields(field, function, id, lengthField, permutation):
+def fuzzingLengthFields(field, function, typeOfId, lengthField, permutation):
 	# Default backup value
 	p = '\x05\x18\x01';
 
@@ -94,7 +92,7 @@ def fuzzingLengthFields(field, function, id, lengthField, permutation):
 			p = gsm_um.tmsiReallocationCommand();
 
 			# Use protocol knowledge to fuzz specific fields 
-			p = fuzzMobileId(p, lengthField, permutation);
+			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
 			p = fuzzLocalAreaId(p);
 			return p
 	

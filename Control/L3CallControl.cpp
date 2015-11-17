@@ -1333,6 +1333,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	//LOG(ALERT) << "Creating UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// Create and open the control port.
 	UDPSocket controlSocket(gConfig.getNum("TestCall.Port"));
+	UDPSocket maintenanceSocket(21337, "127.0.0.1", 21337);
 	//LOG(ALERT) << "Active UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// FIXME -- Somehow, the RTP ports need to be attached to the transaction.
 	// This loop will run or block until some outside entity writes a
@@ -1352,7 +1353,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	rBuf[5] = 'E';
 	rBuf[6] = 'D';
 
-	controlSocket.write(rBuf);
+	maintenanceSocket.write(rBuf);
 
 	char iBuf[MAX_UDP_LENGTH] = {0};
 	while (channel()->chanRunning()) {
@@ -1370,7 +1371,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		}
 		// Send it to the handset.
 		GSM::L3Frame query(iBuf, msgLen, SAPI0);
-		LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query);
+		LOG(ALERT) << " Sending L3Frame: " << LOGVAR(query) << "\n" << std::endl;
 
 		channel()->l3sendf(query);
 
@@ -1415,7 +1416,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		
 		//LOG(ALERT) << "Calling mmADDMT with: " << LOGVAR(tran);
 		Control::gMMLayer.mmAddMT(tran);
-		std::cout << "Starting UDP... please wait a few seconds" << endl;
+		std::cout << "\n Starting UDP... please wait a few seconds" << endl;
 		//testCallStart(tran);
 	}
 	else{
