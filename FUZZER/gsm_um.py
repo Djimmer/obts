@@ -311,7 +311,6 @@ def assignmentFailure():
     packet = a / b / c
     return packet
 
-
 # Network to MS
 def channelModeModify(VgcsTargetModeIdentication_presence=0,
                       MultiRateConfiguration_presence=0):
@@ -1489,7 +1488,7 @@ def locationUpdatingRequest():
     c = LocationUpdatingTypeAndCiphKeySeqNr()
     e = LocalAreaId()
     f = MobileStationClassmark1()
-    g = MobileId()
+    g = MobileIdTooLong()
     packet = a / b / c / e / f / g
     #packet = a / b
     return packet

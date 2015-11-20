@@ -21,13 +21,13 @@ def correctMobileID(p):
 	return p
 
 def correctLocalAreaID(p):
-	p.mccDigit1=0x1; 
+	p.mccDigit1=0x2; 
 	p.mccDigit2=0x0; 
-	p.mccDigit3=0x0; 
+	p.mccDigit3=0x4; 
 
 	p.mncDigit1=0x0;
-	p.mncDigit2=0x1; 
-	p.mncDigit3=0x0;
+	p.mncDigit2=0x0; 
+	p.mncDigit3=0x4;
 
 	p.lac1=0x03; p.lac2=0xe9;
 	return p
@@ -35,6 +35,7 @@ def correctLocalAreaID(p):
 ########################################## FUZZ FUNCTIONS #############################################
 def mobileFillID(packet, permutation):
 	length = len(permutation);
+	print length;
 	current_packet_digit = 2;
 	for i in range (0, length):
 
@@ -67,13 +68,13 @@ def fuzzMobileId(p, typeOfId, lengthField, permutation):
 	return p
 
 def fuzzLocalAreaId(p):
-	p.mccDigit1=0x1; 
+	p.mccDigit1=0x2; 
 	p.mccDigit2=0x0; 
-	p.mccDigit3=0x0; 
+	p.mccDigit3=0x4; 
 
 	p.mncDigit1=0x0;
-	p.mncDigit2=0x1; 
-	p.mncDigit3=0x0;
+	p.mncDigit2=0x0; 
+	p.mncDigit3=0x4;
 
 	p.lac1=0x03; p.lac2=0xe9;
 	return p
@@ -84,16 +85,22 @@ def fuzzLocalAreaId(p):
 ######## 1 MobileID() ########
 # 1 tmsiReallocationCommand !!
 def fuzzingLengthFields(field, function, typeOfId, lengthField, permutation):
-	# Default backup value
+	# Default backup value: Identity request
 	p = '\x05\x18\x01';
 
 	if(field == 1):
 		if(function == 1):
 			p = gsm_um.tmsiReallocationCommand();
-
-			# Use protocol knowledge to fuzz specific fields 
 			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
-			p = fuzzLocalAreaId(p);
+			p = correctLocalAreaID(p);
 			return p
-	
+		elif(function == 2):
+			p = gsm_um.imsiDetachIndication();
+			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
+			return p
+		elif(function == 3):
+			p = gsm_um.locationUpdatingRequest();
+			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
+			p = correctLocalAreaID(p);
+			return p
 	return p

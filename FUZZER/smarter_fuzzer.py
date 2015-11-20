@@ -4,6 +4,7 @@ import socket
 import time
 import binascii
 import os
+import sys
 from libmich.formats import *
 import gsm_um
 import smarter_fuzzer_function_def as fuzzer
@@ -21,13 +22,13 @@ TESTCALL_PORT = 28670;
 adb = ADB();
 
 # Fill in current mobile device
-device = sys.argv[1];
-# device = "SAMSUNG"
-# device = "BLACKPHONE";
-# device = "NEXUS";
-# device = "IPHONE";
-# device = "NOKIA";
-# device = "HUAWEI";
+
+if len(sys.argv) > 2:
+    device = sys.argv[1];
+    imsi = sys.argv[2];
+else:
+	print("ERROR: Device name not found. \nCall the script with: ./smart_fuzzer #DEVICE #IMSI \nWhere #DEVICE is the name and #IMSI is the IMSI of the mobile device.")
+	sys.exit(0);
 
 # Log file location
 log_packets_title = "logs/logs_packets/smarter_fuzzer/test/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".log";
@@ -73,6 +74,10 @@ error.setFormatter(formatter)
 logger.addHandler(handler)
 logger.addHandler(error)
 
+logger.info({
+		"message": "Device and SIM information",
+		"device": device,
+		"imsi" : imsi});
 
 ################################################# LOG ################################################
 def saveRadioLog(adb,title):
@@ -179,6 +184,8 @@ def establishNewChannel():
 
 def send(tcsock, packet):
 		try:
+			print "Packet: " + packet;
+			print "Packet: " + str(packet).encode("hex");
 			tcsock.sendto(packet, ('127.0.0.1', TESTCALL_PORT))
 			reply = tcsock.recv(1024)
 		except socket.timeout:
@@ -216,10 +223,20 @@ def ping():
 
 	return False;
 
+# def random_with_N_digits(n):
+#     range_start = 10**(n-1)
+#     range_end = (10**n)-1
+#     return randint(range_start, range_end)
+
 def random_with_N_digits(n):
-    range_start = 10**(n-1)
-    range_end = (10**n)-1
-    return randint(range_start, range_end)
+	result = "";
+	for x in range(n):
+		if(x % 2 == 0):
+			result = result + "1";
+		else:
+			result = result + "8";
+
+	return result
 ############################################### UTILS ################################################
 def printPacket(packet, function, field, length, lengthField, id, permutation, prefix, currentRun, total_runs):
 		print('------------------------------- INPUT  -------------------------------' + '\n');
@@ -257,19 +274,30 @@ lastField = 1;
 currentFunction = 1;
 lastFunction = 1;
 
-lengths = [0,1,2,3,4,5,6,7,8,9,10,14,15,16,18,20];
-lengthFields = [0,1,2,3,4,5,6,7,8,9,10,14,15,16,18,20,64,128];
-ids = [0,1,2,3,4,5,6,7,8,9,10,64,128];
+lengths = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
+lengthFields = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
+ids = [0,1,2,3,4,5,6,7,8,9,10,32,64];
+
+# Test case. Dont forget to set lastfunction to 3.
+# lengths = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
+# lengthFields = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
+# ids = [0,1,2,3,4,5,6,7,8,9,10,32,64];
 
 maxLength = len(lengths);
 maxLengthField = len(lengthFields);
 lastId = len(ids);
 
-total_runs = lastFunction * lastField * maxLength * lastId * maxLengthField;
+if 1 in ids: 
+	numberOfTriedIds = lastId + 1;
+
+total_runs = lastFunction * lastField * maxLength * numberOfTriedIds * maxLengthField;
 currentRun = 1;
 
 maxPacketAttempt = 5;
 currentPacketAttempt = 1;
+
+# Remove leading 2 from the imsi.
+imsi = imsi[1:];
 
 if(adb_logging):
 	clearLogs();
@@ -287,17 +315,29 @@ while currentField <= lastField:
 	while currentFunction <= lastFunction:
 		for i in range(len(lengths)):
 			currentLength = lengths[i];
+
 			if(currentLength != 0):
 				permutation = str(random_with_N_digits(currentLength));
 			else:
-				permutation = "7";
+				permutation = "";
 
 			for j in range(maxLengthField):
 				currentLengthField = lengthFields[j];
-
+				useRealImsiNow = False;
 				k = 0;
 				while k < lastId:
 					currentId = ids[k];
+
+					if(currentId == 1 and (useRealImsiNow)):
+						if (currentLength > 14):
+							permutation = imsi + permutation[14:];
+						elif (currentLength == 14):
+							permutation = imsi;
+						else:
+							permutation = imsi[:currentLength];
+
+
+					print "\n\n" + permutation + "\n \n";
 					packet = fuzzer.fuzzingLengthFields(currentField, 
 						currentFunction,
 						currentId,
@@ -313,7 +353,6 @@ while currentField <= lastField:
 					packet = str(packet);
 					result = send(tcsock, packet);
 
-
 					if not result:
 						currentPacketAttempt = currentPacketAttempt + 1;
 						establishNewChannel();
@@ -327,7 +366,10 @@ while currentField <= lastField:
 						parsed_packet = repr(L3Mobile.parse_L3(packet));
 						log_packets(currentRun, total_runs, currentLength, currentLengthField, currentId, currentField, currentFunction, packet, parsed_packet, result, parsed_result);
 						currentRun = currentRun + 1;
-						k = k + 1;
+						if(currentId == 1 and not useRealImsiNow):
+							useRealImsiNow = True;
+						else:
+							k = k + 1;
 						currentPacketAttempt = 0;
 
 		currentFunction = currentFunction + 1;
