@@ -12,6 +12,8 @@ import itertools
 from random import randint
 
 from math import factorial
+import logging
+from pythonjsonlogger import jsonlogger
 
 ############################################### SETTINGS #############################################
 # Default OpenBTS port
@@ -19,16 +21,19 @@ TESTCALL_PORT = 28670;
 adb = ADB();
 
 # Fill in current mobile device
-# device = "UNKOWN";
-#device = "SAMSUNG";
+device = sys.argv[1];
+# device = "SAMSUNG"
 # device = "BLACKPHONE";
-device = "NEXUS";
-#device = "IPHONE";
-#device = "NOKIA";
-#device = "HUAWEI";
+# device = "NEXUS";
+# device = "IPHONE";
+# device = "NOKIA";
+# device = "HUAWEI";
 
 # Log file location
-log_packets_title = "logs/logs_packets/smarter_fuzzer/test/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
+log_packets_title = "logs/logs_packets/smarter_fuzzer/test/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".log";
+log_packets_title_crash = "logs/logs_packets/smarter_fuzzer/crash/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".log";
+log_packets_title_crash_JSON = "logs/logs_packets/smarter_fuzzer/crash/json/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".json";
+log_packets_title_JSON = "logs/logs_packets/smarter_fuzzer/json/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".json";
 
 # Turn on/off prints
 verbose = True;
@@ -37,15 +42,37 @@ adb_logging = False;
 
 # Creat socket
 tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-tcsock.settimeout(2)
+tcsock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+tcsock.settimeout(1)
 
 ocsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
+ocsock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 HOST = 'localhost'        # Symbolic name meaning all available interfaces
 PORT = 21337              # Arbitrary non-privileged port
 ocsock.bind((HOST, PORT))
 ocsock.settimeout(20)
+
+# Initialize JSON logger
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+# create a file handler
+handler = logging.FileHandler(log_packets_title_JSON)
+handler.setLevel(logging.INFO)
+
+error = logging.FileHandler(log_packets_title_crash_JSON)
+error.setLevel(logging.ERROR)
+
+# create a logging format
+formatter = jsonlogger.JsonFormatter()
+handler.setFormatter(formatter)
+error.setFormatter(formatter)
+
+# add the handlers to the logger
+logger.addHandler(handler)
+logger.addHandler(error)
+
 
 ################################################# LOG ################################################
 def saveRadioLog(adb,title):
@@ -73,7 +100,7 @@ def log_adb(adb, packet_field, packet_function, maxLength, maxRun):
 	saveLogcat(adb, log_directory + log_title);
 	clearLogs();
 
-def log_packets(length, lengthField, id, field, function, packet, parsed_packet, reply, parsed_reply):
+def log_packets(run, maxRun, length, lengthField, id, field, function, packet, parsed_packet, reply, parsed_reply):
 	with open(log_packets_title, "a") as myfile:
 		myfile.write("-------------------------------------------------------------------------------\n"
 			+ "INPUT" + '\n'
@@ -88,9 +115,47 @@ def log_packets(length, lengthField, id, field, function, packet, parsed_packet,
 			+ str(reply).encode("hex") + "\n"
 			+ parsed_reply + "\n\n");
 
+	logger.info({
+		"message": run,
+		"maxRun" : maxRun, 
+		"field": field,
+		"function": function,
+		"length": length,
+		"lengthField": lengthField,
+		"id": id,
+		"packet": str(packet).encode("hex"),
+		"parsed_packet": parsed_packet,
+		"reply": reply,
+		"parsed_reply": parsed_reply
+		})
+
 def log_restart():
 	with open(log_packets_title, "a") as myfile:
 		myfile.write("\n\nCHANNEL RESTART \n \n");
+
+def log_crash(run, maxRun, length, lengthField, id, field, function, packet, parsed_packet):
+	with open(log_packets_title_crash, "a") as myfile:
+		myfile.write("-------------------------------------------------------------------------------\n"
+			+ "INPUT" + '\n'
+			+ "Field: "       + str(field) + "\n" 
+			+ "Function: "    + str(function) + "\n" 
+			+ "Length: "      + str(length) + "\n" 
+			+ "LengthField: " + str(lengthField) + "\n" 
+			+ "id: "          + str(id) + "\n" 
+			+ "Packet: " + str(packet).encode("hex") + "\n" 
+			+ parsed_packet + "\n\n");
+
+	logger.error({
+		"message": run,
+		"maxRun" : maxRun, 
+		"field": field,
+		"function": function,
+		"length": length,
+		"lengthField": lengthField,
+		"id": id,
+		"packet": str(packet).encode("hex"),
+		"parsed_packet": parsed_packet
+		})
 
 ############################################## CHANNEL ###############################################
 # Send a restart to OpenBTS to establish a new channel
@@ -192,9 +257,9 @@ lastField = 1;
 currentFunction = 1;
 lastFunction = 1;
 
-lengths = [14];
-lengthFields = [8];
-ids = [-2,0,1,2,3,4,5,6,7,8,9];
+lengths = [0,1,2,3,4,5,6,7,8,9,10,14,15,16,18,20];
+lengthFields = [0,1,2,3,4,5,6,7,8,9,10,14,15,16,18,20,64,128];
+ids = [0,1,2,3,4,5,6,7,8,9,10,64,128];
 
 maxLength = len(lengths);
 maxLengthField = len(lengthFields);
@@ -202,6 +267,9 @@ lastId = len(ids);
 
 total_runs = lastFunction * lastField * maxLength * lastId * maxLengthField;
 currentRun = 1;
+
+maxPacketAttempt = 5;
+currentPacketAttempt = 1;
 
 if(adb_logging):
 	clearLogs();
@@ -222,8 +290,7 @@ while currentField <= lastField:
 			if(currentLength != 0):
 				permutation = str(random_with_N_digits(currentLength));
 			else:
-				permutation = "0";
-			#perm = permutation.encode("hex");
+				permutation = "7";
 
 			for j in range(maxLengthField):
 				currentLengthField = lengthFields[j];
@@ -246,15 +313,22 @@ while currentField <= lastField:
 					packet = str(packet);
 					result = send(tcsock, packet);
 
+
 					if not result:
+						currentPacketAttempt = currentPacketAttempt + 1;
 						establishNewChannel();
+						if(currentPacketAttempt >= maxPacketAttempt):
+							parsed_packet = repr(L3Mobile.parse_L3(packet));
+							log_crash(currentRun, total_runs, currentLength, currentLengthField, currentId, currentField, currentFunction, packet, parsed_packet);
+							currentRun = currentRun + 1;
+							k = k + 1;
 					else:
 						parsed_result = repr(L3Mobile.parse_L3(result));
 						parsed_packet = repr(L3Mobile.parse_L3(packet));
-						log_packets(currentLength, currentLengthField, currentId, currentField, currentFunction, packet, parsed_packet, result, parsed_result);
+						log_packets(currentRun, total_runs, currentLength, currentLengthField, currentId, currentField, currentFunction, packet, parsed_packet, result, parsed_result);
 						currentRun = currentRun + 1;
 						k = k + 1;
-
+						currentPacketAttempt = 0;
 
 		currentFunction = currentFunction + 1;
 

@@ -1,0 +1,194 @@
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 1
+id: 1
+Packet: 051a01001003e9012907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():1, V():')'>>
+
+OUTPUT
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+
+
+CHANNEL RESTART 
+ 
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 3
+id: 1
+Packet: 051a01001003e9032907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():3, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 4
+id: 1
+Packet: 051a01001003e9042907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():4, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 5
+id: 1
+Packet: 051a01001003e9052907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():5, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 6
+id: 1
+Packet: 051a01001003e9062907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():6, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 7
+id: 1
+Packet: 051a01001003e9072907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():7, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 8
+id: 1
+Packet: 051a01001003e9082907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():8, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 9
+id: 1
+Packet: 051a01001003e9092907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():9, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 10
+id: 1
+Packet: 051a01001003e90a2907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():10, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 12
+id: 1
+Packet: 051a01001003e90c2907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():12, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 13
+id: 1
+Packet: 051a01001003e90d2907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():13, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 14
+id: 1
+Packet: 051a01001003e90e2907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():14, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05316000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 0
+LengthField: 15
+id: 1
+Packet: 051a01001003e90f2907
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 100 / MNC: 010> / LAC: 0xe903>, ID():<[ID]: L():15, V():<[ID]: IMSI:270>>>
+
+OUTPUT
+05716000
+<[MM_STATUS]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'49 : Misc - MM STATUS', Cause():'96 : Invalid mandatory information'>
+

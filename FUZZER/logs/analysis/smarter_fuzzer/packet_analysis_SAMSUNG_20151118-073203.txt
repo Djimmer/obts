@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Mobile device:SAMSUNG
+Total number of packages: 35
+Accepted packet numbers:6, 11, 12, 13, 16, 17, 18, 21, 22, 23, 26, 27, 28, 31, 32, 33
+Not accepted packet numbers:1, 2, 3, 4, 5, 7, 8, 9, 10, 14, 15, 19, 20, 24, 25, 29, 30, 34, 35
+Accepted lengths:10, 14, 15, 16, 18, 20
+Accepted lengthsFields:6, 7, 8
+Accepted ids:1

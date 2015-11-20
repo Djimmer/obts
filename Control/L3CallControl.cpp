@@ -1377,7 +1377,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 
 		// Wait for a response.
 		// FIXME -- This should be a proper T3xxx value of some kind.
-		GSM::L3Frame *resp = channel()->l2recv(10000);
+		GSM::L3Frame *resp = channel()->l2recv(1000);
 
 		if (!resp) {
 			LOG(ALERT) << "Timeout ; No response";
@@ -1402,6 +1402,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	}
 
 	controlSocket.close();
+	maintenanceSocket.close();
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
 	string iBufString(iBuf);		
