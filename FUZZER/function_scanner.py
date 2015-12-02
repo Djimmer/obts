@@ -105,19 +105,27 @@ def send(tcsock, packet):
 			print "socket.timeout: Mobile device is not responding";
 			return False
 
-		#Libmich parses the output
-		parsed_reply = repr(L3Mobile.parse_L3(reply));
-		if "RELEASE_COMPLETE" in parsed_reply:
-			return False;
-		elif((str(reply).encode("hex") == "786e430200")): #MDL_ERROR_INDICATION
-			return False;
+		return packetImplemented(reply)
 
 
+def packetImplemented(reply):
+	parsed_reply = repr(L3Mobile.parse_L3(reply));
 
-		print "Received packet: ", str(reply).encode("hex") + "\n";
-		print "GSM_UM interpetation: " + '\n' + parsed_reply + "\n\n";
+	print "Received packet: ", str(reply).encode("hex") + "\n";
+	print "GSM_UM interpetation: " + '\n' + parsed_reply + "\n\n";
 
-		return reply
+	if "RELEASE_COMPLETE" in parsed_reply:
+		return "Restart";
+	elif((str(reply).encode("hex") == "786e430200")): #MDL_ERROR_INDICATION
+		return "Restart";
+	elif((str(reply).encode("hex") == "789ea400")): #MDL_ERROR_INDICATION
+		return "Restart";	
+	elif((str(reply).encode("hex") == "06126100")):
+		return "Skip";
+	elif "Message type non-existent or not implemented" in parsed_reply:
+		return "Skip";
+	else:
+		return reply;
 
 ############################################### UTILS ################################################
 def printPacket(packet, currentRun, total_runs):
@@ -145,9 +153,9 @@ def printPacket(packet, currentRun, total_runs):
 maxPacketAttempt = 5;
 currentPacketAttempt = 1;
 
-protocols = [5,6,8];
+protocols = [3];
 
-currentRun = 0;
+currentRun = 1;
 total_runs = len(protocols) * 256;
 
 
@@ -156,7 +164,7 @@ time.sleep(1);
 
 for i in protocols:
 	firstByte = "{0:0{1}x}".format(i,2);
-	n = 1;
+	n = 20;
 	while n < 256:
 		secondByte = "{0:0{1}x}".format(n,2);
 
@@ -176,7 +184,7 @@ for i in protocols:
 		#packet = str(packet);
 		result = send(tcsock, packet);
 
-		if not result:
+		if(result == "Restart" or result == False):
 			currentPacketAttempt = currentPacketAttempt + 1;
 			establishNewChannel();
 			if(currentPacketAttempt >= maxPacketAttempt):
@@ -184,6 +192,10 @@ for i in protocols:
 				log_packets(currentRun, total_runs, packet, parsed_packet, "None", "None");
 				currentRun = currentRun + 1;
 				n = n + 1;
+		elif(result =="Skip"):
+			currentRun = currentRun + 1;
+			currentPacketAttempt = 0;
+			n = n + 1;
 		else:
 			parsed_result = repr(L3Mobile.parse_L3(result));
 			parsed_packet = repr(L3Mobile.parse_L3(packet));

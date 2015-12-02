@@ -184,8 +184,6 @@ def establishNewChannel():
 
 def send(tcsock, packet):
 		try:
-			print "Packet: " + packet;
-			print "Packet: " + str(packet).encode("hex");
 			tcsock.sendto(packet, ('127.0.0.1', TESTCALL_PORT))
 			reply = tcsock.recv(1024)
 		except socket.timeout:
@@ -253,8 +251,8 @@ def printPacket(packet, function, field, length, lengthField, id, permutation, p
 			printable = str(packet).encode("hex");
 			print "Current complete packet: " + printable + '\n';
 
-		# Decode printable hex to make it usable for L3Mobile.
-		# Adding the \x for the bytes.
+		#Decode printable hex to make it usable for L3Mobile.
+		#Adding the \x for the bytes.
 		l3msg_input = repr(L3Mobile.parse_L3(str(packet)));
 
 		print "GSM_UM interpetation: \n " + l3msg_input + '\n\n';
@@ -274,9 +272,9 @@ lastField = 1;
 currentFunction = 1;
 lastFunction = 1;
 
-lengths = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
-lengthFields = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
-ids = [0,1,2,3,4,5,6,7,8,9,10,32,64];
+lengths = [65,130];
+lengthFields = [65];
+ids = [1];
 
 # Test case. Dont forget to set lastfunction to 3.
 # lengths = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
@@ -336,8 +334,6 @@ while currentField <= lastField:
 						else:
 							permutation = imsi[:currentLength];
 
-
-					print "\n\n" + permutation + "\n \n";
 					packet = fuzzer.fuzzingLengthFields(currentField, 
 						currentFunction,
 						currentId,

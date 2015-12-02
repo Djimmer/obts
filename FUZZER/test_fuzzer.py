@@ -159,12 +159,87 @@ def printPacket(packet):
 
 ############################################ TEST FUZZER ############################################
 packet = fuzzer.fuzzingLengthFields();
+id50 = "00000000000000000000000000000000000000000000000000";
+id50 = "ffffffffffffffffffffffffffffffffffffffffffffffffff";
+packet = "051a02440003e9ff29" + id50 + id50 + id50 + id50 + "ffffff";
 
-if(verbose):
-	printPacket(packet);
+
+packet = "0330"# + id50 + id50 + id50;
+
+
+
+#if(verbose):
+#	printPacket(packet);
 
 # Send packet to the mobile device.
-packet = str(packet);
-result = send(tcsock, packet);
+
+#packet = str(packet);
+
+#packet = '\x05\x1a\x02';
+#id50 = "00818181818181818181818181818181818181810000000000";
+
+# 254
+# 255
+#051a02440003e9fe2940806066020639818181818181818181818181818181818181
+#051a02440003e9ff2940806066020639818181818181818181818181818181818181
+#051a02440003e9ff2940806066020639818181818181818181818181818181818181
+#packet = str(packet).encode("hex");
+#result = send(tcsock, packet);
 
 
+# packet = gsm_um.setupMobileOriginated();
+# gsm_um.sendum(packet);
+# printPacket(packet);
+# time.sleep(3);
+
+# #RECEIVE CALL CONFIRMED
+
+
+# packet = "\x06\x2e\x11\x11\x11\x11"
+# #packet = str(packet).encode("hex");
+# # packet = gsm_um.assignmentCommand();
+# gsm_um.sendum(packet);
+# printPacket(packet);
+# time.sleep(2);
+
+# # RECEIVE ASSIGNMENT COMPLETE
+
+
+# # packet = gsm_um.alertingNetToMs();
+# # gsm_um.sendum(packet);
+# # printPacket(packet);
+# # time.sleep(2);
+
+
+# # packet = gsm_um.progress();
+# # gsm_um.sendum(packet);
+# # printPacket(packet);
+# # time.sleep(2);
+
+
+# packet = gsm_um.connectAcknowledge();
+# printPacket(packet);
+# gsm_um.sendum(packet);
+
+
+packet = gsm_um.authenticationAndCipheringRequest("12345678");
+packet = gsm_um.authenticationRequest();
+packet = '\x05\x12\x03';
+packetRAND = '\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x11';
+
+#type - #length - #value
+packetAUTNtype = '\x14';
+packetAUTN10 = '\xaa\xff\xaa\xff\xaa\xff\xaa\xff\xaa\xff';
+
+#packetAUTNLength = '\x21'; # = 33
+packetAUTNLength = '\x10'; # = 18 
+# packetAUTNLength = '\x41'; # = 65
+# packetAUTN = packetAUTNtype + packetAUTNLength + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + '\xff\xff\xff\xff\xff';
+packetAUTN = packetAUTNtype + packetAUTNLength + packetAUTN10 + '\xaa\xff\xaa\xaa\xff\xaa';
+packet = packet + packetRAND + packetAUTN;
+printPacket(packet);
+gsm_um.sendum(packet);
+
+
+#packet = str(packet).encode("hex");
+#result = send(tcsock, packet);

@@ -88,6 +88,16 @@ def fuzzingLengthFields(field, function, typeOfId, lengthField, permutation):
 	# Default backup value: Identity request
 	p = '\x05\x18\x01';
 
+
+	# TODO:
+	# Imsi Detach
+	# AttachAccept
+	# P-TMSI Realloc
+	# Auth and Ciph request
+	# Routing Area Accept
+	# GMM Info
+	# Location Updating Accept (force een request?)
+
 	if(field == 1):
 		if(function == 1):
 			p = gsm_um.tmsiReallocationCommand();
@@ -99,8 +109,38 @@ def fuzzingLengthFields(field, function, typeOfId, lengthField, permutation):
 			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
 			return p
 		elif(function == 3):
-			p = gsm_um.locationUpdatingRequest();
+			p = gsm_um.attachAccept();
 			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
-			p = correctLocalAreaID(p);
+			# MobileID mee sturen in functie
 			return p
+		# elif(function == 4):
+		# 	p = gsm_um.setupMobileOriginated();
+		# 	return p
+		# elif(function == 5):
+		# 	p = gsm_um.connectAcknowledge()();
+		# 	return p
+		elif(function == 4):
+			p = gsm_um.ptmsiReallocationCommand();
+			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
+			return p
+		elif(function == 5):
+			p = gsm_um.authenticationAndCipheringRequest("12345678");
+			#RAND and AUTN
+			return p
+		# elif(function == 6):
+		# 	p = gsm_um.routingAreaUpdateAccept();
+		# 	p = fuzzMobileId(p, typeOfId, lengthField, permutation);
+		# 	# MobileID mee sturen in functie
+		# 	return p
+		# elif(function == 7):
+		# 	p = gsm_um.gmmInformation();
+		# 	# NETWORK NAME - TIME ZONE - 
+
+		# 	return p
+		# elif(function == 8):
+		# 	p = gsm_um.locationUpdatingAccept();
+		# 	p = correctMobileID(p);
+		# 	#p = fuzzMobileId(p, typeOfId, lengthField, permutation);
+		# 	p = correctLocalAreaID(p);
+		# 	return p
 	return p
