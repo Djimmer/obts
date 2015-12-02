@@ -1,0 +1,364 @@
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 0
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 0
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 1
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 1
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 2
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 2
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 3
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 3
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 4
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 4
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 5
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 5
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 6
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 6
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 7
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 7
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 8
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 8
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 9
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 9
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 10
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 10
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 11
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 11
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 12
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+833d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 5
+Length: 12
+LengthField: 8
+id: 1
+Packet: 03121000
+'(parse_L3) ERROR L3 message type undefined for protocol'
+
+OUTPUT
+837d02e0e1c000
+<[STATUS]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):1, Type():'61 : Misc - STATUS', Cause():<[Cause]: L():2, V():'\xe0\xe1'>, CallState():0xc0>
+

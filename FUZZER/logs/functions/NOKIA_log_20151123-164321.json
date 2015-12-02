@@ -1,0 +1,7 @@
+{"message": "Function Scanner; Device and SIM information", "device": "NOKIA", "imsi": "204045260603780"}
+{"message": 1, "parsed_packet": "'(parse_L3) ERROR L3 message type undefined for protocol'", "parsed_reply": "None", "packet": "0312", "reply": "4e6f6e65", "maxRun": 768}
+{"message": 2, "parsed_packet": "<[MODIFY_REJECT]: TI(Transaction Identifier):0, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'19 : Call information - MODIFY REJECT', BearerCap():<[BearerCap]: L():0, V():''>, Cause():<[Cause]: L():0, V():''>>", "parsed_reply": "None", "packet": "0313", "reply": "4e6f6e65", "maxRun": 768}
+{"message": 3, "parsed_packet": "'(parse_L3) ERROR L3 message type undefined for protocol'", "parsed_reply": "None", "packet": "0314", "reply": "4e6f6e65", "maxRun": 768}
+{"message": 4, "parsed_packet": "'(parse_L3) ERROR L3 message type undefined for protocol'", "parsed_reply": "None", "packet": "0315", "reply": "4e6f6e65", "maxRun": 768}
+{"message": 5, "parsed_packet": "'(parse_L3) ERROR L3 message type undefined for protocol'", "parsed_reply": "None", "packet": "0316", "reply": "4e6f6e65", "maxRun": 768}
+{"message": 6, "parsed_packet": "<[MODIFY]: TI(Transaction Identifier):0, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'23 : Call information - MODIFY', BearerCap():<[BearerCap]: L():0, V():''>>", "parsed_reply": "None", "packet": "0317", "reply": "4e6f6e65", "maxRun": 768}

@@ -1,0 +1,3 @@
+{"message": "Function Scanner; Device and SIM information", "device": "NOKIA", "imsi": "204045260603780"}
+{"message": 1, "parsed_packet": "<[RawL3]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'6 : radio resources management messages', Type():0, Msg():0x>", "parsed_reply": "None", "packet": "0600", "reply": "4e6f6e65", "maxRun": 256}
+{"message": 3, "parsed_packet": "<[RawL3]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'6 : radio resources management messages', Type():2, Msg():0x>", "parsed_reply": "None", "packet": "0602", "reply": "4e6f6e65", "maxRun": 256}

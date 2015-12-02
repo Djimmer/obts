@@ -1,0 +1,2 @@
+{"message": "Function Scanner; Device and SIM information", "device": "NOKIA", "imsi": "204045260603780"}
+{"message": 1, "parsed_packet": "'(parse_L3) ERROR L3 message type undefined for protocol'", "parsed_reply": "None", "packet": "0312", "reply": "4e6f6e65", "maxRun": 256}

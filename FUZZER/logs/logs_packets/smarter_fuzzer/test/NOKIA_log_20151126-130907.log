@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 4
+Length: 4
+LengthField: 0
+id: 1
+Packet: 0305
+<[SETUP]: TI(Transaction Identifier):0, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'5 : Call establishment - SETUP'>
+
+OUTPUT
+830804076008040200
+<[CALL_CONFIRMED]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'8 : Call establishment - CALL CONFIRMED', BearerCap():<[BearerCap]: T():4, L():7, V():<[BearerCap]: ext():0, chan(Radio channel requirement):3, cod...>>
+
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 4
+Length: 4
+LengthField: 0
+id: 1
+Packet: 0305
+<[SETUP]: TI(Transaction Identifier):0, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'5 : Call establishment - SETUP'>
+
+OUTPUT
+830804076008040200
+<[CALL_CONFIRMED]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'8 : Call establishment - CALL CONFIRMED', BearerCap():<[BearerCap]: T():4, L():7, V():<[BearerCap]: ext():0, chan(Radio channel requirement):3, cod...>>
+
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 4
+Length: 4
+LengthField: 2
+id: 1
+Packet: 0305
+<[SETUP]: TI(Transaction Identifier):0, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'5 : Call establishment - SETUP'>
+
+OUTPUT
+830804076008040200
+<[CALL_CONFIRMED]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'8 : Call establishment - CALL CONFIRMED', BearerCap():<[BearerCap]: T():4, L():7, V():<[BearerCap]: ext():0, chan(Radio channel requirement):3, cod...>>
+
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 4
+Length: 4
+LengthField: 2
+id: 1
+Packet: 0305
+<[SETUP]: TI(Transaction Identifier):0, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'5 : Call establishment - SETUP'>
+
+OUTPUT
+830804076008040200
+<[CALL_CONFIRMED]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'8 : Call establishment - CALL CONFIRMED', BearerCap():<[BearerCap]: T():4, L():7, V():<[BearerCap]: ext():0, chan(Radio channel requirement):3, cod...>>
+
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 4
+Length: 4
+LengthField: 4
+id: 1
+Packet: 0305
+<[SETUP]: TI(Transaction Identifier):0, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'5 : Call establishment - SETUP'>
+
+OUTPUT
+830804076008040200
+<[CALL_CONFIRMED]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'8 : Call establishment - CALL CONFIRMED', BearerCap():<[BearerCap]: T():4, L():7, V():<[BearerCap]: ext():0, chan(Radio channel requirement):3, cod...>>
+
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 4
+Length: 4
+LengthField: 4
+id: 1
+Packet: 0305
+<[SETUP]: TI(Transaction Identifier):0, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'5 : Call establishment - SETUP'>
+
+OUTPUT
+830804076008040200
+<[CALL_CONFIRMED]: TI(Transaction Identifier):8, PD(Protocol Discriminator):'3 : call control; call related SS messages', seq(Sequence Number):0, Type():'8 : Call establishment - CALL CONFIRMED', BearerCap():<[BearerCap]: T():4, L():7, V():<[BearerCap]: ext():0, chan(Radio channel requirement):3, cod...>>
+
+
+
+CHANNEL RESTART 
+ 

@@ -1,0 +1,2 @@
+{"message": "Function Scanner; Device and SIM information", "device": "HUAWEI", "imsi": "204080666206093"}
+{"message": 1, "parsed_packet": "'(parse_L3) ERROR L3 message type undefined for protocol'", "parsed_reply": "libmich ERROR", "packet": "0315", "reply": "5059eb5be87f00", "maxRun": 256}

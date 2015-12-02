@@ -1,0 +1,2732 @@
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 61
+id: 1
+Packet: 051a02440003e93d2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():61, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 62
+id: 1
+Packet: 051a02440003e93e2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():62, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 63
+id: 1
+Packet: 051a02440003e93f2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():63, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 64
+id: 1
+Packet: 051a02440003e9402981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():64, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 65
+id: 1
+Packet: 051a02440003e9412981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():65, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 66
+id: 1
+Packet: 051a02440003e9422981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():66, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 67
+id: 1
+Packet: 051a02440003e9432981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():67, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 68
+id: 1
+Packet: 051a02440003e9442981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():68, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 69
+id: 1
+Packet: 051a02440003e9452981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():69, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 70
+id: 1
+Packet: 051a02440003e9462981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():70, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 71
+id: 1
+Packet: 051a02440003e9472981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():71, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 72
+id: 1
+Packet: 051a02440003e9482981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():72, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 73
+id: 1
+Packet: 051a02440003e9492981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():73, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 74
+id: 1
+Packet: 051a02440003e94a2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():74, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 75
+id: 1
+Packet: 051a02440003e94b2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():75, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 76
+id: 1
+Packet: 051a02440003e94c2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():76, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 77
+id: 1
+Packet: 051a02440003e94d2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():77, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 78
+id: 1
+Packet: 051a02440003e94e2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():78, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 79
+id: 1
+Packet: 051a02440003e94f2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():79, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 80
+id: 1
+Packet: 051a02440003e9502981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():80, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 81
+id: 1
+Packet: 051a02440003e9512981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():81, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 82
+id: 1
+Packet: 051a02440003e9522981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():82, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 83
+id: 1
+Packet: 051a02440003e9532981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():83, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 84
+id: 1
+Packet: 051a02440003e9542981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():84, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 85
+id: 1
+Packet: 051a02440003e9552981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():85, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 86
+id: 1
+Packet: 051a02440003e9562981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():86, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 87
+id: 1
+Packet: 051a02440003e9572981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():87, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 88
+id: 1
+Packet: 051a02440003e9582981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():88, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 89
+id: 1
+Packet: 051a02440003e9592981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():89, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 90
+id: 1
+Packet: 051a02440003e95a2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():90, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 91
+id: 1
+Packet: 051a02440003e95b2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():91, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 92
+id: 1
+Packet: 051a02440003e95c2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():92, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 93
+id: 1
+Packet: 051a02440003e95d2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():93, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 94
+id: 1
+Packet: 051a02440003e95e2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():94, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 95
+id: 1
+Packet: 051a02440003e95f2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():95, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 96
+id: 1
+Packet: 051a02440003e9602981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():96, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 97
+id: 1
+Packet: 051a02440003e9612981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():97, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 98
+id: 1
+Packet: 051a02440003e9622981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():98, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 99
+id: 1
+Packet: 051a02440003e9632981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():99, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 100
+id: 1
+Packet: 051a02440003e9642981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():100, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 101
+id: 1
+Packet: 051a02440003e9652981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():101, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 102
+id: 1
+Packet: 051a02440003e9662981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():102, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 103
+id: 1
+Packet: 051a02440003e9672981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():103, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 104
+id: 1
+Packet: 051a02440003e9682981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():104, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 105
+id: 1
+Packet: 051a02440003e9692981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():105, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 106
+id: 1
+Packet: 051a02440003e96a2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():106, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 107
+id: 1
+Packet: 051a02440003e96b2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():107, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 108
+id: 1
+Packet: 051a02440003e96c2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():108, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 109
+id: 1
+Packet: 051a02440003e96d2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():109, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 110
+id: 1
+Packet: 051a02440003e96e2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():110, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 111
+id: 1
+Packet: 051a02440003e96f2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():111, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 112
+id: 1
+Packet: 051a02440003e9702981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():112, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 113
+id: 1
+Packet: 051a02440003e9712981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():113, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 114
+id: 1
+Packet: 051a02440003e9722981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():114, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 115
+id: 1
+Packet: 051a02440003e9732981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():115, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 116
+id: 1
+Packet: 051a02440003e9742981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():116, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 117
+id: 1
+Packet: 051a02440003e9752981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():117, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 118
+id: 1
+Packet: 051a02440003e9762981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():118, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 119
+id: 1
+Packet: 051a02440003e9772981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():119, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 120
+id: 1
+Packet: 051a02440003e9782981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():120, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 121
+id: 1
+Packet: 051a02440003e9792981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():121, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 122
+id: 1
+Packet: 051a02440003e97a2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():122, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 123
+id: 1
+Packet: 051a02440003e97b2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():123, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 124
+id: 1
+Packet: 051a02440003e97c2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():124, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 125
+id: 1
+Packet: 051a02440003e97d2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():125, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 126
+id: 1
+Packet: 051a02440003e97e2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():126, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 127
+id: 1
+Packet: 051a02440003e97f2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():127, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 128
+id: 1
+Packet: 051a02440003e9802981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():128, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 129
+id: 1
+Packet: 051a02440003e9812981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():129, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 130
+id: 1
+Packet: 051a02440003e9822981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():130, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 131
+id: 1
+Packet: 051a02440003e9832981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():131, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 132
+id: 1
+Packet: 051a02440003e9842981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():132, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 133
+id: 1
+Packet: 051a02440003e9852981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():133, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 134
+id: 1
+Packet: 051a02440003e9862981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():134, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 135
+id: 1
+Packet: 051a02440003e9872981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():135, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 136
+id: 1
+Packet: 051a02440003e9882981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():136, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 137
+id: 1
+Packet: 051a02440003e9892981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():137, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 138
+id: 1
+Packet: 051a02440003e98a2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():138, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 139
+id: 1
+Packet: 051a02440003e98b2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():139, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 140
+id: 1
+Packet: 051a02440003e98c2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():140, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 141
+id: 1
+Packet: 051a02440003e98d2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():141, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 142
+id: 1
+Packet: 051a02440003e98e2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():142, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 143
+id: 1
+Packet: 051a02440003e98f2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():143, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 144
+id: 1
+Packet: 051a02440003e9902981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():144, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 145
+id: 1
+Packet: 051a02440003e9912981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():145, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 146
+id: 1
+Packet: 051a02440003e9922981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():146, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 147
+id: 1
+Packet: 051a02440003e9932981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():147, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 148
+id: 1
+Packet: 051a02440003e9942981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():148, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 149
+id: 1
+Packet: 051a02440003e9952981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():149, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 150
+id: 1
+Packet: 051a02440003e9962981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():150, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 151
+id: 1
+Packet: 051a02440003e9972981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():151, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 152
+id: 1
+Packet: 051a02440003e9982981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():152, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 153
+id: 1
+Packet: 051a02440003e9992981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():153, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 154
+id: 1
+Packet: 051a02440003e99a2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():154, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 155
+id: 1
+Packet: 051a02440003e99b2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():155, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 156
+id: 1
+Packet: 051a02440003e99c2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():156, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 157
+id: 1
+Packet: 051a02440003e99d2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():157, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 158
+id: 1
+Packet: 051a02440003e99e2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():158, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 159
+id: 1
+Packet: 051a02440003e99f2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():159, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 160
+id: 1
+Packet: 051a02440003e9a02981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():160, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 161
+id: 1
+Packet: 051a02440003e9a12981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():161, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 162
+id: 1
+Packet: 051a02440003e9a22981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():162, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 163
+id: 1
+Packet: 051a02440003e9a32981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():163, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 164
+id: 1
+Packet: 051a02440003e9a42981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():164, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 165
+id: 1
+Packet: 051a02440003e9a52981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():165, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 166
+id: 1
+Packet: 051a02440003e9a62981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():166, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 167
+id: 1
+Packet: 051a02440003e9a72981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():167, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 168
+id: 1
+Packet: 051a02440003e9a82981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():168, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 169
+id: 1
+Packet: 051a02440003e9a92981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():169, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 170
+id: 1
+Packet: 051a02440003e9aa2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():170, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 171
+id: 1
+Packet: 051a02440003e9ab2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():171, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 172
+id: 1
+Packet: 051a02440003e9ac2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():172, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 173
+id: 1
+Packet: 051a02440003e9ad2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():173, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 174
+id: 1
+Packet: 051a02440003e9ae2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():174, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 175
+id: 1
+Packet: 051a02440003e9af2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():175, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 176
+id: 1
+Packet: 051a02440003e9b02981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():176, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 177
+id: 1
+Packet: 051a02440003e9b12981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():177, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 178
+id: 1
+Packet: 051a02440003e9b22981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():178, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 179
+id: 1
+Packet: 051a02440003e9b32981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():179, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 180
+id: 1
+Packet: 051a02440003e9b42981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():180, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 181
+id: 1
+Packet: 051a02440003e9b52981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():181, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 182
+id: 1
+Packet: 051a02440003e9b62981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():182, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 183
+id: 1
+Packet: 051a02440003e9b72981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():183, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 184
+id: 1
+Packet: 051a02440003e9b82981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():184, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 185
+id: 1
+Packet: 051a02440003e9b92981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():185, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 186
+id: 1
+Packet: 051a02440003e9ba2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():186, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 187
+id: 1
+Packet: 051a02440003e9bb2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():187, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 188
+id: 1
+Packet: 051a02440003e9bc2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():188, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 189
+id: 1
+Packet: 051a02440003e9bd2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():189, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 190
+id: 1
+Packet: 051a02440003e9be2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():190, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 191
+id: 1
+Packet: 051a02440003e9bf2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():191, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 192
+id: 1
+Packet: 051a02440003e9c02981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():192, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 193
+id: 1
+Packet: 051a02440003e9c12981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():193, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 194
+id: 1
+Packet: 051a02440003e9c22981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():194, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 195
+id: 1
+Packet: 051a02440003e9c32981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():195, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 196
+id: 1
+Packet: 051a02440003e9c42981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():196, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 197
+id: 1
+Packet: 051a02440003e9c52981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():197, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 198
+id: 1
+Packet: 051a02440003e9c62981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():198, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 199
+id: 1
+Packet: 051a02440003e9c72981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():199, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 200
+id: 1
+Packet: 051a02440003e9c82981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():200, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 201
+id: 1
+Packet: 051a02440003e9c92981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():201, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 202
+id: 1
+Packet: 051a02440003e9ca2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():202, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 203
+id: 1
+Packet: 051a02440003e9cb2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():203, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 204
+id: 1
+Packet: 051a02440003e9cc2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():204, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 205
+id: 1
+Packet: 051a02440003e9cd2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():205, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 206
+id: 1
+Packet: 051a02440003e9ce2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():206, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 207
+id: 1
+Packet: 051a02440003e9cf2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():207, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 208
+id: 1
+Packet: 051a02440003e9d02981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():208, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 209
+id: 1
+Packet: 051a02440003e9d12981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():209, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 210
+id: 1
+Packet: 051a02440003e9d22981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():210, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 211
+id: 1
+Packet: 051a02440003e9d32981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():211, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 212
+id: 1
+Packet: 051a02440003e9d42981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():212, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 213
+id: 1
+Packet: 051a02440003e9d52981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():213, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 214
+id: 1
+Packet: 051a02440003e9d62981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():214, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 215
+id: 1
+Packet: 051a02440003e9d72981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():215, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 216
+id: 1
+Packet: 051a02440003e9d82981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():216, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 217
+id: 1
+Packet: 051a02440003e9d92981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():217, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 218
+id: 1
+Packet: 051a02440003e9da2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():218, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 219
+id: 1
+Packet: 051a02440003e9db2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():219, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 220
+id: 1
+Packet: 051a02440003e9dc2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():220, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 221
+id: 1
+Packet: 051a02440003e9dd2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():221, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 222
+id: 1
+Packet: 051a02440003e9de2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():222, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 223
+id: 1
+Packet: 051a02440003e9df2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():223, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 224
+id: 1
+Packet: 051a02440003e9e02981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():224, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 225
+id: 1
+Packet: 051a02440003e9e12981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():225, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 226
+id: 1
+Packet: 051a02440003e9e22981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():226, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 227
+id: 1
+Packet: 051a02440003e9e32981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():227, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 228
+id: 1
+Packet: 051a02440003e9e42981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():228, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 229
+id: 1
+Packet: 051a02440003e9e52981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():229, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 230
+id: 1
+Packet: 051a02440003e9e62981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():230, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 231
+id: 1
+Packet: 051a02440003e9e72981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():231, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 232
+id: 1
+Packet: 051a02440003e9e82981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():232, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 233
+id: 1
+Packet: 051a02440003e9e92981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():233, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 234
+id: 1
+Packet: 051a02440003e9ea2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():234, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 235
+id: 1
+Packet: 051a02440003e9eb2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():235, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 236
+id: 1
+Packet: 051a02440003e9ec2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():236, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 237
+id: 1
+Packet: 051a02440003e9ed2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():237, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 238
+id: 1
+Packet: 051a02440003e9ee2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():238, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 239
+id: 1
+Packet: 051a02440003e9ef2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():239, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 240
+id: 1
+Packet: 051a02440003e9f02981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():240, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 241
+id: 1
+Packet: 051a02440003e9f12981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():241, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 242
+id: 1
+Packet: 051a02440003e9f22981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():242, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 243
+id: 1
+Packet: 051a02440003e9f32981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():243, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 244
+id: 1
+Packet: 051a02440003e9f42981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():244, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 245
+id: 1
+Packet: 051a02440003e9f52981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():245, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 246
+id: 1
+Packet: 051a02440003e9f62981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():246, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 247
+id: 1
+Packet: 051a02440003e9f72981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():247, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 248
+id: 1
+Packet: 051a02440003e9f82981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():248, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+
+
+CHANNEL RESTART 
+ 
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 249
+id: 1
+Packet: 051a02440003e9f92981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():249, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 250
+id: 1
+Packet: 051a02440003e9fa2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():250, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 251
+id: 1
+Packet: 051a02440003e9fb2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():251, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 252
+id: 1
+Packet: 051a02440003e9fc2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():252, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 253
+id: 1
+Packet: 051a02440003e9fd2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():253, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+051b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
+-------------------------------------------------------------------------------
+INPUT
+Field: 1
+Function: 1
+Length: 128
+LengthField: 254
+id: 1
+Packet: 051a02440003e9fe2981818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818181818118181818181818181818181818
+<[TMSI_REALLOCATION_COMMAND]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):0, Type():'26 : Security - TMSI REALLOCATION COMMAND', LAI():<[LAI]: <[PLMN]: MCC: 204 / MNC: 004> / LAC: 0xe903>, ID():<[ID]: L():254, V():')\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x81\x8...>>
+
+OUTPUT
+055b00
+<[TMSI_REALLOCATION_COMPLETE]: SI(Skip Indicator):0b0000, PD(Protocol Discriminator):'5 : mobility management messages', seq(Sequence Number):1, Type():'27 : Security - TMSI REALLOCATION COMPLETE'>
+
