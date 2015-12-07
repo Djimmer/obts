@@ -1117,34 +1117,21 @@ static CLIStatus endcall(int argc, char **argv, ostream& os)
 
 static CLIStatus testcall(int argc, char **argv, ostream& os)
 {
-	//LOG(ALERT) << "Entering testcall function in CLICommands.cpp";
-	if (argc>2){
-		argv[1] = "204045220670380";	
-	}
+	if (argc!=1) return BAD_NUM_ARGS;
+
 	char *IMSI = argv[1];
 	if (strlen(IMSI)>15) {
 		os << IMSI << " is not a valid IMSI" << endl;
 		return BAD_VALUE;
 	}
 
-
-	/*
-		SIP
-		IMSI
-		SERVICE
-		CALLINGPARTYBCDNUMBER
-
-	*/
-	//LOG(ALERT) << "Creating Transaction Entry";
 	Control::FullMobileId msid(IMSI);
 	Control::TranEntry *tran = Control::TranEntry::newMTC(
 		NULL,
 		msid,
 		GSM::L3CMServiceType::TestCall,
 		"0");
-	//LOG(ALERT) << "Created Transaction Entry";
-	
-	//LOG(ALERT) << "Calling mmADDMT with: " << LOGVAR(tran);
+
 	Control::gMMLayer.mmAddMT(tran);
 	os << "IMSI: " << IMSI << endl;
 	os << "Starting UDP... please wait a few seconds" << endl;

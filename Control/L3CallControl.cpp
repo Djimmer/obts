@@ -1309,7 +1309,6 @@ MachineStatus InCallMachine::machineRunState(int state, const GSM::L3Message *l3
 MachineStatus TestCallMachine::machineRunState(int state, const GSM::L3Message *l3msg, const SIP::DialogMessage *sipmsg)
 {
 	PROCLOG2(DEBUG,state)<<LOGVAR(l3msg)<<LOGVAR(sipmsg)<<LOGVAR2("msid",tran()->subscriber());
-	//LOG(ALERT)<<LOGVAR(l3msg)<<LOGVAR(sipmsg)<<LOGVAR2("msid",tran()->subscriber());
 	switch (state){
 
 		case stateStart: {
@@ -1323,35 +1322,21 @@ MachineStatus TestCallMachine::machineRunState(int state, const GSM::L3Message *
 void TestCallMachine::testCallStart(TranEntry *tran)
 {
 	assert(channel());
-	LOG(ALERT) << LOGVAR(tran) << LOGVAR(channel());
-	LOG(ALERT) << LOGVAR(tran -> subscriber()); 
-	//LOG(ALERT) << LOGVAR(tran()->subscriber()->Imsi()); 
-	LOG(ALERT) << LOGVAR(tran->subscriberIMSI()); 
-	//LOG(ALERT) << "Entering L3CallControl::CCBase::TestCall with  transaction: " << LOGVAR(tran);
 	// Mark the call as active.
 	setGSMState(CCState::Active);
-	//LOG(ALERT) << "Creating UDP Socket on port: " << gConfig.getNum("TestCall.Port");
 	// Create and open the control port.
 	UDPSocket controlSocket(gConfig.getNum("TestCall.Port"));
 	UDPSocket maintenanceSocket(21337, "127.0.0.1", 21337);
-	//LOG(ALERT) << "Active UDP Socket on port: " << gConfig.getNum("TestCall.Port");
-	// FIXME -- Somehow, the RTP ports need to be attached to the transaction.
-	// This loop will run or block until some outside entity writes a
-	// channel release on the socket.
-	//LOG(ALERT) << "Entering UDP test loop ";
-	LOG(ALERT) << LOGVAR(tran) << LOGVAR(channel());
 	std::cout << "Done! UDP listening. Send STOP to break the loop.\n";
 
-
-	//UDPSocket outputSocket(21337);
-	char rBuf[MAX_UDP_LENGTH] = {0};
-	rBuf[0] = 'S';
-	rBuf[1] = 'T';
-	rBuf[2] = 'A';
-	rBuf[3] = 'R';
-	rBuf[4] = 'T';
-	rBuf[5] = 'E';
-	rBuf[6] = 'D';
+	char rBuf[MAX_UDP_LENGTH] = "STARTED";
+	// rBuf[0] = 'S';
+	// rBuf[1] = 'T';
+	// rBuf[2] = 'A';
+	// rBuf[3] = 'R';
+	// rBuf[4] = 'T';
+	// rBuf[5] = 'E';
+	// rBuf[6] = 'D';
 
 	maintenanceSocket.write(rBuf);
 
@@ -1360,6 +1345,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		// Get the outgoing message from the test call port.
 		iBuf[MAX_UDP_LENGTH] = {0};
 		int msgLen = controlSocket.read(iBuf);
+
 		string iBufString(iBuf);
 		if(iBufString.find("STOP") != std::string::npos){
 			std::cout << "User abort." << std::endl;
@@ -1376,7 +1362,6 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 		channel()->l3sendf(query);
 
 		// Wait for a response.
-		// FIXME -- This should be a proper T3xxx value of some kind.
 		GSM::L3Frame *resp = channel()->l2recv(1000);
 
 		if (!resp) {
@@ -1391,7 +1376,6 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 			break;
 		}
 
-		//LOG(ALERT) << "Received response from handset: " << LOGVAR(resp);
 		std::cout << "Received from handset: " << LOGVAR(resp) << std::endl;
 		// Send response on the port.
 		unsigned char oBuf[resp->size()];
@@ -1405,6 +1389,7 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 	maintenanceSocket.close();
 	channel()->l3sendm(L3ChannelRelease());
 	setGSMState(CCState::ReleaseRequest);
+
 	string iBufString(iBuf);		
 	if(iBufString.find("RESTART") != std::string::npos){
 		Control::FullMobileId msid(tran->subscriberIMSI());
@@ -1413,12 +1398,9 @@ void TestCallMachine::testCallStart(TranEntry *tran)
 			msid,
 			GSM::L3CMServiceType::TestCall,
 			"0");
-		//LOG(ALERT) << "Created Transaction Entry";
 		
-		//LOG(ALERT) << "Calling mmADDMT with: " << LOGVAR(tran);
 		Control::gMMLayer.mmAddMT(tran);
 		std::cout << "\n Starting UDP... please wait a few seconds" << endl;
-		//testCallStart(tran);
 	}
 	else{
 		tran -> handleMachineStatus(MachineStatus::MachineCodeQuitTran);

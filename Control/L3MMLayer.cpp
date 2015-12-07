@@ -118,11 +118,9 @@ bool MMUser::mmuServiceMTQueues()	// arg redundant with mmuContext->channel.
 			return true;
 		}
 	}
-	//TODO: Is this If correct?
 	if (mmuContext->mmGetTran(MMContext::TE_TCall).isNULL()) {
 		if (mmuTESTCALL.size()) {
 			TranEntry *tran = mmuTESTCALL.pop_frontr();
-			//LOG(ALERT) << "MMUser::mmuServiceMTQueues inside mmuTESTCALL if, with: "<< LOGVAR(tran);
 
 			// Tie the transaction to this channel.
 			mmuContext->mmConnectTran(MMContext::TE_TCall,tran);
@@ -717,7 +715,6 @@ bool MMLayer::mmStartMTDialog(SipDialog *dialog, SipMessage *invite)
 
 void MMUser::mmuAddMT(TranEntry *tran)
 {
-	//LOG(ALERT) << "Entering MMUser::mmuAddMT with" << LOGVAR(tran);
 	ScopedLock lock(gMMLock,__FILE__,__LINE__);	// Way overkill.
 	//ScopedLock lock(mmuLock,__FILE__,__LINE__);
 	mmuPageTimer.future(gConfig.GSM.Timer.T3113);
@@ -729,7 +726,6 @@ void MMUser::mmuAddMT(TranEntry *tran)
 		mmuMTSMSq.push_back(tran);
 		break;
 	case L3CMServiceType::TestCall:
-		//LOG(ALERT) << "Entering the L3CMServiceType::Testcall branch of the case+switch";
 		mmuTESTCALL.push_back(tran);
 		break;
 	default:
@@ -895,7 +891,6 @@ void MMContext::mmConnectTran(TranEntry *tran)
 			txi = TE_MM;
 			break;
 		case L3CMServiceType::TestCall:
-			//LOG(ALERT) << "SETTING TE_TCall";
 			txi = TE_TCall;
 			break;
 
