@@ -1117,7 +1117,7 @@ static CLIStatus endcall(int argc, char **argv, ostream& os)
 
 static CLIStatus testcall(int argc, char **argv, ostream& os)
 {
-	if (argc!=1) return BAD_NUM_ARGS;
+	if (argc!=2) return BAD_NUM_ARGS;
 
 	char *IMSI = argv[1];
 	if (strlen(IMSI)>15) {
