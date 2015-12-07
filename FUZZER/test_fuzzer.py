@@ -222,24 +222,28 @@ packet = "0330"# + id50 + id50 + id50;
 # gsm_um.sendum(packet);
 
 
-packet = gsm_um.authenticationAndCipheringRequest("12345678");
-packet = gsm_um.authenticationRequest();
-packet = '\x05\x12\x03';
-packetRAND = '\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x11';
+# packet = gsm_um.authenticationAndCipheringRequest("12345678");
+# packet = gsm_um.authenticationRequest();
+# packet = '\x05\x12\x03';
+# packetRAND = '\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x11';
 
-#type - #length - #value
-packetAUTNtype = '\x14';
-packetAUTN10 = '\xaa\xff\xaa\xff\xaa\xff\xaa\xff\xaa\xff';
+# #type - #length - #value
+# packetAUTNtype = '\x14';
+# packetAUTN10 = '\xaa\xff\xaa\xff\xaa\xff\xaa\xff\xaa\xff';
 
-#packetAUTNLength = '\x21'; # = 33
-packetAUTNLength = '\x10'; # = 18 
-# packetAUTNLength = '\x41'; # = 65
-# packetAUTN = packetAUTNtype + packetAUTNLength + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + '\xff\xff\xff\xff\xff';
-packetAUTN = packetAUTNtype + packetAUTNLength + packetAUTN10 + '\xaa\xff\xaa\xaa\xff\xaa';
-packet = packet + packetRAND + packetAUTN;
+# #packetAUTNLength = '\x21'; # = 33
+# packetAUTNLength = '\x10'; # = 18 
+# # packetAUTNLength = '\x41'; # = 65
+# # packetAUTN = packetAUTNtype + packetAUTNLength + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + packetAUTN10 + '\xff\xff\xff\xff\xff';
+# packetAUTN = packetAUTNtype + packetAUTNLength + packetAUTN10 + '\xaa\xff\xaa\xaa\xff\xaa';
+# packet = packet + packetRAND + packetAUTN;
+# printPacket(packet);
+# gsm_um.sendum(packet);
+
+
+packet = '\x03\x16\x17\x17\x17\x17\x16\x16\x16\x16'
 printPacket(packet);
 gsm_um.sendum(packet);
-
 
 #packet = str(packet).encode("hex");
 #result = send(tcsock, packet);

@@ -5,21 +5,15 @@ import time
 import binascii
 import os
 import sys
-from libmich.formats import *
-import gsm_um
-import smarter_fuzzer_function_def as fuzzer
-from adb import ADB
 import itertools
-from random import randint
-
-from math import factorial
 import logging
+import smarter_fuzzer_function_def as fuzzer
+
+from adb import ADB
+from libmich.formats import *
+from random import randint
 from pythonjsonlogger import jsonlogger
 
-############################################### SETTINGS #############################################
-# Default OpenBTS port
-TESTCALL_PORT = 28670;
-adb = ADB();
 
 # Fill in current mobile device
 
@@ -27,19 +21,31 @@ if len(sys.argv) > 2:
     device = sys.argv[1];
     imsi = sys.argv[2];
 else:
-	print("ERROR: Device name not found. \nCall the script with: ./smart_fuzzer #DEVICE #IMSI \nWhere #DEVICE is the name and #IMSI is the IMSI of the mobile device.")
+	print("ERROR: Device name not found.")
+	print("Call the script with: ./smart_fuzzer #DEVICE #IMSI");
+	print("Where #DEVICE is the name and #IMSI is the IMSI of the mobile device.");
 	sys.exit(0);
 
+############################################### SETTINGS #############################################
+# Default OpenBTS port
+TESTCALL_PORT = 28670;
+adb = ADB();
+
 # Log file location
-log_packets_title = "logs/logs_packets/smarter_fuzzer/test/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".log";
-log_packets_title_crash = "logs/logs_packets/smarter_fuzzer/crash/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".log";
-log_packets_title_crash_JSON = "logs/logs_packets/smarter_fuzzer/crash/json/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".json";
-log_packets_title_JSON = "logs/logs_packets/smarter_fuzzer/json/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".json";
+date = str(time.strftime("%Y%m%d-%H%M%S"));
+location_prefix = "logs/logs_packets/smarter_fuzzer/";
+
+location_log = location_prefix + device + "_" + date + ".log";
+location_log_crash = location_prefix + "crash/" + device + "_" + date + ".log";
+location_log_crash_JSON = location_prefix + "crash/json/" + device + "_" + date + ".json";
+location_log_JSON = location_prefix + "json/" + device + "_" + date + ".json";
 
 # Turn on/off prints
 verbose = True;
 # Turn on/off adb logs
 adb_logging = False;
+
+############################################### SOCKETS ##############################################
 
 # Creat socket
 tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -54,15 +60,18 @@ PORT = 21337              # Arbitrary non-privileged port
 ocsock.bind((HOST, PORT))
 ocsock.settimeout(20)
 
+
+############################################### LOGGER ###############################################
+
 # Initialize JSON logger
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # create a file handler
-handler = logging.FileHandler(log_packets_title_JSON)
+handler = logging.FileHandler(location_log_JSON)
 handler.setLevel(logging.INFO)
 
-error = logging.FileHandler(log_packets_title_crash_JSON)
+error = logging.FileHandler(location_log_crash_JSON)
 error.setLevel(logging.ERROR)
 
 # create a logging format
@@ -79,7 +88,7 @@ logger.info({
 		"device": device,
 		"imsi" : imsi});
 
-################################################# LOG ################################################
+########################################### LOG FUNCTIONS ############################################
 def saveRadioLog(adb,title):
 	adb.logcatRadio(title);
 	return
@@ -105,9 +114,10 @@ def log_adb(adb, packet_field, packet_function, maxLength, maxRun):
 	saveLogcat(adb, log_directory + log_title);
 	clearLogs();
 
-def log_packets(run, maxRun, length, lengthField, id, field, function, packet, parsed_packet, reply, parsed_reply):
-	with open(log_packets_title, "a") as myfile:
-		myfile.write("-------------------------------------------------------------------------------\n"
+def log_packets(run, maxRun, length, lengthField, id, field, function, packet, 
+	parsed_packet, reply, parsed_reply):
+	with open(location_log, "a") as myfile:
+		myfile.write("----------------------------------------------------------------------\n"
 			+ "INPUT" + '\n'
 			+ "Field: "       + str(field) + "\n" 
 			+ "Function: "    + str(function) + "\n" 
@@ -135,12 +145,12 @@ def log_packets(run, maxRun, length, lengthField, id, field, function, packet, p
 		})
 
 def log_restart():
-	with open(log_packets_title, "a") as myfile:
+	with open(location_log, "a") as myfile:
 		myfile.write("\n\nCHANNEL RESTART \n \n");
 
 def log_crash(run, maxRun, length, lengthField, id, field, function, packet, parsed_packet):
-	with open(log_packets_title_crash, "a") as myfile:
-		myfile.write("-------------------------------------------------------------------------------\n"
+	with open(location_log_crash, "a") as myfile:
+		myfile.write("----------------------------------------------------------------------\n"
 			+ "INPUT" + '\n'
 			+ "Field: "       + str(field) + "\n" 
 			+ "Function: "    + str(function) + "\n" 
@@ -205,28 +215,7 @@ def send(tcsock, packet):
 
 		return reply
 
-def ping():
-	try:
-		tcsock.sendto('\x05\x18\x01', ('127.0.0.1', TESTCALL_PORT));
-		reply = tcsock.recv(1024);
-	except socket.timeout:
-		return False;
-
-
-	parsed_reply = repr(L3Mobile.parse_L3(reply));
-
-	if "IDENTITY RESPONSE" not in parsed_reply:
-		print("Channel is still alive, go to next input.");
-		return True;
-
-	return False;
-
-# def random_with_N_digits(n):
-#     range_start = 10**(n-1)
-#     range_end = (10**n)-1
-#     return randint(range_start, range_end)
-
-def random_with_N_digits(n):
+def fill_with_N_digits(n):
 	result = "";
 	for x in range(n):
 		if(x % 2 == 0):
@@ -236,7 +225,8 @@ def random_with_N_digits(n):
 
 	return result
 ############################################### UTILS ################################################
-def printPacket(packet, function, field, length, lengthField, id, permutation, prefix, currentRun, total_runs):
+def printPacket(packet, function, field, length, lengthField, id, permutation, prefix, currentRun, 
+	total_runs):
 		print('------------------------------- INPUT  -------------------------------' + '\n');
 		print('Run ' + str(currentRun) + "/" + str(total_runs) + '\n');
 		print('Current function: ' + str(function));
@@ -272,14 +262,9 @@ lastField = 1;
 currentFunction = 1;
 lastFunction = 1;
 
-lengths = [65,130];
-lengthFields = [65];
-ids = [1];
-
-# Test case. Dont forget to set lastfunction to 3.
-# lengths = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
-# lengthFields = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
-# ids = [0,1,2,3,4,5,6,7,8,9,10,32,64];
+lengths = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
+lengthFields = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32,64];
+ids = [0,1,2,3,4,5,6,7,8,9,10,32,64];
 
 maxLength = len(lengths);
 maxLengthField = len(lengthFields);
@@ -311,21 +296,25 @@ print "Total amount of runs: " + str(total_runs);
 time.sleep(2);
 while currentField <= lastField:
 	while currentFunction <= lastFunction:
+		# Determines the length of the packet
 		for i in range(len(lengths)):
 			currentLength = lengths[i];
 
 			if(currentLength != 0):
-				permutation = str(random_with_N_digits(currentLength));
+				permutation = str(fill_with_N_digits(currentLength));
 			else:
 				permutation = "";
-
+			# Determines the value of the lengthfield
 			for j in range(maxLengthField):
 				currentLengthField = lengthFields[j];
-				useRealImsiNow = False;
+				useRealImsiNow = True;
+				# Determines the value of the Id
 				k = 0;
 				while k < lastId:
 					currentId = ids[k];
 
+					# Id 1 == IMSI. The script uses both random data and
+					# the real IMSI to test if the message is accepted.
 					if(currentId == 1 and (useRealImsiNow)):
 						if (currentLength > 14):
 							permutation = imsi + permutation[14:];
@@ -334,6 +323,8 @@ while currentField <= lastField:
 						else:
 							permutation = imsi[:currentLength];
 
+					# Create the packet.
+					print "permutation is now:" + permutation;
 					packet = fuzzer.fuzzingLengthFields(currentField, 
 						currentFunction,
 						currentId,
@@ -343,24 +334,39 @@ while currentField <= lastField:
 					prefix = packet;
 
 					if(verbose):
-						printPacket(packet, currentFunction, currentField, currentLength, currentLengthField, currentId, permutation, prefix, currentRun, total_runs);
+						printPacket(packet, currentFunction, currentField, 
+							currentLength, currentLengthField, currentId, 
+							permutation, prefix, currentRun, total_runs);
 
 					# Send packet to the mobile device.
 					packet = str(packet);
 					result = send(tcsock, packet);
 
+					# The response is not recognized or the channel is released
+					# A new channel is established and the crash is logged.
+					# This happens till max packet attempt is reached and move on
 					if not result:
 						currentPacketAttempt = currentPacketAttempt + 1;
 						establishNewChannel();
 						if(currentPacketAttempt >= maxPacketAttempt):
 							parsed_packet = repr(L3Mobile.parse_L3(packet));
-							log_crash(currentRun, total_runs, currentLength, currentLengthField, currentId, currentField, currentFunction, packet, parsed_packet);
+							log_crash(currentRun, total_runs, currentLength,
+								currentLengthField, currentId, 
+								currentField, currentFunction, 
+								packet, parsed_packet);
+
 							currentRun = currentRun + 1;
 							k = k + 1;
+					# The response is accepted and logged.
+					# The Boolean useRealImsiNow is flipped so that both random data
+					# and the real IMSI are used when the Id == 1		
 					else:
 						parsed_result = repr(L3Mobile.parse_L3(result));
 						parsed_packet = repr(L3Mobile.parse_L3(packet));
-						log_packets(currentRun, total_runs, currentLength, currentLengthField, currentId, currentField, currentFunction, packet, parsed_packet, result, parsed_result);
+						log_packets(currentRun, total_runs, currentLength,
+							currentLengthField, currentId, currentField, 
+							currentFunction, packet, parsed_packet, 
+							result, parsed_result);
 						currentRun = currentRun + 1;
 						if(currentId == 1 and not useRealImsiNow):
 							useRealImsiNow = True;
