@@ -15,21 +15,24 @@ from math import factorial
 import logging
 from pythonjsonlogger import jsonlogger
 
-############################################### SETTINGS #############################################
-# Default OpenBTS port
-TESTCALL_PORT = 28670;
-
 # Fill in current mobile device
 
 if len(sys.argv) > 2:
     device = sys.argv[1];
     imsi = sys.argv[2];
 else:
-	print("ERROR: Device name not found. \nCall the script with: ./smart_fuzzer #DEVICE #IMSI \nWhere #DEVICE is the name and #IMSI is the IMSI of the mobile device.")
+	print("ERROR: Device name not found.")
+	print("Call the script with: ./smarter_fuzzer #DEVICE #IMSI");
+	print("Where #DEVICE is the name and #IMSI is the IMSI of the mobile device.");
 	sys.exit(0);
 
+############################################### SETTINGS #############################################
+# Default OpenBTS port
+TESTCALL_PORT = 28670;
+
 # Log file location
-log_all_functions_JSON = "logs/functions/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".json";
+date = str(time.strftime("%Y%m%d-%H%M%S"));
+log_all_functions_JSON = "logs/functions/" + device + "_log_" + date + ".json";
 
 # Creat socket
 tcsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -164,16 +167,15 @@ time.sleep(1);
 
 for i in protocols:
 	firstByte = "{0:0{1}x}".format(i,2);
-	n = 20;
+	n = 1;
 	while n < 256:
 		secondByte = "{0:0{1}x}".format(n,2);
 
 		if(i == 5 and n == 17):
-			# Skip because the packet 0511 is a Authentication Reject and disconnects the mobile device
+			# Skip because the packet 0511 is a Authentication Reject 
+			# and disconnects the mobile device
 			secondByte = "{0:0{1}x}".format(n+1,2);
 		
-
-		#packet = "\\x" + str(i).zfill(2) + "\\x" + str(n).zfill(2);
 		packet = "\\x" + str(firstByte) + "\\x" + str(secondByte);
 		packet = packet.replace('\\x', '').decode('hex');
 
@@ -181,7 +183,6 @@ for i in protocols:
 		printPacket(packet, currentRun, total_runs);
 
 		# Send packet to the mobile device.
-		#packet = str(packet);
 		result = send(tcsock, packet);
 
 		if(result == "Restart" or result == False):

@@ -11,7 +11,7 @@ from pprint import pprint
 # This script will analyze the results of the fuzzing scripts.
 # It will give a list of the accepted lengths, lengthfields and ids.
 # This gives an impression of the precision of the implementation 
-# of the baseband processor.
+# of the GSM protocol for each baseband processor.
 
 accepted = [];
 notAccepted = [];
@@ -41,14 +41,11 @@ for json in data:
 	packetNumber = json["message"];
 
 	if 'parsed_reply' not in json:
-		#print "Packet is incomplete";
 		incomplete.append(packetNumber)
 	else:
 		if "COMPLETE" not in json["parsed_reply"]:
-			#print "Run " + str(packetNumber) + " was not accepted by the mobile device.";
 			notAccepted.append(packetNumber);
 		else:
-			#print "Run " + str(packetNumber) + " was accepted by the mobile device!";
 			accepted.append(packetNumber);
 			jid = json["id"];
 			jLength = json["length"];
@@ -91,7 +88,9 @@ pprint(ids);
 # Log data				   #
 ############################
 
-packetAnalyzerResult = "packet_analysis_" + device + "_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
+
+date = str(time.strftime("%Y%m%d-%H%M%S"));
+packetAnalyzerResult = "packet_analysis_" + device + "_" + date + ".txt";
 with open(packetAnalyzerResult, "a") as myfile:
 	stringIds = str(ids).strip('[]');
 	stringLengthFields = str(lengthFields).strip('[]');
@@ -99,7 +98,7 @@ with open(packetAnalyzerResult, "a") as myfile:
 	stringAccepted = str(accepted).strip('[]');
 	stringNotAccepted = str(notAccepted).strip('[]');
 
-	myfile.write("-------------------------------------------------------------------------------\n"
+	myfile.write("---------------------------------------------------------------\n"
 		+ "Mobile device:" + device + '\n'
 		+ "Total number of packages: " + str(len(data)) + "\n" 
 		+ "Accepted packet numbers:"      + stringAccepted + "\n" 

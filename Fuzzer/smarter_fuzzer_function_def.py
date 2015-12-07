@@ -17,7 +17,6 @@ def correctMobileID(p):
 	p.idDigit6_1=7; p.idDigit6=6;
 	p.idDigit7_1=3; p.idDigit7=0;
 	p.idDigit8_1=0; p.idDigit8=8;
-	#p.idDigit9_1=2; p.idDigit9=2;
 	return p
 
 def correctLocalAreaID(p):
@@ -35,17 +34,15 @@ def correctLocalAreaID(p):
 ########################################## FUZZ FUNCTIONS #############################################
 def mobileFillID(packet, permutation):
 	length = len(permutation);
-	print length;
+
 	current_packet_digit = 2;
 	for i in range (0, length):
 
 		currentHexDigit = int(permutation[i]);
 		if(i % 2 == 0):
-			# Vul digit_1
 			exec "packet.idDigit%s = %d " % (current_packet_digit, currentHexDigit)
 		else:
-			# Vul digit
-			exec "packet.idDigit%s_1 = %d " % (current_packet_digit, currentHexDigit)#random.randint(1, 9))
+			exec "packet.idDigit%s_1 = %d " % (current_packet_digit, currentHexDigit)
 			current_packet_digit = current_packet_digit + 1;
 
 	return packet
@@ -61,42 +58,13 @@ def fuzzMobileId(p, typeOfId, lengthField, permutation):
 	# digits start with length of packet p
 	p = mobileFillID(p, permutation);
 
-	# print("MobileId length: "  + str(p.lengthMI));
-	# print("MobileId idDigit1: "  + str(p.idDigit1));
-	# print("MobileId oddEven: "  + str(p.oddEven));
-	# print("MobileId typeOfId: "  + str(p.typeOfId));
 	return p
-
-def fuzzLocalAreaId(p):
-	p.mccDigit1=0x2; 
-	p.mccDigit2=0x0; 
-	p.mccDigit3=0x4; 
-
-	p.mncDigit1=0x0;
-	p.mncDigit2=0x0; 
-	p.mncDigit3=0x4;
-
-	p.lac1=0x03; p.lac2=0xe9;
-	return p
-
-################################################ UTILS ################################################
 
 ########################################### FIELD SELECTOR ############################################
-######## 1 MobileID() ########
-# 1 tmsiReallocationCommand !!
+
 def fuzzingLengthFields(field, function, typeOfId, lengthField, permutation):
 	# Default backup value: Identity request
 	p = '\x05\x18\x01';
-
-
-	# TODO:
-	# Imsi Detach
-	# AttachAccept
-	# P-TMSI Realloc
-	# Auth and Ciph request
-	# Routing Area Accept
-	# GMM Info
-	# Location Updating Accept (force een request?)
 
 	if(field == 1):
 		if(function == 1):
@@ -111,36 +79,9 @@ def fuzzingLengthFields(field, function, typeOfId, lengthField, permutation):
 		elif(function == 3):
 			p = gsm_um.attachAccept();
 			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
-			# MobileID mee sturen in functie
 			return p
-		# elif(function == 4):
-		# 	p = gsm_um.setupMobileOriginated();
-		# 	return p
-		# elif(function == 5):
-		# 	p = gsm_um.connectAcknowledge()();
-		# 	return p
 		elif(function == 4):
 			p = gsm_um.ptmsiReallocationCommand();
 			p = fuzzMobileId(p, typeOfId, lengthField, permutation);
 			return p
-		elif(function == 5):
-			p = gsm_um.authenticationAndCipheringRequest("12345678");
-			#RAND and AUTN
-			return p
-		# elif(function == 6):
-		# 	p = gsm_um.routingAreaUpdateAccept();
-		# 	p = fuzzMobileId(p, typeOfId, lengthField, permutation);
-		# 	# MobileID mee sturen in functie
-		# 	return p
-		# elif(function == 7):
-		# 	p = gsm_um.gmmInformation();
-		# 	# NETWORK NAME - TIME ZONE - 
-
-		# 	return p
-		# elif(function == 8):
-		# 	p = gsm_um.locationUpdatingAccept();
-		# 	p = correctMobileID(p);
-		# 	#p = fuzzMobileId(p, typeOfId, lengthField, permutation);
-		# 	p = correctLocalAreaID(p);
-		# 	return p
 	return p

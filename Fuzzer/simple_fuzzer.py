@@ -11,21 +11,27 @@ from adb import ADB
 import itertools
 from math import factorial
 
+# Fill in current mobile device
+
+if len(sys.argv) > 2:
+    device = sys.argv[1];
+    imsi = sys.argv[2];
+else:
+	print("ERROR: Device name not found.")
+	print("Call the script with: ./simple_fuzzer #DEVICE #IMSI");
+	print("Where #DEVICE is the name and #IMSI is the IMSI of the mobile device.");
+	sys.exit(0);
+
+
 ############################################### SETTINGS #############################################
 # Default OpenBTS port
 TESTCALL_PORT = 28670;
 adb = ADB();
 
-# Fill in current mobile device
-# device = "UNKOWN";
-device = "SAMSUNG";
-# device = "BLACKPHONE";
-# device = "NEXUS";
-# device = "IPHONE";
-# device = "NOKIA";
-# device = "HUAWEI";
+date = str(time.strftime("%Y%m%d-%H%M%S"));
+location_prefix = "logs/logs_packets/simple_fuzzer/";
 
-log_packets_title = "logs/logs_packets/simple_fuzzer/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
+log_packets_title = location_prefix + device + "_log_" + date + ".txt";
 
 # Fuzzer settings
 currentLength = 2;

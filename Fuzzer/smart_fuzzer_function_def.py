@@ -51,41 +51,16 @@ def mobileFillID(packet, permutation):
 def fuzzMobileId(p, permutation):
 	
 	p.lengthMI=random.randint(1, 100);
-	#p.lengthMI=8;
-	# Settings
 	p.idDigit1=random.randint(1, 3);
-	#p.idDigit1=2;
 	p.oddEven=random.randint(1, 2); 
-	#p.oddEven=1;
 	p.typeOfId=random.randint(1, 5);
-	#p.typeOfId=1;
 
 	# digits start with length of packet p
 	p = mobileFillID(p, permutation);
 
-	# print("MobileId length: "  + str(p.lengthMI));
-	# print("MobileId idDigit1: "  + str(p.idDigit1));
-	# print("MobileId oddEven: "  + str(p.oddEven));
-	# print("MobileId typeOfId: "  + str(p.typeOfId));
 	return p
-
-def fuzzLocalAreaId(p):
-	p.mccDigit1=0x1; 
-	p.mccDigit2=0x0; 
-	p.mccDigit3=0x0; 
-
-	p.mncDigit1=0x0;
-	p.mncDigit2=0x1; 
-	p.mncDigit3=0x0;
-
-	p.lac1=0x03; p.lac2=0xe9;
-	return p
-
-################################################ UTILS ################################################
 
 ########################################### FIELD SELECTOR ############################################
-######## 1 MobileID() ########
-# 1 tmsiReallocationCommand !!
 def fuzzingLengthFields(field, function, permutation):
 	# Default backup value
 	p = '\x05\x18\x01';
@@ -96,7 +71,8 @@ def fuzzingLengthFields(field, function, permutation):
 
 			# Use protocol knowledge to fuzz specific fields 
 			p = fuzzMobileId(p, permutation);
-			p = fuzzLocalAreaId(p);
+
+			p = correctLocalAreaID(p);
 			return p
 	
 	return p

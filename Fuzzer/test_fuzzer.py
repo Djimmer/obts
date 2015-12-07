@@ -11,22 +11,27 @@ from adb import ADB
 import itertools
 from math import factorial
 
+# Fill in current mobile device
+
+if len(sys.argv) > 2:
+    device = sys.argv[1];
+    imsi = sys.argv[2];
+else:
+	print("ERROR: Device name not found.")
+	print("Call the script with: ./smarter_fuzzer #DEVICE #IMSI");
+	print("Where #DEVICE is the name and #IMSI is the IMSI of the mobile device.");
+	sys.exit(0);
+
+
 ############################################### SETTINGS #############################################
 # Default OpenBTS port
 TESTCALL_PORT = 28670;
 adb = ADB();
 
-# Fill in current mobile device
-# device = "UNKOWN";
-#device = "SAMSUNG";
-# device = "BLACKPHONE";
-#device = "NEXUS";
-#device = "IPHONE";
-#device = "NOKIA";
-device = "HUAWEI";
+date = str(time.strftime("%Y%m%d-%H%M%S"));
+location_prefix = "logs/logs_packets/smarter_fuzzer/incomplete/";
 
-# Log file location
-log_packets_title = "logs/logs_packets/smarter_fuzzer/" + device + "_log_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".txt";
+log_packets_title = location_prefix + device + "_log_" + date + ".txt";
 
 # Turn on/off prints
 verbose = True;
@@ -158,15 +163,18 @@ def printPacket(packet):
 
 
 ############################################ TEST FUZZER ############################################
-packet = fuzzer.fuzzingLengthFields();
-id50 = "00000000000000000000000000000000000000000000000000";
-id50 = "ffffffffffffffffffffffffffffffffffffffffffffffffff";
-packet = "051a02440003e9ff29" + id50 + id50 + id50 + id50 + "ffffff";
+
+packet = '\x03\x16\x17\x17\x17\x17\x16\x16\x16\x16'
+printPacket(packet);
+gsm_um.sendum(packet);
 
 
-packet = "0330"# + id50 + id50 + id50;
-
-
+###################################### DIFFERENT TEST CASES #########################################
+# packet = fuzzer.fuzzingLengthFields();
+# id50 = "00000000000000000000000000000000000000000000000000";
+# id50 = "ffffffffffffffffffffffffffffffffffffffffffffffffff";
+# packet = "051a02440003e9ff29" + id50 + id50 + id50 + id50 + "ffffff";
+# packet = "0330"# + id50 + id50 + id50;
 
 #if(verbose):
 #	printPacket(packet);
@@ -241,9 +249,7 @@ packet = "0330"# + id50 + id50 + id50;
 # gsm_um.sendum(packet);
 
 
-packet = '\x03\x16\x17\x17\x17\x17\x16\x16\x16\x16'
-printPacket(packet);
-gsm_um.sendum(packet);
+
 
 #packet = str(packet).encode("hex");
 #result = send(tcsock, packet);

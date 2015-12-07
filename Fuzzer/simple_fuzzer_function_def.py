@@ -2,22 +2,7 @@
 # -*- coding: utf-8 -*-
 import gsm_um
 
-# def mobileFillID(packet, start, length):
-# 	# 00666666
-# 	# 04666666
-# 	for i in range (start, start + length):
-# 		if((i + 2) % 4 == 0):
-# 			exec "packet.idDigit%s_1=2" % (i)
-# 			exec "packet.idDigit%s=2" % (i)
-# 		else:
-# 			exec "packet.idDigit%s_1=7" % (i)
-# 			exec "packet.idDigit%s=7" % (i)
-
-# 	return packet
-
 def mobileFillID(packet, currentPermutation):
-	# 00666666
-	# 04666666
 	length = len(currentPermutation);
 	for i in range (0, length):
 		currentByte = currentPermutation[i];
@@ -46,29 +31,9 @@ def correctMobileID(p):
 	#p.idDigit9_1=2; p.idDigit9=2;
 	return p
 
-# def fakeMobileID(p, length):
-# 	if length>8:
-# 		p.lengthMI=8;
-# 	# elif length>1:
-# 	# 	p.lengtMI=length - 2;
-# 	else:
-# 		p.lengtMI=length;
-# 	p.idDigit1=2;
 
-# 	p.oddEven=1; p.typeOfId=1; 
-
-# 	# digits start with length of packet p
-# 	p = mobileFillID(p, 2, length);
-
-# 	return p
 
 def fakeMobileID(p, length, currentPermutation):
-	#length = len(currentPermutation);
-	# if length>8:
-	# 	p.lengthMI=8;
-	# elif length>1:
-	# 	p.lengtMI=length - 2;
-	# else:
 	p.lengtMI=8;
 
 	# Settings

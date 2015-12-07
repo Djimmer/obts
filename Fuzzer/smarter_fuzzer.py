@@ -22,7 +22,7 @@ if len(sys.argv) > 2:
     imsi = sys.argv[2];
 else:
 	print("ERROR: Device name not found.")
-	print("Call the script with: ./smart_fuzzer #DEVICE #IMSI");
+	print("Call the script with: ./smarter_fuzzer #DEVICE #IMSI");
 	print("Where #DEVICE is the name and #IMSI is the IMSI of the mobile device.");
 	sys.exit(0);
 
@@ -215,15 +215,6 @@ def send(tcsock, packet):
 
 		return reply
 
-def fill_with_N_digits(n):
-	result = "";
-	for x in range(n):
-		if(x % 2 == 0):
-			result = result + "1";
-		else:
-			result = result + "8";
-
-	return result
 ############################################### UTILS ################################################
 def printPacket(packet, function, field, length, lengthField, id, permutation, prefix, currentRun, 
 	total_runs):
@@ -248,6 +239,15 @@ def printPacket(packet, function, field, length, lengthField, id, permutation, p
 		print "GSM_UM interpetation: \n " + l3msg_input + '\n\n';
 		print "------------------------------- OUTPUT -------------------------------" + '\n';
 
+def fill_with_N_digits(n):
+	result = "";
+	for x in range(n):
+		if(x % 2 == 0):
+			result = result + "1";
+		else:
+			result = result + "8";
+
+	return result
 ############################################ SMART FUZZER ############################################
 # This fuzzer targets fields with variable length
 # Tries all different bytes for length byte
@@ -359,7 +359,7 @@ while currentField <= lastField:
 							k = k + 1;
 					# The response is accepted and logged.
 					# The Boolean useRealImsiNow is flipped so that both random data
-					# and the real IMSI are used when the Id == 1		
+					# and the real IMSI are tried when the Id == 1		
 					else:
 						parsed_result = repr(L3Mobile.parse_L3(result));
 						parsed_packet = repr(L3Mobile.parse_L3(packet));
