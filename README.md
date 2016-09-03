@@ -76,7 +76,7 @@ sudo make install-noapi
 
 Install YateBTS.
 ```javascript
-wget http://voip.null.ro/tarballs/yatebts4/yate-bts-4.0.0-1.tar.gz
+wget http://voip.null.ro/tarballs/yatebts4/yate-bts-4.0.2-1.tar.gz
 tar -xzf yate-bts-4.0.2-1.tar.gz
 
 ./autogen.sh
