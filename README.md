@@ -78,7 +78,7 @@ Install YateBTS.
 ```javascript
 wget http://voip.null.ro/tarballs/yatebts4/yate-bts-4.0.2-1.tar.gz
 tar -xzf yate-bts-4.0.2-1.tar.gz
-
+cd yate-bts/
 ./autogen.sh
 ./configure
 ````
