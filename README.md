@@ -86,7 +86,7 @@ cd yate-bts/
 
 Create a transceiver suitable for the bladeRF.
 ```javascript
-cd /home/openbts/obts/yatebts/mbts/Peering
+cd yate-bts/mbts/Peering/
 make
 
 cd /home/openbts/obts/yatebts/mbts/TransceiverRAD1
