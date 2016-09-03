@@ -89,7 +89,7 @@ Create a transceiver suitable for the bladeRF.
 cd yate-bts/mbts/Peering/
 make
 
-cd /home/openbts/obts/yatebts/mbts/TransceiverRAD1
+cd ../TransceiverRAD1
 sudo nano Makefile
 
 PROGS_BRF := transceiver-bladerf
