@@ -42,6 +42,9 @@ git clone https://github.com/Djimmer/obts
 
 Go to the OpenBTS folder, dev/
 ```javascript
+% Download all of the components
+./clone.sh
+
 cd libcoredumper;
 ./build.sh && \
    sudo dpkg -i *.deb;
