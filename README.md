@@ -42,6 +42,9 @@ git clone https://github.com/Djimmer/obts
 
 Go to the OpenBTS folder, dev/
 ```javascript
+% Download all of the components
+./clone.sh
+
 cd libcoredumper;
 ./build.sh && \
    sudo dpkg -i *.deb;
@@ -73,9 +76,9 @@ sudo make install-noapi
 
 Install YateBTS.
 ```javascript
-wget http://voip.null.ro/tarballs/yatebts4/yate-bts-4.0.0-1.tar.gz
+wget http://voip.null.ro/tarballs/yatebts4/yate-bts-4.0.2-1.tar.gz
 tar -xzf yate-bts-4.0.2-1.tar.gz
-
+cd yate-bts/
 ./autogen.sh
 ./configure
 ````
@@ -83,10 +86,10 @@ tar -xzf yate-bts-4.0.2-1.tar.gz
 
 Create a transceiver suitable for the bladeRF.
 ```javascript
-cd /home/openbts/obts/yatebts/mbts/Peering
+cd yate-bts/mbts/Peering/
 make
 
-cd /home/openbts/obts/yatebts/mbts/TransceiverRAD1
+cd ../TransceiverRAD1
 sudo nano Makefile
 
 PROGS_BRF := transceiver-bladerf
