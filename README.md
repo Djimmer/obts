@@ -82,7 +82,18 @@ cd yate-bts/
 ./autogen.sh
 ./configure
 ````
-
+Build and install libbladeRF
+```javascript
+git clone https://github.com/Nuand/bladeRF.git
+cd bladeRF/host
+mkdir -p build
+cd build
+#install smake if required
+cmake ../
+make
+sudo make install
+sudo ldconfig
+````
 
 Create a transceiver suitable for the bladeRF.
 ```javascript
@@ -101,9 +112,10 @@ endif
 Change to ifneq (yes,no) and save.
 
 make
+%if at this point you get an error like "libbladeRF.h: No such file or directory compilation terminated" then you didn't install the libbladeRF tools
 
-cp transceiver-bladerf ../../../openbts/apps/
-cd ../../../openbts/apps/
+cp transceiver-bladerf ../../../obts/apps/
+cd ../../../obts/apps/
 ln -sf transceiver-bladerf transceiver
 ````
 
