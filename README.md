@@ -27,7 +27,7 @@ Step 4: After the installation start Ubuntu.
 
 ```javascript
 sudo apt-get install autoconf libtool libosip2-dev libortp-dev libusb-1.0-0-dev g++ sqlite3 
-libsqlite3-dev erlang libreadline6-dev libncurses5-dev git dpkg-dev debhelper libssl-dev
+libsqlite3-dev erlang libreadline6-dev libncurses5-dev git dpkg-dev debhelper libssl-dev cmake
 ````
 
 
@@ -88,7 +88,6 @@ git clone https://github.com/Nuand/bladeRF.git
 cd bladeRF/host
 mkdir -p build
 cd build
-#install smake if required
 cmake ../
 make
 sudo make install
@@ -128,7 +127,6 @@ cp -r Control/ ../dev/openbts/
 cp -r GSM ../dev/openbts/
 cp -r Fuzzer ../dev/openbts/
 ````
-
 
 Install OpenBTS
 ```javascript
