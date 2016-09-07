@@ -166,8 +166,11 @@ cd dev/subscriberRegistry/
 make
 
 sudo sqlite3 -init sipauthserve.penBTS/sipauthserve.db ".quit"
+//? Is the line above correct?
+//should it not be sudo sqlite3 -init test.sipauthserve/sipauthserve.db.init ".quit"
+//or is there a specia "penBTS" init script or should "penBTS" be "openBTS"?
 
-sudo ./sipauthserve
+sudo ./apps/sipauthserve
 ````
 
 Installing Smqueue:
