@@ -82,8 +82,11 @@ cd yate-bts/
 ./autogen.sh
 ./configure
 ````
-Build and install libbladeRF
+Install libbladeRF
 ```javascript
+//Install the package...
+sudo apt-get install libbladerf-dev
+//... or build and install from source
 git clone https://github.com/Nuand/bladeRF.git
 cd bladeRF/host
 mkdir -p build
