@@ -131,6 +131,11 @@ cp -r GSM ../dev/openbts/
 cp -r Fuzzer ../dev/openbts/
 ````
 
+Install UHD
+```javascript
+sudo apt-get install libuhd-dev libuhd003 uhd-host
+````
+
 Install OpenBTS
 ```javascript
 cd dev/openbts
