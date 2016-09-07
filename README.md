@@ -131,9 +131,10 @@ cp -r GSM ../dev/openbts/
 cp -r Fuzzer ../dev/openbts/
 ````
 
-Install UHD
+Install UHD & libboost
 ```javascript
 sudo apt-get install libuhd-dev libuhd003 uhd-host
+sudo apt-get install libboost-dev
 ````
 
 Install OpenBTS
