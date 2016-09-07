@@ -112,7 +112,8 @@ endif
 Change to ifneq (yes,no) and save.
 
 make
-// if at this point you get an error like "libbladeRF.h: No such file or directory compilation terminated" then you didn't install the libbladeRF tools
+// if at this point you get an error like "libbladeRF.h: No such file or directory 
+// compilation terminated" then you didn't install the libbladeRF tools
 
 cp transceiver-bladerf ../../../obts/apps/
 cd ../../../obts/apps/
