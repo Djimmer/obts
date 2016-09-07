@@ -133,7 +133,7 @@ cp -r Fuzzer ../dev/openbts/
 
 Install OpenBTS
 ```javascript
-cd /home/openbts/obts/openbts
+cd dev/openbts
 ./autogen.sh
 ./configure --with-uhd
 make
