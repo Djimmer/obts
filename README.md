@@ -126,7 +126,7 @@ cd obts/
 cp -r CLI/ ../../dev/openbts/
 cp -r Control/ ../../dev/openbts/
 cp -r GSM ../../dev/openbts/
-cp -r FUZZER ../../dev/openbts/
+cp -r Fuzzer ../../dev/openbts/
 ````
 
 
