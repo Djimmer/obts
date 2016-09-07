@@ -160,7 +160,7 @@ Installing Subscriber Registery:
 ```javascript
 sudo mkdir -p /var/lib/asterisk/sqlite3dir
 
-cd /dev/subscriberRegistry/
+cd dev/subscriberRegistry/
 ./autogen.sh
 ./configure
 make
@@ -172,7 +172,7 @@ sudo ./sipauthserve
 
 Installing Smqueue:
 ```javascript
-cd /dev/smqueue/
+cd dev/smqueue/
 ./autogen.sh
 ./configure
 make
