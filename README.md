@@ -123,10 +123,10 @@ ln -sf transceiver-bladerf transceiver
 Import the Testcall code into OpenBTS
 ```javascript
 cd obts/
-cp -r CLI/ ../../dev/openbts/
-cp -r Control/ ../../dev/openbts/
-cp -r GSM ../../dev/openbts/
-cp -r Fuzzer ../../dev/openbts/
+cp -r CLI/ ../dev/openbts/
+cp -r Control/ ../dev/openbts/
+cp -r GSM ../dev/openbts/
+cp -r Fuzzer ../dev/openbts/
 ````
 
 
