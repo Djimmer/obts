@@ -5,7 +5,6 @@ This repo consists of:
  * OpenBTS 5.0 with the implemented testcall function (removed since OpenBTS 2.8 for security reasons)
  * 3 Fuzzing Scripts
 
-
 # Motiviation
 Security through obscurity is just wrong. 
 
