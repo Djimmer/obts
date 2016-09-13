@@ -117,9 +117,10 @@ make
 // if at this point you get an error like "libbladeRF.h: No such file or directory 
 // compilation terminated" then you didn't install the libbladeRF tools
 
-cp transceiver-bladerf ../../../obts/apps/
-cd ../../../obts/apps/
+cp transceiver-bladerf ../../../dev/openbts/apps/
+cd ../../../dev/openbts/apps/
 ln -sf transceiver-bladerf transceiver
+
 ````
 
 Import the Testcall code into OpenBTS
